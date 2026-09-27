@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T13:12:17.532Z",
+  "generatedAt": "2026-09-27T14:04:08.751Z",
   "definitions": {
     "completeness": "Data presence, not bibliography completeness: equal weight for source-description, original-summary, extracted-metadata, jev-assessment, audio-edition, audio-date, narrator, runtime, cover-asset, reader-sample. Stale or unverified retained values can earn presence credit; corrupt unusable values cannot.",
     "evidenceQuality": "Current evidence/review checks, never a rating of a book: equal weight for source-description, reviewed-metadata, audio-verified, audio-date, cover-observation, reader-adequacy, reader-traits, reader-observation, source-freshness. Only present/current checks earn credit. No model confidence is converted into a quality score.",
@@ -21,11 +21,11 @@
     "works": 542,
     "confirmedAudioWorks": 512,
     "verifiedAudioDates": 509,
-    "coverAssets": 128,
+    "coverAssets": 134,
     "reviewedMetadata": 84,
     "adequateReaderSamples": 29,
     "meanCompleteness": 81,
-    "meanEvidenceQuality": 47
+    "meanEvidenceQuality": 48
   },
   "series": [
     {
@@ -3433,10 +3433,10 @@
       "knownWorks": 6,
       "confirmedAudioWorks": 6,
       "completeness": {
-        "percent": 87,
-        "earned": 55,
+        "percent": 86,
+        "earned": 54,
         "possible": 63,
-        "explanation": "55/63 equally weighted checks across all 6 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "54/63 equally weighted checks across all 6 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
         "percent": 52,
@@ -3618,12 +3618,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "12/13 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://podiumentertainment.com/series/1729/all-the-skills",
-          "observedAt": "2026-09-19T03:22:42.461Z",
-          "dueAt": "2026-09-26T03:22:42.461Z"
+          "explanation": "13/13 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0BLTLDSYM",
+          "observedAt": "2026-09-19T03:32:42.408Z",
+          "dueAt": "2026-12-18T03:32:42.408Z"
         },
         {
           "id": "series-summary",
@@ -3658,12 +3658,12 @@
         {
           "id": "bibliography",
           "label": "Reviewed bibliography",
-          "status": "stale",
-          "available": true,
-          "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage.",
-          "sourceUrl": "https://podiumentertainment.com/series/1729/all-the-skills",
-          "observedAt": "2026-09-19T03:22:42.461Z",
-          "dueAt": "2026-09-26T03:22:42.461Z"
+          "status": "unknown",
+          "available": false,
+          "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
         }
       ],
       "issues": [
@@ -3708,35 +3708,26 @@
           "message": "Publishable reader context: 6/6 works are missing."
         },
         {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "12/13 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+          "code": "bibliography",
+          "status": "unknown",
+          "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
         },
         {
-          "code": "bibliography",
-          "status": "stale",
-          "message": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+          "code": "audio-coverage:invalid-evidence",
+          "status": "unknown",
+          "message": "The full bibliography needs dated, retained author or publisher evidence."
         }
       ],
       "missingVolumes": [],
       "bibliography": {
-        "status": "stale",
-        "audioCoverageStatus": "stale",
-        "expectedNumbers": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6
-        ],
+        "status": "unknown",
+        "audioCoverageStatus": "unknown",
+        "expectedNumbers": [],
         "missingWorkNumbers": [],
-        "reviewedAt": "2026-09-19T03:58:27.465Z",
-        "validUntil": "2026-09-26T03:22:42.461Z",
-        "sourceUrls": [
-          "https://podiumentertainment.com/series/1729/all-the-skills"
-        ],
-        "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+        "reviewedAt": null,
+        "validUntil": null,
+        "sourceUrls": [],
+        "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
       },
       "sources": [
         {
@@ -3783,10 +3774,10 @@
         },
         {
           "url": "https://podiumentertainment.com/series/1729/all-the-skills",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:22:42.461Z",
-          "fetchedAt": "2026-09-19T03:22:42.461Z",
-          "nextCheckAt": "2026-09-26T03:22:42.461Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:14.757Z",
+          "fetchedAt": "2026-09-27T14:02:14.757Z",
+          "nextCheckAt": "2026-10-04T14:02:14.757Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/134665/all-the-skills-6",
@@ -5368,10 +5359,10 @@
       "knownWorks": 6,
       "confirmedAudioWorks": 6,
       "completeness": {
-        "percent": 84,
-        "earned": 53,
+        "percent": 83,
+        "earned": 52,
         "possible": 63,
-        "explanation": "53/63 equally weighted checks across all 6 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "52/63 equally weighted checks across all 6 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
         "percent": 54,
@@ -5553,12 +5544,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "12/13 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://podiumentertainment.com/series/388/fantasy/arcane-ascension",
-          "observedAt": "2026-09-19T03:35:51.255Z",
-          "dueAt": "2026-09-26T03:35:51.255Z"
+          "explanation": "13/13 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/177424800X",
+          "observedAt": "2026-09-19T03:37:19.767Z",
+          "dueAt": "2026-12-18T03:37:19.767Z"
         },
         {
           "id": "series-summary",
@@ -5593,12 +5584,12 @@
         {
           "id": "bibliography",
           "label": "Reviewed bibliography",
-          "status": "stale",
-          "available": true,
-          "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage.",
-          "sourceUrl": "https://podiumentertainment.com/series/388/fantasy/arcane-ascension",
-          "observedAt": "2026-09-19T03:35:51.255Z",
-          "dueAt": "2026-09-26T03:35:51.255Z"
+          "status": "unknown",
+          "available": false,
+          "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
         }
       ],
       "issues": [
@@ -5638,35 +5629,26 @@
           "message": "Publishable reader context: 5/6 works are missing."
         },
         {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "12/13 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+          "code": "bibliography",
+          "status": "unknown",
+          "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
         },
         {
-          "code": "bibliography",
-          "status": "stale",
-          "message": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+          "code": "audio-coverage:invalid-evidence",
+          "status": "unknown",
+          "message": "The full bibliography needs dated, retained author or publisher evidence."
         }
       ],
       "missingVolumes": [],
       "bibliography": {
-        "status": "stale",
-        "audioCoverageStatus": "stale",
-        "expectedNumbers": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6
-        ],
+        "status": "unknown",
+        "audioCoverageStatus": "unknown",
+        "expectedNumbers": [],
         "missingWorkNumbers": [],
-        "reviewedAt": "2026-09-19T03:58:27.465Z",
-        "validUntil": "2026-09-26T03:35:51.255Z",
-        "sourceUrls": [
-          "https://podiumentertainment.com/series/388/fantasy/arcane-ascension"
-        ],
-        "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+        "reviewedAt": null,
+        "validUntil": null,
+        "sourceUrls": [],
+        "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
       },
       "sources": [
         {
@@ -5713,10 +5695,10 @@
         },
         {
           "url": "https://podiumentertainment.com/series/388/fantasy/arcane-ascension",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:35:51.255Z",
-          "fetchedAt": "2026-09-19T03:35:51.255Z",
-          "nextCheckAt": "2026-09-26T03:35:51.255Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:28.035Z",
+          "fetchedAt": "2026-09-27T14:02:28.035Z",
+          "nextCheckAt": "2026-10-04T14:02:28.035Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/3480/fantasy/sufficiently-advanced-magic",
@@ -7261,16 +7243,16 @@
       "knownWorks": 1,
       "confirmedAudioWorks": 1,
       "completeness": {
-        "percent": 77,
-        "earned": 10,
+        "percent": 92,
+        "earned": 12,
         "possible": 13,
-        "explanation": "10/13 equally weighted checks across all 1 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "12/13 equally weighted checks across all 1 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
-        "percent": 36,
-        "earned": 4,
+        "percent": 45,
+        "earned": 5,
         "possible": 11,
-        "explanation": "4/11 equally weighted checks across all 1 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "explanation": "5/11 equally weighted checks across all 1 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -7386,9 +7368,9 @@
         {
           "id": "cover-asset",
           "label": "Cached cover asset",
-          "status": "missing",
-          "available": false,
-          "explanation": "0/1 works are present/current; 1 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "status": "present",
+          "available": true,
+          "explanation": "1/1 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -7396,9 +7378,9 @@
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "missing",
-          "available": false,
-          "explanation": "0/1 works are present/current; 1 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "status": "present",
+          "available": true,
+          "explanation": "1/1 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -7406,9 +7388,9 @@
         {
           "id": "reader-sample",
           "label": "Usable reader comments",
-          "status": "missing",
-          "available": false,
-          "explanation": "0/1 works are present/current; 1 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "status": "present",
+          "available": true,
+          "explanation": "1/1 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -7416,9 +7398,9 @@
         {
           "id": "reader-adequacy",
           "label": "Reader sample adequacy",
-          "status": "missing",
+          "status": "unknown",
           "available": false,
-          "explanation": "0/1 works are present/current; 1 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/1 works are present/current; 0 missing, 1 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -7501,24 +7483,9 @@
           "message": "Reviewed metadata: 1/1 works are missing."
         },
         {
-          "code": "cover-asset:missing",
-          "status": "missing",
-          "message": "Cached cover asset: 1/1 works are missing."
-        },
-        {
-          "code": "cover-observation:missing",
-          "status": "missing",
-          "message": "Cover observation: 1/1 works are missing."
-        },
-        {
-          "code": "reader-sample:missing",
-          "status": "missing",
-          "message": "Usable reader comments: 1/1 works are missing."
-        },
-        {
-          "code": "reader-adequacy:missing",
-          "status": "missing",
-          "message": "Reader sample adequacy: 1/1 works are missing."
+          "code": "reader-adequacy:unknown",
+          "status": "unknown",
+          "message": "Reader sample adequacy: 1/1 works are unknown."
         },
         {
           "code": "reader-traits:missing",
@@ -7597,16 +7564,16 @@
       "knownWorks": 12,
       "confirmedAudioWorks": 12,
       "completeness": {
-        "percent": 89,
-        "earned": 109,
+        "percent": 93,
+        "earned": 114,
         "possible": 123,
-        "explanation": "109/123 equally weighted checks across all 12 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "114/123 equally weighted checks across all 12 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
-        "percent": 45,
-        "earned": 50,
+        "percent": 61,
+        "earned": 67,
         "possible": 110,
-        "explanation": "50/110 equally weighted checks across all 12 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "explanation": "67/110 equally weighted checks across all 12 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -7722,9 +7689,9 @@
         {
           "id": "cover-asset",
           "label": "Cached cover asset",
-          "status": "missing",
+          "status": "present",
           "available": true,
-          "explanation": "7/12 works are present/current; 5 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "12/12 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -7732,9 +7699,9 @@
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "missing",
+          "status": "present",
           "available": true,
-          "explanation": "7/12 works are present/current; 5 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "12/12 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -7782,12 +7749,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "14/16 associated source checks are current; 2 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "explanation": "16/16 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/awaken-online/",
-          "observedAt": "2026-09-19T02:42:40.128Z",
-          "dueAt": "2026-09-26T02:42:40.128Z"
+          "observedAt": "2026-09-27T14:02:21.791Z",
+          "dueAt": "2026-10-04T14:02:21.791Z"
         },
         {
           "id": "series-summary",
@@ -7837,16 +7804,6 @@
           "message": "Reviewed metadata: 11/12 works are missing."
         },
         {
-          "code": "cover-asset:missing",
-          "status": "missing",
-          "message": "Cached cover asset: 5/12 works are missing."
-        },
-        {
-          "code": "cover-observation:missing",
-          "status": "missing",
-          "message": "Cover observation: 5/12 works are missing."
-        },
-        {
           "code": "reader-sample:missing",
           "status": "missing",
           "message": "Usable reader comments: 8/12 works are missing."
@@ -7877,16 +7834,6 @@
           "message": "Publishable reader context: 1/12 works are stale."
         },
         {
-          "code": "source-freshness:stale",
-          "status": "stale",
-          "message": "Source checks: 12/12 works are stale."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "14/16 associated source checks are current; 2 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
-        },
-        {
           "code": "bibliography",
           "status": "unknown",
           "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
@@ -7906,10 +7853,10 @@
       "sources": [
         {
           "url": "https://aethonbooks.com/book-series/awaken-online/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T02:42:40.128Z",
-          "fetchedAt": "2026-09-19T02:42:40.128Z",
-          "nextCheckAt": "2026-09-26T02:42:40.128Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:21.791Z",
+          "fetchedAt": "2026-09-27T14:02:21.791Z",
+          "nextCheckAt": "2026-10-04T14:02:21.791Z"
         },
         {
           "url": "https://aethonbooks.com/book/awaken-online-catharsis/",
@@ -8011,10 +7958,10 @@
         },
         {
           "url": "https://travisbagwell.com/books/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:19:44.333Z",
-          "fetchedAt": "2026-09-19T03:19:44.333Z",
-          "nextCheckAt": "2026-09-26T03:19:44.333Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:20.846Z",
+          "fetchedAt": "2026-09-27T14:02:20.846Z",
+          "nextCheckAt": "2026-10-04T14:02:20.846Z"
         }
       ]
     },
@@ -8497,10 +8444,10 @@
       "knownWorks": 9,
       "confirmedAudioWorks": 9,
       "completeness": {
-        "percent": 82,
-        "earned": 76,
+        "percent": 81,
+        "earned": 75,
         "possible": 93,
-        "explanation": "76/93 equally weighted checks across all 9 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "75/93 equally weighted checks across all 9 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
         "percent": 47,
@@ -8682,12 +8629,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "18/19 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "explanation": "19/19 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/battle-mage-farmer/",
-          "observedAt": "2026-09-19T03:22:42.625Z",
-          "dueAt": "2026-09-26T03:22:42.625Z"
+          "observedAt": "2026-09-27T14:02:15.746Z",
+          "dueAt": "2026-10-04T14:02:15.746Z"
         },
         {
           "id": "series-summary",
@@ -8722,12 +8669,12 @@
         {
           "id": "bibliography",
           "label": "Reviewed bibliography",
-          "status": "stale",
-          "available": true,
-          "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage.",
-          "sourceUrl": "https://aethonbooks.com/book-series/battle-mage-farmer/",
-          "observedAt": "2026-09-19T03:22:42.625Z",
-          "dueAt": "2026-09-26T03:22:42.625Z"
+          "status": "unknown",
+          "available": false,
+          "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
         }
       ],
       "issues": [
@@ -8767,46 +8714,34 @@
           "message": "Publishable reader context: 9/9 works are missing."
         },
         {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "18/19 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+          "code": "bibliography",
+          "status": "unknown",
+          "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
         },
         {
-          "code": "bibliography",
-          "status": "stale",
-          "message": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+          "code": "audio-coverage:invalid-evidence",
+          "status": "unknown",
+          "message": "The full bibliography needs dated, retained author or publisher evidence."
         }
       ],
       "missingVolumes": [],
       "bibliography": {
-        "status": "stale",
-        "audioCoverageStatus": "stale",
-        "expectedNumbers": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9
-        ],
+        "status": "unknown",
+        "audioCoverageStatus": "unknown",
+        "expectedNumbers": [],
         "missingWorkNumbers": [],
-        "reviewedAt": "2026-09-19T04:16:51.000Z",
-        "validUntil": "2026-09-26T03:22:42.625Z",
-        "sourceUrls": [
-          "https://aethonbooks.com/book-series/battle-mage-farmer/"
-        ],
-        "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+        "reviewedAt": null,
+        "validUntil": null,
+        "sourceUrls": [],
+        "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
       },
       "sources": [
         {
           "url": "https://aethonbooks.com/book-series/battle-mage-farmer/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:22:42.625Z",
-          "fetchedAt": "2026-09-19T03:22:42.625Z",
-          "nextCheckAt": "2026-09-26T03:22:42.625Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:15.746Z",
+          "fetchedAt": "2026-09-27T14:02:15.746Z",
+          "nextCheckAt": "2026-10-04T14:02:15.746Z"
         },
         {
           "url": "https://aethonbooks.com/book/conservation/",
@@ -15965,10 +15900,10 @@
         "explanation": "72/83 equally weighted checks across all 8 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
-        "percent": 57,
-        "earned": 42,
+        "percent": 59,
+        "earned": 44,
         "possible": 74,
-        "explanation": "42/74 equally weighted checks across all 8 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "explanation": "44/74 equally weighted checks across all 8 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -16126,7 +16061,7 @@
           "label": "Current reader traits",
           "status": "missing",
           "available": true,
-          "explanation": "1/8 works are present/current; 7 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "3/8 works are present/current; 5 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -16136,7 +16071,7 @@
           "label": "Publishable reader context",
           "status": "missing",
           "available": true,
-          "explanation": "1/8 works are present/current; 7 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "1/8 works are present/current; 5 missing, 0 unknown, 2 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -16226,12 +16161,17 @@
         {
           "code": "reader-traits:missing",
           "status": "missing",
-          "message": "Current reader traits: 7/8 works are missing."
+          "message": "Current reader traits: 5/8 works are missing."
         },
         {
           "code": "reader-observation:missing",
           "status": "missing",
-          "message": "Publishable reader context: 7/8 works are missing."
+          "message": "Publishable reader context: 5/8 works are missing."
+        },
+        {
+          "code": "reader-observation:stale",
+          "status": "stale",
+          "message": "Publishable reader context: 2/8 works are stale."
         },
         {
           "code": "source-freshness:unknown",
@@ -18473,10 +18413,10 @@
       "knownWorks": 4,
       "confirmedAudioWorks": 4,
       "completeness": {
-        "percent": 93,
-        "earned": 40,
+        "percent": 91,
+        "earned": 39,
         "possible": 43,
-        "explanation": "40/43 equally weighted checks across all 4 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "39/43 equally weighted checks across all 4 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
         "percent": 63,
@@ -18658,12 +18598,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "8/9 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://podiumentertainment.com/series/809/immortal-great-souls",
-          "observedAt": "2026-09-19T03:35:52.488Z",
-          "dueAt": "2026-09-26T03:35:52.488Z"
+          "explanation": "9/9 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B09RS3QRB3",
+          "observedAt": "2026-09-19T03:37:22.312Z",
+          "dueAt": "2026-12-18T03:37:22.312Z"
         },
         {
           "id": "series-summary",
@@ -18698,12 +18638,12 @@
         {
           "id": "bibliography",
           "label": "Reviewed bibliography",
-          "status": "stale",
-          "available": true,
-          "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage.",
-          "sourceUrl": "https://podiumentertainment.com/series/809/immortal-great-souls",
-          "observedAt": "2026-09-19T03:35:52.488Z",
-          "dueAt": "2026-09-26T03:35:52.488Z"
+          "status": "unknown",
+          "available": false,
+          "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
         }
       ],
       "issues": [
@@ -18738,33 +18678,26 @@
           "message": "Publishable reader context: 1/4 works are stale."
         },
         {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "8/9 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+          "code": "bibliography",
+          "status": "unknown",
+          "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
         },
         {
-          "code": "bibliography",
-          "status": "stale",
-          "message": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+          "code": "audio-coverage:invalid-evidence",
+          "status": "unknown",
+          "message": "The full bibliography needs dated, retained author or publisher evidence."
         }
       ],
       "missingVolumes": [],
       "bibliography": {
-        "status": "stale",
-        "audioCoverageStatus": "stale",
-        "expectedNumbers": [
-          1,
-          2,
-          3,
-          4
-        ],
+        "status": "unknown",
+        "audioCoverageStatus": "unknown",
+        "expectedNumbers": [],
         "missingWorkNumbers": [],
-        "reviewedAt": "2026-09-19T03:58:27.465Z",
-        "validUntil": "2026-09-26T03:35:52.488Z",
-        "sourceUrls": [
-          "https://podiumentertainment.com/series/809/immortal-great-souls"
-        ],
-        "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+        "reviewedAt": null,
+        "validUntil": null,
+        "sourceUrls": [],
+        "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
       },
       "sources": [
         {
@@ -18797,10 +18730,10 @@
         },
         {
           "url": "https://podiumentertainment.com/series/809/immortal-great-souls",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:35:52.488Z",
-          "fetchedAt": "2026-09-19T03:35:52.488Z",
-          "nextCheckAt": "2026-09-26T03:35:52.488Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:29.447Z",
+          "fetchedAt": "2026-09-27T14:02:29.447Z",
+          "nextCheckAt": "2026-10-04T14:02:29.447Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/129079/the-lost-cube",
@@ -19656,10 +19589,10 @@
       "knownWorks": 4,
       "confirmedAudioWorks": 4,
       "completeness": {
-        "percent": 84,
-        "earned": 36,
+        "percent": 81,
+        "earned": 35,
         "possible": 43,
-        "explanation": "36/43 equally weighted checks across all 4 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "35/43 equally weighted checks across all 4 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
         "percent": 50,
@@ -19841,12 +19774,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "8/9 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://podiumentertainment.com/series/1919/mother-of-learning",
-          "observedAt": "2026-09-19T03:35:50.024Z",
-          "dueAt": "2026-09-26T03:35:50.024Z"
+          "explanation": "9/9 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B09MXJQG1Z",
+          "observedAt": "2026-09-19T03:37:07.221Z",
+          "dueAt": "2026-12-18T03:37:07.221Z"
         },
         {
           "id": "series-summary",
@@ -19881,12 +19814,12 @@
         {
           "id": "bibliography",
           "label": "Reviewed bibliography",
-          "status": "stale",
-          "available": true,
-          "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage.",
-          "sourceUrl": "https://podiumentertainment.com/series/1919/mother-of-learning",
-          "observedAt": "2026-09-19T03:35:50.024Z",
-          "dueAt": "2026-09-26T03:35:50.024Z"
+          "status": "unknown",
+          "available": false,
+          "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
         }
       ],
       "issues": [
@@ -19926,33 +19859,26 @@
           "message": "Publishable reader context: 4/4 works are missing."
         },
         {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "8/9 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+          "code": "bibliography",
+          "status": "unknown",
+          "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
         },
         {
-          "code": "bibliography",
-          "status": "stale",
-          "message": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+          "code": "audio-coverage:invalid-evidence",
+          "status": "unknown",
+          "message": "The full bibliography needs dated, retained author or publisher evidence."
         }
       ],
       "missingVolumes": [],
       "bibliography": {
-        "status": "stale",
-        "audioCoverageStatus": "stale",
-        "expectedNumbers": [
-          1,
-          2,
-          3,
-          4
-        ],
+        "status": "unknown",
+        "audioCoverageStatus": "unknown",
+        "expectedNumbers": [],
         "missingWorkNumbers": [],
-        "reviewedAt": "2026-09-19T03:58:27.465Z",
-        "validUntil": "2026-09-26T03:35:50.024Z",
-        "sourceUrls": [
-          "https://podiumentertainment.com/series/1919/mother-of-learning"
-        ],
-        "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+        "reviewedAt": null,
+        "validUntil": null,
+        "sourceUrls": [],
+        "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
       },
       "sources": [
         {
@@ -19985,10 +19911,10 @@
         },
         {
           "url": "https://podiumentertainment.com/series/1919/mother-of-learning",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:35:50.024Z",
-          "fetchedAt": "2026-09-19T03:35:50.024Z",
-          "nextCheckAt": "2026-09-26T03:35:50.024Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:26.416Z",
+          "fetchedAt": "2026-09-27T14:02:26.416Z",
+          "nextCheckAt": "2026-10-04T14:02:26.416Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/2508/mother-of-learning-arc-4",
@@ -20035,10 +19961,10 @@
       "knownWorks": 6,
       "confirmedAudioWorks": 6,
       "completeness": {
-        "percent": 84,
-        "earned": 53,
+        "percent": 83,
+        "earned": 52,
         "possible": 63,
-        "explanation": "53/63 equally weighted checks across all 6 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "52/63 equally weighted checks across all 6 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
         "percent": 48,
@@ -20220,12 +20146,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "12/14 associated source checks are current; 2 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "explanation": "14/14 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/new-era-online/",
-          "observedAt": "2026-09-19T02:42:47.502Z",
-          "dueAt": "2026-09-26T02:42:47.502Z"
+          "observedAt": "2026-09-27T14:02:17.540Z",
+          "dueAt": "2026-10-04T14:02:17.540Z"
         },
         {
           "id": "series-summary",
@@ -20260,12 +20186,12 @@
         {
           "id": "bibliography",
           "label": "Reviewed bibliography",
-          "status": "stale",
-          "available": true,
-          "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage.",
-          "sourceUrl": "https://soundbooththeater.com/series/new-era-online/",
-          "observedAt": "2026-09-19T03:22:42.827Z",
-          "dueAt": "2026-09-26T03:22:42.827Z"
+          "status": "unknown",
+          "available": false,
+          "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
         }
       ],
       "issues": [
@@ -20310,43 +20236,34 @@
           "message": "Publishable reader context: 6/6 works are missing."
         },
         {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "12/14 associated source checks are current; 2 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+          "code": "bibliography",
+          "status": "unknown",
+          "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
         },
         {
-          "code": "bibliography",
-          "status": "stale",
-          "message": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+          "code": "audio-coverage:invalid-evidence",
+          "status": "unknown",
+          "message": "The full bibliography needs dated, retained author or publisher evidence."
         }
       ],
       "missingVolumes": [],
       "bibliography": {
-        "status": "stale",
-        "audioCoverageStatus": "stale",
-        "expectedNumbers": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6
-        ],
+        "status": "unknown",
+        "audioCoverageStatus": "unknown",
+        "expectedNumbers": [],
         "missingWorkNumbers": [],
-        "reviewedAt": "2026-09-19T04:16:51.000Z",
-        "validUntil": "2026-09-26T03:22:42.827Z",
-        "sourceUrls": [
-          "https://soundbooththeater.com/series/new-era-online/"
-        ],
-        "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+        "reviewedAt": null,
+        "validUntil": null,
+        "sourceUrls": [],
+        "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
       },
       "sources": [
         {
           "url": "https://aethonbooks.com/book-series/new-era-online/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T02:42:47.502Z",
-          "fetchedAt": "2026-09-19T02:42:47.502Z",
-          "nextCheckAt": "2026-09-26T02:42:47.502Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:17.540Z",
+          "fetchedAt": "2026-09-27T14:02:17.540Z",
+          "nextCheckAt": "2026-10-04T14:02:17.540Z"
         },
         {
           "url": "https://api.audible.com/1.0/catalog/products/B076DL3FF4",
@@ -20392,10 +20309,10 @@
         },
         {
           "url": "https://soundbooththeater.com/series/new-era-online/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:22:42.827Z",
-          "fetchedAt": "2026-09-19T03:22:42.827Z",
-          "nextCheckAt": "2026-09-26T03:22:42.827Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:17.712Z",
+          "fetchedAt": "2026-09-27T14:02:17.712Z",
+          "nextCheckAt": "2026-10-04T14:02:17.712Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/life-reset-a-litrpg-novel/",
@@ -20644,12 +20561,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "18/19 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://www.podiumentertainment.com/series/166/fantasy/noobtown",
-          "observedAt": "2026-09-19T03:22:44.357Z",
-          "dueAt": "2026-09-26T03:22:44.357Z"
+          "explanation": "19/19 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/1039400019",
+          "observedAt": "2026-09-19T03:33:17.033Z",
+          "dueAt": "2026-12-18T03:33:17.033Z"
         },
         {
           "id": "series-summary",
@@ -20732,11 +20649,6 @@
           "code": "reader-observation:missing",
           "status": "missing",
           "message": "Publishable reader context: 9/9 works are missing."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "18/19 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         },
         {
           "code": "bibliography",
@@ -20828,10 +20740,10 @@
         },
         {
           "url": "https://www.podiumentertainment.com/series/166/fantasy/noobtown",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:22:44.357Z",
-          "fetchedAt": "2026-09-19T03:22:44.357Z",
-          "nextCheckAt": "2026-09-26T03:22:44.357Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:19.458Z",
+          "fetchedAt": "2026-09-27T14:02:19.458Z",
+          "nextCheckAt": "2026-10-04T14:02:19.458Z"
         },
         {
           "url": "https://www.podiumentertainment.com/titles/120223/fantasy/the-noob-returns",
@@ -21664,10 +21576,10 @@
         "explanation": "35/53 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
-        "percent": 32,
-        "earned": 15,
+        "percent": 43,
+        "earned": 20,
         "possible": 47,
-        "explanation": "15/47 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "explanation": "20/47 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -21843,12 +21755,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "4/5 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "observedAt": "2026-09-19T03:35:50.524Z",
-          "dueAt": "2026-09-26T03:35:50.524Z"
+          "explanation": "5/5 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0BCH43V6V",
+          "observedAt": "2026-09-19T04:03:46.535Z",
+          "dueAt": "2026-12-18T04:03:46.535Z"
         },
         {
           "id": "series-summary",
@@ -21973,16 +21885,6 @@
           "message": "Publishable reader context: 5/5 works are missing."
         },
         {
-          "code": "source-freshness:stale",
-          "status": "stale",
-          "message": "Source checks: 5/5 works are stale."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "4/5 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
-        },
-        {
           "code": "bibliography",
           "status": "unknown",
           "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
@@ -22030,10 +21932,10 @@
         },
         {
           "url": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:35:50.524Z",
-          "fetchedAt": "2026-09-19T03:35:50.524Z",
-          "nextCheckAt": "2026-09-26T03:35:50.524Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:32.564Z",
+          "fetchedAt": "2026-09-27T14:02:32.564Z",
+          "nextCheckAt": "2026-10-04T14:02:32.564Z"
         }
       ]
     },
@@ -24900,10 +24802,10 @@
       "knownWorks": 14,
       "confirmedAudioWorks": 13,
       "completeness": {
-        "percent": 83,
-        "earned": 118,
+        "percent": 82,
+        "earned": 117,
         "possible": 143,
-        "explanation": "118/143 equally weighted checks across all 14 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "117/143 equally weighted checks across all 14 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
         "percent": 47,
@@ -25087,7 +24989,7 @@
           "label": "Source checks",
           "status": "unknown",
           "available": true,
-          "explanation": "28/30 associated source checks are current; 1 are due and 1 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "explanation": "29/30 associated source checks are current; 0 are due and 1 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://books.google.com/books/about/Regicide.html",
           "observedAt": null,
           "dueAt": null
@@ -25125,12 +25027,12 @@
         {
           "id": "bibliography",
           "label": "Reviewed bibliography",
-          "status": "stale",
-          "available": true,
-          "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage.",
-          "sourceUrl": "https://www.mountaindalepress.store/pages/series/completionist-chronicles",
-          "observedAt": "2026-09-19T03:52:56.158Z",
-          "dueAt": "2026-09-26T03:52:56.158Z"
+          "status": "unknown",
+          "available": false,
+          "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
         }
       ],
       "issues": [
@@ -25197,46 +25099,29 @@
         {
           "code": "source-freshness",
           "status": "unknown",
-          "message": "28/30 associated source checks are current; 1 are due and 1 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+          "message": "29/30 associated source checks are current; 0 are due and 1 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         },
         {
           "code": "bibliography",
-          "status": "stale",
-          "message": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+          "status": "unknown",
+          "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
         },
         {
-          "code": "audio-coverage:missing-verified-audio:3",
+          "code": "audio-coverage:invalid-evidence",
           "status": "unknown",
-          "message": "No strictly verified full audiobook establishes this work in the selected language and marketplace."
+          "message": "The full bibliography needs dated, retained author or publisher evidence."
         }
       ],
       "missingVolumes": [],
       "bibliography": {
-        "status": "stale",
-        "audioCoverageStatus": "incomplete",
-        "expectedNumbers": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10,
-          11,
-          12,
-          13,
-          14
-        ],
+        "status": "unknown",
+        "audioCoverageStatus": "unknown",
+        "expectedNumbers": [],
         "missingWorkNumbers": [],
-        "reviewedAt": "2026-09-19T04:16:51.000Z",
-        "validUntil": "2026-09-26T03:52:56.158Z",
-        "sourceUrls": [
-          "https://www.mountaindalepress.store/pages/series/completionist-chronicles"
-        ],
-        "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+        "reviewedAt": null,
+        "validUntil": null,
+        "sourceUrls": [],
+        "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
       },
       "sources": [
         {
@@ -25346,10 +25231,10 @@
         },
         {
           "url": "https://www.mountaindalepress.store/pages/series/completionist-chronicles",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:52:56.158Z",
-          "fetchedAt": "2026-09-19T03:52:56.158Z",
-          "nextCheckAt": "2026-09-26T03:52:56.158Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:34.896Z",
+          "fetchedAt": "2026-09-27T14:02:34.896Z",
+          "nextCheckAt": "2026-10-04T14:02:34.896Z"
         },
         {
           "url": "https://www.mountaindalepress.store/products/implode-signed-hardcover-preorder",
@@ -25465,10 +25350,10 @@
       "knownWorks": 5,
       "confirmedAudioWorks": 5,
       "completeness": {
-        "percent": 83,
-        "earned": 44,
+        "percent": 81,
+        "earned": 43,
         "possible": 53,
-        "explanation": "44/53 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "43/53 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
         "percent": 49,
@@ -25650,12 +25535,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "10/11 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://podiumentertainment.com/series/1504/the-daily-grind",
-          "observedAt": "2026-09-19T03:35:53.723Z",
-          "dueAt": "2026-09-26T03:35:53.723Z"
+          "explanation": "11/11 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0C11Q9WJS",
+          "observedAt": "2026-09-19T03:37:26.128Z",
+          "dueAt": "2026-12-18T03:37:26.128Z"
         },
         {
           "id": "series-summary",
@@ -25690,12 +25575,12 @@
         {
           "id": "bibliography",
           "label": "Reviewed bibliography",
-          "status": "stale",
-          "available": true,
-          "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage.",
-          "sourceUrl": "https://podiumentertainment.com/series/1504/the-daily-grind",
-          "observedAt": "2026-09-19T03:35:53.723Z",
-          "dueAt": "2026-09-26T03:35:53.723Z"
+          "status": "unknown",
+          "available": false,
+          "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
         }
       ],
       "issues": [
@@ -25735,34 +25620,26 @@
           "message": "Publishable reader context: 5/5 works are missing."
         },
         {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "10/11 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+          "code": "bibliography",
+          "status": "unknown",
+          "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
         },
         {
-          "code": "bibliography",
-          "status": "stale",
-          "message": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+          "code": "audio-coverage:invalid-evidence",
+          "status": "unknown",
+          "message": "The full bibliography needs dated, retained author or publisher evidence."
         }
       ],
       "missingVolumes": [],
       "bibliography": {
-        "status": "stale",
-        "audioCoverageStatus": "stale",
-        "expectedNumbers": [
-          1,
-          2,
-          3,
-          4,
-          5
-        ],
+        "status": "unknown",
+        "audioCoverageStatus": "unknown",
+        "expectedNumbers": [],
         "missingWorkNumbers": [],
-        "reviewedAt": "2026-09-19T03:58:27.465Z",
-        "validUntil": "2026-09-26T03:35:53.723Z",
-        "sourceUrls": [
-          "https://podiumentertainment.com/series/1504/the-daily-grind"
-        ],
-        "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+        "reviewedAt": null,
+        "validUntil": null,
+        "sourceUrls": [],
+        "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
       },
       "sources": [
         {
@@ -25802,10 +25679,10 @@
         },
         {
           "url": "https://podiumentertainment.com/series/1504/the-daily-grind",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:35:53.723Z",
-          "fetchedAt": "2026-09-19T03:35:53.723Z",
-          "nextCheckAt": "2026-09-26T03:35:53.723Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:31.066Z",
+          "fetchedAt": "2026-09-27T14:02:31.066Z",
+          "nextCheckAt": "2026-10-04T14:02:31.066Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/27159/the-daily-grind-5",
@@ -25858,10 +25735,10 @@
       "knownWorks": 5,
       "confirmedAudioWorks": 5,
       "completeness": {
-        "percent": 85,
-        "earned": 45,
+        "percent": 83,
+        "earned": 44,
         "possible": 53,
-        "explanation": "45/53 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "44/53 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
         "percent": 49,
@@ -26043,12 +25920,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "10/11 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://www.mountaindalepress.store/pages/series/divine-dungeon",
-          "observedAt": "2026-09-19T03:52:57.653Z",
-          "dueAt": "2026-09-26T03:52:57.653Z"
+          "explanation": "11/11 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/1977349684",
+          "observedAt": "2026-09-19T04:09:30.541Z",
+          "dueAt": "2026-12-18T04:09:30.541Z"
         },
         {
           "id": "series-summary",
@@ -26083,12 +25960,12 @@
         {
           "id": "bibliography",
           "label": "Reviewed bibliography",
-          "status": "stale",
-          "available": true,
-          "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage.",
-          "sourceUrl": "https://www.mountaindalepress.store/pages/series/divine-dungeon",
-          "observedAt": "2026-09-19T03:52:57.653Z",
-          "dueAt": "2026-09-26T03:52:57.653Z"
+          "status": "unknown",
+          "available": false,
+          "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
         }
       ],
       "issues": [
@@ -26133,34 +26010,26 @@
           "message": "Publishable reader context: 5/5 works are missing."
         },
         {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "10/11 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+          "code": "bibliography",
+          "status": "unknown",
+          "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
         },
         {
-          "code": "bibliography",
-          "status": "stale",
-          "message": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+          "code": "audio-coverage:invalid-evidence",
+          "status": "unknown",
+          "message": "The full bibliography needs dated, retained author or publisher evidence."
         }
       ],
       "missingVolumes": [],
       "bibliography": {
-        "status": "stale",
-        "audioCoverageStatus": "stale",
-        "expectedNumbers": [
-          1,
-          2,
-          3,
-          4,
-          5
-        ],
+        "status": "unknown",
+        "audioCoverageStatus": "unknown",
+        "expectedNumbers": [],
         "missingWorkNumbers": [],
-        "reviewedAt": "2026-09-19T04:16:51.000Z",
-        "validUntil": "2026-09-26T03:52:57.653Z",
-        "sourceUrls": [
-          "https://www.mountaindalepress.store/pages/series/divine-dungeon"
-        ],
-        "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+        "reviewedAt": null,
+        "validUntil": null,
+        "sourceUrls": [],
+        "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
       },
       "sources": [
         {
@@ -26200,10 +26069,10 @@
         },
         {
           "url": "https://www.mountaindalepress.store/pages/series/divine-dungeon",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:52:57.653Z",
-          "fetchedAt": "2026-09-19T03:52:57.653Z",
-          "nextCheckAt": "2026-09-26T03:52:57.653Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:36.409Z",
+          "fetchedAt": "2026-09-27T14:02:36.409Z",
+          "nextCheckAt": "2026-10-04T14:02:36.409Z"
         },
         {
           "url": "https://www.mountaindalepress.store/products/dungeon-born-signed-hardcover",
@@ -26266,10 +26135,10 @@
         "explanation": "75/93 equally weighted checks across all 9 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
-        "percent": 46,
-        "earned": 38,
+        "percent": 47,
+        "earned": 39,
         "possible": 83,
-        "explanation": "38/83 equally weighted checks across all 9 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "explanation": "39/83 equally weighted checks across all 9 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -26445,12 +26314,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "16/18 associated source checks are current; 2 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://tomlitrpg.com/book/the-grand-game/",
-          "observedAt": "2026-09-19T03:35:48.902Z",
-          "dueAt": "2026-09-26T03:35:48.902Z"
+          "explanation": "18/18 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B09D8K6HHB",
+          "observedAt": "2026-09-19T04:09:31.814Z",
+          "dueAt": "2026-12-18T04:09:31.814Z"
         },
         {
           "id": "series-summary",
@@ -26528,16 +26397,6 @@
           "code": "reader-observation:missing",
           "status": "missing",
           "message": "Publishable reader context: 9/9 works are missing."
-        },
-        {
-          "code": "source-freshness:stale",
-          "status": "stale",
-          "message": "Source checks: 1/9 works are stale."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "16/18 associated source checks are current; 2 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         },
         {
           "code": "bibliography",
@@ -26643,10 +26502,10 @@
         },
         {
           "url": "https://tomlitrpg.com/book/the-grand-game/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:35:48.902Z",
-          "fetchedAt": "2026-09-19T03:35:48.902Z",
-          "nextCheckAt": "2026-09-26T03:35:48.902Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:41.733Z",
+          "fetchedAt": "2026-09-27T14:02:41.733Z",
+          "nextCheckAt": "2026-12-26T14:02:41.733Z"
         },
         {
           "url": "https://tomlitrpg.com/book/the-lost-reclaimed/",
@@ -26678,10 +26537,10 @@
         },
         {
           "url": "https://tomlitrpg.com/the-grand-game/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:35:47.570Z",
-          "fetchedAt": "2026-09-19T03:35:47.570Z",
-          "nextCheckAt": "2026-09-26T03:35:47.570Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:40.452Z",
+          "fetchedAt": "2026-09-27T14:02:40.452Z",
+          "nextCheckAt": "2026-10-04T14:02:40.452Z"
         }
       ]
     },
@@ -29840,10 +29699,10 @@
       "knownWorks": 3,
       "confirmedAudioWorks": 3,
       "completeness": {
-        "percent": 88,
-        "earned": 29,
+        "percent": 85,
+        "earned": 28,
         "possible": 33,
-        "explanation": "29/33 equally weighted checks across all 3 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "28/33 equally weighted checks across all 3 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
         "percent": 62,
@@ -30025,12 +29884,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "6/7 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://podiumentertainment.com/series/387/the-perfect-run",
-          "observedAt": "2026-09-19T03:35:48.795Z",
-          "dueAt": "2026-09-26T03:35:48.795Z"
+          "explanation": "7/7 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B09HSRRT1T",
+          "observedAt": "2026-09-19T03:37:05.949Z",
+          "dueAt": "2026-12-18T03:37:05.949Z"
         },
         {
           "id": "series-summary",
@@ -30065,12 +29924,12 @@
         {
           "id": "bibliography",
           "label": "Reviewed bibliography",
-          "status": "stale",
-          "available": true,
-          "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage.",
-          "sourceUrl": "https://podiumentertainment.com/series/387/the-perfect-run",
-          "observedAt": "2026-09-19T03:35:48.795Z",
-          "dueAt": "2026-09-26T03:35:48.795Z"
+          "status": "unknown",
+          "available": false,
+          "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
         }
       ],
       "issues": [
@@ -30110,32 +29969,26 @@
           "message": "Publishable reader context: 2/3 works are missing."
         },
         {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "6/7 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+          "code": "bibliography",
+          "status": "unknown",
+          "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
         },
         {
-          "code": "bibliography",
-          "status": "stale",
-          "message": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+          "code": "audio-coverage:invalid-evidence",
+          "status": "unknown",
+          "message": "The full bibliography needs dated, retained author or publisher evidence."
         }
       ],
       "missingVolumes": [],
       "bibliography": {
-        "status": "stale",
-        "audioCoverageStatus": "stale",
-        "expectedNumbers": [
-          1,
-          2,
-          3
-        ],
+        "status": "unknown",
+        "audioCoverageStatus": "unknown",
+        "expectedNumbers": [],
         "missingWorkNumbers": [],
-        "reviewedAt": "2026-09-19T03:58:27.465Z",
-        "validUntil": "2026-09-26T03:35:48.795Z",
-        "sourceUrls": [
-          "https://podiumentertainment.com/series/387/the-perfect-run"
-        ],
-        "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+        "reviewedAt": null,
+        "validUntil": null,
+        "sourceUrls": [],
+        "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
       },
       "sources": [
         {
@@ -30161,10 +30014,10 @@
         },
         {
           "url": "https://podiumentertainment.com/series/387/the-perfect-run",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:35:48.795Z",
-          "fetchedAt": "2026-09-19T03:35:48.795Z",
-          "nextCheckAt": "2026-09-26T03:35:48.795Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:24.832Z",
+          "fetchedAt": "2026-09-27T14:02:24.832Z",
+          "nextCheckAt": "2026-10-04T14:02:24.832Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/1696/the-perfect-run",
@@ -31244,10 +31097,10 @@
       "knownWorks": 12,
       "confirmedAudioWorks": 12,
       "completeness": {
-        "percent": 83,
-        "earned": 102,
+        "percent": 82,
+        "earned": 101,
         "possible": 123,
-        "explanation": "102/123 equally weighted checks across all 12 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "101/123 equally weighted checks across all 12 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
         "percent": 40,
@@ -31431,7 +31284,7 @@
           "label": "Source checks",
           "status": "unknown",
           "available": true,
-          "explanation": "25/38 associated source checks are current; 3 are due and 10 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "explanation": "27/38 associated source checks are current; 1 are due and 10 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://michaelchatfield.com/collections/paperback-books/products/the-eighth-realm-book",
           "observedAt": null,
           "dueAt": null
@@ -31469,12 +31322,12 @@
         {
           "id": "bibliography",
           "label": "Reviewed bibliography",
-          "status": "stale",
-          "available": true,
-          "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage.",
-          "sourceUrl": "https://michaelchatfield.com/collections/the-ten-realms",
-          "observedAt": "2026-09-19T03:31:25.090Z",
-          "dueAt": "2026-09-26T03:31:25.090Z"
+          "status": "unknown",
+          "available": false,
+          "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
         }
       ],
       "issues": [
@@ -31526,47 +31379,37 @@
         {
           "code": "source-freshness",
           "status": "unknown",
-          "message": "25/38 associated source checks are current; 3 are due and 10 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+          "message": "27/38 associated source checks are current; 1 are due and 10 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         },
         {
           "code": "bibliography",
-          "status": "stale",
-          "message": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+          "status": "unknown",
+          "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
+        },
+        {
+          "code": "audio-coverage:invalid-evidence",
+          "status": "unknown",
+          "message": "The full bibliography needs dated, retained author or publisher evidence."
         }
       ],
       "missingVolumes": [],
       "bibliography": {
-        "status": "stale",
-        "audioCoverageStatus": "stale",
-        "expectedNumbers": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10,
-          11,
-          12
-        ],
+        "status": "unknown",
+        "audioCoverageStatus": "unknown",
+        "expectedNumbers": [],
         "missingWorkNumbers": [],
-        "reviewedAt": "2026-09-19T04:16:51.000Z",
-        "validUntil": "2026-09-26T03:31:25.090Z",
-        "sourceUrls": [
-          "https://michaelchatfield.com/collections/the-ten-realms"
-        ],
-        "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+        "reviewedAt": null,
+        "validUntil": null,
+        "sourceUrls": [],
+        "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
       },
       "sources": [
         {
           "url": "https://aethonbooks.com/book-series/the-ten-realms/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T02:42:55.026Z",
-          "fetchedAt": "2026-09-19T02:42:55.026Z",
-          "nextCheckAt": "2026-09-26T02:42:55.026Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:24.209Z",
+          "fetchedAt": "2026-09-27T14:02:24.209Z",
+          "nextCheckAt": "2026-10-04T14:02:24.209Z"
         },
         {
           "url": "https://aethonbooks.com/book/the-two-week-curse/",
@@ -31724,10 +31567,10 @@
         },
         {
           "url": "https://michaelchatfield.com/collections/the-ten-realms",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:31:25.090Z",
-          "fetchedAt": "2026-09-19T03:31:25.090Z",
-          "nextCheckAt": "2026-09-26T03:31:25.090Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:23.531Z",
+          "fetchedAt": "2026-09-27T14:02:23.531Z",
+          "nextCheckAt": "2026-10-04T14:02:23.531Z"
         },
         {
           "url": "https://michaelchatfield.com/collections/the-ten-realms/products/the-eighth-realm-book",
@@ -32815,10 +32658,10 @@
       "knownWorks": 5,
       "confirmedAudioWorks": 5,
       "completeness": {
-        "percent": 83,
-        "earned": 44,
+        "percent": 81,
+        "earned": 43,
         "possible": 53,
-        "explanation": "44/53 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "43/53 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
         "percent": 49,
@@ -33000,12 +32843,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "10/11 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://soundbooththeater.com/series/the-wraiths-haunt-series/",
-          "observedAt": "2026-09-19T03:22:44.136Z",
-          "dueAt": "2026-09-26T03:22:44.136Z"
+          "explanation": "11/11 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B07956BMDH",
+          "observedAt": "2026-09-19T03:33:11.909Z",
+          "dueAt": "2026-12-18T03:33:11.909Z"
         },
         {
           "id": "series-summary",
@@ -33040,12 +32883,12 @@
         {
           "id": "bibliography",
           "label": "Reviewed bibliography",
-          "status": "stale",
-          "available": true,
-          "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage.",
-          "sourceUrl": "https://soundbooththeater.com/series/the-wraiths-haunt-series/",
-          "observedAt": "2026-09-19T03:22:44.136Z",
-          "dueAt": "2026-09-26T03:22:44.136Z"
+          "status": "unknown",
+          "available": false,
+          "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
         }
       ],
       "issues": [
@@ -33085,34 +32928,26 @@
           "message": "Publishable reader context: 5/5 works are missing."
         },
         {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "10/11 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+          "code": "bibliography",
+          "status": "unknown",
+          "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
         },
         {
-          "code": "bibliography",
-          "status": "stale",
-          "message": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+          "code": "audio-coverage:invalid-evidence",
+          "status": "unknown",
+          "message": "The full bibliography needs dated, retained author or publisher evidence."
         }
       ],
       "missingVolumes": [],
       "bibliography": {
-        "status": "stale",
-        "audioCoverageStatus": "stale",
-        "expectedNumbers": [
-          1,
-          2,
-          3,
-          4,
-          5
-        ],
+        "status": "unknown",
+        "audioCoverageStatus": "unknown",
+        "expectedNumbers": [],
         "missingWorkNumbers": [],
-        "reviewedAt": "2026-09-19T04:16:51.000Z",
-        "validUntil": "2026-09-26T03:22:44.136Z",
-        "sourceUrls": [
-          "https://soundbooththeater.com/series/the-wraiths-haunt-series/"
-        ],
-        "explanation": "The retained reviewed bibliography is due for refresh or omits a now-known work. Its historical enumeration does not establish current coverage."
+        "reviewedAt": null,
+        "validUntil": null,
+        "sourceUrls": [],
+        "explanation": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
       },
       "sources": [
         {
@@ -33152,10 +32987,10 @@
         },
         {
           "url": "https://soundbooththeater.com/series/the-wraiths-haunt-series/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:22:44.136Z",
-          "fetchedAt": "2026-09-19T03:22:44.136Z",
-          "nextCheckAt": "2026-09-26T03:22:44.136Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:19.020Z",
+          "fetchedAt": "2026-09-27T14:02:19.020Z",
+          "nextCheckAt": "2026-10-04T14:02:19.020Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/dungeon-lord-abominable-creatures-the-wraiths-haunt-book-3/",
@@ -60514,16 +60349,16 @@
       ],
       "publicationStatus": "released",
       "completeness": {
-        "percent": 80,
-        "earned": 8,
+        "percent": 100,
+        "earned": 10,
         "possible": 10,
-        "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+        "explanation": "10/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -60632,48 +60467,48 @@
           "status": "present",
           "available": true,
           "explanation": "A public image URL is retained; this alone is not a downloaded cover asset.",
-          "sourceUrl": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2026/06/71EZuYSS6lL.jpg",
+          "sourceUrl": "https://m.media-amazon.com/images/I/516MHEHfPzL._SL500_.jpg",
           "observedAt": null,
           "dueAt": null
         },
         {
           "id": "cover-asset",
           "label": "Cached cover asset",
-          "status": "missing",
-          "available": false,
-          "explanation": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap.",
-          "sourceUrl": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2026/06/71EZuYSS6lL.jpg",
-          "observedAt": null,
+          "status": "present",
+          "available": true,
+          "explanation": "The currently associated cover has local JPEG, PNG, or WebP bytes with a matching SHA-256 checksum and image header. This is file evidence, not a visual book-identity judgement.",
+          "sourceUrl": "https://m.media-amazon.com/images/I/516MHEHfPzL._SL500_.jpg",
+          "observedAt": "2026-09-27T14:02:50.849Z",
           "dueAt": null
         },
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "missing",
-          "available": false,
-          "explanation": "No validated observation is bound to the current cached cover bytes.",
-          "sourceUrl": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2026/06/71EZuYSS6lL.jpg",
-          "observedAt": null,
-          "dueAt": null
+          "status": "present",
+          "available": true,
+          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
+          "sourceUrl": "https://m.media-amazon.com/images/I/516MHEHfPzL._SL500_.jpg",
+          "observedAt": "2026-09-27T14:02:50.849Z",
+          "dueAt": "2026-10-27T14:02:50.849Z"
         },
         {
           "id": "reader-sample",
           "label": "Usable reader comments",
-          "status": "missing",
-          "available": false,
-          "explanation": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "status": "present",
+          "available": true,
+          "explanation": "3 usable comments are selected from 3 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
+          "sourceUrl": "https://hardcover.app/books/ascend-online",
+          "observedAt": "2026-09-27T14:03:54.297Z",
           "dueAt": null
         },
         {
           "id": "reader-adequacy",
           "label": "Reader sample adequacy",
-          "status": "missing",
+          "status": "unknown",
           "available": false,
-          "explanation": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "explanation": "3/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
+          "sourceUrl": "https://hardcover.app/books/ascend-online",
+          "observedAt": "2026-09-27T14:03:54.297Z",
           "dueAt": null
         },
         {
@@ -60682,7 +60517,7 @@
           "status": "missing",
           "available": false,
           "explanation": "No current set of reader-trait receipts is retained.",
-          "sourceUrl": null,
+          "sourceUrl": "https://hardcover.app/books/ascend-online",
           "observedAt": null,
           "dueAt": null
         },
@@ -60692,8 +60527,8 @@
           "status": "missing",
           "available": false,
           "explanation": "No retained reader observation is available.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "sourceUrl": "https://hardcover.app/books/ascend-online",
+          "observedAt": "2026-09-27T14:03:54.297Z",
           "dueAt": null
         },
         {
@@ -60714,24 +60549,9 @@
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
         },
         {
-          "code": "cover-asset",
-          "status": "missing",
-          "message": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap."
-        },
-        {
-          "code": "cover-observation",
-          "status": "missing",
-          "message": "No validated observation is bound to the current cached cover bytes."
-        },
-        {
-          "code": "reader-sample",
-          "status": "missing",
-          "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
-        },
-        {
           "code": "reader-adequacy",
-          "status": "missing",
-          "message": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
+          "status": "unknown",
+          "message": "3/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
         },
         {
           "code": "reader-traits",
@@ -60752,9 +60572,9 @@
         "audiobook": true,
         "audioVerified": true,
         "audioDateVerified": true,
-        "coverAsset": false,
-        "coverReviewed": false,
-        "readerSample": false,
+        "coverAsset": true,
+        "coverReviewed": true,
+        "readerSample": true,
         "readerAdequate": false
       },
       "audio": {
@@ -60764,21 +60584,23 @@
         "releaseDate": "2017-07-18"
       },
       "reader": {
-        "retainedCount": 0,
-        "selectedCount": 0,
+        "retainedCount": 3,
+        "selectedCount": 3,
         "eligible": false,
         "minimum": 5,
         "currentTraits": false,
         "observation": "missing",
-        "sourceUrls": []
+        "sourceUrls": [
+          "https://hardcover.app/books/ascend-online"
+        ]
       },
       "cover": {
-        "url": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2026/06/71EZuYSS6lL.jpg",
-        "cached": false,
-        "hashVerified": false,
-        "bytes": null,
-        "observationCurrent": false,
-        "checkedAt": null
+        "url": "https://m.media-amazon.com/images/I/516MHEHfPzL._SL500_.jpg",
+        "cached": true,
+        "hashVerified": true,
+        "bytes": 39683,
+        "observationCurrent": true,
+        "checkedAt": "2026-09-27T14:02:50.849Z"
       },
       "sources": [
         {
@@ -60816,10 +60638,10 @@
         "explanation": "10/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 89,
-        "earned": 8,
+        "percent": 100,
+        "earned": 9,
         "possible": 9,
-        "explanation": "8/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "9/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -60995,21 +60817,15 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "2/3 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://travisbagwell.com/books/",
-          "observedAt": "2026-09-19T03:19:44.333Z",
-          "dueAt": "2026-09-26T03:19:44.333Z"
+          "explanation": "3/3 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://aethonbooks.com/book/awaken-online-catharsis/",
+          "observedAt": "2026-09-19T02:44:53.175Z",
+          "dueAt": "2026-12-18T02:44:53.175Z"
         }
       ],
-      "issues": [
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "2/3 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
-        }
-      ],
+      "issues": [],
       "flags": {
         "sourceDescription": true,
         "summary": true,
@@ -61065,10 +60881,10 @@
         },
         {
           "url": "https://travisbagwell.com/books/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:19:44.333Z",
-          "fetchedAt": "2026-09-19T03:19:44.333Z",
-          "nextCheckAt": "2026-09-26T03:19:44.333Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:20.846Z",
+          "fetchedAt": "2026-09-27T14:02:20.846Z",
+          "nextCheckAt": "2026-10-04T14:02:20.846Z"
         }
       ]
     },
@@ -61091,10 +60907,10 @@
         "explanation": "10/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 67,
-        "earned": 6,
+        "percent": 78,
+        "earned": 7,
         "possible": 9,
-        "explanation": "6/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "7/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -61270,12 +61086,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "2/3 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://travisbagwell.com/books/",
-          "observedAt": "2026-09-19T03:19:44.333Z",
-          "dueAt": "2026-09-26T03:19:44.333Z"
+          "explanation": "3/3 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://aethonbooks.com/book/awaken-online-precipice/",
+          "observedAt": "2026-09-19T02:42:42.005Z",
+          "dueAt": "2026-12-18T02:42:42.005Z"
         }
       ],
       "issues": [
@@ -61288,11 +61104,6 @@
           "code": "reader-observation",
           "status": "stale",
           "message": "An earlier observation exists, but none resolves for the current selected evidence."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "2/3 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -61350,10 +61161,10 @@
         },
         {
           "url": "https://travisbagwell.com/books/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:19:44.333Z",
-          "fetchedAt": "2026-09-19T03:19:44.333Z",
-          "nextCheckAt": "2026-09-26T03:19:44.333Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:20.846Z",
+          "fetchedAt": "2026-09-27T14:02:20.846Z",
+          "nextCheckAt": "2026-10-04T14:02:20.846Z"
         }
       ]
     },
@@ -61375,10 +61186,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -61554,12 +61365,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://travisbagwell.com/books/",
-          "observedAt": "2026-09-19T03:19:44.333Z",
-          "dueAt": "2026-09-26T03:19:44.333Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B076ZZP3DK",
+          "observedAt": "2026-09-19T03:31:37.906Z",
+          "dueAt": "2026-12-18T03:31:37.906Z"
         }
       ],
       "issues": [
@@ -61587,11 +61398,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -61640,10 +61446,10 @@
         },
         {
           "url": "https://travisbagwell.com/books/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:19:44.333Z",
-          "fetchedAt": "2026-09-19T03:19:44.333Z",
-          "nextCheckAt": "2026-09-26T03:19:44.333Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:20.846Z",
+          "fetchedAt": "2026-09-27T14:02:20.846Z",
+          "nextCheckAt": "2026-10-04T14:02:20.846Z"
         }
       ]
     },
@@ -61665,10 +61471,10 @@
         "explanation": "10/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -61844,12 +61650,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://travisbagwell.com/books/",
-          "observedAt": "2026-09-19T03:19:44.333Z",
-          "dueAt": "2026-09-26T03:19:44.333Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B07DWDD8L9",
+          "observedAt": "2026-09-19T03:31:34.060Z",
+          "dueAt": "2026-12-18T03:31:34.060Z"
         }
       ],
       "issues": [
@@ -61872,11 +61678,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -61927,10 +61728,10 @@
         },
         {
           "url": "https://travisbagwell.com/books/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:19:44.333Z",
-          "fetchedAt": "2026-09-19T03:19:44.333Z",
-          "nextCheckAt": "2026-09-26T03:19:44.333Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:20.846Z",
+          "fetchedAt": "2026-09-27T14:02:20.846Z",
+          "nextCheckAt": "2026-10-04T14:02:20.846Z"
         }
       ]
     },
@@ -61952,10 +61753,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -62131,12 +61932,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://travisbagwell.com/books/",
-          "observedAt": "2026-09-19T03:19:44.333Z",
-          "dueAt": "2026-09-26T03:19:44.333Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B07G4FKZN1",
+          "observedAt": "2026-09-19T03:31:31.497Z",
+          "dueAt": "2026-12-18T03:31:31.497Z"
         }
       ],
       "issues": [
@@ -62164,11 +61965,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -62217,10 +62013,10 @@
         },
         {
           "url": "https://travisbagwell.com/books/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:19:44.333Z",
-          "fetchedAt": "2026-09-19T03:19:44.333Z",
-          "nextCheckAt": "2026-09-26T03:19:44.333Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:20.846Z",
+          "fetchedAt": "2026-09-27T14:02:20.846Z",
+          "nextCheckAt": "2026-10-04T14:02:20.846Z"
         }
       ]
     },
@@ -62242,10 +62038,10 @@
         "explanation": "10/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -62421,12 +62217,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://travisbagwell.com/books/",
-          "observedAt": "2026-09-19T03:19:44.333Z",
-          "dueAt": "2026-09-26T03:19:44.333Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B07RGXKC66",
+          "observedAt": "2026-09-19T03:31:30.214Z",
+          "dueAt": "2026-12-18T03:31:30.214Z"
         }
       ],
       "issues": [
@@ -62449,11 +62245,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -62504,10 +62295,10 @@
         },
         {
           "url": "https://travisbagwell.com/books/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:19:44.333Z",
-          "fetchedAt": "2026-09-19T03:19:44.333Z",
-          "nextCheckAt": "2026-09-26T03:19:44.333Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:20.846Z",
+          "fetchedAt": "2026-09-27T14:02:20.846Z",
+          "nextCheckAt": "2026-10-04T14:02:20.846Z"
         }
       ]
     },
@@ -62529,10 +62320,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -62708,12 +62499,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://travisbagwell.com/books/",
-          "observedAt": "2026-09-19T03:19:44.333Z",
-          "dueAt": "2026-09-26T03:19:44.333Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B07V81FKZW",
+          "observedAt": "2026-09-19T03:31:43.045Z",
+          "dueAt": "2026-12-18T03:31:43.045Z"
         }
       ],
       "issues": [
@@ -62741,11 +62532,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -62794,10 +62580,10 @@
         },
         {
           "url": "https://travisbagwell.com/books/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:19:44.333Z",
-          "fetchedAt": "2026-09-19T03:19:44.333Z",
-          "nextCheckAt": "2026-09-26T03:19:44.333Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:20.846Z",
+          "fetchedAt": "2026-09-27T14:02:20.846Z",
+          "nextCheckAt": "2026-10-04T14:02:20.846Z"
         }
       ]
     },
@@ -62813,16 +62599,16 @@
       ],
       "publicationStatus": "released",
       "completeness": {
-        "percent": 80,
-        "earned": 8,
+        "percent": 90,
+        "earned": 9,
         "possible": 10,
-        "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+        "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 33,
-        "earned": 3,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -62931,29 +62717,29 @@
           "status": "present",
           "available": true,
           "explanation": "A public image URL is retained; this alone is not a downloaded cover asset.",
-          "sourceUrl": "https://travisbagwell.com/images/covers/hellion.jpg",
+          "sourceUrl": "https://m.media-amazon.com/images/I/51ZD5zW8SGS._SL500_.jpg",
           "observedAt": null,
           "dueAt": null
         },
         {
           "id": "cover-asset",
           "label": "Cached cover asset",
-          "status": "missing",
-          "available": false,
-          "explanation": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap.",
-          "sourceUrl": "https://travisbagwell.com/images/covers/hellion.jpg",
-          "observedAt": null,
+          "status": "present",
+          "available": true,
+          "explanation": "The currently associated cover has local JPEG, PNG, or WebP bytes with a matching SHA-256 checksum and image header. This is file evidence, not a visual book-identity judgement.",
+          "sourceUrl": "https://m.media-amazon.com/images/I/51ZD5zW8SGS._SL500_.jpg",
+          "observedAt": "2026-09-27T14:03:02.229Z",
           "dueAt": null
         },
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "missing",
-          "available": false,
-          "explanation": "No validated observation is bound to the current cached cover bytes.",
-          "sourceUrl": "https://travisbagwell.com/images/covers/hellion.jpg",
-          "observedAt": null,
-          "dueAt": null
+          "status": "present",
+          "available": true,
+          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
+          "sourceUrl": "https://m.media-amazon.com/images/I/51ZD5zW8SGS._SL500_.jpg",
+          "observedAt": "2026-09-27T14:03:02.229Z",
+          "dueAt": "2026-10-27T14:03:02.229Z"
         },
         {
           "id": "reader-sample",
@@ -62998,12 +62784,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://travisbagwell.com/books/",
-          "observedAt": "2026-09-19T03:19:44.333Z",
-          "dueAt": "2026-09-26T03:19:44.333Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B096L11M5V",
+          "observedAt": "2026-09-19T03:31:40.482Z",
+          "dueAt": "2026-12-18T03:31:40.482Z"
         }
       ],
       "issues": [
@@ -63011,16 +62797,6 @@
           "code": "reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
-        },
-        {
-          "code": "cover-asset",
-          "status": "missing",
-          "message": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap."
-        },
-        {
-          "code": "cover-observation",
-          "status": "missing",
-          "message": "No validated observation is bound to the current cached cover bytes."
         },
         {
           "code": "reader-sample",
@@ -63041,11 +62817,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -63056,8 +62827,8 @@
         "audiobook": true,
         "audioVerified": true,
         "audioDateVerified": true,
-        "coverAsset": false,
-        "coverReviewed": false,
+        "coverAsset": true,
+        "coverReviewed": true,
         "readerSample": false,
         "readerAdequate": false
       },
@@ -63077,12 +62848,12 @@
         "sourceUrls": []
       },
       "cover": {
-        "url": "https://travisbagwell.com/images/covers/hellion.jpg",
-        "cached": false,
-        "hashVerified": false,
-        "bytes": null,
-        "observationCurrent": false,
-        "checkedAt": null
+        "url": "https://m.media-amazon.com/images/I/51ZD5zW8SGS._SL500_.jpg",
+        "cached": true,
+        "hashVerified": true,
+        "bytes": 43756,
+        "observationCurrent": true,
+        "checkedAt": "2026-09-27T14:03:02.229Z"
       },
       "sources": [
         {
@@ -63094,10 +62865,10 @@
         },
         {
           "url": "https://travisbagwell.com/books/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:19:44.333Z",
-          "fetchedAt": "2026-09-19T03:19:44.333Z",
-          "nextCheckAt": "2026-09-26T03:19:44.333Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:20.846Z",
+          "fetchedAt": "2026-09-27T14:02:20.846Z",
+          "nextCheckAt": "2026-10-04T14:02:20.846Z"
         }
       ]
     },
@@ -63113,16 +62884,16 @@
       ],
       "publicationStatus": "released",
       "completeness": {
-        "percent": 80,
-        "earned": 8,
+        "percent": 90,
+        "earned": 9,
         "possible": 10,
-        "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+        "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 33,
-        "earned": 3,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -63231,29 +63002,29 @@
           "status": "present",
           "available": true,
           "explanation": "A public image URL is retained; this alone is not a downloaded cover asset.",
-          "sourceUrl": "https://travisbagwell.com/images/covers/happy.jpg",
+          "sourceUrl": "https://m.media-amazon.com/images/I/51rSsSSQy4L._SL500_.jpg",
           "observedAt": null,
           "dueAt": null
         },
         {
           "id": "cover-asset",
           "label": "Cached cover asset",
-          "status": "missing",
-          "available": false,
-          "explanation": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap.",
-          "sourceUrl": "https://travisbagwell.com/images/covers/happy.jpg",
-          "observedAt": null,
+          "status": "present",
+          "available": true,
+          "explanation": "The currently associated cover has local JPEG, PNG, or WebP bytes with a matching SHA-256 checksum and image header. This is file evidence, not a visual book-identity judgement.",
+          "sourceUrl": "https://m.media-amazon.com/images/I/51rSsSSQy4L._SL500_.jpg",
+          "observedAt": "2026-09-27T14:03:12.441Z",
           "dueAt": null
         },
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "missing",
-          "available": false,
-          "explanation": "No validated observation is bound to the current cached cover bytes.",
-          "sourceUrl": "https://travisbagwell.com/images/covers/happy.jpg",
-          "observedAt": null,
-          "dueAt": null
+          "status": "present",
+          "available": true,
+          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
+          "sourceUrl": "https://m.media-amazon.com/images/I/51rSsSSQy4L._SL500_.jpg",
+          "observedAt": "2026-09-27T14:03:12.441Z",
+          "dueAt": "2026-10-27T14:03:12.441Z"
         },
         {
           "id": "reader-sample",
@@ -63298,12 +63069,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://travisbagwell.com/books/",
-          "observedAt": "2026-09-19T03:19:44.333Z",
-          "dueAt": "2026-09-26T03:19:44.333Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B09PLPF53R",
+          "observedAt": "2026-09-19T03:31:41.759Z",
+          "dueAt": "2026-12-18T03:31:41.759Z"
         }
       ],
       "issues": [
@@ -63311,16 +63082,6 @@
           "code": "reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
-        },
-        {
-          "code": "cover-asset",
-          "status": "missing",
-          "message": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap."
-        },
-        {
-          "code": "cover-observation",
-          "status": "missing",
-          "message": "No validated observation is bound to the current cached cover bytes."
         },
         {
           "code": "reader-sample",
@@ -63341,11 +63102,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -63356,8 +63112,8 @@
         "audiobook": true,
         "audioVerified": true,
         "audioDateVerified": true,
-        "coverAsset": false,
-        "coverReviewed": false,
+        "coverAsset": true,
+        "coverReviewed": true,
         "readerSample": false,
         "readerAdequate": false
       },
@@ -63377,12 +63133,12 @@
         "sourceUrls": []
       },
       "cover": {
-        "url": "https://travisbagwell.com/images/covers/happy.jpg",
-        "cached": false,
-        "hashVerified": false,
-        "bytes": null,
-        "observationCurrent": false,
-        "checkedAt": null
+        "url": "https://m.media-amazon.com/images/I/51rSsSSQy4L._SL500_.jpg",
+        "cached": true,
+        "hashVerified": true,
+        "bytes": 36643,
+        "observationCurrent": true,
+        "checkedAt": "2026-09-27T14:03:12.441Z"
       },
       "sources": [
         {
@@ -63394,10 +63150,10 @@
         },
         {
           "url": "https://travisbagwell.com/books/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:19:44.333Z",
-          "fetchedAt": "2026-09-19T03:19:44.333Z",
-          "nextCheckAt": "2026-09-26T03:19:44.333Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:20.846Z",
+          "fetchedAt": "2026-09-27T14:02:20.846Z",
+          "nextCheckAt": "2026-10-04T14:02:20.846Z"
         }
       ]
     },
@@ -63413,16 +63169,16 @@
       ],
       "publicationStatus": "released",
       "completeness": {
-        "percent": 80,
-        "earned": 8,
+        "percent": 90,
+        "earned": 9,
         "possible": 10,
-        "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+        "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 33,
-        "earned": 3,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -63531,29 +63287,29 @@
           "status": "present",
           "available": true,
           "explanation": "A public image URL is retained; this alone is not a downloaded cover asset.",
-          "sourceUrl": "https://travisbagwell.com/images/covers/armageddon.jpg",
+          "sourceUrl": "https://m.media-amazon.com/images/I/41KJO9skLsL._SL500_.jpg",
           "observedAt": null,
           "dueAt": null
         },
         {
           "id": "cover-asset",
           "label": "Cached cover asset",
-          "status": "missing",
-          "available": false,
-          "explanation": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap.",
-          "sourceUrl": "https://travisbagwell.com/images/covers/armageddon.jpg",
-          "observedAt": null,
+          "status": "present",
+          "available": true,
+          "explanation": "The currently associated cover has local JPEG, PNG, or WebP bytes with a matching SHA-256 checksum and image header. This is file evidence, not a visual book-identity judgement.",
+          "sourceUrl": "https://m.media-amazon.com/images/I/41KJO9skLsL._SL500_.jpg",
+          "observedAt": "2026-09-27T14:03:22.396Z",
           "dueAt": null
         },
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "missing",
-          "available": false,
-          "explanation": "No validated observation is bound to the current cached cover bytes.",
-          "sourceUrl": "https://travisbagwell.com/images/covers/armageddon.jpg",
-          "observedAt": null,
-          "dueAt": null
+          "status": "present",
+          "available": true,
+          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
+          "sourceUrl": "https://m.media-amazon.com/images/I/41KJO9skLsL._SL500_.jpg",
+          "observedAt": "2026-09-27T14:03:22.396Z",
+          "dueAt": "2026-10-27T14:03:22.396Z"
         },
         {
           "id": "reader-sample",
@@ -63598,12 +63354,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://travisbagwell.com/books/",
-          "observedAt": "2026-09-19T03:19:44.333Z",
-          "dueAt": "2026-09-26T03:19:44.333Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0BK9YTLWM",
+          "observedAt": "2026-09-19T03:31:32.781Z",
+          "dueAt": "2026-12-18T03:31:32.781Z"
         }
       ],
       "issues": [
@@ -63611,16 +63367,6 @@
           "code": "reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
-        },
-        {
-          "code": "cover-asset",
-          "status": "missing",
-          "message": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap."
-        },
-        {
-          "code": "cover-observation",
-          "status": "missing",
-          "message": "No validated observation is bound to the current cached cover bytes."
         },
         {
           "code": "reader-sample",
@@ -63641,11 +63387,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -63656,8 +63397,8 @@
         "audiobook": true,
         "audioVerified": true,
         "audioDateVerified": true,
-        "coverAsset": false,
-        "coverReviewed": false,
+        "coverAsset": true,
+        "coverReviewed": true,
         "readerSample": false,
         "readerAdequate": false
       },
@@ -63677,12 +63418,12 @@
         "sourceUrls": []
       },
       "cover": {
-        "url": "https://travisbagwell.com/images/covers/armageddon.jpg",
-        "cached": false,
-        "hashVerified": false,
-        "bytes": null,
-        "observationCurrent": false,
-        "checkedAt": null
+        "url": "https://m.media-amazon.com/images/I/41KJO9skLsL._SL500_.jpg",
+        "cached": true,
+        "hashVerified": true,
+        "bytes": 23634,
+        "observationCurrent": true,
+        "checkedAt": "2026-09-27T14:03:22.396Z"
       },
       "sources": [
         {
@@ -63694,10 +63435,10 @@
         },
         {
           "url": "https://travisbagwell.com/books/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:19:44.333Z",
-          "fetchedAt": "2026-09-19T03:19:44.333Z",
-          "nextCheckAt": "2026-09-26T03:19:44.333Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:20.846Z",
+          "fetchedAt": "2026-09-27T14:02:20.846Z",
+          "nextCheckAt": "2026-10-04T14:02:20.846Z"
         }
       ]
     },
@@ -63713,16 +63454,16 @@
       ],
       "publicationStatus": "released",
       "completeness": {
-        "percent": 80,
-        "earned": 8,
+        "percent": 90,
+        "earned": 9,
         "possible": 10,
-        "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+        "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 33,
-        "earned": 3,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -63831,29 +63572,29 @@
           "status": "present",
           "available": true,
           "explanation": "A public image URL is retained; this alone is not a downloaded cover asset.",
-          "sourceUrl": "https://travisbagwell.com/images/covers/timeless.jpg",
+          "sourceUrl": "https://m.media-amazon.com/images/I/51VLWpPh+wL._SL500_.jpg",
           "observedAt": null,
           "dueAt": null
         },
         {
           "id": "cover-asset",
           "label": "Cached cover asset",
-          "status": "missing",
-          "available": false,
-          "explanation": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap.",
-          "sourceUrl": "https://travisbagwell.com/images/covers/timeless.jpg",
-          "observedAt": null,
+          "status": "present",
+          "available": true,
+          "explanation": "The currently associated cover has local JPEG, PNG, or WebP bytes with a matching SHA-256 checksum and image header. This is file evidence, not a visual book-identity judgement.",
+          "sourceUrl": "https://m.media-amazon.com/images/I/51VLWpPh+wL._SL500_.jpg",
+          "observedAt": "2026-09-27T14:03:32.693Z",
           "dueAt": null
         },
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "missing",
-          "available": false,
-          "explanation": "No validated observation is bound to the current cached cover bytes.",
-          "sourceUrl": "https://travisbagwell.com/images/covers/timeless.jpg",
-          "observedAt": null,
-          "dueAt": null
+          "status": "present",
+          "available": true,
+          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
+          "sourceUrl": "https://m.media-amazon.com/images/I/51VLWpPh+wL._SL500_.jpg",
+          "observedAt": "2026-09-27T14:03:32.693Z",
+          "dueAt": "2026-10-27T14:03:32.693Z"
         },
         {
           "id": "reader-sample",
@@ -63898,12 +63639,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://travisbagwell.com/books/",
-          "observedAt": "2026-09-19T03:19:44.333Z",
-          "dueAt": "2026-09-26T03:19:44.333Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0CHBPTY2Q",
+          "observedAt": "2026-09-19T03:31:39.202Z",
+          "dueAt": "2026-12-18T03:31:39.202Z"
         }
       ],
       "issues": [
@@ -63911,16 +63652,6 @@
           "code": "reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
-        },
-        {
-          "code": "cover-asset",
-          "status": "missing",
-          "message": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap."
-        },
-        {
-          "code": "cover-observation",
-          "status": "missing",
-          "message": "No validated observation is bound to the current cached cover bytes."
         },
         {
           "code": "reader-sample",
@@ -63941,11 +63672,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -63956,8 +63682,8 @@
         "audiobook": true,
         "audioVerified": true,
         "audioDateVerified": true,
-        "coverAsset": false,
-        "coverReviewed": false,
+        "coverAsset": true,
+        "coverReviewed": true,
         "readerSample": false,
         "readerAdequate": false
       },
@@ -63977,12 +63703,12 @@
         "sourceUrls": []
       },
       "cover": {
-        "url": "https://travisbagwell.com/images/covers/timeless.jpg",
-        "cached": false,
-        "hashVerified": false,
-        "bytes": null,
-        "observationCurrent": false,
-        "checkedAt": null
+        "url": "https://m.media-amazon.com/images/I/51VLWpPh+wL._SL500_.jpg",
+        "cached": true,
+        "hashVerified": true,
+        "bytes": 37017,
+        "observationCurrent": true,
+        "checkedAt": "2026-09-27T14:03:32.693Z"
       },
       "sources": [
         {
@@ -63994,10 +63720,10 @@
         },
         {
           "url": "https://travisbagwell.com/books/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:19:44.333Z",
-          "fetchedAt": "2026-09-19T03:19:44.333Z",
-          "nextCheckAt": "2026-09-26T03:19:44.333Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:20.846Z",
+          "fetchedAt": "2026-09-27T14:02:20.846Z",
+          "nextCheckAt": "2026-10-04T14:02:20.846Z"
         }
       ]
     },
@@ -64013,16 +63739,16 @@
       ],
       "publicationStatus": "released",
       "completeness": {
-        "percent": 80,
-        "earned": 8,
+        "percent": 90,
+        "earned": 9,
         "possible": 10,
-        "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+        "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 33,
-        "earned": 3,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -64131,29 +63857,29 @@
           "status": "present",
           "available": true,
           "explanation": "A public image URL is retained; this alone is not a downloaded cover asset.",
-          "sourceUrl": "https://travisbagwell.com/images/covers/crucible.jpg",
+          "sourceUrl": "https://m.media-amazon.com/images/I/51iUm5rIrvL._SL500_.jpg",
           "observedAt": null,
           "dueAt": null
         },
         {
           "id": "cover-asset",
           "label": "Cached cover asset",
-          "status": "missing",
-          "available": false,
-          "explanation": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap.",
-          "sourceUrl": "https://travisbagwell.com/images/covers/crucible.jpg",
-          "observedAt": null,
+          "status": "present",
+          "available": true,
+          "explanation": "The currently associated cover has local JPEG, PNG, or WebP bytes with a matching SHA-256 checksum and image header. This is file evidence, not a visual book-identity judgement.",
+          "sourceUrl": "https://m.media-amazon.com/images/I/51iUm5rIrvL._SL500_.jpg",
+          "observedAt": "2026-09-27T14:03:42.488Z",
           "dueAt": null
         },
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "missing",
-          "available": false,
-          "explanation": "No validated observation is bound to the current cached cover bytes.",
-          "sourceUrl": "https://travisbagwell.com/images/covers/crucible.jpg",
-          "observedAt": null,
-          "dueAt": null
+          "status": "present",
+          "available": true,
+          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
+          "sourceUrl": "https://m.media-amazon.com/images/I/51iUm5rIrvL._SL500_.jpg",
+          "observedAt": "2026-09-27T14:03:42.488Z",
+          "dueAt": "2026-10-27T14:03:42.488Z"
         },
         {
           "id": "reader-sample",
@@ -64198,12 +63924,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://travisbagwell.com/books/",
-          "observedAt": "2026-09-19T03:19:44.333Z",
-          "dueAt": "2026-09-26T03:19:44.333Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0GKH62Z52",
+          "observedAt": "2026-09-19T03:31:36.624Z",
+          "dueAt": "2026-12-18T03:31:36.624Z"
         }
       ],
       "issues": [
@@ -64211,16 +63937,6 @@
           "code": "reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
-        },
-        {
-          "code": "cover-asset",
-          "status": "missing",
-          "message": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap."
-        },
-        {
-          "code": "cover-observation",
-          "status": "missing",
-          "message": "No validated observation is bound to the current cached cover bytes."
         },
         {
           "code": "reader-sample",
@@ -64241,11 +63957,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -64256,8 +63967,8 @@
         "audiobook": true,
         "audioVerified": true,
         "audioDateVerified": true,
-        "coverAsset": false,
-        "coverReviewed": false,
+        "coverAsset": true,
+        "coverReviewed": true,
         "readerSample": false,
         "readerAdequate": false
       },
@@ -64277,12 +63988,12 @@
         "sourceUrls": []
       },
       "cover": {
-        "url": "https://travisbagwell.com/images/covers/crucible.jpg",
-        "cached": false,
-        "hashVerified": false,
-        "bytes": null,
-        "observationCurrent": false,
-        "checkedAt": null
+        "url": "https://m.media-amazon.com/images/I/51iUm5rIrvL._SL500_.jpg",
+        "cached": true,
+        "hashVerified": true,
+        "bytes": 35387,
+        "observationCurrent": true,
+        "checkedAt": "2026-09-27T14:03:42.488Z"
       },
       "sources": [
         {
@@ -64294,10 +64005,10 @@
         },
         {
           "url": "https://travisbagwell.com/books/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:19:44.333Z",
-          "fetchedAt": "2026-09-19T03:19:44.333Z",
-          "nextCheckAt": "2026-09-26T03:19:44.333Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:20.846Z",
+          "fetchedAt": "2026-09-27T14:02:20.846Z",
+          "nextCheckAt": "2026-10-04T14:02:20.846Z"
         }
       ]
     },
@@ -100372,10 +100083,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 67,
-        "earned": 6,
+        "percent": 78,
+        "earned": 7,
         "possible": 9,
-        "explanation": "6/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "7/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -100531,19 +100242,19 @@
         {
           "id": "reader-traits",
           "label": "Current reader traits",
-          "status": "missing",
-          "available": false,
-          "explanation": "No current set of reader-trait receipts is retained.",
+          "status": "present",
+          "available": true,
+          "explanation": "All four reader-trait receipts match the exact selected sample and current rubric; an unknown trait value is a valid result.",
           "sourceUrl": "https://hardcover.app/books/carls-doomsday-scenario",
-          "observedAt": null,
+          "observedAt": "2026-09-27T14:04:01.496Z",
           "dueAt": null
         },
         {
           "id": "reader-observation",
           "label": "Publishable reader context",
-          "status": "missing",
-          "available": false,
-          "explanation": "No retained reader observation is available.",
+          "status": "stale",
+          "available": true,
+          "explanation": "An earlier observation exists, but none resolves for the current selected evidence.",
           "sourceUrl": "https://hardcover.app/books/carls-doomsday-scenario",
           "observedAt": "2026-09-19T16:42:19.239Z",
           "dueAt": null
@@ -100571,14 +100282,9 @@
           "message": "No validated observation is bound to the current cached cover bytes."
         },
         {
-          "code": "reader-traits",
-          "status": "missing",
-          "message": "No current set of reader-trait receipts is retained."
-        },
-        {
           "code": "reader-observation",
-          "status": "missing",
-          "message": "No retained reader observation is available."
+          "status": "stale",
+          "message": "An earlier observation exists, but none resolves for the current selected evidence."
         }
       ],
       "flags": {
@@ -100605,7 +100311,7 @@
         "selectedCount": 41,
         "eligible": true,
         "minimum": 5,
-        "currentTraits": false,
+        "currentTraits": true,
         "observation": "missing",
         "sourceUrls": [
           "https://hardcover.app/books/carls-doomsday-scenario",
@@ -101229,10 +100935,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 56,
-        "earned": 5,
+        "percent": 67,
+        "earned": 6,
         "possible": 9,
-        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "6/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -101388,19 +101094,19 @@
         {
           "id": "reader-traits",
           "label": "Current reader traits",
-          "status": "missing",
-          "available": false,
-          "explanation": "No current set of reader-trait receipts is retained.",
+          "status": "present",
+          "available": true,
+          "explanation": "All four reader-trait receipts match the exact selected sample and current rubric; an unknown trait value is a valid result.",
           "sourceUrl": "https://hardcover.app/books/the-butchers-masquerade",
-          "observedAt": null,
+          "observedAt": "2026-09-27T14:04:03.252Z",
           "dueAt": null
         },
         {
           "id": "reader-observation",
           "label": "Publishable reader context",
-          "status": "missing",
-          "available": false,
-          "explanation": "No retained reader observation is available.",
+          "status": "stale",
+          "available": true,
+          "explanation": "An earlier observation exists, but none resolves for the current selected evidence.",
           "sourceUrl": "https://hardcover.app/books/the-butchers-masquerade",
           "observedAt": "2026-09-19T16:42:23.242Z",
           "dueAt": null
@@ -101433,14 +101139,9 @@
           "message": "No validated observation is bound to the current cached cover bytes."
         },
         {
-          "code": "reader-traits",
-          "status": "missing",
-          "message": "No current set of reader-trait receipts is retained."
-        },
-        {
           "code": "reader-observation",
-          "status": "missing",
-          "message": "No retained reader observation is available."
+          "status": "stale",
+          "message": "An earlier observation exists, but none resolves for the current selected evidence."
         }
       ],
       "flags": {
@@ -101467,7 +101168,7 @@
         "selectedCount": 43,
         "eligible": true,
         "minimum": 5,
-        "currentTraits": false,
+        "currentTraits": true,
         "observation": "missing",
         "sourceUrls": [
           "https://hardcover.app/books/the-butchers-masquerade"
@@ -122929,7 +122630,7 @@
         "audiobook",
         "ebook"
       ],
-      "publicationStatus": "unknown",
+      "publicationStatus": "released",
       "completeness": {
         "percent": 90,
         "earned": 9,
@@ -122937,10 +122638,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 56,
-        "earned": 5,
+        "percent": 67,
+        "earned": 6,
         "possible": 9,
-        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "6/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -122950,7 +122651,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "observedAt": "2026-09-19T03:35:50.524Z",
+          "observedAt": "2026-09-27T14:02:32.564Z",
           "dueAt": null
         },
         {
@@ -123116,12 +122817,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "observedAt": "2026-09-19T03:35:50.524Z",
-          "dueAt": "2026-09-26T03:35:50.524Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0BCH43V6V",
+          "observedAt": "2026-09-19T04:03:46.535Z",
+          "dueAt": "2026-12-18T04:03:46.535Z"
         }
       ],
       "issues": [
@@ -123144,11 +122845,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -123197,10 +122893,10 @@
         },
         {
           "url": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:35:50.524Z",
-          "fetchedAt": "2026-09-19T03:35:50.524Z",
-          "nextCheckAt": "2026-09-26T03:35:50.524Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:32.564Z",
+          "fetchedAt": "2026-09-27T14:02:32.564Z",
+          "nextCheckAt": "2026-10-04T14:02:32.564Z"
         }
       ]
     },
@@ -123214,7 +122910,7 @@
         "audiobook",
         "ebook"
       ],
-      "publicationStatus": "unknown",
+      "publicationStatus": "released",
       "completeness": {
         "percent": 80,
         "earned": 8,
@@ -123222,10 +122918,10 @@
         "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 33,
-        "earned": 3,
+        "percent": 44,
+        "earned": 4,
         "possible": 9,
-        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -123401,12 +123097,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "observedAt": "2026-09-19T03:35:50.524Z",
-          "dueAt": "2026-09-26T03:35:50.524Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0BJSF2FBB",
+          "observedAt": "2026-09-19T04:03:47.804Z",
+          "dueAt": "2026-12-18T04:03:47.804Z"
         }
       ],
       "issues": [
@@ -123444,11 +123140,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -123497,10 +123188,10 @@
         },
         {
           "url": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:35:50.524Z",
-          "fetchedAt": "2026-09-19T03:35:50.524Z",
-          "nextCheckAt": "2026-09-26T03:35:50.524Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:32.564Z",
+          "fetchedAt": "2026-09-27T14:02:32.564Z",
+          "nextCheckAt": "2026-10-04T14:02:32.564Z"
         }
       ]
     },
@@ -123514,7 +123205,7 @@
         "audiobook",
         "ebook"
       ],
-      "publicationStatus": "unknown",
+      "publicationStatus": "released",
       "completeness": {
         "percent": 80,
         "earned": 8,
@@ -123522,10 +123213,10 @@
         "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 33,
-        "earned": 3,
+        "percent": 44,
+        "earned": 4,
         "possible": 9,
-        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -123701,12 +123392,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "observedAt": "2026-09-19T03:35:50.524Z",
-          "dueAt": "2026-09-26T03:35:50.524Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0BW4WDCWK",
+          "observedAt": "2026-09-19T04:03:49.079Z",
+          "dueAt": "2026-12-18T04:03:49.079Z"
         }
       ],
       "issues": [
@@ -123744,11 +123435,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -123797,10 +123483,10 @@
         },
         {
           "url": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:35:50.524Z",
-          "fetchedAt": "2026-09-19T03:35:50.524Z",
-          "nextCheckAt": "2026-09-26T03:35:50.524Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:32.564Z",
+          "fetchedAt": "2026-09-27T14:02:32.564Z",
+          "nextCheckAt": "2026-10-04T14:02:32.564Z"
         }
       ]
     },
@@ -123814,7 +123500,7 @@
         "audiobook",
         "ebook"
       ],
-      "publicationStatus": "unknown",
+      "publicationStatus": "released",
       "completeness": {
         "percent": 80,
         "earned": 8,
@@ -123822,10 +123508,10 @@
         "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 33,
-        "earned": 3,
+        "percent": 44,
+        "earned": 4,
         "possible": 9,
-        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -124001,12 +123687,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "observedAt": "2026-09-19T03:35:50.524Z",
-          "dueAt": "2026-09-26T03:35:50.524Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0H7SH5DYS",
+          "observedAt": "2026-09-19T04:03:50.351Z",
+          "dueAt": "2026-12-18T04:03:50.351Z"
         }
       ],
       "issues": [
@@ -124044,11 +123730,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -124097,10 +123778,10 @@
         },
         {
           "url": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:35:50.524Z",
-          "fetchedAt": "2026-09-19T03:35:50.524Z",
-          "nextCheckAt": "2026-09-26T03:35:50.524Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:32.564Z",
+          "fetchedAt": "2026-09-27T14:02:32.564Z",
+          "nextCheckAt": "2026-10-04T14:02:32.564Z"
         }
       ]
     },
@@ -124121,10 +123802,10 @@
         "explanation": "0/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 0,
-        "earned": 0,
+        "percent": 11,
+        "earned": 1,
         "possible": 9,
-        "explanation": "0/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "1/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -124134,7 +123815,7 @@
           "available": false,
           "explanation": "No source description is retained for this work.",
           "sourceUrl": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "observedAt": "2026-09-19T03:35:50.524Z",
+          "observedAt": "2026-09-27T14:02:32.564Z",
           "dueAt": null
         },
         {
@@ -124300,12 +123981,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "0/1 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "explanation": "1/1 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "observedAt": "2026-09-19T03:35:50.524Z",
-          "dueAt": "2026-09-26T03:35:50.524Z"
+          "observedAt": "2026-09-27T14:02:32.564Z",
+          "dueAt": "2026-10-04T14:02:32.564Z"
         }
       ],
       "issues": [
@@ -124388,11 +124069,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "0/1 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -124434,10 +124110,10 @@
       "sources": [
         {
           "url": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:35:50.524Z",
-          "fetchedAt": "2026-09-19T03:35:50.524Z",
-          "nextCheckAt": "2026-09-26T03:35:50.524Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:32.564Z",
+          "fetchedAt": "2026-09-27T14:02:32.564Z",
+          "nextCheckAt": "2026-10-04T14:02:32.564Z"
         }
       ]
     },
@@ -145219,7 +144895,7 @@
       "formats": [
         "audiobook"
       ],
-      "publicationStatus": "unknown",
+      "publicationStatus": "released",
       "completeness": {
         "percent": 90,
         "earned": 9,
@@ -145227,10 +144903,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 56,
-        "earned": 5,
+        "percent": 67,
+        "earned": 6,
         "possible": 9,
-        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "6/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -145240,7 +144916,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://tomlitrpg.com/book/the-grand-game/",
-          "observedAt": "2026-09-19T03:35:48.902Z",
+          "observedAt": "2026-09-27T14:02:41.733Z",
           "dueAt": null
         },
         {
@@ -145406,12 +145082,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://tomlitrpg.com/book/the-grand-game/",
-          "observedAt": "2026-09-19T03:35:48.902Z",
-          "dueAt": "2026-09-26T03:35:48.902Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B09D8K6HHB",
+          "observedAt": "2026-09-19T04:09:31.814Z",
+          "dueAt": "2026-12-18T04:09:31.814Z"
         }
       ],
       "issues": [
@@ -145434,11 +145110,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -145487,10 +145158,10 @@
         },
         {
           "url": "https://tomlitrpg.com/book/the-grand-game/",
-          "status": "stale",
-          "checkedAt": "2026-09-19T03:35:48.902Z",
-          "fetchedAt": "2026-09-19T03:35:48.902Z",
-          "nextCheckAt": "2026-09-26T03:35:48.902Z"
+          "status": "present",
+          "checkedAt": "2026-09-27T14:02:41.733Z",
+          "fetchedAt": "2026-09-27T14:02:41.733Z",
+          "nextCheckAt": "2026-12-26T14:02:41.733Z"
         }
       ]
     },
@@ -145503,7 +145174,7 @@
       "formats": [
         "audiobook"
       ],
-      "publicationStatus": "unknown",
+      "publicationStatus": "released",
       "completeness": {
         "percent": 80,
         "earned": 8,
@@ -145797,7 +145468,7 @@
       "formats": [
         "audiobook"
       ],
-      "publicationStatus": "unknown",
+      "publicationStatus": "released",
       "completeness": {
         "percent": 80,
         "earned": 8,
@@ -146091,7 +145762,7 @@
       "formats": [
         "audiobook"
       ],
-      "publicationStatus": "unknown",
+      "publicationStatus": "released",
       "completeness": {
         "percent": 80,
         "earned": 8,
@@ -146385,7 +146056,7 @@
       "formats": [
         "audiobook"
       ],
-      "publicationStatus": "unknown",
+      "publicationStatus": "released",
       "completeness": {
         "percent": 80,
         "earned": 8,
@@ -146679,7 +146350,7 @@
       "formats": [
         "audiobook"
       ],
-      "publicationStatus": "unknown",
+      "publicationStatus": "released",
       "completeness": {
         "percent": 80,
         "earned": 8,
@@ -146973,7 +146644,7 @@
       "formats": [
         "audiobook"
       ],
-      "publicationStatus": "unknown",
+      "publicationStatus": "released",
       "completeness": {
         "percent": 80,
         "earned": 8,
@@ -147267,7 +146938,7 @@
       "formats": [
         "audiobook"
       ],
-      "publicationStatus": "unknown",
+      "publicationStatus": "released",
       "completeness": {
         "percent": 80,
         "earned": 8,
