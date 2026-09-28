@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T14:04:08.751Z",
+  "generatedAt": "2026-09-28T16:49:49.927Z",
   "definitions": {
     "completeness": "Data presence, not bibliography completeness: equal weight for source-description, original-summary, extracted-metadata, jev-assessment, audio-edition, audio-date, narrator, runtime, cover-asset, reader-sample. Stale or unverified retained values can earn presence credit; corrupt unusable values cannot.",
     "evidenceQuality": "Current evidence/review checks, never a rating of a book: equal weight for source-description, reviewed-metadata, audio-verified, audio-date, cover-observation, reader-adequacy, reader-traits, reader-observation, source-freshness. Only present/current checks earn credit. No model confidence is converted into a quality score.",
@@ -18,10 +18,10 @@
   },
   "totals": {
     "series": 88,
-    "works": 542,
-    "confirmedAudioWorks": 512,
-    "verifiedAudioDates": 509,
-    "coverAssets": 134,
+    "works": 545,
+    "confirmedAudioWorks": 513,
+    "verifiedAudioDates": 510,
+    "coverAssets": 140,
     "reviewedMetadata": 84,
     "adequateReaderSamples": 29,
     "meanCompleteness": 81,
@@ -231,8 +231,8 @@
           "available": true,
           "explanation": "10/10 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/1-lifesteal/",
-          "observedAt": "2026-09-20T18:29:12.897Z",
-          "dueAt": "2026-09-27T18:29:12.897Z"
+          "observedAt": "2026-09-28T16:48:16.100Z",
+          "dueAt": "2026-10-05T16:48:16.100Z"
         },
         {
           "id": "series-summary",
@@ -362,9 +362,9 @@
         {
           "url": "https://aethonbooks.com/book-series/1-lifesteal/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:29:12.897Z",
-          "fetchedAt": "2026-09-20T18:29:12.897Z",
-          "nextCheckAt": "2026-09-27T18:29:12.897Z"
+          "checkedAt": "2026-09-28T16:48:16.100Z",
+          "fetchedAt": "2026-09-28T16:48:16.100Z",
+          "nextCheckAt": "2026-10-05T16:48:16.100Z"
         },
         {
           "url": "https://aethonbooks.com/book/1-lifesteal-2/",
@@ -874,21 +874,22 @@
         "work-a-dragon-idols-reincarnation-tale-3",
         "work-a-dragon-idols-reincarnation-tale-4",
         "work-a-dragon-idols-reincarnation-tale-5",
-        "work-a-dragon-idols-reincarnation-tale-6"
+        "work-a-dragon-idols-reincarnation-tale-6",
+        "work-a-dragon-idols-reincarnation-tale-7"
       ],
-      "knownWorks": 6,
-      "confirmedAudioWorks": 6,
+      "knownWorks": 7,
+      "confirmedAudioWorks": 7,
       "completeness": {
-        "percent": 89,
-        "earned": 56,
-        "possible": 63,
-        "explanation": "56/63 equally weighted checks across all 6 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "percent": 88,
+        "earned": 64,
+        "possible": 73,
+        "explanation": "64/73 equally weighted checks across all 7 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
-        "percent": 57,
-        "earned": 32,
-        "possible": 56,
-        "explanation": "32/56 equally weighted checks across all 6 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "percent": 55,
+        "earned": 36,
+        "possible": 65,
+        "explanation": "36/65 equally weighted checks across all 7 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -896,7 +897,7 @@
           "label": "Source description",
           "status": "present",
           "available": true,
-          "explanation": "6/6 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "7/7 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -906,7 +907,7 @@
           "label": "Original summary",
           "status": "present",
           "available": true,
-          "explanation": "6/6 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "7/7 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -916,7 +917,7 @@
           "label": "Extracted metadata",
           "status": "present",
           "available": true,
-          "explanation": "6/6 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "7/7 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -926,7 +927,7 @@
           "label": "Reviewed metadata",
           "status": "missing",
           "available": true,
-          "explanation": "1/6 works are present/current; 5 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "1/7 works are present/current; 6 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -936,7 +937,7 @@
           "label": "Jev metadata assessment",
           "status": "present",
           "available": true,
-          "explanation": "6/6 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "7/7 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -946,7 +947,7 @@
           "label": "Audio edition record",
           "status": "present",
           "available": true,
-          "explanation": "6/6 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "7/7 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -956,7 +957,7 @@
           "label": "Verified full audiobook",
           "status": "present",
           "available": true,
-          "explanation": "6/6 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "7/7 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -966,7 +967,7 @@
           "label": "Confirmed audio date",
           "status": "present",
           "available": true,
-          "explanation": "6/6 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "7/7 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -976,7 +977,7 @@
           "label": "Recording narrator",
           "status": "present",
           "available": true,
-          "explanation": "6/6 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "7/7 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -986,7 +987,7 @@
           "label": "Recording duration",
           "status": "present",
           "available": true,
-          "explanation": "6/6 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "7/7 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -996,7 +997,7 @@
           "label": "Cover link",
           "status": "present",
           "available": true,
-          "explanation": "6/6 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "7/7 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -1004,9 +1005,9 @@
         {
           "id": "cover-asset",
           "label": "Cached cover asset",
-          "status": "present",
+          "status": "missing",
           "available": true,
-          "explanation": "6/6 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "6/7 works are present/current; 1 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -1014,9 +1015,9 @@
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "present",
+          "status": "missing",
           "available": true,
-          "explanation": "6/6 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "6/7 works are present/current; 1 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -1026,7 +1027,7 @@
           "label": "Usable reader comments",
           "status": "missing",
           "available": false,
-          "explanation": "0/6 works are present/current; 6 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/7 works are present/current; 7 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -1036,7 +1037,7 @@
           "label": "Reader sample adequacy",
           "status": "missing",
           "available": false,
-          "explanation": "0/6 works are present/current; 6 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/7 works are present/current; 7 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -1046,7 +1047,7 @@
           "label": "Current reader traits",
           "status": "missing",
           "available": false,
-          "explanation": "0/6 works are present/current; 6 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/7 works are present/current; 7 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -1056,7 +1057,7 @@
           "label": "Publishable reader context",
           "status": "missing",
           "available": false,
-          "explanation": "0/6 works are present/current; 6 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/7 works are present/current; 7 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -1066,10 +1067,10 @@
           "label": "Source checks",
           "status": "present",
           "available": true,
-          "explanation": "13/13 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "explanation": "15/15 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/a-dragon-idols-reincarnation-tale/",
-          "observedAt": "2026-09-20T18:26:34.499Z",
-          "dueAt": "2026-09-27T18:26:34.499Z"
+          "observedAt": "2026-09-28T16:47:43.905Z",
+          "dueAt": "2026-10-05T16:47:43.905Z"
         },
         {
           "id": "series-summary",
@@ -1116,27 +1117,37 @@
         {
           "code": "reviewed-metadata:missing",
           "status": "missing",
-          "message": "Reviewed metadata: 5/6 works are missing."
+          "message": "Reviewed metadata: 6/7 works are missing."
+        },
+        {
+          "code": "cover-asset:missing",
+          "status": "missing",
+          "message": "Cached cover asset: 1/7 works are missing."
+        },
+        {
+          "code": "cover-observation:missing",
+          "status": "missing",
+          "message": "Cover observation: 1/7 works are missing."
         },
         {
           "code": "reader-sample:missing",
           "status": "missing",
-          "message": "Usable reader comments: 6/6 works are missing."
+          "message": "Usable reader comments: 7/7 works are missing."
         },
         {
           "code": "reader-adequacy:missing",
           "status": "missing",
-          "message": "Reader sample adequacy: 6/6 works are missing."
+          "message": "Reader sample adequacy: 7/7 works are missing."
         },
         {
           "code": "reader-traits:missing",
           "status": "missing",
-          "message": "Current reader traits: 6/6 works are missing."
+          "message": "Current reader traits: 7/7 works are missing."
         },
         {
           "code": "reader-observation:missing",
           "status": "missing",
-          "message": "Publishable reader context: 6/6 works are missing."
+          "message": "Publishable reader context: 7/7 works are missing."
         },
         {
           "code": "bibliography",
@@ -1159,9 +1170,16 @@
         {
           "url": "https://aethonbooks.com/book-series/a-dragon-idols-reincarnation-tale/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:26:34.499Z",
-          "fetchedAt": "2026-09-20T18:26:34.499Z",
-          "nextCheckAt": "2026-09-27T18:26:34.499Z"
+          "checkedAt": "2026-09-28T16:47:43.905Z",
+          "fetchedAt": "2026-09-28T16:47:43.905Z",
+          "nextCheckAt": "2026-10-05T16:47:43.905Z"
+        },
+        {
+          "url": "https://aethonbooks.com/book/__trashed/",
+          "status": "present",
+          "checkedAt": "2026-09-28T16:47:45.863Z",
+          "fetchedAt": "2026-09-28T16:47:45.863Z",
+          "nextCheckAt": "2026-12-27T16:47:45.863Z"
         },
         {
           "url": "https://aethonbooks.com/book/aurora-rises/",
@@ -1246,6 +1264,13 @@
           "checkedAt": "2026-09-20T18:26:45.467Z",
           "fetchedAt": "2026-09-20T18:26:45.467Z",
           "nextCheckAt": "2026-12-19T18:26:45.467Z"
+        },
+        {
+          "url": "https://api.audible.com/1.0/catalog/products/B0HHB4HYZC",
+          "status": "present",
+          "checkedAt": "2026-09-28T16:48:20.652Z",
+          "fetchedAt": "2026-09-28T16:48:20.652Z",
+          "nextCheckAt": "2026-10-05T16:48:20.652Z"
         }
       ]
     },
@@ -1450,8 +1475,8 @@
           "available": true,
           "explanation": "7/7 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/a-dream-of-wings-flame/",
-          "observedAt": "2026-09-20T18:26:51.991Z",
-          "dueAt": "2026-09-27T18:26:51.991Z"
+          "observedAt": "2026-09-28T16:47:47.670Z",
+          "dueAt": "2026-10-05T16:47:47.670Z"
         },
         {
           "id": "series-summary",
@@ -1541,9 +1566,9 @@
         {
           "url": "https://aethonbooks.com/book-series/a-dream-of-wings-flame/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:26:51.991Z",
-          "fetchedAt": "2026-09-20T18:26:51.991Z",
-          "nextCheckAt": "2026-09-27T18:26:51.991Z"
+          "checkedAt": "2026-09-28T16:47:47.670Z",
+          "fetchedAt": "2026-09-28T16:47:47.670Z",
+          "nextCheckAt": "2026-10-05T16:47:47.670Z"
         },
         {
           "url": "https://aethonbooks.com/book/a-dream-of-wings-flame/",
@@ -1789,8 +1814,8 @@
           "available": true,
           "explanation": "7/7 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/a-summoner-awakens/",
-          "observedAt": "2026-09-20T18:26:59.868Z",
-          "dueAt": "2026-09-27T18:26:59.868Z"
+          "observedAt": "2026-09-28T16:47:48.891Z",
+          "dueAt": "2026-10-05T16:47:48.891Z"
         },
         {
           "id": "series-summary",
@@ -1895,9 +1920,9 @@
         {
           "url": "https://aethonbooks.com/book-series/a-summoner-awakens/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:26:59.868Z",
-          "fetchedAt": "2026-09-20T18:26:59.868Z",
-          "nextCheckAt": "2026-09-27T18:26:59.868Z"
+          "checkedAt": "2026-09-28T16:47:48.891Z",
+          "fetchedAt": "2026-09-28T16:47:48.891Z",
+          "nextCheckAt": "2026-10-05T16:47:48.891Z"
         },
         {
           "url": "https://aethonbooks.com/book/ascension/",
@@ -1930,9 +1955,9 @@
         {
           "url": "https://soundbooththeater.com/series/a-summoner-awakens/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:27:00.122Z",
-          "fetchedAt": "2026-09-20T18:27:00.122Z",
-          "nextCheckAt": "2026-09-27T18:27:00.122Z"
+          "checkedAt": "2026-09-28T16:47:49.037Z",
+          "fetchedAt": "2026-09-28T16:47:49.037Z",
+          "nextCheckAt": "2026-10-05T16:47:49.037Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/a-summoner-awakens-book-2-ascension/",
@@ -1955,21 +1980,22 @@
         "work-accidental-champion-5",
         "work-accidental-champion-6",
         "work-accidental-champion-7",
-        "work-accidental-champion-8"
+        "work-accidental-champion-8",
+        "work-accidental-champion-9"
       ],
-      "knownWorks": 8,
+      "knownWorks": 9,
       "confirmedAudioWorks": 5,
       "completeness": {
-        "percent": 65,
-        "earned": 54,
-        "possible": 83,
-        "explanation": "54/83 equally weighted checks across all 8 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "percent": 62,
+        "earned": 58,
+        "possible": 93,
+        "explanation": "58/93 equally weighted checks across all 9 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
-        "percent": 35,
-        "earned": 26,
-        "possible": 74,
-        "explanation": "26/74 equally weighted checks across all 8 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "percent": 34,
+        "earned": 28,
+        "possible": 83,
+        "explanation": "28/83 equally weighted checks across all 9 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -1977,7 +2003,7 @@
           "label": "Source description",
           "status": "present",
           "available": true,
-          "explanation": "8/8 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "9/9 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -1987,7 +2013,7 @@
           "label": "Original summary",
           "status": "present",
           "available": true,
-          "explanation": "8/8 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "9/9 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -1997,7 +2023,7 @@
           "label": "Extracted metadata",
           "status": "present",
           "available": true,
-          "explanation": "8/8 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "9/9 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2007,7 +2033,7 @@
           "label": "Reviewed metadata",
           "status": "missing",
           "available": false,
-          "explanation": "0/8 works are present/current; 8 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/9 works are present/current; 9 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2017,7 +2043,7 @@
           "label": "Jev metadata assessment",
           "status": "present",
           "available": true,
-          "explanation": "8/8 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "9/9 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2027,7 +2053,7 @@
           "label": "Audio edition record",
           "status": "missing",
           "available": true,
-          "explanation": "5/8 works are present/current; 3 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "5/9 works are present/current; 4 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2037,7 +2063,7 @@
           "label": "Verified full audiobook",
           "status": "unknown",
           "available": true,
-          "explanation": "5/8 works are present/current; 0 missing, 3 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "5/9 works are present/current; 0 missing, 4 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2047,7 +2073,7 @@
           "label": "Confirmed audio date",
           "status": "missing",
           "available": true,
-          "explanation": "5/8 works are present/current; 3 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "5/9 works are present/current; 4 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2057,7 +2083,7 @@
           "label": "Recording narrator",
           "status": "missing",
           "available": true,
-          "explanation": "5/8 works are present/current; 3 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "5/9 works are present/current; 4 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2067,7 +2093,7 @@
           "label": "Recording duration",
           "status": "missing",
           "available": true,
-          "explanation": "5/8 works are present/current; 3 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "5/9 works are present/current; 4 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2077,7 +2103,7 @@
           "label": "Cover link",
           "status": "present",
           "available": true,
-          "explanation": "8/8 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "9/9 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2087,7 +2113,7 @@
           "label": "Cached cover asset",
           "status": "missing",
           "available": false,
-          "explanation": "0/8 works are present/current; 8 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/9 works are present/current; 9 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2097,7 +2123,7 @@
           "label": "Cover observation",
           "status": "missing",
           "available": false,
-          "explanation": "0/8 works are present/current; 8 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/9 works are present/current; 9 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2107,7 +2133,7 @@
           "label": "Usable reader comments",
           "status": "missing",
           "available": false,
-          "explanation": "0/8 works are present/current; 8 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/9 works are present/current; 9 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2117,7 +2143,7 @@
           "label": "Reader sample adequacy",
           "status": "missing",
           "available": false,
-          "explanation": "0/8 works are present/current; 8 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/9 works are present/current; 9 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2127,7 +2153,7 @@
           "label": "Current reader traits",
           "status": "missing",
           "available": false,
-          "explanation": "0/8 works are present/current; 8 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/9 works are present/current; 9 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2137,7 +2163,7 @@
           "label": "Publishable reader context",
           "status": "missing",
           "available": false,
-          "explanation": "0/8 works are present/current; 8 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/9 works are present/current; 9 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2147,10 +2173,10 @@
           "label": "Source checks",
           "status": "present",
           "available": true,
-          "explanation": "14/14 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "explanation": "15/15 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/accidental-champion/",
-          "observedAt": "2026-09-20T18:28:40.430Z",
-          "dueAt": "2026-09-27T18:28:40.430Z"
+          "observedAt": "2026-09-28T16:48:09.988Z",
+          "dueAt": "2026-10-05T16:48:09.988Z"
         },
         {
           "id": "series-summary",
@@ -2197,62 +2223,62 @@
         {
           "code": "reviewed-metadata:missing",
           "status": "missing",
-          "message": "Reviewed metadata: 8/8 works are missing."
+          "message": "Reviewed metadata: 9/9 works are missing."
         },
         {
           "code": "audio-edition:missing",
           "status": "missing",
-          "message": "Audio edition record: 3/8 works are missing."
+          "message": "Audio edition record: 4/9 works are missing."
         },
         {
           "code": "audio-verified:unknown",
           "status": "unknown",
-          "message": "Verified full audiobook: 3/8 works are unknown."
+          "message": "Verified full audiobook: 4/9 works are unknown."
         },
         {
           "code": "audio-date:missing",
           "status": "missing",
-          "message": "Confirmed audio date: 3/8 works are missing."
+          "message": "Confirmed audio date: 4/9 works are missing."
         },
         {
           "code": "narrator:missing",
           "status": "missing",
-          "message": "Recording narrator: 3/8 works are missing."
+          "message": "Recording narrator: 4/9 works are missing."
         },
         {
           "code": "runtime:missing",
           "status": "missing",
-          "message": "Recording duration: 3/8 works are missing."
+          "message": "Recording duration: 4/9 works are missing."
         },
         {
           "code": "cover-asset:missing",
           "status": "missing",
-          "message": "Cached cover asset: 8/8 works are missing."
+          "message": "Cached cover asset: 9/9 works are missing."
         },
         {
           "code": "cover-observation:missing",
           "status": "missing",
-          "message": "Cover observation: 8/8 works are missing."
+          "message": "Cover observation: 9/9 works are missing."
         },
         {
           "code": "reader-sample:missing",
           "status": "missing",
-          "message": "Usable reader comments: 8/8 works are missing."
+          "message": "Usable reader comments: 9/9 works are missing."
         },
         {
           "code": "reader-adequacy:missing",
           "status": "missing",
-          "message": "Reader sample adequacy: 8/8 works are missing."
+          "message": "Reader sample adequacy: 9/9 works are missing."
         },
         {
           "code": "reader-traits:missing",
           "status": "missing",
-          "message": "Current reader traits: 8/8 works are missing."
+          "message": "Current reader traits: 9/9 works are missing."
         },
         {
           "code": "reader-observation:missing",
           "status": "missing",
-          "message": "Publishable reader context: 8/8 works are missing."
+          "message": "Publishable reader context: 9/9 works are missing."
         },
         {
           "code": "series-reviewed-metadata",
@@ -2280,9 +2306,9 @@
         {
           "url": "https://aethonbooks.com/book-series/accidental-champion/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:28:40.430Z",
-          "fetchedAt": "2026-09-20T18:28:40.430Z",
-          "nextCheckAt": "2026-09-27T18:28:40.430Z"
+          "checkedAt": "2026-09-28T16:48:09.988Z",
+          "fetchedAt": "2026-09-28T16:48:09.988Z",
+          "nextCheckAt": "2026-10-05T16:48:09.988Z"
         },
         {
           "url": "https://aethonbooks.com/book/accidental-champion-2/",
@@ -2334,6 +2360,13 @@
           "nextCheckAt": "2026-12-19T18:28:50.642Z"
         },
         {
+          "url": "https://aethonbooks.com/book/accidental-champion-9/",
+          "status": "present",
+          "checkedAt": "2026-09-28T16:48:11.209Z",
+          "fetchedAt": "2026-09-28T16:48:11.209Z",
+          "nextCheckAt": "2026-12-27T16:48:11.209Z"
+        },
+        {
           "url": "https://aethonbooks.com/book/accidental-champion/",
           "status": "present",
           "checkedAt": "2026-09-20T18:28:43.597Z",
@@ -2382,21 +2415,22 @@
       "title": "Accidental Healer",
       "author": "Austyn Vickers",
       "workIds": [
-        "work-accidental-healer-1"
+        "work-accidental-healer-1",
+        "work-accidental-healer-2"
       ],
-      "knownWorks": 1,
+      "knownWorks": 2,
       "confirmedAudioWorks": 1,
       "completeness": {
-        "percent": 77,
-        "earned": 10,
-        "possible": 13,
-        "explanation": "10/13 equally weighted checks across all 1 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "percent": 61,
+        "earned": 14,
+        "possible": 23,
+        "explanation": "14/23 equally weighted checks across all 2 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
-        "percent": 36,
-        "earned": 4,
-        "possible": 11,
-        "explanation": "4/11 equally weighted checks across all 1 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "percent": 30,
+        "earned": 6,
+        "possible": 20,
+        "explanation": "6/20 equally weighted checks across all 2 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -2404,7 +2438,7 @@
           "label": "Source description",
           "status": "present",
           "available": true,
-          "explanation": "1/1 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "2/2 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2414,7 +2448,7 @@
           "label": "Original summary",
           "status": "present",
           "available": true,
-          "explanation": "1/1 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "2/2 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2424,7 +2458,7 @@
           "label": "Extracted metadata",
           "status": "present",
           "available": true,
-          "explanation": "1/1 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "2/2 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2434,7 +2468,7 @@
           "label": "Reviewed metadata",
           "status": "missing",
           "available": false,
-          "explanation": "0/1 works are present/current; 1 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/2 works are present/current; 2 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2444,7 +2478,7 @@
           "label": "Jev metadata assessment",
           "status": "present",
           "available": true,
-          "explanation": "1/1 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "2/2 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2452,9 +2486,9 @@
         {
           "id": "audio-edition",
           "label": "Audio edition record",
-          "status": "present",
+          "status": "missing",
           "available": true,
-          "explanation": "1/1 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "1/2 works are present/current; 1 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2462,9 +2496,9 @@
         {
           "id": "audio-verified",
           "label": "Verified full audiobook",
-          "status": "present",
+          "status": "unknown",
           "available": true,
-          "explanation": "1/1 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "1/2 works are present/current; 0 missing, 1 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2472,9 +2506,9 @@
         {
           "id": "audio-date",
           "label": "Confirmed audio date",
-          "status": "present",
+          "status": "missing",
           "available": true,
-          "explanation": "1/1 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "1/2 works are present/current; 1 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2482,9 +2516,9 @@
         {
           "id": "narrator",
           "label": "Recording narrator",
-          "status": "present",
+          "status": "missing",
           "available": true,
-          "explanation": "1/1 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "1/2 works are present/current; 1 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2492,9 +2526,9 @@
         {
           "id": "runtime",
           "label": "Recording duration",
-          "status": "present",
+          "status": "missing",
           "available": true,
-          "explanation": "1/1 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "1/2 works are present/current; 1 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2504,7 +2538,7 @@
           "label": "Cover link",
           "status": "present",
           "available": true,
-          "explanation": "1/1 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "2/2 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2514,7 +2548,7 @@
           "label": "Cached cover asset",
           "status": "missing",
           "available": false,
-          "explanation": "0/1 works are present/current; 1 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/2 works are present/current; 2 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2524,7 +2558,7 @@
           "label": "Cover observation",
           "status": "missing",
           "available": false,
-          "explanation": "0/1 works are present/current; 1 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/2 works are present/current; 2 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2534,7 +2568,7 @@
           "label": "Usable reader comments",
           "status": "missing",
           "available": false,
-          "explanation": "0/1 works are present/current; 1 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/2 works are present/current; 2 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2544,7 +2578,7 @@
           "label": "Reader sample adequacy",
           "status": "missing",
           "available": false,
-          "explanation": "0/1 works are present/current; 1 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/2 works are present/current; 2 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2554,7 +2588,7 @@
           "label": "Current reader traits",
           "status": "missing",
           "available": false,
-          "explanation": "0/1 works are present/current; 1 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/2 works are present/current; 2 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2564,7 +2598,7 @@
           "label": "Publishable reader context",
           "status": "missing",
           "available": false,
-          "explanation": "0/1 works are present/current; 1 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/2 works are present/current; 2 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -2574,10 +2608,10 @@
           "label": "Source checks",
           "status": "present",
           "available": true,
-          "explanation": "3/3 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "explanation": "4/4 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/accidental-healer/",
-          "observedAt": "2026-09-20T18:29:23.876Z",
-          "dueAt": "2026-09-27T18:29:23.876Z"
+          "observedAt": "2026-09-28T16:48:17.322Z",
+          "dueAt": "2026-10-05T16:48:17.322Z"
         },
         {
           "id": "series-summary",
@@ -2624,37 +2658,62 @@
         {
           "code": "reviewed-metadata:missing",
           "status": "missing",
-          "message": "Reviewed metadata: 1/1 works are missing."
+          "message": "Reviewed metadata: 2/2 works are missing."
+        },
+        {
+          "code": "audio-edition:missing",
+          "status": "missing",
+          "message": "Audio edition record: 1/2 works are missing."
+        },
+        {
+          "code": "audio-verified:unknown",
+          "status": "unknown",
+          "message": "Verified full audiobook: 1/2 works are unknown."
+        },
+        {
+          "code": "audio-date:missing",
+          "status": "missing",
+          "message": "Confirmed audio date: 1/2 works are missing."
+        },
+        {
+          "code": "narrator:missing",
+          "status": "missing",
+          "message": "Recording narrator: 1/2 works are missing."
+        },
+        {
+          "code": "runtime:missing",
+          "status": "missing",
+          "message": "Recording duration: 1/2 works are missing."
         },
         {
           "code": "cover-asset:missing",
           "status": "missing",
-          "message": "Cached cover asset: 1/1 works are missing."
+          "message": "Cached cover asset: 2/2 works are missing."
         },
         {
           "code": "cover-observation:missing",
           "status": "missing",
-          "message": "Cover observation: 1/1 works are missing."
+          "message": "Cover observation: 2/2 works are missing."
         },
         {
           "code": "reader-sample:missing",
           "status": "missing",
-          "message": "Usable reader comments: 1/1 works are missing."
+          "message": "Usable reader comments: 2/2 works are missing."
         },
         {
           "code": "reader-adequacy:missing",
           "status": "missing",
-          "message": "Reader sample adequacy: 1/1 works are missing."
+          "message": "Reader sample adequacy: 2/2 works are missing."
         },
         {
           "code": "reader-traits:missing",
           "status": "missing",
-          "message": "Current reader traits: 1/1 works are missing."
+          "message": "Current reader traits: 2/2 works are missing."
         },
         {
           "code": "reader-observation:missing",
           "status": "missing",
-          "message": "Publishable reader context: 1/1 works are missing."
+          "message": "Publishable reader context: 2/2 works are missing."
         },
         {
           "code": "series-reviewed-metadata",
@@ -2682,9 +2741,16 @@
         {
           "url": "https://aethonbooks.com/book-series/accidental-healer/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:29:23.876Z",
-          "fetchedAt": "2026-09-20T18:29:23.876Z",
-          "nextCheckAt": "2026-09-27T18:29:23.876Z"
+          "checkedAt": "2026-09-28T16:48:17.322Z",
+          "fetchedAt": "2026-09-28T16:48:17.322Z",
+          "nextCheckAt": "2026-10-05T16:48:17.322Z"
+        },
+        {
+          "url": "https://aethonbooks.com/book/accidental-healer-2/",
+          "status": "present",
+          "checkedAt": "2026-09-28T16:48:18.542Z",
+          "fetchedAt": "2026-09-28T16:48:18.542Z",
+          "nextCheckAt": "2026-12-27T16:48:18.542Z"
         },
         {
           "url": "https://aethonbooks.com/book/accidental-healer/",
@@ -2903,8 +2969,8 @@
           "available": true,
           "explanation": "7/7 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/alan-buys-the-universe/",
-          "observedAt": "2026-09-20T18:28:59.419Z",
-          "dueAt": "2026-09-27T18:28:59.419Z"
+          "observedAt": "2026-09-28T16:48:13.055Z",
+          "dueAt": "2026-10-05T16:48:13.055Z"
         },
         {
           "id": "series-summary",
@@ -2999,9 +3065,9 @@
         {
           "url": "https://aethonbooks.com/book-series/alan-buys-the-universe/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:28:59.419Z",
-          "fetchedAt": "2026-09-20T18:28:59.419Z",
-          "nextCheckAt": "2026-09-27T18:28:59.419Z"
+          "checkedAt": "2026-09-28T16:48:13.055Z",
+          "fetchedAt": "2026-09-28T16:48:13.055Z",
+          "nextCheckAt": "2026-10-05T16:48:13.055Z"
         },
         {
           "url": "https://aethonbooks.com/book/alan-buys-the-universe-2/",
@@ -4027,8 +4093,8 @@
           "available": true,
           "explanation": "12/12 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/an-outcast-in-another-world/",
-          "observedAt": "2026-09-20T18:27:06.039Z",
-          "dueAt": "2026-09-27T18:27:06.039Z"
+          "observedAt": "2026-09-28T16:47:50.713Z",
+          "dueAt": "2026-10-05T16:47:50.713Z"
         },
         {
           "id": "series-summary",
@@ -4158,9 +4224,9 @@
         {
           "url": "https://aethonbooks.com/book-series/an-outcast-in-another-world/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:27:06.039Z",
-          "fetchedAt": "2026-09-20T18:27:06.039Z",
-          "nextCheckAt": "2026-09-27T18:27:06.039Z"
+          "checkedAt": "2026-09-28T16:47:50.713Z",
+          "fetchedAt": "2026-09-28T16:47:50.713Z",
+          "nextCheckAt": "2026-10-05T16:47:50.713Z"
         },
         {
           "url": "https://aethonbooks.com/book/ascendant-insanity/",
@@ -4441,8 +4507,8 @@
           "available": true,
           "explanation": "5/5 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/apocalypse-cultivation/",
-          "observedAt": "2026-09-20T18:27:22.879Z",
-          "dueAt": "2026-09-27T18:27:22.879Z"
+          "observedAt": "2026-09-28T16:47:52.505Z",
+          "dueAt": "2026-10-05T16:47:52.505Z"
         },
         {
           "id": "series-summary",
@@ -4542,9 +4608,9 @@
         {
           "url": "https://aethonbooks.com/book-series/apocalypse-cultivation/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:27:22.879Z",
-          "fetchedAt": "2026-09-20T18:27:22.879Z",
-          "nextCheckAt": "2026-09-27T18:27:22.879Z"
+          "checkedAt": "2026-09-28T16:47:52.505Z",
+          "fetchedAt": "2026-09-28T16:47:52.505Z",
+          "nextCheckAt": "2026-10-05T16:47:52.505Z"
         },
         {
           "url": "https://aethonbooks.com/book/savage-webs/",
@@ -5176,8 +5242,8 @@
           "available": true,
           "explanation": "9/9 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/apocalypse-tamer/",
-          "observedAt": "2026-09-20T18:27:26.783Z",
-          "dueAt": "2026-09-27T18:27:26.783Z"
+          "observedAt": "2026-09-28T16:47:54.298Z",
+          "dueAt": "2026-10-05T16:47:54.298Z"
         },
         {
           "id": "series-summary",
@@ -5282,9 +5348,9 @@
         {
           "url": "https://aethonbooks.com/book-series/apocalypse-tamer/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:27:26.783Z",
-          "fetchedAt": "2026-09-20T18:27:26.783Z",
-          "nextCheckAt": "2026-09-27T18:27:26.783Z"
+          "checkedAt": "2026-09-28T16:47:54.298Z",
+          "fetchedAt": "2026-09-28T16:47:54.298Z",
+          "nextCheckAt": "2026-10-05T16:47:54.298Z"
         },
         {
           "url": "https://aethonbooks.com/book/apocalypse-tamer-2/",
@@ -5944,8 +6010,8 @@
           "available": true,
           "explanation": "5/5 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/arcane-chef/",
-          "observedAt": "2026-09-20T18:29:26.351Z",
-          "dueAt": "2026-09-27T18:29:26.351Z"
+          "observedAt": "2026-09-28T16:48:20.353Z",
+          "dueAt": "2026-10-05T16:48:20.353Z"
         },
         {
           "id": "series-summary",
@@ -6050,9 +6116,9 @@
         {
           "url": "https://aethonbooks.com/book-series/arcane-chef/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:29:26.351Z",
-          "fetchedAt": "2026-09-20T18:29:26.351Z",
-          "nextCheckAt": "2026-09-27T18:29:26.351Z"
+          "checkedAt": "2026-09-28T16:48:20.353Z",
+          "fetchedAt": "2026-09-28T16:48:20.353Z",
+          "nextCheckAt": "2026-10-05T16:48:20.353Z"
         },
         {
           "url": "https://aethonbooks.com/book/arcane-chef-2/",
@@ -6078,9 +6144,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0HDF5J23Z",
           "status": "present",
-          "checkedAt": "2026-09-20T18:29:29.686Z",
-          "fetchedAt": "2026-09-20T18:29:29.686Z",
-          "nextCheckAt": "2026-09-27T18:29:29.686Z"
+          "checkedAt": "2026-09-28T16:48:21.903Z",
+          "fetchedAt": "2026-09-28T16:48:21.903Z",
+          "nextCheckAt": "2026-10-05T16:48:21.903Z"
         }
       ]
     },
@@ -6281,9 +6347,9 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "7/7 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "explanation": "6/7 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/arcane-veterinarian/",
           "observedAt": "2026-09-20T18:29:31.061Z",
           "dueAt": "2026-09-27T18:29:31.061Z"
@@ -6366,6 +6432,11 @@
           "message": "Publishable reader context: 3/3 works are missing."
         },
         {
+          "code": "source-freshness",
+          "status": "stale",
+          "message": "6/7 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+        },
+        {
           "code": "series-reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
@@ -6390,7 +6461,7 @@
       "sources": [
         {
           "url": "https://aethonbooks.com/book-series/arcane-veterinarian/",
-          "status": "present",
+          "status": "stale",
           "checkedAt": "2026-09-20T18:29:31.061Z",
           "fetchedAt": "2026-09-20T18:29:31.061Z",
           "nextCheckAt": "2026-09-27T18:29:31.061Z"
@@ -6640,8 +6711,8 @@
           "available": true,
           "explanation": "5/5 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/arcanist-in-another-world/",
-          "observedAt": "2026-09-20T18:29:07.316Z",
-          "dueAt": "2026-09-27T18:29:07.316Z"
+          "observedAt": "2026-09-28T16:48:14.880Z",
+          "dueAt": "2026-10-05T16:48:14.880Z"
         },
         {
           "id": "series-summary",
@@ -6771,9 +6842,9 @@
         {
           "url": "https://aethonbooks.com/book-series/arcanist-in-another-world/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:29:07.316Z",
-          "fetchedAt": "2026-09-20T18:29:07.316Z",
-          "nextCheckAt": "2026-09-27T18:29:07.316Z"
+          "checkedAt": "2026-09-28T16:48:14.880Z",
+          "fetchedAt": "2026-09-28T16:48:14.880Z",
+          "nextCheckAt": "2026-10-05T16:48:14.880Z"
         },
         {
           "url": "https://aethonbooks.com/book/arcanist-in-another-world-2/",
@@ -7006,12 +7077,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "14/14 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B07KWG9LBY",
-          "observedAt": "2026-09-20T18:30:54.878Z",
-          "dueAt": "2026-12-19T18:30:54.878Z"
+          "explanation": "13/14 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://soundbooththeater.com/series/archemi-online-chronicles/",
+          "observedAt": "2026-09-20T18:30:42.111Z",
+          "dueAt": "2026-09-27T18:30:42.111Z"
         },
         {
           "id": "series-summary",
@@ -7111,6 +7182,11 @@
           "message": "Publishable reader context: 7/7 works are missing."
         },
         {
+          "code": "source-freshness",
+          "status": "stale",
+          "message": "13/14 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+        },
+        {
           "code": "series-reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
@@ -7177,7 +7253,7 @@
         },
         {
           "url": "https://soundbooththeater.com/series/archemi-online-chronicles/",
-          "status": "present",
+          "status": "stale",
           "checkedAt": "2026-09-20T18:30:42.111Z",
           "fetchedAt": "2026-09-20T18:30:42.111Z",
           "nextCheckAt": "2026-09-27T18:30:42.111Z"
@@ -7432,8 +7508,8 @@
           "available": true,
           "explanation": "3/3 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/ascend-online/",
-          "observedAt": "2026-09-20T18:27:37.894Z",
-          "dueAt": "2026-09-27T18:27:37.894Z"
+          "observedAt": "2026-09-28T16:47:56.085Z",
+          "dueAt": "2026-10-05T16:47:56.085Z"
         },
         {
           "id": "series-summary",
@@ -7523,9 +7599,9 @@
         {
           "url": "https://aethonbooks.com/book-series/ascend-online/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:27:37.894Z",
-          "fetchedAt": "2026-09-20T18:27:37.894Z",
-          "nextCheckAt": "2026-09-27T18:27:37.894Z"
+          "checkedAt": "2026-09-28T16:47:56.085Z",
+          "fetchedAt": "2026-09-28T16:47:56.085Z",
+          "nextCheckAt": "2026-10-05T16:47:56.085Z"
         },
         {
           "url": "https://aethonbooks.com/book/ascend-online/",
@@ -9073,8 +9149,8 @@
           "available": true,
           "explanation": "9/9 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/beers-and-beards/",
-          "observedAt": "2026-09-20T18:27:40.382Z",
-          "dueAt": "2026-09-27T18:27:40.382Z"
+          "observedAt": "2026-09-28T16:47:57.867Z",
+          "dueAt": "2026-10-05T16:47:57.867Z"
         },
         {
           "id": "series-summary",
@@ -9174,9 +9250,9 @@
         {
           "url": "https://aethonbooks.com/book-series/beers-and-beards/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:27:40.382Z",
-          "fetchedAt": "2026-09-20T18:27:40.382Z",
-          "nextCheckAt": "2026-09-27T18:27:40.382Z"
+          "checkedAt": "2026-09-28T16:47:57.867Z",
+          "fetchedAt": "2026-09-28T16:47:57.867Z",
+          "nextCheckAt": "2026-10-05T16:47:57.867Z"
         },
         {
           "url": "https://aethonbooks.com/book/a-brewtiful-life/",
@@ -10403,8 +10479,8 @@
           "available": true,
           "explanation": "9/9 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/blessed-time/",
-          "observedAt": "2026-09-20T18:27:51.426Z",
-          "dueAt": "2026-09-27T18:27:51.426Z"
+          "observedAt": "2026-09-28T16:47:59.679Z",
+          "dueAt": "2026-10-05T16:47:59.679Z"
         },
         {
           "id": "series-summary",
@@ -10509,9 +10585,9 @@
         {
           "url": "https://aethonbooks.com/book-series/blessed-time/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:27:51.426Z",
-          "fetchedAt": "2026-09-20T18:27:51.426Z",
-          "nextCheckAt": "2026-09-27T18:27:51.426Z"
+          "checkedAt": "2026-09-28T16:47:59.679Z",
+          "fetchedAt": "2026-09-28T16:47:59.679Z",
+          "nextCheckAt": "2026-10-05T16:47:59.679Z"
         },
         {
           "url": "https://aethonbooks.com/book/blessed-time/",
@@ -10774,8 +10850,8 @@
           "available": true,
           "explanation": "11/11 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/blood-fur/",
-          "observedAt": "2026-09-20T18:28:02.479Z",
-          "dueAt": "2026-09-27T18:28:02.479Z"
+          "observedAt": "2026-09-28T16:48:01.521Z",
+          "dueAt": "2026-10-05T16:48:01.521Z"
         },
         {
           "id": "series-summary",
@@ -10880,9 +10956,9 @@
         {
           "url": "https://aethonbooks.com/book-series/blood-fur/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:28:02.479Z",
-          "fetchedAt": "2026-09-20T18:28:02.479Z",
-          "nextCheckAt": "2026-09-27T18:28:02.479Z"
+          "checkedAt": "2026-09-28T16:48:01.521Z",
+          "fetchedAt": "2026-09-28T16:48:01.521Z",
+          "nextCheckAt": "2026-10-05T16:48:01.521Z"
         },
         {
           "url": "https://aethonbooks.com/book/the-final-sun/",
@@ -11554,8 +11630,8 @@
           "available": true,
           "explanation": "5/5 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/breaker-of-horizons/",
-          "observedAt": "2026-09-20T18:28:16.847Z",
-          "dueAt": "2026-09-27T18:28:16.847Z"
+          "observedAt": "2026-09-28T16:48:03.321Z",
+          "dueAt": "2026-10-05T16:48:03.321Z"
         },
         {
           "id": "series-summary",
@@ -11660,9 +11736,9 @@
         {
           "url": "https://aethonbooks.com/book-series/breaker-of-horizons/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:28:16.847Z",
-          "fetchedAt": "2026-09-20T18:28:16.847Z",
-          "nextCheckAt": "2026-09-27T18:28:16.847Z"
+          "checkedAt": "2026-09-28T16:48:03.321Z",
+          "fetchedAt": "2026-09-28T16:48:03.321Z",
+          "nextCheckAt": "2026-10-05T16:48:03.321Z"
         },
         {
           "url": "https://aethonbooks.com/book/breaker-of-horizons-2/",
@@ -11895,8 +11971,8 @@
           "available": true,
           "explanation": "6/6 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/butcher-of-gadobhra/",
-          "observedAt": "2026-09-20T18:28:21.426Z",
-          "dueAt": "2026-09-27T18:28:21.426Z"
+          "observedAt": "2026-09-28T16:48:05.137Z",
+          "dueAt": "2026-10-05T16:48:05.137Z"
         },
         {
           "id": "series-summary",
@@ -12026,9 +12102,9 @@
         {
           "url": "https://aethonbooks.com/book-series/butcher-of-gadobhra/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:28:21.426Z",
-          "fetchedAt": "2026-09-20T18:28:21.426Z",
-          "nextCheckAt": "2026-09-27T18:28:21.426Z"
+          "checkedAt": "2026-09-28T16:48:05.137Z",
+          "fetchedAt": "2026-09-28T16:48:05.137Z",
+          "nextCheckAt": "2026-10-05T16:48:05.137Z"
         },
         {
           "url": "https://aethonbooks.com/book/rise-of-the-fearless-leader/",
@@ -12267,8 +12343,8 @@
           "available": true,
           "explanation": "5/5 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/chronicles-of-sir-crabby/",
-          "observedAt": "2026-09-20T18:28:27.966Z",
-          "dueAt": "2026-09-27T18:28:27.966Z"
+          "observedAt": "2026-09-28T16:48:06.357Z",
+          "dueAt": "2026-10-05T16:48:06.357Z"
         },
         {
           "id": "series-summary",
@@ -12373,9 +12449,9 @@
         {
           "url": "https://aethonbooks.com/book-series/chronicles-of-sir-crabby/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:28:27.966Z",
-          "fetchedAt": "2026-09-20T18:28:27.966Z",
-          "nextCheckAt": "2026-09-27T18:28:27.966Z"
+          "checkedAt": "2026-09-28T16:48:06.357Z",
+          "fetchedAt": "2026-09-28T16:48:06.357Z",
+          "nextCheckAt": "2026-10-05T16:48:06.357Z"
         },
         {
           "url": "https://aethonbooks.com/book/deepwater-dungeon/",
@@ -13125,8 +13201,8 @@
           "available": true,
           "explanation": "7/7 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/class-shift/",
-          "observedAt": "2026-09-20T18:28:32.549Z",
-          "dueAt": "2026-09-27T18:28:32.549Z"
+          "observedAt": "2026-09-28T16:48:08.150Z",
+          "dueAt": "2026-10-05T16:48:08.150Z"
         },
         {
           "id": "series-summary",
@@ -13231,9 +13307,9 @@
         {
           "url": "https://aethonbooks.com/book-series/class-shift/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:28:32.549Z",
-          "fetchedAt": "2026-09-20T18:28:32.549Z",
-          "nextCheckAt": "2026-09-27T18:28:32.549Z"
+          "checkedAt": "2026-09-28T16:48:08.150Z",
+          "fetchedAt": "2026-09-28T16:48:08.150Z",
+          "nextCheckAt": "2026-10-05T16:48:08.150Z"
         },
         {
           "url": "https://aethonbooks.com/book/unbalanced/",
@@ -13475,9 +13551,9 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "5/5 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "explanation": "4/5 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/cozy-isekai-craftsman/",
           "observedAt": "2026-09-20T18:29:38.813Z",
           "dueAt": "2026-09-27T18:29:38.813Z"
@@ -13560,6 +13636,11 @@
           "message": "Publishable reader context: 2/2 works are missing."
         },
         {
+          "code": "source-freshness",
+          "status": "stale",
+          "message": "4/5 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+        },
+        {
           "code": "series-reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
@@ -13584,7 +13665,7 @@
       "sources": [
         {
           "url": "https://aethonbooks.com/book-series/cozy-isekai-craftsman/",
-          "status": "present",
+          "status": "stale",
           "checkedAt": "2026-09-20T18:29:38.813Z",
           "fetchedAt": "2026-09-20T18:29:38.813Z",
           "nextCheckAt": "2026-09-27T18:29:38.813Z"
@@ -15288,12 +15369,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "6/6 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B09G771HLG",
-          "observedAt": "2026-09-20T18:31:10.906Z",
-          "dueAt": "2026-12-19T18:31:10.906Z"
+          "explanation": "5/6 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://soundbooththeater.com/series/dinosaur-dungeon/",
+          "observedAt": "2026-09-20T18:31:01.467Z",
+          "dueAt": "2026-09-27T18:31:01.467Z"
         },
         {
           "id": "series-summary",
@@ -15393,6 +15474,11 @@
           "message": "Publishable reader context: 3/3 works are missing."
         },
         {
+          "code": "source-freshness",
+          "status": "stale",
+          "message": "5/6 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+        },
+        {
           "code": "series-reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
@@ -15431,7 +15517,7 @@
         },
         {
           "url": "https://soundbooththeater.com/series/dinosaur-dungeon/",
-          "status": "present",
+          "status": "stale",
           "checkedAt": "2026-09-20T18:31:01.467Z",
           "fetchedAt": "2026-09-20T18:31:01.467Z",
           "nextCheckAt": "2026-09-27T18:31:01.467Z"
@@ -16528,12 +16614,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "11/11 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0CR4JRT6N",
-          "observedAt": "2026-09-20T18:33:20.149Z",
-          "dueAt": "2026-12-19T18:33:20.149Z"
+          "explanation": "10/11 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://podiumentertainment.com/series/56/dungeon-life",
+          "observedAt": "2026-09-20T18:33:11.346Z",
+          "dueAt": "2026-09-27T18:33:11.346Z"
         },
         {
           "id": "series-summary",
@@ -16613,6 +16699,11 @@
           "message": "Publishable reader context: 5/5 works are missing."
         },
         {
+          "code": "source-freshness",
+          "status": "stale",
+          "message": "10/11 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+        },
+        {
           "code": "series-reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
@@ -16666,13 +16757,13 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0HJZVDZVW",
           "status": "present",
-          "checkedAt": "2026-09-20T18:33:23.977Z",
-          "fetchedAt": "2026-09-20T18:33:23.977Z",
-          "nextCheckAt": "2026-09-27T18:33:23.977Z"
+          "checkedAt": "2026-09-28T16:48:23.156Z",
+          "fetchedAt": "2026-09-28T16:48:23.156Z",
+          "nextCheckAt": "2026-10-05T16:48:23.156Z"
         },
         {
           "url": "https://podiumentertainment.com/series/56/dungeon-life",
-          "status": "present",
+          "status": "stale",
           "checkedAt": "2026-09-20T18:33:11.346Z",
           "fetchedAt": "2026-09-20T18:33:11.346Z",
           "nextCheckAt": "2026-09-27T18:33:11.346Z"
@@ -16911,12 +17002,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "7/7 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B082TQFM88",
-          "observedAt": "2026-09-20T18:31:16.741Z",
-          "dueAt": "2026-12-19T18:31:16.741Z"
+          "explanation": "6/7 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://soundbooththeater.com/series/elemental-dungeon-series/",
+          "observedAt": "2026-09-20T18:31:11.034Z",
+          "dueAt": "2026-09-27T18:31:11.034Z"
         },
         {
           "id": "series-summary",
@@ -16996,6 +17087,11 @@
           "message": "Publishable reader context: 3/3 works are missing."
         },
         {
+          "code": "source-freshness",
+          "status": "stale",
+          "message": "6/7 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+        },
+        {
           "code": "series-reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
@@ -17041,7 +17137,7 @@
         },
         {
           "url": "https://soundbooththeater.com/series/elemental-dungeon-series/",
-          "status": "present",
+          "status": "stale",
           "checkedAt": "2026-09-20T18:31:11.034Z",
           "fetchedAt": "2026-09-20T18:31:11.034Z",
           "nextCheckAt": "2026-09-27T18:31:11.034Z"
@@ -17686,16 +17782,16 @@
       "knownWorks": 5,
       "confirmedAudioWorks": 5,
       "completeness": {
-        "percent": 85,
-        "earned": 45,
+        "percent": 92,
+        "earned": 49,
         "possible": 53,
-        "explanation": "45/53 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "49/53 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
-        "percent": 51,
-        "earned": 24,
+        "percent": 62,
+        "earned": 29,
         "possible": 47,
-        "explanation": "24/47 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "explanation": "29/47 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -17811,9 +17907,9 @@
         {
           "id": "cover-asset",
           "label": "Cached cover asset",
-          "status": "missing",
+          "status": "present",
           "available": true,
-          "explanation": "1/5 works are present/current; 4 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "5/5 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -17821,9 +17917,9 @@
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "missing",
+          "status": "present",
           "available": true,
-          "explanation": "1/5 works are present/current; 4 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "5/5 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -17852,8 +17948,8 @@
           "id": "reader-traits",
           "label": "Current reader traits",
           "status": "missing",
-          "available": false,
-          "explanation": "0/5 works are present/current; 5 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "available": true,
+          "explanation": "1/5 works are present/current; 4 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -17862,8 +17958,8 @@
           "id": "reader-observation",
           "label": "Publishable reader context",
           "status": "missing",
-          "available": false,
-          "explanation": "0/5 works are present/current; 5 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "available": true,
+          "explanation": "0/5 works are present/current; 4 missing, 0 unknown, 1 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -17926,16 +18022,6 @@
           "message": "Reviewed metadata: 4/5 works are missing."
         },
         {
-          "code": "cover-asset:missing",
-          "status": "missing",
-          "message": "Cached cover asset: 4/5 works are missing."
-        },
-        {
-          "code": "cover-observation:missing",
-          "status": "missing",
-          "message": "Cover observation: 4/5 works are missing."
-        },
-        {
           "code": "reader-sample:missing",
           "status": "missing",
           "message": "Usable reader comments: 4/5 works are missing."
@@ -17948,12 +18034,17 @@
         {
           "code": "reader-traits:missing",
           "status": "missing",
-          "message": "Current reader traits: 5/5 works are missing."
+          "message": "Current reader traits: 4/5 works are missing."
         },
         {
           "code": "reader-observation:missing",
           "status": "missing",
-          "message": "Publishable reader context: 5/5 works are missing."
+          "message": "Publishable reader context: 4/5 works are missing."
+        },
+        {
+          "code": "reader-observation:stale",
+          "status": "stale",
+          "message": "Publishable reader context: 1/5 works are stale."
         },
         {
           "code": "source-freshness",
@@ -18266,12 +18357,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "5/5 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B074B9HR6L",
-          "observedAt": "2026-09-20T18:29:51.273Z",
-          "dueAt": "2026-12-19T18:29:51.273Z"
+          "explanation": "4/5 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://soundbooththeater.com/series/hero-of-thera-series/",
+          "observedAt": "2026-09-20T18:29:47.406Z",
+          "dueAt": "2026-09-27T18:29:47.406Z"
         },
         {
           "id": "series-summary",
@@ -18341,6 +18432,11 @@
           "message": "Publishable reader context: 2/2 works are missing."
         },
         {
+          "code": "source-freshness",
+          "status": "stale",
+          "message": "4/5 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+        },
+        {
           "code": "series-reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
@@ -18379,7 +18475,7 @@
         },
         {
           "url": "https://soundbooththeater.com/series/hero-of-thera-series/",
-          "status": "present",
+          "status": "stale",
           "checkedAt": "2026-09-20T18:29:47.406Z",
           "fetchedAt": "2026-09-20T18:29:47.406Z",
           "nextCheckAt": "2026-09-27T18:29:47.406Z"
@@ -18961,9 +19057,9 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "3/3 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "explanation": "2/3 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://soundbooththeater.com/series/legends-of-arenia/",
           "observedAt": "2026-09-20T18:29:43.552Z",
           "dueAt": "2026-09-27T18:29:43.552Z"
@@ -19066,6 +19162,11 @@
           "message": "Publishable reader context: 2/2 works are missing."
         },
         {
+          "code": "source-freshness",
+          "status": "stale",
+          "message": "2/3 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+        },
+        {
           "code": "series-reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
@@ -19090,7 +19191,7 @@
       "sources": [
         {
           "url": "https://soundbooththeater.com/series/legends-of-arenia/",
-          "status": "present",
+          "status": "stale",
           "checkedAt": "2026-09-20T18:29:43.552Z",
           "fetchedAt": "2026-09-20T18:29:43.552Z",
           "nextCheckAt": "2026-09-27T18:29:43.552Z"
@@ -19130,16 +19231,16 @@
       "knownWorks": 10,
       "confirmedAudioWorks": 10,
       "completeness": {
-        "percent": 83,
-        "earned": 85,
+        "percent": 84,
+        "earned": 87,
         "possible": 103,
-        "explanation": "85/103 equally weighted checks across all 10 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "87/103 equally weighted checks across all 10 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
-        "percent": 50,
-        "earned": 46,
+        "percent": 52,
+        "earned": 48,
         "possible": 92,
-        "explanation": "46/92 equally weighted checks across all 10 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "explanation": "48/92 equally weighted checks across all 10 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -19257,7 +19358,7 @@
           "label": "Cached cover asset",
           "status": "missing",
           "available": true,
-          "explanation": "2/10 works are present/current; 8 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "4/10 works are present/current; 6 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -19267,7 +19368,7 @@
           "label": "Cover observation",
           "status": "missing",
           "available": true,
-          "explanation": "2/10 works are present/current; 8 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "4/10 works are present/current; 6 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -19372,12 +19473,12 @@
         {
           "code": "cover-asset:missing",
           "status": "missing",
-          "message": "Cached cover asset: 8/10 works are missing."
+          "message": "Cached cover asset: 6/10 works are missing."
         },
         {
           "code": "cover-observation:missing",
           "status": "missing",
-          "message": "Cover observation: 8/10 works are missing."
+          "message": "Cover observation: 6/10 works are missing."
         },
         {
           "code": "reader-sample:missing",
@@ -21000,12 +21101,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "7/7 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B07B7RNYGV",
-          "observedAt": "2026-09-20T18:30:16.406Z",
-          "dueAt": "2026-12-19T18:30:16.406Z"
+          "explanation": "6/7 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://soundbooththeater.com/series/pangea-online/",
+          "observedAt": "2026-09-20T18:30:07.906Z",
+          "dueAt": "2026-09-27T18:30:07.906Z"
         },
         {
           "id": "series-summary",
@@ -21085,6 +21186,11 @@
           "message": "Publishable reader context: 3/3 works are missing."
         },
         {
+          "code": "source-freshness",
+          "status": "stale",
+          "message": "6/7 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+        },
+        {
           "code": "series-reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
@@ -21130,7 +21236,7 @@
         },
         {
           "url": "https://soundbooththeater.com/series/pangea-online/",
-          "status": "present",
+          "status": "stale",
           "checkedAt": "2026-09-20T18:30:07.906Z",
           "fetchedAt": "2026-09-20T18:30:07.906Z",
           "nextCheckAt": "2026-09-27T18:30:07.906Z"
@@ -22595,9 +22701,9 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "13/13 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "explanation": "12/13 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/rise-of-the-living-forge/",
           "observedAt": "2026-09-20T18:32:53.846Z",
           "dueAt": "2026-09-27T18:32:53.846Z"
@@ -22670,6 +22776,11 @@
           "message": "Publishable reader context: 6/6 works are missing."
         },
         {
+          "code": "source-freshness",
+          "status": "stale",
+          "message": "12/13 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+        },
+        {
           "code": "series-reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
@@ -22694,7 +22805,7 @@
       "sources": [
         {
           "url": "https://aethonbooks.com/book-series/rise-of-the-living-forge/",
-          "status": "present",
+          "status": "stale",
           "checkedAt": "2026-09-20T18:32:53.846Z",
           "fetchedAt": "2026-09-20T18:32:53.846Z",
           "nextCheckAt": "2026-09-27T18:32:53.846Z"
@@ -23417,12 +23528,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "7/7 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B07W5XPTR5",
-          "observedAt": "2026-09-20T18:31:46.435Z",
-          "dueAt": "2026-12-19T18:31:46.435Z"
+          "explanation": "6/7 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://soundbooththeater.com/series/shadow-sun-series/",
+          "observedAt": "2026-09-20T18:31:40.706Z",
+          "dueAt": "2026-09-27T18:31:40.706Z"
         },
         {
           "id": "series-summary",
@@ -23502,6 +23613,11 @@
           "message": "Publishable reader context: 3/3 works are missing."
         },
         {
+          "code": "source-freshness",
+          "status": "stale",
+          "message": "6/7 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+        },
+        {
           "code": "series-reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
@@ -23547,7 +23663,7 @@
         },
         {
           "url": "https://soundbooththeater.com/series/shadow-sun-series/",
-          "status": "present",
+          "status": "stale",
           "checkedAt": "2026-09-20T18:31:40.706Z",
           "fetchedAt": "2026-09-20T18:31:40.706Z",
           "nextCheckAt": "2026-09-27T18:31:40.706Z"
@@ -23776,12 +23892,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "15/15 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B07FK68G1L",
-          "observedAt": "2026-09-20T18:31:34.204Z",
-          "dueAt": "2026-12-19T18:31:34.204Z"
+          "explanation": "14/15 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://soundbooththeater.com/series/stonehaven-league/",
+          "observedAt": "2026-09-20T18:31:19.426Z",
+          "dueAt": "2026-09-27T18:31:19.426Z"
         },
         {
           "id": "series-summary",
@@ -23861,6 +23977,11 @@
           "message": "Publishable reader context: 7/7 works are missing."
         },
         {
+          "code": "source-freshness",
+          "status": "stale",
+          "message": "14/15 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+        },
+        {
           "code": "series-reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
@@ -23934,7 +24055,7 @@
         },
         {
           "url": "https://soundbooththeater.com/series/stonehaven-league/",
-          "status": "present",
+          "status": "stale",
           "checkedAt": "2026-09-20T18:31:19.426Z",
           "fetchedAt": "2026-09-20T18:31:19.426Z",
           "nextCheckAt": "2026-09-27T18:31:19.426Z"
@@ -26743,12 +26864,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "11/11 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B07B8635CD",
-          "observedAt": "2026-09-20T18:30:02.654Z",
-          "dueAt": "2026-12-19T18:30:02.654Z"
+          "explanation": "10/11 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://soundbooththeater.com/series/the-greystone-chronicles/",
+          "observedAt": "2026-09-20T18:29:52.685Z",
+          "dueAt": "2026-09-27T18:29:52.685Z"
         },
         {
           "id": "series-summary",
@@ -26828,6 +26949,11 @@
           "message": "Publishable reader context: 5/5 works are missing."
         },
         {
+          "code": "source-freshness",
+          "status": "stale",
+          "message": "10/11 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+        },
+        {
           "code": "series-reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
@@ -26887,7 +27013,7 @@
         },
         {
           "url": "https://soundbooththeater.com/series/the-greystone-chronicles/",
-          "status": "present",
+          "status": "stale",
           "checkedAt": "2026-09-20T18:29:52.685Z",
           "fetchedAt": "2026-09-20T18:29:52.685Z",
           "nextCheckAt": "2026-09-27T18:29:52.685Z"
@@ -33993,12 +34119,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "23/23 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0BPJV2YYV",
-          "observedAt": "2026-09-20T18:33:45.253Z",
-          "dueAt": "2026-12-19T18:33:45.253Z"
+          "explanation": "22/23 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://podiumentertainment.com/series/87/victor-of-tucson",
+          "observedAt": "2026-09-20T18:33:24.072Z",
+          "dueAt": "2026-09-27T18:33:24.072Z"
         },
         {
           "id": "series-summary",
@@ -34076,6 +34202,11 @@
           "code": "reader-observation:missing",
           "status": "missing",
           "message": "Publishable reader context: 11/11 works are missing."
+        },
+        {
+          "code": "source-freshness",
+          "status": "stale",
+          "message": "22/23 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         },
         {
           "code": "series-reviewed-metadata",
@@ -34173,13 +34304,13 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
           "status": "present",
-          "checkedAt": "2026-09-20T18:33:43.931Z",
+          "checkedAt": "2026-09-28T16:48:24.410Z",
           "fetchedAt": "2026-09-20T18:33:43.931Z",
-          "nextCheckAt": "2026-09-27T18:33:43.931Z"
+          "nextCheckAt": "2026-10-05T16:48:24.410Z"
         },
         {
           "url": "https://podiumentertainment.com/series/87/victor-of-tucson",
-          "status": "present",
+          "status": "stale",
           "checkedAt": "2026-09-20T18:33:24.072Z",
           "fetchedAt": "2026-09-20T18:33:24.072Z",
           "nextCheckAt": "2026-09-27T18:33:24.072Z"
@@ -34462,12 +34593,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "11/11 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B079G8BKR7",
-          "observedAt": "2026-09-20T18:30:40.660Z",
-          "dueAt": "2026-12-19T18:30:40.660Z"
+          "explanation": "10/11 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://soundbooththeater.com/series/war-aeternus/",
+          "observedAt": "2026-09-20T18:30:28.948Z",
+          "dueAt": "2026-09-27T18:30:28.948Z"
         },
         {
           "id": "series-summary",
@@ -34547,6 +34678,11 @@
           "message": "Publishable reader context: 5/5 works are missing."
         },
         {
+          "code": "source-freshness",
+          "status": "stale",
+          "message": "10/11 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+        },
+        {
           "code": "series-reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
@@ -34606,7 +34742,7 @@
         },
         {
           "url": "https://soundbooththeater.com/series/war-aeternus/",
-          "status": "present",
+          "status": "stale",
           "checkedAt": "2026-09-20T18:30:28.948Z",
           "fetchedAt": "2026-09-20T18:30:28.948Z",
           "nextCheckAt": "2026-09-27T18:30:28.948Z"
@@ -35195,12 +35331,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "10/10 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0BL8ZM1LL",
-          "observedAt": "2026-09-20T18:30:27.559Z",
-          "dueAt": "2026-12-19T18:30:27.559Z"
+          "explanation": "9/10 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://soundbooththeater.com/series/world-of-chains/",
+          "observedAt": "2026-09-20T18:30:16.513Z",
+          "dueAt": "2026-09-27T18:30:16.513Z"
         },
         {
           "id": "series-summary",
@@ -35300,6 +35436,11 @@
           "message": "Publishable reader context: 6/6 works are missing."
         },
         {
+          "code": "source-freshness",
+          "status": "stale",
+          "message": "9/10 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+        },
+        {
           "code": "bibliography",
           "status": "unknown",
           "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
@@ -35340,7 +35481,7 @@
         },
         {
           "url": "https://soundbooththeater.com/series/world-of-chains/",
-          "status": "present",
+          "status": "stale",
           "checkedAt": "2026-09-20T18:30:16.513Z",
           "fetchedAt": "2026-09-20T18:30:16.513Z",
           "nextCheckAt": "2026-09-27T18:30:16.513Z"
@@ -35949,8 +36090,8 @@
           "available": true,
           "explanation": "7/7 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/psychokinetic-eyeball-pulling/",
-          "observedAt": "2026-09-20T18:26:26.668Z",
-          "dueAt": "2026-09-27T18:26:26.668Z"
+          "observedAt": "2026-09-28T16:47:42.684Z",
+          "dueAt": "2026-10-05T16:47:42.684Z"
         },
         {
           "id": "series-summary",
@@ -36055,9 +36196,9 @@
         {
           "url": "https://aethonbooks.com/book-series/psychokinetic-eyeball-pulling/",
           "status": "present",
-          "checkedAt": "2026-09-20T18:26:26.668Z",
-          "fetchedAt": "2026-09-20T18:26:26.668Z",
-          "nextCheckAt": "2026-09-27T18:26:26.668Z"
+          "checkedAt": "2026-09-28T16:47:42.684Z",
+          "fetchedAt": "2026-09-28T16:47:42.684Z",
+          "nextCheckAt": "2026-10-05T16:47:42.684Z"
         },
         {
           "url": "https://aethonbooks.com/book/psychokinetic-eyeball-pulling-2/",
@@ -41277,6 +41418,301 @@
       ]
     },
     {
+      "id": "work-a-dragon-idols-reincarnation-tale-7",
+      "seriesId": "a-dragon-idols-reincarnation-tale",
+      "number": 7,
+      "title": "Debutante",
+      "author": "AbyssRaven",
+      "formats": [
+        "audiobook",
+        "ebook"
+      ],
+      "publicationStatus": "announced",
+      "completeness": {
+        "percent": 80,
+        "earned": 8,
+        "possible": 10,
+        "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+      },
+      "evidenceQuality": {
+        "percent": 44,
+        "earned": 4,
+        "possible": 9,
+        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+      },
+      "checks": [
+        {
+          "id": "source-description",
+          "label": "Source description",
+          "status": "present",
+          "available": true,
+          "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
+          "sourceUrl": "https://aethonbooks.com/book/__trashed/",
+          "observedAt": "2026-09-28T16:47:45.863Z",
+          "dueAt": null
+        },
+        {
+          "id": "original-summary",
+          "label": "Original summary",
+          "status": "present",
+          "available": true,
+          "explanation": "A validated original synopsis is retained for the current source and extraction settings; factual editorial review is separate.",
+          "sourceUrl": "https://aethonbooks.com/book/__trashed/",
+          "observedAt": "2026-09-28T16:48:29.178Z",
+          "dueAt": null
+        },
+        {
+          "id": "extracted-metadata",
+          "label": "Extracted metadata",
+          "status": "present",
+          "available": true,
+          "explanation": "The current source has a validated extraction receipt. Extracted features remain candidates until editorial review.",
+          "sourceUrl": "https://aethonbooks.com/book/__trashed/",
+          "observedAt": "2026-09-28T16:48:29.178Z",
+          "dueAt": null
+        },
+        {
+          "id": "reviewed-metadata",
+          "label": "Reviewed metadata",
+          "status": "missing",
+          "available": false,
+          "explanation": "No source-bound editorial review is retained; automatic tags are not reviewed facts.",
+          "sourceUrl": "https://aethonbooks.com/book/__trashed/",
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "jev-assessment",
+          "label": "Jev metadata assessment",
+          "status": "present",
+          "available": true,
+          "explanation": "A structured assessment matches the current metadata, model, and rubric. This is a retained inference, not an editorial review or a rating of the book.",
+          "sourceUrl": "https://aethonbooks.com/book/__trashed/",
+          "observedAt": "2026-09-28T16:48:34.659Z",
+          "dueAt": null
+        },
+        {
+          "id": "audio-edition",
+          "label": "Audio edition record",
+          "status": "present",
+          "available": true,
+          "explanation": "1 audio edition records are retained. This records discovery, not confirmed availability; no row does not prove that audio is unavailable.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "audio-verified",
+          "label": "Verified full audiobook",
+          "status": "present",
+          "available": true,
+          "explanation": "1 current exact US product documents pass the canonical title, complete author credits, selected series/volume, English, full-audio, and retained work-binding checks.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HHB4HYZC",
+          "observedAt": "2026-09-28T16:48:20.652Z",
+          "dueAt": null
+        },
+        {
+          "id": "audio-date",
+          "label": "Confirmed audio date",
+          "status": "present",
+          "available": true,
+          "explanation": "A verified audio-specific date establishes a current preorder schedule. Print and ebook dates are excluded.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HHB4HYZC",
+          "observedAt": "2026-09-28T16:48:20.652Z",
+          "dueAt": "2026-10-05T16:48:20.652Z"
+        },
+        {
+          "id": "narrator",
+          "label": "Recording narrator",
+          "status": "present",
+          "available": true,
+          "explanation": "A named narrator is present in a verified recording product.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HHB4HYZC",
+          "observedAt": "2026-09-28T16:48:20.652Z",
+          "dueAt": null
+        },
+        {
+          "id": "runtime",
+          "label": "Recording duration",
+          "status": "present",
+          "available": true,
+          "explanation": "A positive whole-minute duration is present in a verified recording product.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HHB4HYZC",
+          "observedAt": "2026-09-28T16:48:20.652Z",
+          "dueAt": null
+        },
+        {
+          "id": "cover-url",
+          "label": "Cover link",
+          "status": "present",
+          "available": true,
+          "explanation": "A public image URL is retained; this alone is not a downloaded cover asset.",
+          "sourceUrl": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2026/09/91vzffxHN0L-1.jpg",
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "cover-asset",
+          "label": "Cached cover asset",
+          "status": "missing",
+          "available": false,
+          "explanation": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap.",
+          "sourceUrl": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2026/09/91vzffxHN0L-1.jpg",
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "cover-observation",
+          "label": "Cover observation",
+          "status": "missing",
+          "available": false,
+          "explanation": "No validated observation is bound to the current cached cover bytes.",
+          "sourceUrl": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2026/09/91vzffxHN0L-1.jpg",
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "reader-sample",
+          "label": "Usable reader comments",
+          "status": "missing",
+          "available": false,
+          "explanation": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "reader-adequacy",
+          "label": "Reader sample adequacy",
+          "status": "missing",
+          "available": false,
+          "explanation": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "reader-traits",
+          "label": "Current reader traits",
+          "status": "missing",
+          "available": false,
+          "explanation": "No current set of reader-trait receipts is retained.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "reader-observation",
+          "label": "Publishable reader context",
+          "status": "missing",
+          "available": false,
+          "explanation": "No retained reader observation is available.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "source-freshness",
+          "label": "Source checks",
+          "status": "present",
+          "available": true,
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://aethonbooks.com/book/__trashed/",
+          "observedAt": "2026-09-28T16:47:45.863Z",
+          "dueAt": "2026-12-27T16:47:45.863Z"
+        }
+      ],
+      "issues": [
+        {
+          "code": "reviewed-metadata",
+          "status": "missing",
+          "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
+        },
+        {
+          "code": "cover-asset",
+          "status": "missing",
+          "message": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap."
+        },
+        {
+          "code": "cover-observation",
+          "status": "missing",
+          "message": "No validated observation is bound to the current cached cover bytes."
+        },
+        {
+          "code": "reader-sample",
+          "status": "missing",
+          "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
+        },
+        {
+          "code": "reader-adequacy",
+          "status": "missing",
+          "message": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
+        },
+        {
+          "code": "reader-traits",
+          "status": "missing",
+          "message": "No current set of reader-trait receipts is retained."
+        },
+        {
+          "code": "reader-observation",
+          "status": "missing",
+          "message": "No retained reader observation is available."
+        }
+      ],
+      "flags": {
+        "sourceDescription": true,
+        "summary": true,
+        "metadataExtracted": true,
+        "metadataReviewed": false,
+        "audiobook": true,
+        "audioVerified": true,
+        "audioDateVerified": true,
+        "coverAsset": false,
+        "coverReviewed": false,
+        "readerSample": false,
+        "readerAdequate": false
+      },
+      "audio": {
+        "retainedEditionCount": 1,
+        "confirmedEditionCount": 1,
+        "state": "scheduled",
+        "releaseDate": "2026-10-28"
+      },
+      "reader": {
+        "retainedCount": 0,
+        "selectedCount": 0,
+        "eligible": false,
+        "minimum": 5,
+        "currentTraits": false,
+        "observation": "missing",
+        "sourceUrls": []
+      },
+      "cover": {
+        "url": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2026/09/91vzffxHN0L-1.jpg",
+        "cached": false,
+        "hashVerified": false,
+        "bytes": null,
+        "observationCurrent": false,
+        "checkedAt": null
+      },
+      "sources": [
+        {
+          "url": "https://aethonbooks.com/book/__trashed/",
+          "status": "present",
+          "checkedAt": "2026-09-28T16:47:45.863Z",
+          "fetchedAt": "2026-09-28T16:47:45.863Z",
+          "nextCheckAt": "2026-12-27T16:47:45.863Z"
+        },
+        {
+          "url": "https://api.audible.com/1.0/catalog/products/B0HHB4HYZC",
+          "status": "present",
+          "checkedAt": "2026-09-28T16:48:20.652Z",
+          "fetchedAt": "2026-09-28T16:48:20.652Z",
+          "nextCheckAt": "2026-10-05T16:48:20.652Z"
+        }
+      ]
+    },
+    {
       "id": "work-a-dream-of-wings-flame-1",
       "seriesId": "a-dream-of-wings-flame",
       "number": 1,
@@ -45135,6 +45571,318 @@
       ]
     },
     {
+      "id": "work-accidental-champion-9",
+      "seriesId": "accidental-champion",
+      "number": 9,
+      "title": "Accidental Champion 9",
+      "author": "Todd Herzman",
+      "formats": [
+        "ebook"
+      ],
+      "publicationStatus": "announced",
+      "completeness": {
+        "percent": 40,
+        "earned": 4,
+        "possible": 10,
+        "explanation": "4/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+      },
+      "evidenceQuality": {
+        "percent": 22,
+        "earned": 2,
+        "possible": 9,
+        "explanation": "2/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+      },
+      "checks": [
+        {
+          "id": "source-description",
+          "label": "Source description",
+          "status": "present",
+          "available": true,
+          "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
+          "sourceUrl": "https://aethonbooks.com/book/accidental-champion-9/",
+          "observedAt": "2026-09-28T16:48:11.209Z",
+          "dueAt": null
+        },
+        {
+          "id": "original-summary",
+          "label": "Original summary",
+          "status": "present",
+          "available": true,
+          "explanation": "A validated original synopsis is retained for the current source and extraction settings; factual editorial review is separate.",
+          "sourceUrl": "https://aethonbooks.com/book/accidental-champion-9/",
+          "observedAt": "2026-09-28T16:48:31.759Z",
+          "dueAt": null
+        },
+        {
+          "id": "extracted-metadata",
+          "label": "Extracted metadata",
+          "status": "present",
+          "available": true,
+          "explanation": "The current source has a validated extraction receipt. Extracted features remain candidates until editorial review.",
+          "sourceUrl": "https://aethonbooks.com/book/accidental-champion-9/",
+          "observedAt": "2026-09-28T16:48:31.759Z",
+          "dueAt": null
+        },
+        {
+          "id": "reviewed-metadata",
+          "label": "Reviewed metadata",
+          "status": "missing",
+          "available": false,
+          "explanation": "No source-bound editorial review is retained; automatic tags are not reviewed facts.",
+          "sourceUrl": "https://aethonbooks.com/book/accidental-champion-9/",
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "jev-assessment",
+          "label": "Jev metadata assessment",
+          "status": "present",
+          "available": true,
+          "explanation": "A structured assessment matches the current metadata, model, and rubric. This is a retained inference, not an editorial review or a rating of the book.",
+          "sourceUrl": "https://aethonbooks.com/book/accidental-champion-9/",
+          "observedAt": "2026-09-28T16:48:34.875Z",
+          "dueAt": null
+        },
+        {
+          "id": "audio-edition",
+          "label": "Audio edition record",
+          "status": "missing",
+          "available": false,
+          "explanation": "0 audio edition records are retained. This records discovery, not confirmed availability; no row does not prove that audio is unavailable.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "audio-verified",
+          "label": "Verified full audiobook",
+          "status": "unknown",
+          "available": false,
+          "explanation": "No current exact product proof establishes a full audiobook for this work. Buy links, prior copied metadata, generic publisher pages, and dramatizations do not pass this gate.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "audio-date",
+          "label": "Confirmed audio date",
+          "status": "missing",
+          "available": false,
+          "explanation": "No resolved audio-specific date is established. Print and ebook dates cannot fill this gap.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "narrator",
+          "label": "Recording narrator",
+          "status": "missing",
+          "available": false,
+          "explanation": "No named recording narrator is established; placeholders are excluded.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "runtime",
+          "label": "Recording duration",
+          "status": "missing",
+          "available": false,
+          "explanation": "No valid recording duration is established.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "cover-url",
+          "label": "Cover link",
+          "status": "present",
+          "available": true,
+          "explanation": "A public image URL is retained; this alone is not a downloaded cover asset.",
+          "sourceUrl": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2026/09/81Nm7vhZNsL.jpg",
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "cover-asset",
+          "label": "Cached cover asset",
+          "status": "missing",
+          "available": false,
+          "explanation": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap.",
+          "sourceUrl": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2026/09/81Nm7vhZNsL.jpg",
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "cover-observation",
+          "label": "Cover observation",
+          "status": "missing",
+          "available": false,
+          "explanation": "No validated observation is bound to the current cached cover bytes.",
+          "sourceUrl": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2026/09/81Nm7vhZNsL.jpg",
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "reader-sample",
+          "label": "Usable reader comments",
+          "status": "missing",
+          "available": false,
+          "explanation": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "reader-adequacy",
+          "label": "Reader sample adequacy",
+          "status": "missing",
+          "available": false,
+          "explanation": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "reader-traits",
+          "label": "Current reader traits",
+          "status": "missing",
+          "available": false,
+          "explanation": "No current set of reader-trait receipts is retained.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "reader-observation",
+          "label": "Publishable reader context",
+          "status": "missing",
+          "available": false,
+          "explanation": "No retained reader observation is available.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "source-freshness",
+          "label": "Source checks",
+          "status": "present",
+          "available": true,
+          "explanation": "1/1 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://aethonbooks.com/book/accidental-champion-9/",
+          "observedAt": "2026-09-28T16:48:11.209Z",
+          "dueAt": "2026-12-27T16:48:11.209Z"
+        }
+      ],
+      "issues": [
+        {
+          "code": "reviewed-metadata",
+          "status": "missing",
+          "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
+        },
+        {
+          "code": "audio-edition",
+          "status": "missing",
+          "message": "0 audio edition records are retained. This records discovery, not confirmed availability; no row does not prove that audio is unavailable."
+        },
+        {
+          "code": "audio-verified",
+          "status": "unknown",
+          "message": "No current exact product proof establishes a full audiobook for this work. Buy links, prior copied metadata, generic publisher pages, and dramatizations do not pass this gate."
+        },
+        {
+          "code": "audio-date",
+          "status": "missing",
+          "message": "No resolved audio-specific date is established. Print and ebook dates cannot fill this gap."
+        },
+        {
+          "code": "narrator",
+          "status": "missing",
+          "message": "No named recording narrator is established; placeholders are excluded."
+        },
+        {
+          "code": "runtime",
+          "status": "missing",
+          "message": "No valid recording duration is established."
+        },
+        {
+          "code": "cover-asset",
+          "status": "missing",
+          "message": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap."
+        },
+        {
+          "code": "cover-observation",
+          "status": "missing",
+          "message": "No validated observation is bound to the current cached cover bytes."
+        },
+        {
+          "code": "reader-sample",
+          "status": "missing",
+          "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
+        },
+        {
+          "code": "reader-adequacy",
+          "status": "missing",
+          "message": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
+        },
+        {
+          "code": "reader-traits",
+          "status": "missing",
+          "message": "No current set of reader-trait receipts is retained."
+        },
+        {
+          "code": "reader-observation",
+          "status": "missing",
+          "message": "No retained reader observation is available."
+        }
+      ],
+      "flags": {
+        "sourceDescription": true,
+        "summary": true,
+        "metadataExtracted": true,
+        "metadataReviewed": false,
+        "audiobook": false,
+        "audioVerified": false,
+        "audioDateVerified": false,
+        "coverAsset": false,
+        "coverReviewed": false,
+        "readerSample": false,
+        "readerAdequate": false
+      },
+      "audio": {
+        "retainedEditionCount": 0,
+        "confirmedEditionCount": 0,
+        "state": "none",
+        "releaseDate": null
+      },
+      "reader": {
+        "retainedCount": 0,
+        "selectedCount": 0,
+        "eligible": false,
+        "minimum": 5,
+        "currentTraits": false,
+        "observation": "missing",
+        "sourceUrls": []
+      },
+      "cover": {
+        "url": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2026/09/81Nm7vhZNsL.jpg",
+        "cached": false,
+        "hashVerified": false,
+        "bytes": null,
+        "observationCurrent": false,
+        "checkedAt": null
+      },
+      "sources": [
+        {
+          "url": "https://aethonbooks.com/book/accidental-champion-9/",
+          "status": "present",
+          "checkedAt": "2026-09-28T16:48:11.209Z",
+          "fetchedAt": "2026-09-28T16:48:11.209Z",
+          "nextCheckAt": "2026-12-27T16:48:11.209Z"
+        }
+      ]
+    },
+    {
       "id": "work-accidental-healer-1",
       "seriesId": "accidental-healer",
       "number": 1,
@@ -45426,6 +46174,318 @@
           "checkedAt": "2026-09-20T18:29:25.304Z",
           "fetchedAt": "2026-09-20T18:29:25.304Z",
           "nextCheckAt": "2026-12-19T18:29:25.304Z"
+        }
+      ]
+    },
+    {
+      "id": "work-accidental-healer-2",
+      "seriesId": "accidental-healer",
+      "number": 2,
+      "title": "Accidental Healer 2",
+      "author": "Austyn Vickers",
+      "formats": [
+        "ebook"
+      ],
+      "publicationStatus": "announced",
+      "completeness": {
+        "percent": 40,
+        "earned": 4,
+        "possible": 10,
+        "explanation": "4/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+      },
+      "evidenceQuality": {
+        "percent": 22,
+        "earned": 2,
+        "possible": 9,
+        "explanation": "2/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+      },
+      "checks": [
+        {
+          "id": "source-description",
+          "label": "Source description",
+          "status": "present",
+          "available": true,
+          "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
+          "sourceUrl": "https://aethonbooks.com/book/accidental-healer-2/",
+          "observedAt": "2026-09-28T16:48:18.542Z",
+          "dueAt": null
+        },
+        {
+          "id": "original-summary",
+          "label": "Original summary",
+          "status": "present",
+          "available": true,
+          "explanation": "A validated original synopsis is retained for the current source and extraction settings; factual editorial review is separate.",
+          "sourceUrl": "https://aethonbooks.com/book/accidental-healer-2/",
+          "observedAt": "2026-09-28T16:48:34.254Z",
+          "dueAt": null
+        },
+        {
+          "id": "extracted-metadata",
+          "label": "Extracted metadata",
+          "status": "present",
+          "available": true,
+          "explanation": "The current source has a validated extraction receipt. Extracted features remain candidates until editorial review.",
+          "sourceUrl": "https://aethonbooks.com/book/accidental-healer-2/",
+          "observedAt": "2026-09-28T16:48:34.254Z",
+          "dueAt": null
+        },
+        {
+          "id": "reviewed-metadata",
+          "label": "Reviewed metadata",
+          "status": "missing",
+          "available": false,
+          "explanation": "No source-bound editorial review is retained; automatic tags are not reviewed facts.",
+          "sourceUrl": "https://aethonbooks.com/book/accidental-healer-2/",
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "jev-assessment",
+          "label": "Jev metadata assessment",
+          "status": "present",
+          "available": true,
+          "explanation": "A structured assessment matches the current metadata, model, and rubric. This is a retained inference, not an editorial review or a rating of the book.",
+          "sourceUrl": "https://aethonbooks.com/book/accidental-healer-2/",
+          "observedAt": "2026-09-28T16:48:35.070Z",
+          "dueAt": null
+        },
+        {
+          "id": "audio-edition",
+          "label": "Audio edition record",
+          "status": "missing",
+          "available": false,
+          "explanation": "0 audio edition records are retained. This records discovery, not confirmed availability; no row does not prove that audio is unavailable.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "audio-verified",
+          "label": "Verified full audiobook",
+          "status": "unknown",
+          "available": false,
+          "explanation": "No current exact product proof establishes a full audiobook for this work. Buy links, prior copied metadata, generic publisher pages, and dramatizations do not pass this gate.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "audio-date",
+          "label": "Confirmed audio date",
+          "status": "missing",
+          "available": false,
+          "explanation": "No resolved audio-specific date is established. Print and ebook dates cannot fill this gap.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "narrator",
+          "label": "Recording narrator",
+          "status": "missing",
+          "available": false,
+          "explanation": "No named recording narrator is established; placeholders are excluded.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "runtime",
+          "label": "Recording duration",
+          "status": "missing",
+          "available": false,
+          "explanation": "No valid recording duration is established.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "cover-url",
+          "label": "Cover link",
+          "status": "present",
+          "available": true,
+          "explanation": "A public image URL is retained; this alone is not a downloaded cover asset.",
+          "sourceUrl": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2026/09/51w7qEdJJYL-1.jpg",
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "cover-asset",
+          "label": "Cached cover asset",
+          "status": "missing",
+          "available": false,
+          "explanation": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap.",
+          "sourceUrl": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2026/09/51w7qEdJJYL-1.jpg",
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "cover-observation",
+          "label": "Cover observation",
+          "status": "missing",
+          "available": false,
+          "explanation": "No validated observation is bound to the current cached cover bytes.",
+          "sourceUrl": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2026/09/51w7qEdJJYL-1.jpg",
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "reader-sample",
+          "label": "Usable reader comments",
+          "status": "missing",
+          "available": false,
+          "explanation": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "reader-adequacy",
+          "label": "Reader sample adequacy",
+          "status": "missing",
+          "available": false,
+          "explanation": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "reader-traits",
+          "label": "Current reader traits",
+          "status": "missing",
+          "available": false,
+          "explanation": "No current set of reader-trait receipts is retained.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "reader-observation",
+          "label": "Publishable reader context",
+          "status": "missing",
+          "available": false,
+          "explanation": "No retained reader observation is available.",
+          "sourceUrl": null,
+          "observedAt": null,
+          "dueAt": null
+        },
+        {
+          "id": "source-freshness",
+          "label": "Source checks",
+          "status": "present",
+          "available": true,
+          "explanation": "1/1 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://aethonbooks.com/book/accidental-healer-2/",
+          "observedAt": "2026-09-28T16:48:18.542Z",
+          "dueAt": "2026-12-27T16:48:18.542Z"
+        }
+      ],
+      "issues": [
+        {
+          "code": "reviewed-metadata",
+          "status": "missing",
+          "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
+        },
+        {
+          "code": "audio-edition",
+          "status": "missing",
+          "message": "0 audio edition records are retained. This records discovery, not confirmed availability; no row does not prove that audio is unavailable."
+        },
+        {
+          "code": "audio-verified",
+          "status": "unknown",
+          "message": "No current exact product proof establishes a full audiobook for this work. Buy links, prior copied metadata, generic publisher pages, and dramatizations do not pass this gate."
+        },
+        {
+          "code": "audio-date",
+          "status": "missing",
+          "message": "No resolved audio-specific date is established. Print and ebook dates cannot fill this gap."
+        },
+        {
+          "code": "narrator",
+          "status": "missing",
+          "message": "No named recording narrator is established; placeholders are excluded."
+        },
+        {
+          "code": "runtime",
+          "status": "missing",
+          "message": "No valid recording duration is established."
+        },
+        {
+          "code": "cover-asset",
+          "status": "missing",
+          "message": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap."
+        },
+        {
+          "code": "cover-observation",
+          "status": "missing",
+          "message": "No validated observation is bound to the current cached cover bytes."
+        },
+        {
+          "code": "reader-sample",
+          "status": "missing",
+          "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
+        },
+        {
+          "code": "reader-adequacy",
+          "status": "missing",
+          "message": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
+        },
+        {
+          "code": "reader-traits",
+          "status": "missing",
+          "message": "No current set of reader-trait receipts is retained."
+        },
+        {
+          "code": "reader-observation",
+          "status": "missing",
+          "message": "No retained reader observation is available."
+        }
+      ],
+      "flags": {
+        "sourceDescription": true,
+        "summary": true,
+        "metadataExtracted": true,
+        "metadataReviewed": false,
+        "audiobook": false,
+        "audioVerified": false,
+        "audioDateVerified": false,
+        "coverAsset": false,
+        "coverReviewed": false,
+        "readerSample": false,
+        "readerAdequate": false
+      },
+      "audio": {
+        "retainedEditionCount": 0,
+        "confirmedEditionCount": 0,
+        "state": "none",
+        "releaseDate": null
+      },
+      "reader": {
+        "retainedCount": 0,
+        "selectedCount": 0,
+        "eligible": false,
+        "minimum": 5,
+        "currentTraits": false,
+        "observation": "missing",
+        "sourceUrls": []
+      },
+      "cover": {
+        "url": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2026/09/51w7qEdJJYL-1.jpg",
+        "cached": false,
+        "hashVerified": false,
+        "bytes": null,
+        "observationCurrent": false,
+        "checkedAt": null
+      },
+      "sources": [
+        {
+          "url": "https://aethonbooks.com/book/accidental-healer-2/",
+          "status": "present",
+          "checkedAt": "2026-09-28T16:48:18.542Z",
+          "fetchedAt": "2026-09-28T16:48:18.542Z",
+          "nextCheckAt": "2026-12-27T16:48:18.542Z"
         }
       ]
     },
@@ -56258,7 +57318,7 @@
           "available": true,
           "explanation": "1 current exact US product documents pass the canonical title, complete author credits, selected series/volume, English, full-audio, and retained work-binding checks.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HDF5J23Z",
-          "observedAt": "2026-09-20T18:29:29.686Z",
+          "observedAt": "2026-09-28T16:48:21.903Z",
           "dueAt": null
         },
         {
@@ -56268,7 +57328,7 @@
           "available": true,
           "explanation": "A verified audio-specific date establishes an observed released recording. Print and ebook dates are excluded.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HDF5J23Z",
-          "observedAt": "2026-09-20T18:29:29.686Z",
+          "observedAt": "2026-09-28T16:48:21.903Z",
           "dueAt": null
         },
         {
@@ -56278,7 +57338,7 @@
           "available": true,
           "explanation": "A named narrator is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HDF5J23Z",
-          "observedAt": "2026-09-20T18:29:29.686Z",
+          "observedAt": "2026-09-28T16:48:21.903Z",
           "dueAt": null
         },
         {
@@ -56288,7 +57348,7 @@
           "available": true,
           "explanation": "A positive whole-minute duration is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HDF5J23Z",
-          "observedAt": "2026-09-20T18:29:29.686Z",
+          "observedAt": "2026-09-28T16:48:21.903Z",
           "dueAt": null
         },
         {
@@ -56456,9 +57516,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0HDF5J23Z",
           "status": "present",
-          "checkedAt": "2026-09-20T18:29:29.686Z",
-          "fetchedAt": "2026-09-20T18:29:29.686Z",
-          "nextCheckAt": "2026-09-27T18:29:29.686Z"
+          "checkedAt": "2026-09-28T16:48:21.903Z",
+          "fetchedAt": "2026-09-28T16:48:21.903Z",
+          "nextCheckAt": "2026-10-05T16:48:21.903Z"
         }
       ]
     },
@@ -103341,7 +104401,7 @@
           "available": true,
           "explanation": "1 current exact US product documents pass the canonical title, complete author credits, selected series/volume, English, full-audio, and retained work-binding checks.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HJZVDZVW",
-          "observedAt": "2026-09-20T18:33:23.977Z",
+          "observedAt": "2026-09-28T16:48:23.156Z",
           "dueAt": null
         },
         {
@@ -103351,8 +104411,8 @@
           "available": true,
           "explanation": "A verified audio-specific date establishes a current preorder schedule. Print and ebook dates are excluded.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HJZVDZVW",
-          "observedAt": "2026-09-20T18:33:23.977Z",
-          "dueAt": "2026-09-27T18:33:23.977Z"
+          "observedAt": "2026-09-28T16:48:23.156Z",
+          "dueAt": "2026-10-05T16:48:23.156Z"
         },
         {
           "id": "narrator",
@@ -103361,7 +104421,7 @@
           "available": true,
           "explanation": "A named narrator is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HJZVDZVW",
-          "observedAt": "2026-09-20T18:33:23.977Z",
+          "observedAt": "2026-09-28T16:48:23.156Z",
           "dueAt": null
         },
         {
@@ -103371,7 +104431,7 @@
           "available": true,
           "explanation": "A positive whole-minute duration is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HJZVDZVW",
-          "observedAt": "2026-09-20T18:33:23.977Z",
+          "observedAt": "2026-09-28T16:48:23.156Z",
           "dueAt": null
         },
         {
@@ -103451,8 +104511,8 @@
           "available": true,
           "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HJZVDZVW",
-          "observedAt": "2026-09-20T18:33:23.977Z",
-          "dueAt": "2026-09-27T18:33:23.977Z"
+          "observedAt": "2026-09-28T16:48:23.156Z",
+          "dueAt": "2026-10-05T16:48:23.156Z"
         }
       ],
       "issues": [
@@ -103532,9 +104592,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0HJZVDZVW",
           "status": "present",
-          "checkedAt": "2026-09-20T18:33:23.977Z",
-          "fetchedAt": "2026-09-20T18:33:23.977Z",
-          "nextCheckAt": "2026-09-27T18:33:23.977Z"
+          "checkedAt": "2026-09-28T16:48:23.156Z",
+          "fetchedAt": "2026-09-28T16:48:23.156Z",
+          "nextCheckAt": "2026-10-05T16:48:23.156Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/134668/dungeon-life-5",
@@ -108108,10 +109168,10 @@
         "explanation": "10/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 78,
-        "earned": 7,
+        "percent": 89,
+        "earned": 8,
         "possible": 9,
-        "explanation": "7/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "8/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -108267,19 +109327,19 @@
         {
           "id": "reader-traits",
           "label": "Current reader traits",
-          "status": "missing",
-          "available": false,
-          "explanation": "No current set of reader-trait receipts is retained.",
+          "status": "present",
+          "available": true,
+          "explanation": "All four reader-trait receipts match the exact selected sample and current rubric; an unknown trait value is a valid result.",
           "sourceUrl": "https://hardcover.app/books/heretical-fishing",
-          "observedAt": null,
+          "observedAt": "2026-09-28T16:49:44.389Z",
           "dueAt": null
         },
         {
           "id": "reader-observation",
           "label": "Publishable reader context",
-          "status": "missing",
-          "available": false,
-          "explanation": "No retained reader observation is available.",
+          "status": "stale",
+          "available": true,
+          "explanation": "An earlier observation exists, but none resolves for the current selected evidence.",
           "sourceUrl": "https://hardcover.app/books/heretical-fishing",
           "observedAt": "2026-09-19T16:41:53.228Z",
           "dueAt": null
@@ -108297,14 +109357,9 @@
       ],
       "issues": [
         {
-          "code": "reader-traits",
-          "status": "missing",
-          "message": "No current set of reader-trait receipts is retained."
-        },
-        {
           "code": "reader-observation",
-          "status": "missing",
-          "message": "No retained reader observation is available."
+          "status": "stale",
+          "message": "An earlier observation exists, but none resolves for the current selected evidence."
         }
       ],
       "flags": {
@@ -108331,7 +109386,7 @@
         "selectedCount": 7,
         "eligible": true,
         "minimum": 5,
-        "currentTraits": false,
+        "currentTraits": true,
         "observation": "missing",
         "sourceUrls": [
           "https://hardcover.app/books/heretical-fishing"
@@ -108373,16 +109428,16 @@
       ],
       "publicationStatus": "released",
       "completeness": {
-        "percent": 80,
-        "earned": 8,
+        "percent": 90,
+        "earned": 9,
         "possible": 10,
-        "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+        "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -108498,22 +109553,22 @@
         {
           "id": "cover-asset",
           "label": "Cached cover asset",
-          "status": "missing",
-          "available": false,
-          "explanation": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap.",
+          "status": "present",
+          "available": true,
+          "explanation": "The currently associated cover has local JPEG, PNG, or WebP bytes with a matching SHA-256 checksum and image header. This is file evidence, not a visual book-identity judgement.",
           "sourceUrl": "https://assets.podiumentertainment.com/medium/direct_cover_art/9781039453128.jpg",
-          "observedAt": null,
+          "observedAt": "2026-09-28T16:48:42.842Z",
           "dueAt": null
         },
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "missing",
-          "available": false,
-          "explanation": "No validated observation is bound to the current cached cover bytes.",
+          "status": "present",
+          "available": true,
+          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
           "sourceUrl": "https://assets.podiumentertainment.com/medium/direct_cover_art/9781039453128.jpg",
-          "observedAt": null,
-          "dueAt": null
+          "observedAt": "2026-09-28T16:48:42.842Z",
+          "dueAt": "2026-10-28T16:48:42.842Z"
         },
         {
           "id": "reader-sample",
@@ -108573,16 +109628,6 @@
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
         },
         {
-          "code": "cover-asset",
-          "status": "missing",
-          "message": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap."
-        },
-        {
-          "code": "cover-observation",
-          "status": "missing",
-          "message": "No validated observation is bound to the current cached cover bytes."
-        },
-        {
           "code": "reader-sample",
           "status": "missing",
           "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
@@ -108611,8 +109656,8 @@
         "audiobook": true,
         "audioVerified": true,
         "audioDateVerified": true,
-        "coverAsset": false,
-        "coverReviewed": false,
+        "coverAsset": true,
+        "coverReviewed": true,
         "readerSample": false,
         "readerAdequate": false
       },
@@ -108633,11 +109678,11 @@
       },
       "cover": {
         "url": "https://assets.podiumentertainment.com/medium/direct_cover_art/9781039453128.jpg",
-        "cached": false,
-        "hashVerified": false,
-        "bytes": null,
-        "observationCurrent": false,
-        "checkedAt": null
+        "cached": true,
+        "hashVerified": true,
+        "bytes": 49932,
+        "observationCurrent": true,
+        "checkedAt": "2026-09-28T16:48:42.842Z"
       },
       "sources": [
         {
@@ -108667,16 +109712,16 @@
       ],
       "publicationStatus": "released",
       "completeness": {
-        "percent": 80,
-        "earned": 8,
+        "percent": 90,
+        "earned": 9,
         "possible": 10,
-        "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+        "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -108792,22 +109837,22 @@
         {
           "id": "cover-asset",
           "label": "Cached cover asset",
-          "status": "missing",
-          "available": false,
-          "explanation": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap.",
+          "status": "present",
+          "available": true,
+          "explanation": "The currently associated cover has local JPEG, PNG, or WebP bytes with a matching SHA-256 checksum and image header. This is file evidence, not a visual book-identity judgement.",
           "sourceUrl": "https://assets.podiumentertainment.com/medium/direct_cover_art/9781039453173.jpg",
-          "observedAt": null,
+          "observedAt": "2026-09-28T16:48:51.171Z",
           "dueAt": null
         },
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "missing",
-          "available": false,
-          "explanation": "No validated observation is bound to the current cached cover bytes.",
+          "status": "present",
+          "available": true,
+          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
           "sourceUrl": "https://assets.podiumentertainment.com/medium/direct_cover_art/9781039453173.jpg",
-          "observedAt": null,
-          "dueAt": null
+          "observedAt": "2026-09-28T16:48:51.171Z",
+          "dueAt": "2026-10-28T16:48:51.171Z"
         },
         {
           "id": "reader-sample",
@@ -108867,16 +109912,6 @@
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
         },
         {
-          "code": "cover-asset",
-          "status": "missing",
-          "message": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap."
-        },
-        {
-          "code": "cover-observation",
-          "status": "missing",
-          "message": "No validated observation is bound to the current cached cover bytes."
-        },
-        {
           "code": "reader-sample",
           "status": "missing",
           "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
@@ -108905,8 +109940,8 @@
         "audiobook": true,
         "audioVerified": true,
         "audioDateVerified": true,
-        "coverAsset": false,
-        "coverReviewed": false,
+        "coverAsset": true,
+        "coverReviewed": true,
         "readerSample": false,
         "readerAdequate": false
       },
@@ -108927,11 +109962,11 @@
       },
       "cover": {
         "url": "https://assets.podiumentertainment.com/medium/direct_cover_art/9781039453173.jpg",
-        "cached": false,
-        "hashVerified": false,
-        "bytes": null,
-        "observationCurrent": false,
-        "checkedAt": null
+        "cached": true,
+        "hashVerified": true,
+        "bytes": 53136,
+        "observationCurrent": true,
+        "checkedAt": "2026-09-28T16:48:51.171Z"
       },
       "sources": [
         {
@@ -108961,16 +109996,16 @@
       ],
       "publicationStatus": "released",
       "completeness": {
-        "percent": 80,
-        "earned": 8,
+        "percent": 90,
+        "earned": 9,
         "possible": 10,
-        "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+        "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -109086,22 +110121,22 @@
         {
           "id": "cover-asset",
           "label": "Cached cover asset",
-          "status": "missing",
-          "available": false,
-          "explanation": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap.",
+          "status": "present",
+          "available": true,
+          "explanation": "The currently associated cover has local JPEG, PNG, or WebP bytes with a matching SHA-256 checksum and image header. This is file evidence, not a visual book-identity judgement.",
           "sourceUrl": "https://assets.podiumentertainment.com/medium/direct_cover_art/9781039494459.jpg",
-          "observedAt": null,
+          "observedAt": "2026-09-28T16:48:59.431Z",
           "dueAt": null
         },
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "missing",
-          "available": false,
-          "explanation": "No validated observation is bound to the current cached cover bytes.",
+          "status": "present",
+          "available": true,
+          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
           "sourceUrl": "https://assets.podiumentertainment.com/medium/direct_cover_art/9781039494459.jpg",
-          "observedAt": null,
-          "dueAt": null
+          "observedAt": "2026-09-28T16:48:59.431Z",
+          "dueAt": "2026-10-28T16:48:59.431Z"
         },
         {
           "id": "reader-sample",
@@ -109161,16 +110196,6 @@
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
         },
         {
-          "code": "cover-asset",
-          "status": "missing",
-          "message": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap."
-        },
-        {
-          "code": "cover-observation",
-          "status": "missing",
-          "message": "No validated observation is bound to the current cached cover bytes."
-        },
-        {
           "code": "reader-sample",
           "status": "missing",
           "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
@@ -109199,8 +110224,8 @@
         "audiobook": true,
         "audioVerified": true,
         "audioDateVerified": true,
-        "coverAsset": false,
-        "coverReviewed": false,
+        "coverAsset": true,
+        "coverReviewed": true,
         "readerSample": false,
         "readerAdequate": false
       },
@@ -109221,11 +110246,11 @@
       },
       "cover": {
         "url": "https://assets.podiumentertainment.com/medium/direct_cover_art/9781039494459.jpg",
-        "cached": false,
-        "hashVerified": false,
-        "bytes": null,
-        "observationCurrent": false,
-        "checkedAt": null
+        "cached": true,
+        "hashVerified": true,
+        "bytes": 52041,
+        "observationCurrent": true,
+        "checkedAt": "2026-09-28T16:48:59.431Z"
       },
       "sources": [
         {
@@ -109255,16 +110280,16 @@
       ],
       "publicationStatus": "released",
       "completeness": {
-        "percent": 80,
-        "earned": 8,
+        "percent": 90,
+        "earned": 9,
         "possible": 10,
-        "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+        "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -109380,22 +110405,22 @@
         {
           "id": "cover-asset",
           "label": "Cached cover asset",
-          "status": "missing",
-          "available": false,
-          "explanation": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap.",
+          "status": "present",
+          "available": true,
+          "explanation": "The currently associated cover has local JPEG, PNG, or WebP bytes with a matching SHA-256 checksum and image header. This is file evidence, not a visual book-identity judgement.",
           "sourceUrl": "https://assets.podiumentertainment.com/medium/direct_cover_art/9781039494497.jpg",
-          "observedAt": null,
+          "observedAt": "2026-09-28T16:49:07.934Z",
           "dueAt": null
         },
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "missing",
-          "available": false,
-          "explanation": "No validated observation is bound to the current cached cover bytes.",
+          "status": "present",
+          "available": true,
+          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
           "sourceUrl": "https://assets.podiumentertainment.com/medium/direct_cover_art/9781039494497.jpg",
-          "observedAt": null,
-          "dueAt": null
+          "observedAt": "2026-09-28T16:49:07.934Z",
+          "dueAt": "2026-10-28T16:49:07.934Z"
         },
         {
           "id": "reader-sample",
@@ -109455,16 +110480,6 @@
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
         },
         {
-          "code": "cover-asset",
-          "status": "missing",
-          "message": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap."
-        },
-        {
-          "code": "cover-observation",
-          "status": "missing",
-          "message": "No validated observation is bound to the current cached cover bytes."
-        },
-        {
           "code": "reader-sample",
           "status": "missing",
           "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
@@ -109493,8 +110508,8 @@
         "audiobook": true,
         "audioVerified": true,
         "audioDateVerified": true,
-        "coverAsset": false,
-        "coverReviewed": false,
+        "coverAsset": true,
+        "coverReviewed": true,
         "readerSample": false,
         "readerAdequate": false
       },
@@ -109515,11 +110530,11 @@
       },
       "cover": {
         "url": "https://assets.podiumentertainment.com/medium/direct_cover_art/9781039494497.jpg",
-        "cached": false,
-        "hashVerified": false,
-        "bytes": null,
-        "observationCurrent": false,
-        "checkedAt": null
+        "cached": true,
+        "hashVerified": true,
+        "bytes": 58380,
+        "observationCurrent": true,
+        "checkedAt": "2026-09-28T16:49:07.934Z"
       },
       "sources": [
         {
@@ -112396,16 +113411,16 @@
       ],
       "publicationStatus": "released",
       "completeness": {
-        "percent": 80,
-        "earned": 8,
+        "percent": 90,
+        "earned": 9,
         "possible": 10,
-        "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+        "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -112514,29 +113529,29 @@
           "status": "present",
           "available": true,
           "explanation": "A public image URL is retained; this alone is not a downloaded cover asset.",
-          "sourceUrl": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2025/10/8148G-I8hNL._SL1500_-1.jpg",
+          "sourceUrl": "https://m.media-amazon.com/images/I/518pd0kM9+L._SL500_.jpg",
           "observedAt": null,
           "dueAt": null
         },
         {
           "id": "cover-asset",
           "label": "Cached cover asset",
-          "status": "missing",
-          "available": false,
-          "explanation": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap.",
-          "sourceUrl": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2025/10/8148G-I8hNL._SL1500_-1.jpg",
-          "observedAt": null,
+          "status": "present",
+          "available": true,
+          "explanation": "The currently associated cover has local JPEG, PNG, or WebP bytes with a matching SHA-256 checksum and image header. This is file evidence, not a visual book-identity judgement.",
+          "sourceUrl": "https://m.media-amazon.com/images/I/518pd0kM9+L._SL500_.jpg",
+          "observedAt": "2026-09-28T16:49:16.304Z",
           "dueAt": null
         },
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "missing",
-          "available": false,
-          "explanation": "No validated observation is bound to the current cached cover bytes.",
-          "sourceUrl": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2025/10/8148G-I8hNL._SL1500_-1.jpg",
-          "observedAt": null,
-          "dueAt": null
+          "status": "present",
+          "available": true,
+          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
+          "sourceUrl": "https://m.media-amazon.com/images/I/518pd0kM9+L._SL500_.jpg",
+          "observedAt": "2026-09-28T16:49:16.304Z",
+          "dueAt": "2026-10-28T16:49:16.304Z"
         },
         {
           "id": "reader-sample",
@@ -112596,16 +113611,6 @@
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
         },
         {
-          "code": "cover-asset",
-          "status": "missing",
-          "message": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap."
-        },
-        {
-          "code": "cover-observation",
-          "status": "missing",
-          "message": "No validated observation is bound to the current cached cover bytes."
-        },
-        {
           "code": "reader-sample",
           "status": "missing",
           "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
@@ -112634,8 +113639,8 @@
         "audiobook": true,
         "audioVerified": true,
         "audioDateVerified": true,
-        "coverAsset": false,
-        "coverReviewed": false,
+        "coverAsset": true,
+        "coverReviewed": true,
         "readerSample": false,
         "readerAdequate": false
       },
@@ -112655,12 +113660,12 @@
         "sourceUrls": []
       },
       "cover": {
-        "url": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2025/10/8148G-I8hNL._SL1500_-1.jpg",
-        "cached": false,
-        "hashVerified": false,
-        "bytes": null,
-        "observationCurrent": false,
-        "checkedAt": null
+        "url": "https://m.media-amazon.com/images/I/518pd0kM9+L._SL500_.jpg",
+        "cached": true,
+        "hashVerified": true,
+        "bytes": 53052,
+        "observationCurrent": true,
+        "checkedAt": "2026-09-28T16:49:16.304Z"
       },
       "sources": [
         {
@@ -112691,16 +113696,16 @@
       ],
       "publicationStatus": "released",
       "completeness": {
-        "percent": 80,
-        "earned": 8,
+        "percent": 90,
+        "earned": 9,
         "possible": 10,
-        "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+        "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -112809,29 +113814,29 @@
           "status": "present",
           "available": true,
           "explanation": "A public image URL is retained; this alone is not a downloaded cover asset.",
-          "sourceUrl": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2025/10/81kg3h1bmgL._SL1500_-1.jpg",
+          "sourceUrl": "https://m.media-amazon.com/images/I/51iXgWlBp2L._SL500_.jpg",
           "observedAt": null,
           "dueAt": null
         },
         {
           "id": "cover-asset",
           "label": "Cached cover asset",
-          "status": "missing",
-          "available": false,
-          "explanation": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap.",
-          "sourceUrl": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2025/10/81kg3h1bmgL._SL1500_-1.jpg",
-          "observedAt": null,
+          "status": "present",
+          "available": true,
+          "explanation": "The currently associated cover has local JPEG, PNG, or WebP bytes with a matching SHA-256 checksum and image header. This is file evidence, not a visual book-identity judgement.",
+          "sourceUrl": "https://m.media-amazon.com/images/I/51iXgWlBp2L._SL500_.jpg",
+          "observedAt": "2026-09-28T16:49:26.987Z",
           "dueAt": null
         },
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "missing",
-          "available": false,
-          "explanation": "No validated observation is bound to the current cached cover bytes.",
-          "sourceUrl": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2025/10/81kg3h1bmgL._SL1500_-1.jpg",
-          "observedAt": null,
-          "dueAt": null
+          "status": "present",
+          "available": true,
+          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
+          "sourceUrl": "https://m.media-amazon.com/images/I/51iXgWlBp2L._SL500_.jpg",
+          "observedAt": "2026-09-28T16:49:26.987Z",
+          "dueAt": "2026-10-28T16:49:26.987Z"
         },
         {
           "id": "reader-sample",
@@ -112891,16 +113896,6 @@
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
         },
         {
-          "code": "cover-asset",
-          "status": "missing",
-          "message": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap."
-        },
-        {
-          "code": "cover-observation",
-          "status": "missing",
-          "message": "No validated observation is bound to the current cached cover bytes."
-        },
-        {
           "code": "reader-sample",
           "status": "missing",
           "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
@@ -112929,8 +113924,8 @@
         "audiobook": true,
         "audioVerified": true,
         "audioDateVerified": true,
-        "coverAsset": false,
-        "coverReviewed": false,
+        "coverAsset": true,
+        "coverReviewed": true,
         "readerSample": false,
         "readerAdequate": false
       },
@@ -112950,12 +113945,12 @@
         "sourceUrls": []
       },
       "cover": {
-        "url": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2025/10/81kg3h1bmgL._SL1500_-1.jpg",
-        "cached": false,
-        "hashVerified": false,
-        "bytes": null,
-        "observationCurrent": false,
-        "checkedAt": null
+        "url": "https://m.media-amazon.com/images/I/51iXgWlBp2L._SL500_.jpg",
+        "cached": true,
+        "hashVerified": true,
+        "bytes": 51394,
+        "observationCurrent": true,
+        "checkedAt": "2026-09-28T16:49:26.987Z"
       },
       "sources": [
         {
@@ -189659,7 +190654,7 @@
           "available": true,
           "explanation": "1 current exact US product documents pass the canonical title, complete author credits, selected series/volume, English, full-audio, and retained work-binding checks.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
-          "observedAt": "2026-09-20T18:33:43.931Z",
+          "observedAt": "2026-09-28T16:48:24.410Z",
           "dueAt": null
         },
         {
@@ -189669,8 +190664,8 @@
           "available": true,
           "explanation": "A verified audio-specific date establishes a current preorder schedule. Print and ebook dates are excluded.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
-          "observedAt": "2026-09-20T18:33:43.931Z",
-          "dueAt": "2026-09-27T18:33:43.931Z"
+          "observedAt": "2026-09-28T16:48:24.410Z",
+          "dueAt": "2026-10-05T16:48:24.410Z"
         },
         {
           "id": "narrator",
@@ -189679,7 +190674,7 @@
           "available": true,
           "explanation": "A named narrator is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
-          "observedAt": "2026-09-20T18:33:43.931Z",
+          "observedAt": "2026-09-28T16:48:24.410Z",
           "dueAt": null
         },
         {
@@ -189689,7 +190684,7 @@
           "available": true,
           "explanation": "A positive whole-minute duration is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
-          "observedAt": "2026-09-20T18:33:43.931Z",
+          "observedAt": "2026-09-28T16:48:24.410Z",
           "dueAt": null
         },
         {
@@ -189769,8 +190764,8 @@
           "available": true,
           "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
-          "observedAt": "2026-09-20T18:33:43.931Z",
-          "dueAt": "2026-09-27T18:33:43.931Z"
+          "observedAt": "2026-09-28T16:48:24.410Z",
+          "dueAt": "2026-10-05T16:48:24.410Z"
         }
       ],
       "issues": [
@@ -189850,9 +190845,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
           "status": "present",
-          "checkedAt": "2026-09-20T18:33:43.931Z",
+          "checkedAt": "2026-09-28T16:48:24.410Z",
           "fetchedAt": "2026-09-20T18:33:43.931Z",
-          "nextCheckAt": "2026-09-27T18:33:43.931Z"
+          "nextCheckAt": "2026-10-05T16:48:24.410Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/119205/world-walker",
