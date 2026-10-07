@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-06T15:16:10.535Z",
+  "generatedAt": "2026-10-07T15:36:18.354Z",
   "definitions": {
     "completeness": "Data presence, not bibliography completeness: equal weight for source-description, original-summary, extracted-metadata, jev-assessment, audio-edition, audio-date, narrator, runtime, cover-asset, reader-sample. Stale or unverified retained values can earn presence credit; corrupt unusable values cannot.",
     "evidenceQuality": "Current evidence/review checks, never a rating of a book: equal weight for source-description, reviewed-metadata, audio-verified, audio-date, cover-observation, reader-adequacy, reader-traits, reader-observation, source-freshness. Only present/current checks earn credit. No model confidence is converted into a quality score.",
@@ -21,7 +21,7 @@
     "works": 545,
     "confirmedAudioWorks": 513,
     "verifiedAudioDates": 510,
-    "coverAssets": 183,
+    "coverAssets": 184,
     "reviewedMetadata": 84,
     "adequateReaderSamples": 29,
     "meanCompleteness": 82,
@@ -4610,10 +4610,10 @@
       "knownWorks": 5,
       "confirmedAudioWorks": 5,
       "completeness": {
-        "percent": 81,
-        "earned": 43,
+        "percent": 83,
+        "earned": 44,
         "possible": 53,
-        "explanation": "43/53 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "44/53 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
         "percent": 49,
@@ -4737,7 +4737,7 @@
           "label": "Cached cover asset",
           "status": "missing",
           "available": true,
-          "explanation": "1/5 works are present/current; 4 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "2/5 works are present/current; 3 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -4852,7 +4852,7 @@
         {
           "code": "cover-asset:missing",
           "status": "missing",
-          "message": "Cached cover asset: 4/5 works are missing."
+          "message": "Cached cover asset: 3/5 works are missing."
         },
         {
           "code": "cover-observation:missing",
@@ -6292,8 +6292,8 @@
           "available": true,
           "explanation": "7/7 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/arcane-veterinarian/",
-          "observedAt": "2026-09-30T14:57:46.517Z",
-          "dueAt": "2026-10-07T14:57:46.517Z"
+          "observedAt": "2026-10-07T15:35:35.765Z",
+          "dueAt": "2026-10-14T15:35:35.765Z"
         },
         {
           "id": "series-summary",
@@ -6398,9 +6398,9 @@
         {
           "url": "https://aethonbooks.com/book-series/arcane-veterinarian/",
           "status": "present",
-          "checkedAt": "2026-09-30T14:57:46.517Z",
-          "fetchedAt": "2026-09-30T14:57:46.517Z",
-          "nextCheckAt": "2026-10-07T14:57:46.517Z"
+          "checkedAt": "2026-10-07T15:35:35.765Z",
+          "fetchedAt": "2026-10-07T15:35:35.765Z",
+          "nextCheckAt": "2026-10-14T15:35:35.765Z"
         },
         {
           "url": "https://aethonbooks.com/book/arcane-veterinarian-2/",
@@ -7185,9 +7185,9 @@
         {
           "url": "https://soundbooththeater.com/series/archemi-online-chronicles/",
           "status": "present",
-          "checkedAt": "2026-09-30T14:57:57.778Z",
-          "fetchedAt": "2026-09-30T14:57:57.778Z",
-          "nextCheckAt": "2026-10-07T14:57:57.778Z"
+          "checkedAt": "2026-10-07T15:35:50.605Z",
+          "fetchedAt": "2026-10-07T15:35:50.605Z",
+          "nextCheckAt": "2026-10-14T15:35:50.605Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/archemi-online-chronicles-book-1-5-fugitive-status/",
@@ -13443,8 +13443,8 @@
           "available": true,
           "explanation": "5/5 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/cozy-isekai-craftsman/",
-          "observedAt": "2026-09-30T14:57:48.385Z",
-          "dueAt": "2026-10-07T14:57:48.385Z"
+          "observedAt": "2026-10-07T15:35:37.547Z",
+          "dueAt": "2026-10-14T15:35:37.547Z"
         },
         {
           "id": "series-summary",
@@ -13549,9 +13549,9 @@
         {
           "url": "https://aethonbooks.com/book-series/cozy-isekai-craftsman/",
           "status": "present",
-          "checkedAt": "2026-09-30T14:57:48.385Z",
-          "fetchedAt": "2026-09-30T14:57:48.385Z",
-          "nextCheckAt": "2026-10-07T14:57:48.385Z"
+          "checkedAt": "2026-10-07T15:35:37.547Z",
+          "fetchedAt": "2026-10-07T15:35:37.547Z",
+          "nextCheckAt": "2026-10-14T15:35:37.547Z"
         },
         {
           "url": "https://aethonbooks.com/book/lockwood/",
@@ -15392,9 +15392,9 @@
         {
           "url": "https://soundbooththeater.com/series/dinosaur-dungeon/",
           "status": "present",
-          "checkedAt": "2026-09-30T14:57:59.083Z",
-          "fetchedAt": "2026-09-30T14:57:59.083Z",
-          "nextCheckAt": "2026-10-07T14:57:59.083Z"
+          "checkedAt": "2026-10-07T15:35:53.154Z",
+          "fetchedAt": "2026-10-07T15:35:53.154Z",
+          "nextCheckAt": "2026-10-14T15:35:53.154Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/dinosaur-dungeon-book-3-greed/",
@@ -16633,9 +16633,9 @@
         {
           "url": "https://podiumentertainment.com/series/56/dungeon-life",
           "status": "present",
-          "checkedAt": "2026-09-30T14:58:06.017Z",
-          "fetchedAt": "2026-09-30T14:58:06.017Z",
-          "nextCheckAt": "2026-10-07T14:58:06.017Z"
+          "checkedAt": "2026-10-07T15:36:00.186Z",
+          "fetchedAt": "2026-10-07T15:36:00.186Z",
+          "nextCheckAt": "2026-10-14T15:36:00.186Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/108927/dungeon-life-4",
@@ -17002,9 +17002,9 @@
         {
           "url": "https://soundbooththeater.com/series/elemental-dungeon-series/",
           "status": "present",
-          "checkedAt": "2026-09-30T14:58:01.308Z",
-          "fetchedAt": "2026-09-30T14:58:01.308Z",
-          "nextCheckAt": "2026-10-07T14:58:01.308Z"
+          "checkedAt": "2026-10-07T15:35:55.246Z",
+          "fetchedAt": "2026-10-07T15:35:55.246Z",
+          "nextCheckAt": "2026-10-14T15:35:55.246Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/bone-dungeon-elemental-dungeon-series-book-1/",
@@ -18322,9 +18322,9 @@
         {
           "url": "https://soundbooththeater.com/series/hero-of-thera-series/",
           "status": "present",
-          "checkedAt": "2026-09-30T14:57:50.513Z",
-          "fetchedAt": "2026-09-30T14:57:50.513Z",
-          "nextCheckAt": "2026-10-07T14:57:50.513Z"
+          "checkedAt": "2026-10-07T15:35:40.311Z",
+          "fetchedAt": "2026-10-07T15:35:40.311Z",
+          "nextCheckAt": "2026-10-14T15:35:40.311Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/a-thousand-drunken-monkeys-book-2-in-the-hero-of-thera-series/",
@@ -18907,8 +18907,8 @@
           "available": true,
           "explanation": "3/3 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://soundbooththeater.com/series/legends-of-arenia/",
-          "observedAt": "2026-09-30T14:57:48.517Z",
-          "dueAt": "2026-10-07T14:57:48.517Z"
+          "observedAt": "2026-10-07T15:35:38.387Z",
+          "dueAt": "2026-10-14T15:35:38.387Z"
         },
         {
           "id": "series-summary",
@@ -19033,9 +19033,9 @@
         {
           "url": "https://soundbooththeater.com/series/legends-of-arenia/",
           "status": "present",
-          "checkedAt": "2026-09-30T14:57:48.517Z",
-          "fetchedAt": "2026-09-30T14:57:48.517Z",
-          "nextCheckAt": "2026-10-07T14:57:48.517Z"
+          "checkedAt": "2026-10-07T15:35:38.387Z",
+          "fetchedAt": "2026-10-07T15:35:38.387Z",
+          "nextCheckAt": "2026-10-14T15:35:38.387Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/arrival-legends-of-arenia-book-1/",
@@ -21063,9 +21063,9 @@
         {
           "url": "https://soundbooththeater.com/series/pangea-online/",
           "status": "present",
-          "checkedAt": "2026-09-30T14:57:53.851Z",
-          "fetchedAt": "2026-09-30T14:57:53.851Z",
-          "nextCheckAt": "2026-10-07T14:57:53.851Z"
+          "checkedAt": "2026-10-07T15:35:44.376Z",
+          "fetchedAt": "2026-10-07T15:35:44.376Z",
+          "nextCheckAt": "2026-10-14T15:35:44.376Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/pangea-online-2-magic-and-mayhem/",
@@ -22518,8 +22518,8 @@
           "available": true,
           "explanation": "13/13 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/rise-of-the-living-forge/",
-          "observedAt": "2026-09-30T14:58:05.371Z",
-          "dueAt": "2026-10-07T14:58:05.371Z"
+          "observedAt": "2026-10-07T15:35:59.433Z",
+          "dueAt": "2026-10-14T15:35:59.433Z"
         },
         {
           "id": "series-summary",
@@ -22614,9 +22614,9 @@
         {
           "url": "https://aethonbooks.com/book-series/rise-of-the-living-forge/",
           "status": "present",
-          "checkedAt": "2026-09-30T14:58:05.371Z",
-          "fetchedAt": "2026-09-30T14:58:05.371Z",
-          "nextCheckAt": "2026-10-07T14:58:05.371Z"
+          "checkedAt": "2026-10-07T15:35:59.433Z",
+          "fetchedAt": "2026-10-07T15:35:59.433Z",
+          "nextCheckAt": "2026-10-14T15:35:59.433Z"
         },
         {
           "url": "https://aethonbooks.com/book/rise-of-the-living-forge-2/",
@@ -23467,9 +23467,9 @@
         {
           "url": "https://soundbooththeater.com/series/shadow-sun-series/",
           "status": "present",
-          "checkedAt": "2026-09-30T14:58:05.264Z",
-          "fetchedAt": "2026-09-30T14:58:05.264Z",
-          "nextCheckAt": "2026-10-07T14:58:05.264Z"
+          "checkedAt": "2026-10-07T15:35:58.775Z",
+          "fetchedAt": "2026-10-07T15:35:58.775Z",
+          "nextCheckAt": "2026-10-14T15:35:58.775Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/shadow-sun-expansion-shadow-sun-series-book-2/",
@@ -23854,9 +23854,9 @@
         {
           "url": "https://soundbooththeater.com/series/stonehaven-league/",
           "status": "present",
-          "checkedAt": "2026-09-30T14:58:02.625Z",
-          "fetchedAt": "2026-09-30T14:58:02.625Z",
-          "nextCheckAt": "2026-10-07T14:58:02.625Z"
+          "checkedAt": "2026-10-07T15:35:57.475Z",
+          "fetchedAt": "2026-10-07T15:35:57.475Z",
+          "nextCheckAt": "2026-10-14T15:35:57.475Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/cavern-of-spirits-a-litrpg-and-gamelit-adventure-stonehaven-league-book-3/",
@@ -24105,12 +24105,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "2/3 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://sarahlinauthor.blogspot.com/p/street-cultivation.html",
-          "observedAt": "2026-09-29T14:52:56.758Z",
-          "dueAt": "2026-10-06T14:52:56.758Z"
+          "explanation": "3/3 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/1541438299",
+          "observedAt": "2026-09-19T04:55:31.767Z",
+          "dueAt": "2026-12-18T04:55:31.767Z"
         },
         {
           "id": "series-summary",
@@ -24190,11 +24190,6 @@
           "message": "Publishable reader context: 2/2 works are missing."
         },
         {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "2/3 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
-        },
-        {
           "code": "bibliography",
           "status": "unknown",
           "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
@@ -24228,10 +24223,10 @@
         },
         {
           "url": "https://sarahlinauthor.blogspot.com/p/street-cultivation.html",
-          "status": "stale",
-          "checkedAt": "2026-09-29T14:52:56.758Z",
-          "fetchedAt": "2026-09-29T14:52:56.758Z",
-          "nextCheckAt": "2026-10-06T14:52:56.758Z"
+          "status": "present",
+          "checkedAt": "2026-10-07T15:36:04.670Z",
+          "fetchedAt": "2026-10-07T15:36:04.670Z",
+          "nextCheckAt": "2026-10-14T15:36:04.670Z"
         }
       ]
     },
@@ -26807,9 +26802,9 @@
         {
           "url": "https://soundbooththeater.com/series/the-greystone-chronicles/",
           "status": "present",
-          "checkedAt": "2026-09-30T14:57:51.816Z",
-          "fetchedAt": "2026-09-30T14:57:51.816Z",
-          "nextCheckAt": "2026-10-07T14:57:51.816Z"
+          "checkedAt": "2026-10-07T15:35:42.315Z",
+          "fetchedAt": "2026-10-07T15:35:42.315Z",
+          "nextCheckAt": "2026-10-14T15:35:42.315Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/darkness-fallen-the-greystone-chronicles-book-3/",
@@ -27697,10 +27692,10 @@
         "explanation": "75/83 equally weighted checks across all 8 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
-        "percent": 59,
-        "earned": 44,
+        "percent": 61,
+        "earned": 45,
         "possible": 74,
-        "explanation": "44/74 equally weighted checks across all 8 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "explanation": "45/74 equally weighted checks across all 8 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -27878,7 +27873,7 @@
           "label": "Source checks",
           "status": "unknown",
           "available": true,
-          "explanation": "15/17 associated source checks are current; 1 are due and 1 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "explanation": "16/17 associated source checks are current; 0 are due and 1 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://www.litrpg.com/updates-1",
           "observedAt": null,
           "dueAt": null
@@ -27951,14 +27946,9 @@
           "message": "Publishable reader context: 7/8 works are missing."
         },
         {
-          "code": "source-freshness:stale",
-          "status": "stale",
-          "message": "Source checks: 1/8 works are stale."
-        },
-        {
           "code": "source-freshness",
           "status": "unknown",
-          "message": "15/17 associated source checks are current; 1 are due and 1 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+          "message": "16/17 associated source checks are current; 0 are due and 1 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         },
         {
           "code": "bibliography",
@@ -28076,10 +28066,10 @@
         },
         {
           "url": "https://www.litrpg.com/the-land-founding-1",
-          "status": "stale",
-          "checkedAt": "2026-09-29T14:53:04.677Z",
-          "fetchedAt": "2026-09-29T14:53:04.677Z",
-          "nextCheckAt": "2026-10-06T14:53:04.677Z"
+          "status": "present",
+          "checkedAt": "2026-10-07T15:36:05.073Z",
+          "fetchedAt": "2026-10-07T15:36:05.073Z",
+          "nextCheckAt": "2026-10-14T15:36:05.073Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-raiders",
@@ -32373,12 +32363,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "5/6 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://sarahlinauthor.blogspot.com/p/the-weirkey-chronicles.html",
-          "observedAt": "2026-09-29T14:52:54.928Z",
-          "dueAt": "2026-10-06T14:52:54.928Z"
+          "explanation": "6/6 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B09NF763LH",
+          "observedAt": "2026-09-19T04:55:24.121Z",
+          "dueAt": "2026-12-18T04:55:24.121Z"
         },
         {
           "id": "series-summary",
@@ -32458,11 +32448,6 @@
           "message": "Publishable reader context: 5/5 works are missing."
         },
         {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "5/6 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
-        },
-        {
           "code": "bibliography",
           "status": "unknown",
           "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
@@ -32517,10 +32502,10 @@
         },
         {
           "url": "https://sarahlinauthor.blogspot.com/p/the-weirkey-chronicles.html",
-          "status": "stale",
-          "checkedAt": "2026-09-29T14:52:54.928Z",
-          "fetchedAt": "2026-09-29T14:52:54.928Z",
-          "nextCheckAt": "2026-10-06T14:52:54.928Z"
+          "status": "present",
+          "checkedAt": "2026-10-07T15:36:02.796Z",
+          "fetchedAt": "2026-10-07T15:36:02.796Z",
+          "nextCheckAt": "2026-10-14T15:36:02.796Z"
         }
       ]
     },
@@ -34050,9 +34035,9 @@
         {
           "url": "https://podiumentertainment.com/series/87/victor-of-tucson",
           "status": "present",
-          "checkedAt": "2026-09-30T14:58:07.727Z",
-          "fetchedAt": "2026-09-30T14:58:07.727Z",
-          "nextCheckAt": "2026-10-07T14:58:07.727Z"
+          "checkedAt": "2026-10-07T15:36:01.904Z",
+          "fetchedAt": "2026-10-07T15:36:01.904Z",
+          "nextCheckAt": "2026-10-14T15:36:01.904Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/108100/void-forged",
@@ -34477,9 +34462,9 @@
         {
           "url": "https://soundbooththeater.com/series/war-aeternus/",
           "status": "present",
-          "checkedAt": "2026-09-30T14:57:56.471Z",
-          "fetchedAt": "2026-09-30T14:57:56.471Z",
-          "nextCheckAt": "2026-10-07T14:57:56.471Z"
+          "checkedAt": "2026-10-07T15:35:48.449Z",
+          "fetchedAt": "2026-10-07T15:35:48.449Z",
+          "nextCheckAt": "2026-10-14T15:35:48.449Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/war-aeternus-2-sacrifices/",
@@ -35204,9 +35189,9 @@
         {
           "url": "https://soundbooththeater.com/series/world-of-chains/",
           "status": "present",
-          "checkedAt": "2026-09-30T14:57:55.160Z",
-          "fetchedAt": "2026-09-30T14:57:55.160Z",
-          "nextCheckAt": "2026-10-07T14:57:55.160Z"
+          "checkedAt": "2026-10-07T15:35:47.124Z",
+          "fetchedAt": "2026-10-07T15:35:47.124Z",
+          "nextCheckAt": "2026-10-14T15:35:47.124Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/the-emissary-bard-world-of-chains-book-3/",
@@ -52392,10 +52377,10 @@
       ],
       "publicationStatus": "released",
       "completeness": {
-        "percent": 80,
-        "earned": 8,
+        "percent": 90,
+        "earned": 9,
         "possible": 10,
-        "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+        "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
         "percent": 44,
@@ -52517,11 +52502,11 @@
         {
           "id": "cover-asset",
           "label": "Cached cover asset",
-          "status": "missing",
-          "available": false,
-          "explanation": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap.",
+          "status": "present",
+          "available": true,
+          "explanation": "The currently associated cover has local JPEG, PNG, or WebP bytes with a matching SHA-256 checksum and image header. This is file evidence, not a visual book-identity judgement.",
           "sourceUrl": "https://assets.podiumentertainment.com/medium/direct_cover_art/9781039432147.jpg",
-          "observedAt": null,
+          "observedAt": "2026-10-07T15:36:13.767Z",
           "dueAt": null
         },
         {
@@ -52531,8 +52516,8 @@
           "available": false,
           "explanation": "No validated observation is bound to the current cached cover bytes.",
           "sourceUrl": "https://assets.podiumentertainment.com/medium/direct_cover_art/9781039432147.jpg",
-          "observedAt": null,
-          "dueAt": null
+          "observedAt": "2026-10-07T15:36:13.767Z",
+          "dueAt": "2026-11-06T15:36:13.767Z"
         },
         {
           "id": "reader-sample",
@@ -52592,11 +52577,6 @@
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
         },
         {
-          "code": "cover-asset",
-          "status": "missing",
-          "message": "No checksum-verified image file is cached for the currently associated cover. A URL or an old different image does not fill this gap."
-        },
-        {
           "code": "cover-observation",
           "status": "missing",
           "message": "No validated observation is bound to the current cached cover bytes."
@@ -52630,7 +52610,7 @@
         "audiobook": true,
         "audioVerified": true,
         "audioDateVerified": true,
-        "coverAsset": false,
+        "coverAsset": true,
         "coverReviewed": false,
         "readerSample": false,
         "readerAdequate": false
@@ -52652,11 +52632,11 @@
       },
       "cover": {
         "url": "https://assets.podiumentertainment.com/medium/direct_cover_art/9781039432147.jpg",
-        "cached": false,
-        "hashVerified": false,
-        "bytes": null,
+        "cached": true,
+        "hashVerified": true,
+        "bytes": 64748,
         "observationCurrent": false,
-        "checkedAt": null
+        "checkedAt": "2026-10-07T15:36:13.767Z"
       },
       "sources": [
         {
@@ -154534,10 +154514,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -154547,7 +154527,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-founding-1",
-          "observedAt": "2026-09-29T14:53:04.677Z",
+          "observedAt": "2026-10-07T15:36:05.073Z",
           "dueAt": null
         },
         {
@@ -154713,12 +154693,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://www.litrpg.com/the-land-founding-1",
-          "observedAt": "2026-09-29T14:53:04.677Z",
-          "dueAt": "2026-10-06T14:53:04.677Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B088WZZX2W",
+          "observedAt": "2026-09-19T05:44:26.187Z",
+          "dueAt": "2026-12-18T05:44:26.187Z"
         }
       ],
       "issues": [
@@ -154746,11 +154726,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -154799,10 +154774,10 @@
         },
         {
           "url": "https://www.litrpg.com/the-land-founding-1",
-          "status": "stale",
-          "checkedAt": "2026-09-29T14:53:04.677Z",
-          "fetchedAt": "2026-09-29T14:53:04.677Z",
-          "nextCheckAt": "2026-10-06T14:53:04.677Z"
+          "status": "present",
+          "checkedAt": "2026-10-07T15:36:05.073Z",
+          "fetchedAt": "2026-10-07T15:36:05.073Z",
+          "nextCheckAt": "2026-10-14T15:36:05.073Z"
         }
       ]
     },
