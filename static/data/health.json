@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T14:30:50.490Z",
+  "generatedAt": "2026-10-11T14:57:40.595Z",
   "definitions": {
     "completeness": "Data presence, not bibliography completeness: equal weight for source-description, original-summary, extracted-metadata, jev-assessment, audio-edition, audio-date, narrator, runtime, cover-asset, reader-sample. Stale or unverified retained values can earn presence credit; corrupt unusable values cannot.",
     "evidenceQuality": "Current evidence/review checks, never a rating of a book: equal weight for source-description, reviewed-metadata, audio-verified, audio-date, cover-observation, reader-adequacy, reader-traits, reader-observation, source-freshness. Only present/current checks earn credit. No model confidence is converted into a quality score.",
@@ -3805,9 +3805,9 @@
         {
           "url": "https://podiumentertainment.com/series/1729/all-the-skills",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:33.252Z",
-          "fetchedAt": "2026-10-04T14:06:33.252Z",
-          "nextCheckAt": "2026-10-11T14:06:33.252Z"
+          "checkedAt": "2026-10-11T14:56:53.529Z",
+          "fetchedAt": "2026-10-11T14:56:53.529Z",
+          "nextCheckAt": "2026-10-18T14:56:53.529Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/134665/all-the-skills-6",
@@ -5703,9 +5703,9 @@
         {
           "url": "https://podiumentertainment.com/series/388/fantasy/arcane-ascension",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:45.343Z",
-          "fetchedAt": "2026-10-04T14:06:45.343Z",
-          "nextCheckAt": "2026-10-11T14:06:45.343Z"
+          "checkedAt": "2026-10-11T14:57:06.068Z",
+          "fetchedAt": "2026-10-11T14:57:06.068Z",
+          "nextCheckAt": "2026-10-18T14:57:06.068Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/3480/fantasy/sufficiently-advanced-magic",
@@ -7871,9 +7871,9 @@
         {
           "url": "https://aethonbooks.com/book-series/awaken-online/",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:37.661Z",
-          "fetchedAt": "2026-10-04T14:06:37.661Z",
-          "nextCheckAt": "2026-10-11T14:06:37.661Z"
+          "checkedAt": "2026-10-11T14:56:58.778Z",
+          "fetchedAt": "2026-10-11T14:56:58.778Z",
+          "nextCheckAt": "2026-10-18T14:56:58.778Z"
         },
         {
           "url": "https://aethonbooks.com/book/awaken-online-catharsis/",
@@ -8650,8 +8650,8 @@
           "available": true,
           "explanation": "19/19 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/battle-mage-farmer/",
-          "observedAt": "2026-10-04T14:06:33.948Z",
-          "dueAt": "2026-10-11T14:06:33.948Z"
+          "observedAt": "2026-10-11T14:56:53.834Z",
+          "dueAt": "2026-10-18T14:56:53.834Z"
         },
         {
           "id": "series-summary",
@@ -8756,9 +8756,9 @@
         {
           "url": "https://aethonbooks.com/book-series/battle-mage-farmer/",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:33.948Z",
-          "fetchedAt": "2026-10-04T14:06:33.948Z",
-          "nextCheckAt": "2026-10-11T14:06:33.948Z"
+          "checkedAt": "2026-10-11T14:56:53.834Z",
+          "fetchedAt": "2026-10-11T14:56:53.834Z",
+          "nextCheckAt": "2026-10-18T14:56:53.834Z"
         },
         {
           "url": "https://aethonbooks.com/book/conservation/",
@@ -18739,9 +18739,9 @@
         {
           "url": "https://podiumentertainment.com/series/809/immortal-great-souls",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:46.732Z",
-          "fetchedAt": "2026-10-04T14:06:46.732Z",
-          "nextCheckAt": "2026-10-11T14:06:46.732Z"
+          "checkedAt": "2026-10-11T14:57:07.682Z",
+          "fetchedAt": "2026-10-11T14:57:07.682Z",
+          "nextCheckAt": "2026-10-18T14:57:07.682Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/129079/the-lost-cube",
@@ -19910,9 +19910,9 @@
         {
           "url": "https://podiumentertainment.com/series/1919/mother-of-learning",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:43.936Z",
-          "fetchedAt": "2026-10-04T14:06:43.936Z",
-          "nextCheckAt": "2026-10-11T14:06:43.936Z"
+          "checkedAt": "2026-10-11T14:57:04.507Z",
+          "fetchedAt": "2026-10-11T14:57:04.507Z",
+          "nextCheckAt": "2026-10-18T14:57:04.507Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/2508/mother-of-learning-arc-4",
@@ -20148,8 +20148,8 @@
           "available": true,
           "explanation": "14/14 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/new-era-online/",
-          "observedAt": "2026-10-04T14:06:35.796Z",
-          "dueAt": "2026-10-11T14:06:35.796Z"
+          "observedAt": "2026-10-11T14:56:55.626Z",
+          "dueAt": "2026-10-18T14:56:55.626Z"
         },
         {
           "id": "series-summary",
@@ -20259,9 +20259,9 @@
         {
           "url": "https://aethonbooks.com/book-series/new-era-online/",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:35.796Z",
-          "fetchedAt": "2026-10-04T14:06:35.796Z",
-          "nextCheckAt": "2026-10-11T14:06:35.796Z"
+          "checkedAt": "2026-10-11T14:56:55.626Z",
+          "fetchedAt": "2026-10-11T14:56:55.626Z",
+          "nextCheckAt": "2026-10-18T14:56:55.626Z"
         },
         {
           "url": "https://api.audible.com/1.0/catalog/products/B076DL3FF4",
@@ -20308,9 +20308,9 @@
         {
           "url": "https://soundbooththeater.com/series/new-era-online/",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:34.209Z",
-          "fetchedAt": "2026-10-04T14:06:34.209Z",
-          "nextCheckAt": "2026-10-11T14:06:34.209Z"
+          "checkedAt": "2026-10-11T14:56:55.852Z",
+          "fetchedAt": "2026-10-11T14:56:55.852Z",
+          "nextCheckAt": "2026-10-18T14:56:55.852Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/life-reset-a-litrpg-novel/",
@@ -20739,9 +20739,9 @@
         {
           "url": "https://www.podiumentertainment.com/series/166/fantasy/noobtown",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:36.907Z",
-          "fetchedAt": "2026-10-04T14:06:36.907Z",
-          "nextCheckAt": "2026-10-11T14:06:36.907Z"
+          "checkedAt": "2026-10-11T14:56:58.125Z",
+          "fetchedAt": "2026-10-11T14:56:58.125Z",
+          "nextCheckAt": "2026-10-18T14:56:58.125Z"
         },
         {
           "url": "https://www.podiumentertainment.com/titles/120223/fantasy/the-noob-returns",
@@ -21918,9 +21918,9 @@
         {
           "url": "https://jrmathewsauthor.com/portal-to-nova-roma",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:49.670Z",
-          "fetchedAt": "2026-10-04T14:06:49.670Z",
-          "nextCheckAt": "2026-10-11T14:06:49.670Z"
+          "checkedAt": "2026-10-11T14:57:11.121Z",
+          "fetchedAt": "2026-10-11T14:57:11.121Z",
+          "nextCheckAt": "2026-10-18T14:57:11.121Z"
         }
       ]
     },
@@ -25212,9 +25212,9 @@
         {
           "url": "https://www.mountaindalepress.store/pages/series/completionist-chronicles",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:51.830Z",
-          "fetchedAt": "2026-10-04T14:06:51.830Z",
-          "nextCheckAt": "2026-10-11T14:06:51.830Z"
+          "checkedAt": "2026-10-11T14:57:13.612Z",
+          "fetchedAt": "2026-10-11T14:57:13.612Z",
+          "nextCheckAt": "2026-10-18T14:57:13.612Z"
         },
         {
           "url": "https://www.mountaindalepress.store/products/implode-signed-hardcover-preorder",
@@ -25660,9 +25660,9 @@
         {
           "url": "https://podiumentertainment.com/series/1504/the-daily-grind",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:48.129Z",
-          "fetchedAt": "2026-10-04T14:06:48.129Z",
-          "nextCheckAt": "2026-10-11T14:06:48.129Z"
+          "checkedAt": "2026-10-11T14:57:09.241Z",
+          "fetchedAt": "2026-10-11T14:57:09.241Z",
+          "nextCheckAt": "2026-10-18T14:57:09.241Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/27159/the-daily-grind-5",
@@ -26050,9 +26050,9 @@
         {
           "url": "https://www.mountaindalepress.store/pages/series/divine-dungeon",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:53.322Z",
-          "fetchedAt": "2026-10-04T14:06:53.322Z",
-          "nextCheckAt": "2026-10-11T14:06:53.322Z"
+          "checkedAt": "2026-10-11T14:57:15.077Z",
+          "fetchedAt": "2026-10-11T14:57:15.077Z",
+          "nextCheckAt": "2026-10-18T14:57:15.077Z"
         },
         {
           "url": "https://www.mountaindalepress.store/products/dungeon-born-signed-hardcover",
@@ -26518,9 +26518,9 @@
         {
           "url": "https://tomlitrpg.com/the-grand-game/",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:54.895Z",
-          "fetchedAt": "2026-10-04T14:06:54.895Z",
-          "nextCheckAt": "2026-10-11T14:06:54.895Z"
+          "checkedAt": "2026-10-11T14:57:16.676Z",
+          "fetchedAt": "2026-10-11T14:57:16.676Z",
+          "nextCheckAt": "2026-10-18T14:57:16.676Z"
         }
       ]
     },
@@ -29951,9 +29951,9 @@
         {
           "url": "https://podiumentertainment.com/series/387/the-perfect-run",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:42.502Z",
-          "fetchedAt": "2026-10-04T14:06:42.502Z",
-          "nextCheckAt": "2026-10-11T14:06:42.502Z"
+          "checkedAt": "2026-10-11T14:57:02.961Z",
+          "fetchedAt": "2026-10-11T14:57:02.961Z",
+          "nextCheckAt": "2026-10-18T14:57:02.961Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/1696/the-perfect-run",
@@ -31343,9 +31343,9 @@
         {
           "url": "https://aethonbooks.com/book-series/the-ten-realms/",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:42.221Z",
-          "fetchedAt": "2026-10-04T14:06:42.221Z",
-          "nextCheckAt": "2026-10-11T14:06:42.221Z"
+          "checkedAt": "2026-10-11T14:57:00.599Z",
+          "fetchedAt": "2026-10-11T14:57:00.599Z",
+          "nextCheckAt": "2026-10-18T14:57:00.599Z"
         },
         {
           "url": "https://aethonbooks.com/book/the-two-week-curse/",
@@ -31504,9 +31504,9 @@
         {
           "url": "https://michaelchatfield.com/collections/the-ten-realms",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:39.424Z",
-          "fetchedAt": "2026-10-04T14:06:39.424Z",
-          "nextCheckAt": "2026-10-11T14:06:39.424Z"
+          "checkedAt": "2026-10-11T14:57:02.358Z",
+          "fetchedAt": "2026-10-11T14:57:02.358Z",
+          "nextCheckAt": "2026-10-18T14:57:02.358Z"
         },
         {
           "url": "https://michaelchatfield.com/collections/the-ten-realms/products/the-eighth-realm-book",
@@ -32919,9 +32919,9 @@
         {
           "url": "https://soundbooththeater.com/series/the-wraiths-haunt-series/",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:36.614Z",
-          "fetchedAt": "2026-10-04T14:06:36.614Z",
-          "nextCheckAt": "2026-10-11T14:06:36.614Z"
+          "checkedAt": "2026-10-11T14:56:57.166Z",
+          "fetchedAt": "2026-10-11T14:56:57.166Z",
+          "nextCheckAt": "2026-10-18T14:56:57.166Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/dungeon-lord-abominable-creatures-the-wraiths-haunt-book-3/",
@@ -123744,7 +123744,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "observedAt": "2026-10-04T14:06:49.670Z",
+          "observedAt": "2026-10-11T14:57:11.121Z",
           "dueAt": null
         },
         {
@@ -123987,9 +123987,9 @@
         {
           "url": "https://jrmathewsauthor.com/portal-to-nova-roma",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:49.670Z",
-          "fetchedAt": "2026-10-04T14:06:49.670Z",
-          "nextCheckAt": "2026-10-11T14:06:49.670Z"
+          "checkedAt": "2026-10-11T14:57:11.121Z",
+          "fetchedAt": "2026-10-11T14:57:11.121Z",
+          "nextCheckAt": "2026-10-18T14:57:11.121Z"
         }
       ]
     },
@@ -124282,9 +124282,9 @@
         {
           "url": "https://jrmathewsauthor.com/portal-to-nova-roma",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:49.670Z",
-          "fetchedAt": "2026-10-04T14:06:49.670Z",
-          "nextCheckAt": "2026-10-11T14:06:49.670Z"
+          "checkedAt": "2026-10-11T14:57:11.121Z",
+          "fetchedAt": "2026-10-11T14:57:11.121Z",
+          "nextCheckAt": "2026-10-18T14:57:11.121Z"
         }
       ]
     },
@@ -124577,9 +124577,9 @@
         {
           "url": "https://jrmathewsauthor.com/portal-to-nova-roma",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:49.670Z",
-          "fetchedAt": "2026-10-04T14:06:49.670Z",
-          "nextCheckAt": "2026-10-11T14:06:49.670Z"
+          "checkedAt": "2026-10-11T14:57:11.121Z",
+          "fetchedAt": "2026-10-11T14:57:11.121Z",
+          "nextCheckAt": "2026-10-18T14:57:11.121Z"
         }
       ]
     },
@@ -124872,9 +124872,9 @@
         {
           "url": "https://jrmathewsauthor.com/portal-to-nova-roma",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:49.670Z",
-          "fetchedAt": "2026-10-04T14:06:49.670Z",
-          "nextCheckAt": "2026-10-11T14:06:49.670Z"
+          "checkedAt": "2026-10-11T14:57:11.121Z",
+          "fetchedAt": "2026-10-11T14:57:11.121Z",
+          "nextCheckAt": "2026-10-18T14:57:11.121Z"
         }
       ]
     },
@@ -124908,7 +124908,7 @@
           "available": false,
           "explanation": "No source description is retained for this work.",
           "sourceUrl": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "observedAt": "2026-10-04T14:06:49.670Z",
+          "observedAt": "2026-10-11T14:57:11.121Z",
           "dueAt": null
         },
         {
@@ -125078,8 +125078,8 @@
           "available": true,
           "explanation": "1/1 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "observedAt": "2026-10-04T14:06:49.670Z",
-          "dueAt": "2026-10-11T14:06:49.670Z"
+          "observedAt": "2026-10-11T14:57:11.121Z",
+          "dueAt": "2026-10-18T14:57:11.121Z"
         }
       ],
       "issues": [
@@ -125204,9 +125204,9 @@
         {
           "url": "https://jrmathewsauthor.com/portal-to-nova-roma",
           "status": "present",
-          "checkedAt": "2026-10-04T14:06:49.670Z",
-          "fetchedAt": "2026-10-04T14:06:49.670Z",
-          "nextCheckAt": "2026-10-11T14:06:49.670Z"
+          "checkedAt": "2026-10-11T14:57:11.121Z",
+          "fetchedAt": "2026-10-11T14:57:11.121Z",
+          "nextCheckAt": "2026-10-18T14:57:11.121Z"
         }
       ]
     },
