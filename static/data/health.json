@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T18:01:00.083Z",
+  "generatedAt": "2026-10-13T16:04:52.867Z",
   "definitions": {
     "completeness": "Data presence, not bibliography completeness: equal weight for source-description, original-summary, extracted-metadata, jev-assessment, audio-edition, audio-date, narrator, runtime, cover-asset, reader-sample. Stale or unverified retained values can earn presence credit; corrupt unusable values cannot.",
     "evidenceQuality": "Current evidence/review checks, never a rating of a book: equal weight for source-description, reviewed-metadata, audio-verified, audio-date, cover-observation, reader-adequacy, reader-traits, reader-observation, source-freshness. Only present/current checks earn credit. No model confidence is converted into a quality score.",
@@ -3295,8 +3295,8 @@
           "available": true,
           "explanation": "9/9 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/all-the-dust-that-falls/",
-          "observedAt": "2026-10-06T15:15:39.939Z",
-          "dueAt": "2026-10-13T15:15:39.939Z"
+          "observedAt": "2026-10-13T16:04:19.532Z",
+          "dueAt": "2026-10-20T16:04:19.532Z"
         },
         {
           "id": "series-summary",
@@ -3396,9 +3396,9 @@
         {
           "url": "https://aethonbooks.com/book-series/all-the-dust-that-falls/",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:39.939Z",
-          "fetchedAt": "2026-10-06T15:15:39.939Z",
-          "nextCheckAt": "2026-10-13T15:15:39.939Z"
+          "checkedAt": "2026-10-13T16:04:19.532Z",
+          "fetchedAt": "2026-10-13T16:04:19.532Z",
+          "nextCheckAt": "2026-10-20T16:04:19.532Z"
         },
         {
           "url": "https://aethonbooks.com/book/all-the-dust-that-falls-2/",
@@ -4940,9 +4940,9 @@
         {
           "url": "https://podiumentertainment.com/series/1066/apocalypse-parenting",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:32.492Z",
-          "fetchedAt": "2026-10-06T15:15:32.492Z",
-          "nextCheckAt": "2026-10-13T15:15:32.492Z"
+          "checkedAt": "2026-10-13T16:04:12.298Z",
+          "fetchedAt": "2026-10-13T16:04:12.298Z",
+          "nextCheckAt": "2026-10-20T16:04:12.298Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/108525/breaking-rules",
@@ -9677,9 +9677,9 @@
         {
           "url": "https://www.podiumentertainment.com/series/744/beneath-the-dragoneye-moons",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:31.354Z",
-          "fetchedAt": "2026-10-06T15:15:31.354Z",
-          "nextCheckAt": "2026-10-13T15:15:31.354Z"
+          "checkedAt": "2026-10-13T16:04:10.990Z",
+          "fetchedAt": "2026-10-13T16:04:10.990Z",
+          "nextCheckAt": "2026-10-20T16:04:10.990Z"
         },
         {
           "url": "https://www.podiumentertainment.com/titles/108101/rise-from-the-ashes",
@@ -14487,9 +14487,9 @@
         {
           "url": "https://podiumentertainment.com/series/1308/dawn-of-the-void",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:35.940Z",
-          "fetchedAt": "2026-10-06T15:15:35.940Z",
-          "nextCheckAt": "2026-10-13T15:15:35.940Z"
+          "checkedAt": "2026-10-13T16:04:15.656Z",
+          "fetchedAt": "2026-10-13T16:04:15.656Z",
+          "nextCheckAt": "2026-10-20T16:04:15.656Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/355/dawn-of-the-void",
@@ -15695,8 +15695,8 @@
           "available": true,
           "explanation": "14/14 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://afkauthor.com/",
-          "observedAt": "2026-10-06T15:15:26.581Z",
-          "dueAt": "2026-10-13T15:15:26.581Z"
+          "observedAt": "2026-10-13T16:04:07.249Z",
+          "dueAt": "2026-10-20T16:04:07.249Z"
         },
         {
           "id": "series-summary",
@@ -15801,16 +15801,16 @@
         {
           "url": "https://afkauthor.com/",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:26.581Z",
-          "fetchedAt": "2026-09-19T04:00:37.967Z",
-          "nextCheckAt": "2026-10-13T15:15:26.581Z"
+          "checkedAt": "2026-10-13T16:04:07.249Z",
+          "fetchedAt": "2026-10-13T16:04:07.249Z",
+          "nextCheckAt": "2026-10-20T16:04:07.249Z"
         },
         {
           "url": "https://afkauthor.com/book-recaps",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:27.796Z",
-          "fetchedAt": "2026-09-19T04:00:39.212Z",
-          "nextCheckAt": "2026-10-13T15:15:27.796Z"
+          "checkedAt": "2026-10-13T16:04:08.471Z",
+          "fetchedAt": "2026-10-13T16:04:08.471Z",
+          "nextCheckAt": "2026-10-20T16:04:08.471Z"
         },
         {
           "url": "https://api.audible.com/1.0/catalog/products/B087N77CJ3",
@@ -17599,9 +17599,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0H4LKXP2C",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:57.425Z",
-          "fetchedAt": "2026-10-06T15:15:57.425Z",
-          "nextCheckAt": "2026-10-13T15:15:57.425Z"
+          "checkedAt": "2026-10-13T16:04:31.742Z",
+          "fetchedAt": "2026-10-13T16:04:31.742Z",
+          "nextCheckAt": "2026-10-20T16:04:31.742Z"
         },
         {
           "url": "https://podiumentertainment.com/series/1925/he-who-fights-with-monsters",
@@ -18042,9 +18042,9 @@
         {
           "url": "https://www.podiumentertainment.com/series/1893/litrpg-and-gamelit/heretical-fishing",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:29.692Z",
-          "fetchedAt": "2026-10-06T15:15:29.692Z",
-          "nextCheckAt": "2026-10-13T15:15:29.692Z"
+          "checkedAt": "2026-10-13T16:04:09.553Z",
+          "fetchedAt": "2026-10-13T16:04:09.553Z",
+          "nextCheckAt": "2026-10-20T16:04:09.553Z"
         },
         {
           "url": "https://www.podiumentertainment.com/titles/109341/litrpg-and-gamelit/heretical-fishing-5",
@@ -21505,9 +21505,9 @@
         {
           "url": "https://podiumentertainment.com/series/594/path-of-the-berserker",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:37.620Z",
-          "fetchedAt": "2026-10-06T15:15:37.620Z",
-          "nextCheckAt": "2026-10-13T15:15:37.620Z"
+          "checkedAt": "2026-10-13T16:04:17.305Z",
+          "fetchedAt": "2026-10-13T16:04:17.305Z",
+          "nextCheckAt": "2026-10-20T16:04:17.305Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/135679/path-of-the-berserker-5",
@@ -22136,8 +22136,8 @@
           "available": true,
           "explanation": "17/17 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/reborn-as-a-demonic-tree/",
-          "observedAt": "2026-10-06T15:15:35.037Z",
-          "dueAt": "2026-10-13T15:15:35.037Z"
+          "observedAt": "2026-10-13T16:04:15.290Z",
+          "dueAt": "2026-10-20T16:04:15.290Z"
         },
         {
           "id": "series-summary",
@@ -22267,9 +22267,9 @@
         {
           "url": "https://aethonbooks.com/book-series/reborn-as-a-demonic-tree/",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:35.037Z",
-          "fetchedAt": "2026-10-06T15:15:35.037Z",
-          "nextCheckAt": "2026-10-13T15:15:35.037Z"
+          "checkedAt": "2026-10-13T16:04:15.290Z",
+          "fetchedAt": "2026-10-13T16:04:15.290Z",
+          "nextCheckAt": "2026-10-20T16:04:15.290Z"
         },
         {
           "url": "https://aethonbooks.com/book/reborn-as-a-demonic-tree-2/",
@@ -27706,9 +27706,9 @@
         {
           "url": "https://podiumentertainment.com/series/1139/the-infinite-world",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:39.236Z",
-          "fetchedAt": "2026-10-06T15:15:39.236Z",
-          "nextCheckAt": "2026-10-13T15:15:39.236Z"
+          "checkedAt": "2026-10-13T16:04:18.910Z",
+          "fetchedAt": "2026-10-13T16:04:18.910Z",
+          "nextCheckAt": "2026-10-20T16:04:18.910Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/5275/moonlight-banishes-shadows",
@@ -28103,37 +28103,37 @@
         {
           "url": "https://www.litrpg.com/the-land-alliances",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:43.538Z",
-          "fetchedAt": "2026-10-06T15:15:43.538Z",
-          "nextCheckAt": "2026-10-13T15:15:43.538Z"
+          "checkedAt": "2026-10-13T16:04:24.198Z",
+          "fetchedAt": "2026-10-13T16:04:24.198Z",
+          "nextCheckAt": "2026-10-20T16:04:24.198Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-catacombs",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:54.130Z",
-          "fetchedAt": "2026-10-06T15:15:54.130Z",
-          "nextCheckAt": "2026-10-13T15:15:54.130Z"
+          "checkedAt": "2026-10-13T16:04:25.659Z",
+          "fetchedAt": "2026-10-13T16:04:25.659Z",
+          "nextCheckAt": "2026-10-20T16:04:25.659Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-catacombs-1",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:49.159Z",
-          "fetchedAt": "2026-10-06T15:15:49.159Z",
-          "nextCheckAt": "2026-10-13T15:15:49.159Z"
+          "checkedAt": "2026-10-13T16:04:21.229Z",
+          "fetchedAt": "2026-10-13T16:04:21.229Z",
+          "nextCheckAt": "2026-10-20T16:04:21.229Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-forging",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:47.722Z",
-          "fetchedAt": "2026-10-06T15:15:47.722Z",
-          "nextCheckAt": "2026-10-13T15:15:47.722Z"
+          "checkedAt": "2026-10-13T16:04:30.040Z",
+          "fetchedAt": "2026-10-13T16:04:30.040Z",
+          "nextCheckAt": "2026-10-20T16:04:30.040Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-founding",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:44.974Z",
-          "fetchedAt": "2026-10-06T15:15:44.974Z",
-          "nextCheckAt": "2026-10-13T15:15:44.974Z"
+          "checkedAt": "2026-10-13T16:04:28.605Z",
+          "fetchedAt": "2026-10-13T16:04:28.605Z",
+          "nextCheckAt": "2026-10-20T16:04:28.605Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-founding-1",
@@ -28145,16 +28145,16 @@
         {
           "url": "https://www.litrpg.com/the-land-raiders",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:46.299Z",
-          "fetchedAt": "2026-10-06T15:15:46.299Z",
-          "nextCheckAt": "2026-10-13T15:15:46.299Z"
+          "checkedAt": "2026-10-13T16:04:22.714Z",
+          "fetchedAt": "2026-10-13T16:04:22.714Z",
+          "nextCheckAt": "2026-10-20T16:04:22.714Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-raiders-1",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:55.601Z",
-          "fetchedAt": "2026-10-06T15:15:55.601Z",
-          "nextCheckAt": "2026-10-13T15:15:55.601Z"
+          "checkedAt": "2026-10-13T16:04:27.114Z",
+          "fetchedAt": "2026-10-13T16:04:27.114Z",
+          "nextCheckAt": "2026-10-20T16:04:27.114Z"
         },
         {
           "url": "https://www.litrpg.com/updates-1",
@@ -29065,9 +29065,9 @@
         {
           "url": "https://podiumentertainment.com/series/696/the-menocht-loop",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:34.127Z",
-          "fetchedAt": "2026-10-06T15:15:34.127Z",
-          "nextCheckAt": "2026-10-13T15:15:34.127Z"
+          "checkedAt": "2026-10-13T16:04:13.927Z",
+          "fetchedAt": "2026-10-13T16:04:13.927Z",
+          "nextCheckAt": "2026-10-20T16:04:13.927Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/2048/the-false-ascendant",
@@ -33317,9 +33317,9 @@
         {
           "url": "https://podiumentertainment.com/series/1435/threadbare",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:30.851Z",
-          "fetchedAt": "2026-10-06T15:15:30.851Z",
-          "nextCheckAt": "2026-10-13T15:15:30.851Z"
+          "checkedAt": "2026-10-13T16:04:10.675Z",
+          "fetchedAt": "2026-10-13T16:04:10.675Z",
+          "nextCheckAt": "2026-10-20T16:04:10.675Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/1172/an-end-to-all-tails",
@@ -34099,9 +34099,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:56.150Z",
-          "fetchedAt": "2026-09-20T18:33:43.931Z",
-          "nextCheckAt": "2026-10-13T15:15:56.150Z"
+          "checkedAt": "2026-10-13T16:04:30.501Z",
+          "fetchedAt": "2026-10-13T16:04:30.501Z",
+          "nextCheckAt": "2026-10-20T16:04:30.501Z"
         },
         {
           "url": "https://podiumentertainment.com/series/87/victor-of-tucson",
@@ -34894,9 +34894,9 @@
         {
           "url": "https://podiumentertainment.com/series/1786/undefined",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:29.132Z",
-          "fetchedAt": "2026-10-06T15:15:29.132Z",
-          "nextCheckAt": "2026-10-13T15:15:29.132Z"
+          "checkedAt": "2026-10-13T16:04:09.025Z",
+          "fetchedAt": "2026-10-13T16:04:09.025Z",
+          "nextCheckAt": "2026-10-20T16:04:09.025Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/153/fire-and-song",
@@ -35636,9 +35636,9 @@
         {
           "url": "https://soundbooththeater.com/series/world-tree-trilogy/",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:34.328Z",
-          "fetchedAt": "2026-10-06T15:15:34.328Z",
-          "nextCheckAt": "2026-10-13T15:15:34.328Z"
+          "checkedAt": "2026-10-13T16:04:14.591Z",
+          "fetchedAt": "2026-10-13T16:04:14.591Z",
+          "nextCheckAt": "2026-10-20T16:04:14.591Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/demon-lords-world-tree-trilogy-book-2/",
@@ -109107,7 +109107,7 @@
           "available": true,
           "explanation": "1 current exact US product documents pass the canonical title, complete author credits, selected series/volume, English, full-audio, and retained work-binding checks.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0H4LKXP2C",
-          "observedAt": "2026-10-06T15:15:57.425Z",
+          "observedAt": "2026-10-13T16:04:31.742Z",
           "dueAt": null
         },
         {
@@ -109117,7 +109117,7 @@
           "available": true,
           "explanation": "A verified audio-specific date establishes an observed released recording. Print and ebook dates are excluded.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0H4LKXP2C",
-          "observedAt": "2026-10-06T15:15:57.425Z",
+          "observedAt": "2026-10-13T16:04:31.742Z",
           "dueAt": null
         },
         {
@@ -109127,7 +109127,7 @@
           "available": true,
           "explanation": "A named narrator is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0H4LKXP2C",
-          "observedAt": "2026-10-06T15:15:57.425Z",
+          "observedAt": "2026-10-13T16:04:31.742Z",
           "dueAt": null
         },
         {
@@ -109137,7 +109137,7 @@
           "available": true,
           "explanation": "A positive whole-minute duration is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0H4LKXP2C",
-          "observedAt": "2026-10-06T15:15:57.425Z",
+          "observedAt": "2026-10-13T16:04:31.742Z",
           "dueAt": null
         },
         {
@@ -109295,9 +109295,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0H4LKXP2C",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:57.425Z",
-          "fetchedAt": "2026-10-06T15:15:57.425Z",
-          "nextCheckAt": "2026-10-13T15:15:57.425Z"
+          "checkedAt": "2026-10-13T16:04:31.742Z",
+          "fetchedAt": "2026-10-13T16:04:31.742Z",
+          "nextCheckAt": "2026-10-20T16:04:31.742Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/164529/he-who-fights-with-monsters-13-a-litrpg-adventure",
@@ -153267,7 +153267,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-founding",
-          "observedAt": "2026-10-06T15:15:44.974Z",
+          "observedAt": "2026-10-13T16:04:28.605Z",
           "dueAt": null
         },
         {
@@ -153491,9 +153491,9 @@
         {
           "url": "https://www.litrpg.com/the-land-founding",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:44.974Z",
-          "fetchedAt": "2026-10-06T15:15:44.974Z",
-          "nextCheckAt": "2026-10-13T15:15:44.974Z"
+          "checkedAt": "2026-10-13T16:04:28.605Z",
+          "fetchedAt": "2026-10-13T16:04:28.605Z",
+          "nextCheckAt": "2026-10-20T16:04:28.605Z"
         }
       ]
     },
@@ -153527,7 +153527,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-forging",
-          "observedAt": "2026-10-06T15:15:47.722Z",
+          "observedAt": "2026-10-13T16:04:30.040Z",
           "dueAt": null
         },
         {
@@ -153775,9 +153775,9 @@
         {
           "url": "https://www.litrpg.com/the-land-forging",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:47.722Z",
-          "fetchedAt": "2026-10-06T15:15:47.722Z",
-          "nextCheckAt": "2026-10-13T15:15:47.722Z"
+          "checkedAt": "2026-10-13T16:04:30.040Z",
+          "fetchedAt": "2026-10-13T16:04:30.040Z",
+          "nextCheckAt": "2026-10-20T16:04:30.040Z"
         }
       ]
     },
@@ -153811,7 +153811,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-alliances",
-          "observedAt": "2026-10-06T15:15:43.538Z",
+          "observedAt": "2026-10-13T16:04:24.198Z",
           "dueAt": null
         },
         {
@@ -154059,9 +154059,9 @@
         {
           "url": "https://www.litrpg.com/the-land-alliances",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:43.538Z",
-          "fetchedAt": "2026-10-06T15:15:43.538Z",
-          "nextCheckAt": "2026-10-13T15:15:43.538Z"
+          "checkedAt": "2026-10-13T16:04:24.198Z",
+          "fetchedAt": "2026-10-13T16:04:24.198Z",
+          "nextCheckAt": "2026-10-20T16:04:24.198Z"
         }
       ]
     },
@@ -154095,7 +154095,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-catacombs",
-          "observedAt": "2026-10-06T15:15:54.130Z",
+          "observedAt": "2026-10-13T16:04:25.659Z",
           "dueAt": null
         },
         {
@@ -154343,9 +154343,9 @@
         {
           "url": "https://www.litrpg.com/the-land-catacombs",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:54.130Z",
-          "fetchedAt": "2026-10-06T15:15:54.130Z",
-          "nextCheckAt": "2026-10-13T15:15:54.130Z"
+          "checkedAt": "2026-10-13T16:04:25.659Z",
+          "fetchedAt": "2026-10-13T16:04:25.659Z",
+          "nextCheckAt": "2026-10-20T16:04:25.659Z"
         }
       ]
     },
@@ -154379,7 +154379,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-catacombs-1",
-          "observedAt": "2026-10-06T15:15:49.159Z",
+          "observedAt": "2026-10-13T16:04:21.229Z",
           "dueAt": null
         },
         {
@@ -154627,9 +154627,9 @@
         {
           "url": "https://www.litrpg.com/the-land-catacombs-1",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:49.159Z",
-          "fetchedAt": "2026-10-06T15:15:49.159Z",
-          "nextCheckAt": "2026-10-13T15:15:49.159Z"
+          "checkedAt": "2026-10-13T16:04:21.229Z",
+          "fetchedAt": "2026-10-13T16:04:21.229Z",
+          "nextCheckAt": "2026-10-20T16:04:21.229Z"
         }
       ]
     },
@@ -154663,7 +154663,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-raiders",
-          "observedAt": "2026-10-06T15:15:46.299Z",
+          "observedAt": "2026-10-13T16:04:22.714Z",
           "dueAt": null
         },
         {
@@ -154911,9 +154911,9 @@
         {
           "url": "https://www.litrpg.com/the-land-raiders",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:46.299Z",
-          "fetchedAt": "2026-10-06T15:15:46.299Z",
-          "nextCheckAt": "2026-10-13T15:15:46.299Z"
+          "checkedAt": "2026-10-13T16:04:22.714Z",
+          "fetchedAt": "2026-10-13T16:04:22.714Z",
+          "nextCheckAt": "2026-10-20T16:04:22.714Z"
         }
       ]
     },
@@ -154947,7 +154947,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-raiders-1",
-          "observedAt": "2026-10-06T15:15:55.601Z",
+          "observedAt": "2026-10-13T16:04:27.114Z",
           "dueAt": null
         },
         {
@@ -155195,9 +155195,9 @@
         {
           "url": "https://www.litrpg.com/the-land-raiders-1",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:55.601Z",
-          "fetchedAt": "2026-10-06T15:15:55.601Z",
-          "nextCheckAt": "2026-10-13T15:15:55.601Z"
+          "checkedAt": "2026-10-13T16:04:27.114Z",
+          "fetchedAt": "2026-10-13T16:04:27.114Z",
+          "nextCheckAt": "2026-10-20T16:04:27.114Z"
         }
       ]
     },
@@ -190634,7 +190634,7 @@
           "available": true,
           "explanation": "1 current exact US product documents pass the canonical title, complete author credits, selected series/volume, English, full-audio, and retained work-binding checks.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
-          "observedAt": "2026-10-06T15:15:56.150Z",
+          "observedAt": "2026-10-13T16:04:30.501Z",
           "dueAt": null
         },
         {
@@ -190644,7 +190644,7 @@
           "available": true,
           "explanation": "A verified audio-specific date establishes an observed released recording. Print and ebook dates are excluded.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
-          "observedAt": "2026-10-06T15:15:56.150Z",
+          "observedAt": "2026-10-13T16:04:30.501Z",
           "dueAt": null
         },
         {
@@ -190654,7 +190654,7 @@
           "available": true,
           "explanation": "A named narrator is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
-          "observedAt": "2026-10-06T15:15:56.150Z",
+          "observedAt": "2026-10-13T16:04:30.501Z",
           "dueAt": null
         },
         {
@@ -190664,7 +190664,7 @@
           "available": true,
           "explanation": "A positive whole-minute duration is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
-          "observedAt": "2026-10-06T15:15:56.150Z",
+          "observedAt": "2026-10-13T16:04:30.501Z",
           "dueAt": null
         },
         {
@@ -190744,8 +190744,8 @@
           "available": true,
           "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
-          "observedAt": "2026-10-06T15:15:56.150Z",
-          "dueAt": "2026-10-13T15:15:56.150Z"
+          "observedAt": "2026-10-13T16:04:30.501Z",
+          "dueAt": "2026-10-20T16:04:30.501Z"
         }
       ],
       "issues": [
@@ -190825,9 +190825,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
           "status": "present",
-          "checkedAt": "2026-10-06T15:15:56.150Z",
-          "fetchedAt": "2026-09-20T18:33:43.931Z",
-          "nextCheckAt": "2026-10-13T15:15:56.150Z"
+          "checkedAt": "2026-10-13T16:04:30.501Z",
+          "fetchedAt": "2026-10-13T16:04:30.501Z",
+          "nextCheckAt": "2026-10-20T16:04:30.501Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/119205/world-walker",
