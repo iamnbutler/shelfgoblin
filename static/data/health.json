@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T13:46:44.271Z",
+  "generatedAt": "2026-10-15T13:29:58.570Z",
   "definitions": {
     "completeness": "Data presence, not bibliography completeness: equal weight for source-description, original-summary, extracted-metadata, jev-assessment, audio-edition, audio-date, narrator, runtime, cover-asset, reader-sample. Stale or unverified retained values can earn presence credit; corrupt unusable values cannot.",
     "evidenceQuality": "Current evidence/review checks, never a rating of a book: equal weight for source-description, reviewed-metadata, audio-verified, audio-date, cover-observation, reader-adequacy, reader-traits, reader-observation, source-freshness. Only present/current checks earn credit. No model confidence is converted into a quality score.",
@@ -6297,8 +6297,8 @@
           "available": true,
           "explanation": "7/7 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/arcane-veterinarian/",
-          "observedAt": "2026-10-07T15:35:35.765Z",
-          "dueAt": "2026-10-14T15:35:35.765Z"
+          "observedAt": "2026-10-15T13:29:08.369Z",
+          "dueAt": "2026-10-22T13:29:08.369Z"
         },
         {
           "id": "series-summary",
@@ -6403,9 +6403,9 @@
         {
           "url": "https://aethonbooks.com/book-series/arcane-veterinarian/",
           "status": "present",
-          "checkedAt": "2026-10-07T15:35:35.765Z",
-          "fetchedAt": "2026-10-07T15:35:35.765Z",
-          "nextCheckAt": "2026-10-14T15:35:35.765Z"
+          "checkedAt": "2026-10-15T13:29:08.369Z",
+          "fetchedAt": "2026-10-15T13:29:08.369Z",
+          "nextCheckAt": "2026-10-22T13:29:08.369Z"
         },
         {
           "url": "https://aethonbooks.com/book/arcane-veterinarian-2/",
@@ -7190,9 +7190,9 @@
         {
           "url": "https://soundbooththeater.com/series/archemi-online-chronicles/",
           "status": "present",
-          "checkedAt": "2026-10-07T15:35:50.605Z",
-          "fetchedAt": "2026-10-07T15:35:50.605Z",
-          "nextCheckAt": "2026-10-14T15:35:50.605Z"
+          "checkedAt": "2026-10-15T13:29:18.704Z",
+          "fetchedAt": "2026-10-15T13:29:18.704Z",
+          "nextCheckAt": "2026-10-22T13:29:18.704Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/archemi-online-chronicles-book-1-5-fugitive-status/",
@@ -13514,8 +13514,8 @@
           "available": true,
           "explanation": "5/5 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/cozy-isekai-craftsman/",
-          "observedAt": "2026-10-07T15:35:37.547Z",
-          "dueAt": "2026-10-14T15:35:37.547Z"
+          "observedAt": "2026-10-15T13:29:10.203Z",
+          "dueAt": "2026-10-22T13:29:10.203Z"
         },
         {
           "id": "series-summary",
@@ -13620,9 +13620,9 @@
         {
           "url": "https://aethonbooks.com/book-series/cozy-isekai-craftsman/",
           "status": "present",
-          "checkedAt": "2026-10-07T15:35:37.547Z",
-          "fetchedAt": "2026-10-07T15:35:37.547Z",
-          "nextCheckAt": "2026-10-14T15:35:37.547Z"
+          "checkedAt": "2026-10-15T13:29:10.203Z",
+          "fetchedAt": "2026-10-15T13:29:10.203Z",
+          "nextCheckAt": "2026-10-22T13:29:10.203Z"
         },
         {
           "url": "https://aethonbooks.com/book/lockwood/",
@@ -15463,9 +15463,9 @@
         {
           "url": "https://soundbooththeater.com/series/dinosaur-dungeon/",
           "status": "present",
-          "checkedAt": "2026-10-07T15:35:53.154Z",
-          "fetchedAt": "2026-10-07T15:35:53.154Z",
-          "nextCheckAt": "2026-10-14T15:35:53.154Z"
+          "checkedAt": "2026-10-15T13:29:20.104Z",
+          "fetchedAt": "2026-10-15T13:29:20.104Z",
+          "nextCheckAt": "2026-10-22T13:29:20.104Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/dinosaur-dungeon-book-3-greed/",
@@ -16704,9 +16704,9 @@
         {
           "url": "https://podiumentertainment.com/series/56/dungeon-life",
           "status": "present",
-          "checkedAt": "2026-10-07T15:36:00.186Z",
-          "fetchedAt": "2026-10-07T15:36:00.186Z",
-          "nextCheckAt": "2026-10-14T15:36:00.186Z"
+          "checkedAt": "2026-10-15T13:29:25.604Z",
+          "fetchedAt": "2026-10-15T13:29:25.604Z",
+          "nextCheckAt": "2026-10-22T13:29:25.604Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/108927/dungeon-life-4",
@@ -17078,9 +17078,9 @@
         {
           "url": "https://soundbooththeater.com/series/elemental-dungeon-series/",
           "status": "present",
-          "checkedAt": "2026-10-07T15:35:55.246Z",
-          "fetchedAt": "2026-10-07T15:35:55.246Z",
-          "nextCheckAt": "2026-10-14T15:35:55.246Z"
+          "checkedAt": "2026-10-15T13:29:21.434Z",
+          "fetchedAt": "2026-10-15T13:29:21.434Z",
+          "nextCheckAt": "2026-10-22T13:29:21.434Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/bone-dungeon-elemental-dungeon-series-book-1/",
@@ -18398,9 +18398,9 @@
         {
           "url": "https://soundbooththeater.com/series/hero-of-thera-series/",
           "status": "present",
-          "checkedAt": "2026-10-07T15:35:40.311Z",
-          "fetchedAt": "2026-10-07T15:35:40.311Z",
-          "nextCheckAt": "2026-10-14T15:35:40.311Z"
+          "checkedAt": "2026-10-15T13:29:11.835Z",
+          "fetchedAt": "2026-10-15T13:29:11.835Z",
+          "nextCheckAt": "2026-10-22T13:29:11.835Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/a-thousand-drunken-monkeys-book-2-in-the-hero-of-thera-series/",
@@ -18983,8 +18983,8 @@
           "available": true,
           "explanation": "3/3 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://soundbooththeater.com/series/legends-of-arenia/",
-          "observedAt": "2026-10-07T15:35:38.387Z",
-          "dueAt": "2026-10-14T15:35:38.387Z"
+          "observedAt": "2026-10-15T13:29:10.441Z",
+          "dueAt": "2026-10-22T13:29:10.441Z"
         },
         {
           "id": "series-summary",
@@ -19109,9 +19109,9 @@
         {
           "url": "https://soundbooththeater.com/series/legends-of-arenia/",
           "status": "present",
-          "checkedAt": "2026-10-07T15:35:38.387Z",
-          "fetchedAt": "2026-10-07T15:35:38.387Z",
-          "nextCheckAt": "2026-10-14T15:35:38.387Z"
+          "checkedAt": "2026-10-15T13:29:10.441Z",
+          "fetchedAt": "2026-10-15T13:29:10.441Z",
+          "nextCheckAt": "2026-10-22T13:29:10.441Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/arrival-legends-of-arenia-book-1/",
@@ -21139,9 +21139,9 @@
         {
           "url": "https://soundbooththeater.com/series/pangea-online/",
           "status": "present",
-          "checkedAt": "2026-10-07T15:35:44.376Z",
-          "fetchedAt": "2026-10-07T15:35:44.376Z",
-          "nextCheckAt": "2026-10-14T15:35:44.376Z"
+          "checkedAt": "2026-10-15T13:29:14.637Z",
+          "fetchedAt": "2026-10-15T13:29:14.637Z",
+          "nextCheckAt": "2026-10-22T13:29:14.637Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/pangea-online-2-magic-and-mayhem/",
@@ -22594,8 +22594,8 @@
           "available": true,
           "explanation": "13/13 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/rise-of-the-living-forge/",
-          "observedAt": "2026-10-07T15:35:59.433Z",
-          "dueAt": "2026-10-14T15:35:59.433Z"
+          "observedAt": "2026-10-15T13:29:24.975Z",
+          "dueAt": "2026-10-22T13:29:24.975Z"
         },
         {
           "id": "series-summary",
@@ -22690,9 +22690,9 @@
         {
           "url": "https://aethonbooks.com/book-series/rise-of-the-living-forge/",
           "status": "present",
-          "checkedAt": "2026-10-07T15:35:59.433Z",
-          "fetchedAt": "2026-10-07T15:35:59.433Z",
-          "nextCheckAt": "2026-10-14T15:35:59.433Z"
+          "checkedAt": "2026-10-15T13:29:24.975Z",
+          "fetchedAt": "2026-10-15T13:29:24.975Z",
+          "nextCheckAt": "2026-10-22T13:29:24.975Z"
         },
         {
           "url": "https://aethonbooks.com/book/rise-of-the-living-forge-2/",
@@ -23543,9 +23543,9 @@
         {
           "url": "https://soundbooththeater.com/series/shadow-sun-series/",
           "status": "present",
-          "checkedAt": "2026-10-07T15:35:58.775Z",
-          "fetchedAt": "2026-10-07T15:35:58.775Z",
-          "nextCheckAt": "2026-10-14T15:35:58.775Z"
+          "checkedAt": "2026-10-15T13:29:24.179Z",
+          "fetchedAt": "2026-10-15T13:29:24.179Z",
+          "nextCheckAt": "2026-10-22T13:29:24.179Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/shadow-sun-expansion-shadow-sun-series-book-2/",
@@ -23930,9 +23930,9 @@
         {
           "url": "https://soundbooththeater.com/series/stonehaven-league/",
           "status": "present",
-          "checkedAt": "2026-10-07T15:35:57.475Z",
-          "fetchedAt": "2026-10-07T15:35:57.475Z",
-          "nextCheckAt": "2026-10-14T15:35:57.475Z"
+          "checkedAt": "2026-10-15T13:29:22.848Z",
+          "fetchedAt": "2026-10-15T13:29:22.848Z",
+          "nextCheckAt": "2026-10-22T13:29:22.848Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/cavern-of-spirits-a-litrpg-and-gamelit-adventure-stonehaven-league-book-3/",
@@ -24300,9 +24300,9 @@
         {
           "url": "https://sarahlinauthor.blogspot.com/p/street-cultivation.html",
           "status": "present",
-          "checkedAt": "2026-10-07T15:36:04.670Z",
-          "fetchedAt": "2026-10-07T15:36:04.670Z",
-          "nextCheckAt": "2026-10-14T15:36:04.670Z"
+          "checkedAt": "2026-10-15T13:29:32.429Z",
+          "fetchedAt": "2026-10-15T13:29:32.429Z",
+          "nextCheckAt": "2026-10-22T13:29:32.429Z"
         }
       ]
     },
@@ -26878,9 +26878,9 @@
         {
           "url": "https://soundbooththeater.com/series/the-greystone-chronicles/",
           "status": "present",
-          "checkedAt": "2026-10-07T15:35:42.315Z",
-          "fetchedAt": "2026-10-07T15:35:42.315Z",
-          "nextCheckAt": "2026-10-14T15:35:42.315Z"
+          "checkedAt": "2026-10-15T13:29:13.226Z",
+          "fetchedAt": "2026-10-15T13:29:13.226Z",
+          "nextCheckAt": "2026-10-22T13:29:13.226Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/darkness-fallen-the-greystone-chronicles-book-3/",
@@ -28143,9 +28143,9 @@
         {
           "url": "https://www.litrpg.com/the-land-founding-1",
           "status": "present",
-          "checkedAt": "2026-10-07T15:36:05.073Z",
-          "fetchedAt": "2026-10-07T15:36:05.073Z",
-          "nextCheckAt": "2026-10-14T15:36:05.073Z"
+          "checkedAt": "2026-10-15T13:29:33.146Z",
+          "fetchedAt": "2026-10-15T13:29:33.146Z",
+          "nextCheckAt": "2026-10-22T13:29:33.146Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-raiders",
@@ -32579,9 +32579,9 @@
         {
           "url": "https://sarahlinauthor.blogspot.com/p/the-weirkey-chronicles.html",
           "status": "present",
-          "checkedAt": "2026-10-07T15:36:02.796Z",
-          "fetchedAt": "2026-10-07T15:36:02.796Z",
-          "nextCheckAt": "2026-10-14T15:36:02.796Z"
+          "checkedAt": "2026-10-15T13:29:30.732Z",
+          "fetchedAt": "2026-10-15T13:29:30.732Z",
+          "nextCheckAt": "2026-10-22T13:29:30.732Z"
         }
       ]
     },
@@ -34111,9 +34111,9 @@
         {
           "url": "https://podiumentertainment.com/series/87/victor-of-tucson",
           "status": "present",
-          "checkedAt": "2026-10-07T15:36:01.904Z",
-          "fetchedAt": "2026-10-07T15:36:01.904Z",
-          "nextCheckAt": "2026-10-14T15:36:01.904Z"
+          "checkedAt": "2026-10-15T13:29:27.209Z",
+          "fetchedAt": "2026-10-15T13:29:27.209Z",
+          "nextCheckAt": "2026-10-22T13:29:27.209Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/108100/void-forged",
@@ -34538,9 +34538,9 @@
         {
           "url": "https://soundbooththeater.com/series/war-aeternus/",
           "status": "present",
-          "checkedAt": "2026-10-07T15:35:48.449Z",
-          "fetchedAt": "2026-10-07T15:35:48.449Z",
-          "nextCheckAt": "2026-10-14T15:35:48.449Z"
+          "checkedAt": "2026-10-15T13:29:17.377Z",
+          "fetchedAt": "2026-10-15T13:29:17.377Z",
+          "nextCheckAt": "2026-10-22T13:29:17.377Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/war-aeternus-2-sacrifices/",
@@ -35265,9 +35265,9 @@
         {
           "url": "https://soundbooththeater.com/series/world-of-chains/",
           "status": "present",
-          "checkedAt": "2026-10-07T15:35:47.124Z",
-          "fetchedAt": "2026-10-07T15:35:47.124Z",
-          "nextCheckAt": "2026-10-14T15:35:47.124Z"
+          "checkedAt": "2026-10-15T13:29:15.965Z",
+          "fetchedAt": "2026-10-15T13:29:15.965Z",
+          "nextCheckAt": "2026-10-22T13:29:15.965Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/the-emissary-bard-world-of-chains-book-3/",
@@ -155233,7 +155233,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-founding-1",
-          "observedAt": "2026-10-07T15:36:05.073Z",
+          "observedAt": "2026-10-15T13:29:33.146Z",
           "dueAt": null
         },
         {
@@ -155481,9 +155481,9 @@
         {
           "url": "https://www.litrpg.com/the-land-founding-1",
           "status": "present",
-          "checkedAt": "2026-10-07T15:36:05.073Z",
-          "fetchedAt": "2026-10-07T15:36:05.073Z",
-          "nextCheckAt": "2026-10-14T15:36:05.073Z"
+          "checkedAt": "2026-10-15T13:29:33.146Z",
+          "fetchedAt": "2026-10-15T13:29:33.146Z",
+          "nextCheckAt": "2026-10-22T13:29:33.146Z"
         }
       ]
     },
