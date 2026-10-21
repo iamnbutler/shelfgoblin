@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T13:36:53.681Z",
+  "generatedAt": "2026-10-21T13:53:01.922Z",
   "definitions": {
     "completeness": "Data presence, not bibliography completeness: equal weight for source-description, original-summary, extracted-metadata, jev-assessment, audio-edition, audio-date, narrator, runtime, cover-asset, reader-sample. Stale or unverified retained values can earn presence credit; corrupt unusable values cannot.",
     "evidenceQuality": "Current evidence/review checks, never a rating of a book: equal weight for source-description, reviewed-metadata, audio-verified, audio-date, cover-observation, reader-adequacy, reader-traits, reader-observation, source-freshness. Only present/current checks earn credit. No model confidence is converted into a quality score.",
@@ -3122,10 +3122,10 @@
         "explanation": "39/43 equally weighted checks across all 4 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
-        "percent": 50,
-        "earned": 19,
+        "percent": 58,
+        "earned": 22,
         "possible": 38,
-        "explanation": "19/38 equally weighted checks across all 4 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "explanation": "22/38 equally weighted checks across all 4 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -3251,9 +3251,9 @@
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/4 works are present/current; 0 missing, 0 unknown, 3 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "4/4 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -3305,8 +3305,8 @@
           "available": true,
           "explanation": "9/9 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/all-the-dust-that-falls/",
-          "observedAt": "2026-10-13T16:04:19.532Z",
-          "dueAt": "2026-10-20T16:04:19.532Z"
+          "observedAt": "2026-10-21T13:52:06.315Z",
+          "dueAt": "2026-10-28T13:52:06.315Z"
         },
         {
           "id": "series-summary",
@@ -3354,11 +3354,6 @@
           "code": "reviewed-metadata:missing",
           "status": "missing",
           "message": "Reviewed metadata: 3/4 works are missing."
-        },
-        {
-          "code": "cover-observation:stale",
-          "status": "stale",
-          "message": "Cover observation: 3/4 works are stale."
         },
         {
           "code": "reader-sample:missing",
@@ -3411,9 +3406,9 @@
         {
           "url": "https://aethonbooks.com/book-series/all-the-dust-that-falls/",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:19.532Z",
-          "fetchedAt": "2026-10-13T16:04:19.532Z",
-          "nextCheckAt": "2026-10-20T16:04:19.532Z"
+          "checkedAt": "2026-10-21T13:52:06.315Z",
+          "fetchedAt": "2026-10-21T13:52:06.315Z",
+          "nextCheckAt": "2026-10-28T13:52:06.315Z"
         },
         {
           "url": "https://aethonbooks.com/book/all-the-dust-that-falls-2/",
@@ -3494,10 +3489,10 @@
         "explanation": "57/63 equally weighted checks across all 6 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
-        "percent": 55,
-        "earned": 31,
+        "percent": 57,
+        "earned": 32,
         "possible": 56,
-        "explanation": "31/56 equally weighted checks across all 6 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "explanation": "32/56 equally weighted checks across all 6 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -3623,9 +3618,9 @@
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "5/6 works are present/current; 0 missing, 0 unknown, 1 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "6/6 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -3726,11 +3721,6 @@
           "code": "reviewed-metadata:missing",
           "status": "missing",
           "message": "Reviewed metadata: 5/6 works are missing."
-        },
-        {
-          "code": "cover-observation:stale",
-          "status": "stale",
-          "message": "Cover observation: 1/6 works are stale."
         },
         {
           "code": "reader-sample:missing",
@@ -4308,10 +4298,10 @@
         "explanation": "20/23 equally weighted checks across all 2 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
-        "percent": 55,
-        "earned": 11,
+        "percent": 60,
+        "earned": 12,
         "possible": 20,
-        "explanation": "11/20 equally weighted checks across all 2 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "explanation": "12/20 equally weighted checks across all 2 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -4437,9 +4427,9 @@
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 works are present/current; 0 missing, 0 unknown, 1 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "2/2 works are present/current; 0 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -4542,11 +4532,6 @@
           "message": "Reviewed metadata: 1/2 works are missing."
         },
         {
-          "code": "cover-observation:stale",
-          "status": "stale",
-          "message": "Cover observation: 1/2 works are stale."
-        },
-        {
           "code": "reader-sample:missing",
           "status": "missing",
           "message": "Usable reader comments: 2/2 works are missing."
@@ -4641,10 +4626,10 @@
         "explanation": "44/53 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
-        "percent": 47,
-        "earned": 22,
+        "percent": 49,
+        "earned": 23,
         "possible": 47,
-        "explanation": "22/47 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "explanation": "23/47 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -4772,7 +4757,7 @@
           "label": "Cover observation",
           "status": "missing",
           "available": true,
-          "explanation": "0/5 works are present/current; 4 missing, 0 unknown, 1 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "1/5 works are present/current; 4 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -4885,11 +4870,6 @@
           "message": "Cover observation: 4/5 works are missing."
         },
         {
-          "code": "cover-observation:stale",
-          "status": "stale",
-          "message": "Cover observation: 1/5 works are stale."
-        },
-        {
           "code": "reader-sample:missing",
           "status": "missing",
           "message": "Usable reader comments: 5/5 works are missing."
@@ -4970,9 +4950,9 @@
         {
           "url": "https://podiumentertainment.com/series/1066/apocalypse-parenting",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:12.298Z",
-          "fetchedAt": "2026-10-13T16:04:12.298Z",
-          "nextCheckAt": "2026-10-20T16:04:12.298Z"
+          "checkedAt": "2026-10-21T13:51:58.645Z",
+          "fetchedAt": "2026-10-21T13:51:58.645Z",
+          "nextCheckAt": "2026-10-28T13:51:58.645Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/108525/breaking-rules",
@@ -7612,10 +7592,10 @@
         "explanation": "114/123 equally weighted checks across all 12 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
-        "percent": 49,
-        "earned": 54,
+        "percent": 44,
+        "earned": 48,
         "possible": 110,
-        "explanation": "54/110 equally weighted checks across all 12 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "explanation": "48/110 equally weighted checks across all 12 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -7743,7 +7723,7 @@
           "label": "Cover observation",
           "status": "stale",
           "available": true,
-          "explanation": "11/12 works are present/current; 0 missing, 0 unknown, 1 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "5/12 works are present/current; 0 missing, 0 unknown, 7 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -7848,7 +7828,7 @@
         {
           "code": "cover-observation:stale",
           "status": "stale",
-          "message": "Cover observation: 1/12 works are stale."
+          "message": "Cover observation: 7/12 works are stale."
         },
         {
           "code": "reader-sample:missing",
@@ -9737,9 +9717,9 @@
         {
           "url": "https://www.podiumentertainment.com/series/744/beneath-the-dragoneye-moons",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:10.990Z",
-          "fetchedAt": "2026-10-13T16:04:10.990Z",
-          "nextCheckAt": "2026-10-20T16:04:10.990Z"
+          "checkedAt": "2026-10-21T13:51:57.497Z",
+          "fetchedAt": "2026-10-21T13:51:57.497Z",
+          "nextCheckAt": "2026-10-28T13:51:57.497Z"
         },
         {
           "url": "https://www.podiumentertainment.com/titles/108101/rise-from-the-ashes",
@@ -14562,9 +14542,9 @@
         {
           "url": "https://podiumentertainment.com/series/1308/dawn-of-the-void",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:15.656Z",
-          "fetchedAt": "2026-10-13T16:04:15.656Z",
-          "nextCheckAt": "2026-10-20T16:04:15.656Z"
+          "checkedAt": "2026-10-21T13:52:01.858Z",
+          "fetchedAt": "2026-10-21T13:52:01.858Z",
+          "nextCheckAt": "2026-10-28T13:52:01.858Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/355/dawn-of-the-void",
@@ -15776,9 +15756,9 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "14/14 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "explanation": "12/14 associated source checks are current; 2 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://afkauthor.com/",
           "observedAt": "2026-10-13T16:04:07.249Z",
           "dueAt": "2026-10-20T16:04:07.249Z"
@@ -15871,6 +15851,11 @@
           "message": "Publishable reader context: 12/12 works are missing."
         },
         {
+          "code": "source-freshness",
+          "status": "stale",
+          "message": "12/14 associated source checks are current; 2 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+        },
+        {
           "code": "bibliography",
           "status": "unknown",
           "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
@@ -15890,14 +15875,14 @@
       "sources": [
         {
           "url": "https://afkauthor.com/",
-          "status": "present",
+          "status": "stale",
           "checkedAt": "2026-10-13T16:04:07.249Z",
           "fetchedAt": "2026-10-13T16:04:07.249Z",
           "nextCheckAt": "2026-10-20T16:04:07.249Z"
         },
         {
           "url": "https://afkauthor.com/book-recaps",
-          "status": "present",
+          "status": "stale",
           "checkedAt": "2026-10-13T16:04:08.471Z",
           "fetchedAt": "2026-10-13T16:04:08.471Z",
           "nextCheckAt": "2026-10-20T16:04:08.471Z"
@@ -17709,9 +17694,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0H4LKXP2C",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:31.742Z",
-          "fetchedAt": "2026-10-13T16:04:31.742Z",
-          "nextCheckAt": "2026-10-20T16:04:31.742Z"
+          "checkedAt": "2026-10-21T13:52:18.767Z",
+          "fetchedAt": "2026-10-21T13:52:18.767Z",
+          "nextCheckAt": "2026-10-28T13:52:18.767Z"
         },
         {
           "url": "https://podiumentertainment.com/series/1925/he-who-fights-with-monsters",
@@ -18157,9 +18142,9 @@
         {
           "url": "https://www.podiumentertainment.com/series/1893/litrpg-and-gamelit/heretical-fishing",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:09.553Z",
-          "fetchedAt": "2026-10-13T16:04:09.553Z",
-          "nextCheckAt": "2026-10-20T16:04:09.553Z"
+          "checkedAt": "2026-10-21T13:51:56.051Z",
+          "fetchedAt": "2026-10-21T13:51:56.051Z",
+          "nextCheckAt": "2026-10-28T13:51:56.051Z"
         },
         {
           "url": "https://www.podiumentertainment.com/titles/109341/litrpg-and-gamelit/heretical-fishing-5",
@@ -21650,9 +21635,9 @@
         {
           "url": "https://podiumentertainment.com/series/594/path-of-the-berserker",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:17.305Z",
-          "fetchedAt": "2026-10-13T16:04:17.305Z",
-          "nextCheckAt": "2026-10-20T16:04:17.305Z"
+          "checkedAt": "2026-10-21T13:52:04.076Z",
+          "fetchedAt": "2026-10-21T13:52:04.076Z",
+          "nextCheckAt": "2026-10-28T13:52:04.076Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/135679/path-of-the-berserker-5",
@@ -22291,8 +22276,8 @@
           "available": true,
           "explanation": "17/17 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/reborn-as-a-demonic-tree/",
-          "observedAt": "2026-10-13T16:04:15.290Z",
-          "dueAt": "2026-10-20T16:04:15.290Z"
+          "observedAt": "2026-10-21T13:52:01.307Z",
+          "dueAt": "2026-10-28T13:52:01.307Z"
         },
         {
           "id": "series-summary",
@@ -22427,9 +22412,9 @@
         {
           "url": "https://aethonbooks.com/book-series/reborn-as-a-demonic-tree/",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:15.290Z",
-          "fetchedAt": "2026-10-13T16:04:15.290Z",
-          "nextCheckAt": "2026-10-20T16:04:15.290Z"
+          "checkedAt": "2026-10-21T13:52:01.307Z",
+          "fetchedAt": "2026-10-21T13:52:01.307Z",
+          "nextCheckAt": "2026-10-28T13:52:01.307Z"
         },
         {
           "url": "https://aethonbooks.com/book/reborn-as-a-demonic-tree-2/",
@@ -27916,9 +27901,9 @@
         {
           "url": "https://podiumentertainment.com/series/1139/the-infinite-world",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:18.910Z",
-          "fetchedAt": "2026-10-13T16:04:18.910Z",
-          "nextCheckAt": "2026-10-20T16:04:18.910Z"
+          "checkedAt": "2026-10-21T13:52:05.578Z",
+          "fetchedAt": "2026-10-21T13:52:05.578Z",
+          "nextCheckAt": "2026-10-28T13:52:05.578Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/5275/moonlight-banishes-shadows",
@@ -28318,37 +28303,37 @@
         {
           "url": "https://www.litrpg.com/the-land-alliances",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:24.198Z",
-          "fetchedAt": "2026-10-13T16:04:24.198Z",
-          "nextCheckAt": "2026-10-20T16:04:24.198Z"
+          "checkedAt": "2026-10-21T13:52:17.075Z",
+          "fetchedAt": "2026-10-21T13:52:17.075Z",
+          "nextCheckAt": "2026-10-28T13:52:17.075Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-catacombs",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:25.659Z",
-          "fetchedAt": "2026-10-13T16:04:25.659Z",
-          "nextCheckAt": "2026-10-20T16:04:25.659Z"
+          "checkedAt": "2026-10-21T13:52:14.025Z",
+          "fetchedAt": "2026-10-21T13:52:14.025Z",
+          "nextCheckAt": "2026-10-28T13:52:14.025Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-catacombs-1",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:21.229Z",
-          "fetchedAt": "2026-10-13T16:04:21.229Z",
-          "nextCheckAt": "2026-10-20T16:04:21.229Z"
+          "checkedAt": "2026-10-21T13:52:12.517Z",
+          "fetchedAt": "2026-10-21T13:52:12.517Z",
+          "nextCheckAt": "2026-10-28T13:52:12.517Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-forging",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:30.040Z",
-          "fetchedAt": "2026-10-13T16:04:30.040Z",
-          "nextCheckAt": "2026-10-20T16:04:30.040Z"
+          "checkedAt": "2026-10-21T13:52:15.582Z",
+          "fetchedAt": "2026-10-21T13:52:15.582Z",
+          "nextCheckAt": "2026-10-28T13:52:15.582Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-founding",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:28.605Z",
-          "fetchedAt": "2026-10-13T16:04:28.605Z",
-          "nextCheckAt": "2026-10-20T16:04:28.605Z"
+          "checkedAt": "2026-10-21T13:52:10.971Z",
+          "fetchedAt": "2026-10-21T13:52:10.971Z",
+          "nextCheckAt": "2026-10-28T13:52:10.971Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-founding-1",
@@ -28360,16 +28345,16 @@
         {
           "url": "https://www.litrpg.com/the-land-raiders",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:22.714Z",
-          "fetchedAt": "2026-10-13T16:04:22.714Z",
-          "nextCheckAt": "2026-10-20T16:04:22.714Z"
+          "checkedAt": "2026-10-21T13:52:08.031Z",
+          "fetchedAt": "2026-10-21T13:52:08.031Z",
+          "nextCheckAt": "2026-10-28T13:52:08.031Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-raiders-1",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:27.114Z",
-          "fetchedAt": "2026-10-13T16:04:27.114Z",
-          "nextCheckAt": "2026-10-20T16:04:27.114Z"
+          "checkedAt": "2026-10-21T13:52:09.552Z",
+          "fetchedAt": "2026-10-21T13:52:09.552Z",
+          "nextCheckAt": "2026-10-28T13:52:09.552Z"
         },
         {
           "url": "https://www.litrpg.com/updates-1",
@@ -29290,9 +29275,9 @@
         {
           "url": "https://podiumentertainment.com/series/696/the-menocht-loop",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:13.927Z",
-          "fetchedAt": "2026-10-13T16:04:13.927Z",
-          "nextCheckAt": "2026-10-20T16:04:13.927Z"
+          "checkedAt": "2026-10-21T13:52:00.290Z",
+          "fetchedAt": "2026-10-21T13:52:00.290Z",
+          "nextCheckAt": "2026-10-28T13:52:00.290Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/2048/the-false-ascendant",
@@ -33587,9 +33572,9 @@
         {
           "url": "https://podiumentertainment.com/series/1435/threadbare",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:10.675Z",
-          "fetchedAt": "2026-10-13T16:04:10.675Z",
-          "nextCheckAt": "2026-10-20T16:04:10.675Z"
+          "checkedAt": "2026-10-21T13:51:57.067Z",
+          "fetchedAt": "2026-10-21T13:51:57.067Z",
+          "nextCheckAt": "2026-10-28T13:51:57.067Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/1172/an-end-to-all-tails",
@@ -34374,9 +34359,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:30.501Z",
-          "fetchedAt": "2026-10-13T16:04:30.501Z",
-          "nextCheckAt": "2026-10-20T16:04:30.501Z"
+          "checkedAt": "2026-10-21T13:52:17.491Z",
+          "fetchedAt": "2026-10-21T13:52:17.491Z",
+          "nextCheckAt": "2026-10-28T13:52:17.491Z"
         },
         {
           "url": "https://podiumentertainment.com/series/87/victor-of-tucson",
@@ -35174,9 +35159,9 @@
         {
           "url": "https://podiumentertainment.com/series/1786/undefined",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:09.025Z",
-          "fetchedAt": "2026-10-13T16:04:09.025Z",
-          "nextCheckAt": "2026-10-20T16:04:09.025Z"
+          "checkedAt": "2026-10-21T13:51:55.545Z",
+          "fetchedAt": "2026-10-21T13:51:55.545Z",
+          "nextCheckAt": "2026-10-28T13:51:55.545Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/153/fire-and-song",
@@ -35921,9 +35906,9 @@
         {
           "url": "https://soundbooththeater.com/series/world-tree-trilogy/",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:14.591Z",
-          "fetchedAt": "2026-10-13T16:04:14.591Z",
-          "nextCheckAt": "2026-10-20T16:04:14.591Z"
+          "checkedAt": "2026-10-21T13:52:00.522Z",
+          "fetchedAt": "2026-10-21T13:52:00.522Z",
+          "nextCheckAt": "2026-10-28T13:52:00.522Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/demon-lords-world-tree-trilogy-book-2/",
@@ -47350,10 +47335,10 @@
         "explanation": "10/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 56,
-        "earned": 5,
+        "percent": 67,
+        "earned": 6,
         "possible": 9,
-        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "6/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -47473,18 +47458,18 @@
           "available": true,
           "explanation": "The currently associated cover has local JPEG, PNG, or WebP bytes with a matching SHA-256 checksum and image header. This is file evidence, not a visual book-identity judgement.",
           "sourceUrl": "https://m.media-amazon.com/images/I/51Kj-vbb8zL._SL500_.jpg",
-          "observedAt": "2026-09-19T04:48:17.476Z",
+          "observedAt": "2026-10-21T13:52:23.664Z",
           "dueAt": null
         },
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained.",
+          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
           "sourceUrl": "https://m.media-amazon.com/images/I/51Kj-vbb8zL._SL500_.jpg",
-          "observedAt": "2026-09-19T04:48:17.476Z",
-          "dueAt": "2026-10-19T04:48:17.476Z"
+          "observedAt": "2026-10-21T13:52:23.664Z",
+          "dueAt": "2026-11-20T13:52:23.664Z"
         },
         {
           "id": "reader-sample",
@@ -47539,11 +47524,6 @@
       ],
       "issues": [
         {
-          "code": "cover-observation",
-          "status": "stale",
-          "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
-        },
-        {
           "code": "reader-adequacy",
           "status": "unknown",
           "message": "1/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
@@ -47568,7 +47548,7 @@
         "audioVerified": true,
         "audioDateVerified": true,
         "coverAsset": true,
-        "coverReviewed": false,
+        "coverReviewed": true,
         "readerSample": true,
         "readerAdequate": false
       },
@@ -47594,8 +47574,8 @@
         "cached": true,
         "hashVerified": true,
         "bytes": 45619,
-        "observationCurrent": false,
-        "checkedAt": "2026-09-19T04:48:17.476Z"
+        "observationCurrent": true,
+        "checkedAt": "2026-10-21T13:52:23.664Z"
       },
       "sources": [
         {
@@ -47632,10 +47612,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -47755,18 +47735,18 @@
           "available": true,
           "explanation": "The currently associated cover has local JPEG, PNG, or WebP bytes with a matching SHA-256 checksum and image header. This is file evidence, not a visual book-identity judgement.",
           "sourceUrl": "https://m.media-amazon.com/images/I/51CSEuNqkfL._SL500_.jpg",
-          "observedAt": "2026-09-20T13:05:30.419Z",
+          "observedAt": "2026-10-21T13:52:27.443Z",
           "dueAt": null
         },
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained.",
+          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
           "sourceUrl": "https://m.media-amazon.com/images/I/51CSEuNqkfL._SL500_.jpg",
-          "observedAt": "2026-09-20T13:05:30.419Z",
-          "dueAt": "2026-10-20T13:05:30.419Z"
+          "observedAt": "2026-10-21T13:52:27.443Z",
+          "dueAt": "2026-11-20T13:52:27.443Z"
         },
         {
           "id": "reader-sample",
@@ -47826,11 +47806,6 @@
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
         },
         {
-          "code": "cover-observation",
-          "status": "stale",
-          "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
-        },
-        {
           "code": "reader-sample",
           "status": "missing",
           "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
@@ -47860,7 +47835,7 @@
         "audioVerified": true,
         "audioDateVerified": true,
         "coverAsset": true,
-        "coverReviewed": false,
+        "coverReviewed": true,
         "readerSample": false,
         "readerAdequate": false
       },
@@ -47884,8 +47859,8 @@
         "cached": true,
         "hashVerified": true,
         "bytes": 55153,
-        "observationCurrent": false,
-        "checkedAt": "2026-09-20T13:05:30.419Z"
+        "observationCurrent": true,
+        "checkedAt": "2026-10-21T13:52:27.443Z"
       },
       "sources": [
         {
@@ -47922,10 +47897,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -48045,18 +48020,18 @@
           "available": true,
           "explanation": "The currently associated cover has local JPEG, PNG, or WebP bytes with a matching SHA-256 checksum and image header. This is file evidence, not a visual book-identity judgement.",
           "sourceUrl": "https://m.media-amazon.com/images/I/51rRczk9-AL._SL500_.jpg",
-          "observedAt": "2026-09-19T03:15:55.427Z",
+          "observedAt": "2026-10-21T13:52:31.117Z",
           "dueAt": null
         },
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained.",
+          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
           "sourceUrl": "https://m.media-amazon.com/images/I/51rRczk9-AL._SL500_.jpg",
-          "observedAt": "2026-09-19T03:15:55.427Z",
-          "dueAt": "2026-10-19T03:15:55.427Z"
+          "observedAt": "2026-10-21T13:52:31.117Z",
+          "dueAt": "2026-11-20T13:52:31.117Z"
         },
         {
           "id": "reader-sample",
@@ -48116,11 +48091,6 @@
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
         },
         {
-          "code": "cover-observation",
-          "status": "stale",
-          "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
-        },
-        {
           "code": "reader-sample",
           "status": "missing",
           "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
@@ -48150,7 +48120,7 @@
         "audioVerified": true,
         "audioDateVerified": true,
         "coverAsset": true,
-        "coverReviewed": false,
+        "coverReviewed": true,
         "readerSample": false,
         "readerAdequate": false
       },
@@ -48174,8 +48144,8 @@
         "cached": true,
         "hashVerified": true,
         "bytes": 51574,
-        "observationCurrent": false,
-        "checkedAt": "2026-09-19T03:15:55.427Z"
+        "observationCurrent": true,
+        "checkedAt": "2026-10-21T13:52:31.117Z"
       },
       "sources": [
         {
@@ -48496,10 +48466,10 @@
         "explanation": "10/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 56,
-        "earned": 5,
+        "percent": 67,
+        "earned": 6,
         "possible": 9,
-        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "6/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -48619,18 +48589,18 @@
           "available": true,
           "explanation": "The currently associated cover has local JPEG, PNG, or WebP bytes with a matching SHA-256 checksum and image header. This is file evidence, not a visual book-identity judgement.",
           "sourceUrl": "https://m.media-amazon.com/images/I/51IRezk66nL._SL500_.jpg",
-          "observedAt": "2026-09-19T03:34:28.190Z",
+          "observedAt": "2026-10-21T13:52:36.625Z",
           "dueAt": null
         },
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained.",
+          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
           "sourceUrl": "https://m.media-amazon.com/images/I/51IRezk66nL._SL500_.jpg",
-          "observedAt": "2026-09-19T03:34:28.190Z",
-          "dueAt": "2026-10-19T03:34:28.190Z"
+          "observedAt": "2026-10-21T13:52:36.625Z",
+          "dueAt": "2026-11-20T13:52:36.625Z"
         },
         {
           "id": "reader-sample",
@@ -48685,11 +48655,6 @@
       ],
       "issues": [
         {
-          "code": "cover-observation",
-          "status": "stale",
-          "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
-        },
-        {
           "code": "reader-adequacy",
           "status": "unknown",
           "message": "4/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
@@ -48714,7 +48679,7 @@
         "audioVerified": true,
         "audioDateVerified": true,
         "coverAsset": true,
-        "coverReviewed": false,
+        "coverReviewed": true,
         "readerSample": true,
         "readerAdequate": false
       },
@@ -48740,8 +48705,8 @@
         "cached": true,
         "hashVerified": true,
         "bytes": 58728,
-        "observationCurrent": false,
-        "checkedAt": "2026-09-19T03:34:28.190Z"
+        "observationCurrent": true,
+        "checkedAt": "2026-10-21T13:52:36.625Z"
       },
       "sources": [
         {
@@ -51935,10 +51900,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 56,
-        "earned": 5,
+        "percent": 67,
+        "earned": 6,
         "possible": 9,
-        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "6/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -52058,18 +52023,18 @@
           "available": true,
           "explanation": "The currently associated cover has local JPEG, PNG, or WebP bytes with a matching SHA-256 checksum and image header. This is file evidence, not a visual book-identity judgement.",
           "sourceUrl": "https://m.media-amazon.com/images/I/51wP-Y0DDbL._SL500_.jpg",
-          "observedAt": "2026-09-19T02:51:54.560Z",
+          "observedAt": "2026-10-21T13:52:40.313Z",
           "dueAt": null
         },
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained.",
+          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
           "sourceUrl": "https://m.media-amazon.com/images/I/51wP-Y0DDbL._SL500_.jpg",
-          "observedAt": "2026-09-19T02:51:54.560Z",
-          "dueAt": "2026-10-19T02:51:54.560Z"
+          "observedAt": "2026-10-21T13:52:40.313Z",
+          "dueAt": "2026-11-20T13:52:40.313Z"
         },
         {
           "id": "reader-sample",
@@ -52124,11 +52089,6 @@
       ],
       "issues": [
         {
-          "code": "cover-observation",
-          "status": "stale",
-          "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
-        },
-        {
           "code": "reader-sample",
           "status": "missing",
           "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
@@ -52158,7 +52118,7 @@
         "audioVerified": true,
         "audioDateVerified": true,
         "coverAsset": true,
-        "coverReviewed": false,
+        "coverReviewed": true,
         "readerSample": false,
         "readerAdequate": false
       },
@@ -52182,8 +52142,8 @@
         "cached": true,
         "hashVerified": true,
         "bytes": 52405,
-        "observationCurrent": false,
-        "checkedAt": "2026-09-19T02:51:54.560Z"
+        "observationCurrent": true,
+        "checkedAt": "2026-10-21T13:52:40.313Z"
       },
       "sources": [
         {
@@ -52504,10 +52464,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 56,
-        "earned": 5,
+        "percent": 67,
+        "earned": 6,
         "possible": 9,
-        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "6/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -52627,18 +52587,18 @@
           "available": true,
           "explanation": "The currently associated cover has local JPEG, PNG, or WebP bytes with a matching SHA-256 checksum and image header. This is file evidence, not a visual book-identity judgement.",
           "sourceUrl": "https://m.media-amazon.com/images/I/51F8Is0pPDL._SL500_.jpg",
-          "observedAt": "2026-09-19T04:48:13.516Z",
+          "observedAt": "2026-10-21T13:52:45.629Z",
           "dueAt": null
         },
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained.",
+          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
           "sourceUrl": "https://m.media-amazon.com/images/I/51F8Is0pPDL._SL500_.jpg",
-          "observedAt": "2026-09-19T04:48:13.516Z",
-          "dueAt": "2026-10-19T04:48:13.516Z"
+          "observedAt": "2026-10-21T13:52:45.629Z",
+          "dueAt": "2026-11-20T13:52:45.629Z"
         },
         {
           "id": "reader-sample",
@@ -52693,11 +52653,6 @@
       ],
       "issues": [
         {
-          "code": "cover-observation",
-          "status": "stale",
-          "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
-        },
-        {
           "code": "reader-sample",
           "status": "missing",
           "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
@@ -52727,7 +52682,7 @@
         "audioVerified": true,
         "audioDateVerified": true,
         "coverAsset": true,
-        "coverReviewed": false,
+        "coverReviewed": true,
         "readerSample": false,
         "readerAdequate": false
       },
@@ -52751,8 +52706,8 @@
         "cached": true,
         "hashVerified": true,
         "bytes": 52434,
-        "observationCurrent": false,
-        "checkedAt": "2026-09-19T04:48:13.516Z"
+        "observationCurrent": true,
+        "checkedAt": "2026-10-21T13:52:45.629Z"
       },
       "sources": [
         {
@@ -61844,10 +61799,10 @@
         "explanation": "10/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 67,
-        "earned": 6,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "6/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -61973,9 +61928,9 @@
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
+          "explanation": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained.",
           "sourceUrl": "https://m.media-amazon.com/images/I/51wFuXYZzsS._SL500_.jpg",
           "observedAt": "2026-09-20T18:45:54.053Z",
           "dueAt": "2026-10-20T18:45:54.053Z"
@@ -62038,6 +61993,11 @@
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
         },
         {
+          "code": "cover-observation",
+          "status": "stale",
+          "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
+        },
+        {
           "code": "reader-observation",
           "status": "stale",
           "message": "An earlier observation exists, but none resolves for the current selected evidence."
@@ -62057,7 +62017,7 @@
         "audioVerified": true,
         "audioDateVerified": true,
         "coverAsset": true,
-        "coverReviewed": true,
+        "coverReviewed": false,
         "readerSample": true,
         "readerAdequate": true
       },
@@ -62083,7 +62043,7 @@
         "cached": true,
         "hashVerified": true,
         "bytes": 40654,
-        "observationCurrent": true,
+        "observationCurrent": false,
         "checkedAt": "2026-09-20T18:45:54.053Z"
       },
       "sources": [
@@ -62128,10 +62088,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 33,
+        "earned": 3,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -62257,9 +62217,9 @@
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
+          "explanation": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained.",
           "sourceUrl": "https://m.media-amazon.com/images/I/51IutCmOY9L._SL500_.jpg",
           "observedAt": "2026-09-20T18:46:04.841Z",
           "dueAt": "2026-10-20T18:46:04.841Z"
@@ -62322,6 +62282,11 @@
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
         },
         {
+          "code": "cover-observation",
+          "status": "stale",
+          "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
+        },
+        {
           "code": "reader-sample",
           "status": "missing",
           "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
@@ -62356,7 +62321,7 @@
         "audioVerified": true,
         "audioDateVerified": true,
         "coverAsset": true,
-        "coverReviewed": true,
+        "coverReviewed": false,
         "readerSample": false,
         "readerAdequate": false
       },
@@ -62380,7 +62345,7 @@
         "cached": true,
         "hashVerified": true,
         "bytes": 43458,
-        "observationCurrent": true,
+        "observationCurrent": false,
         "checkedAt": "2026-09-20T18:46:04.841Z"
       },
       "sources": [
@@ -62418,10 +62383,10 @@
         "explanation": "10/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 33,
+        "earned": 3,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -62547,9 +62512,9 @@
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
+          "explanation": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained.",
           "sourceUrl": "https://m.media-amazon.com/images/I/51ZOoKQWzCS._SL500_.jpg",
           "observedAt": "2026-09-20T18:46:14.618Z",
           "dueAt": "2026-10-20T18:46:14.618Z"
@@ -62612,6 +62577,11 @@
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
         },
         {
+          "code": "cover-observation",
+          "status": "stale",
+          "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
+        },
+        {
           "code": "reader-adequacy",
           "status": "unknown",
           "message": "4/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
@@ -62641,7 +62611,7 @@
         "audioVerified": true,
         "audioDateVerified": true,
         "coverAsset": true,
-        "coverReviewed": true,
+        "coverReviewed": false,
         "readerSample": true,
         "readerAdequate": false
       },
@@ -62667,7 +62637,7 @@
         "cached": true,
         "hashVerified": true,
         "bytes": 45545,
-        "observationCurrent": true,
+        "observationCurrent": false,
         "checkedAt": "2026-09-20T18:46:14.618Z"
       },
       "sources": [
@@ -62705,10 +62675,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 33,
+        "earned": 3,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -62834,9 +62804,9 @@
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
+          "explanation": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained.",
           "sourceUrl": "https://m.media-amazon.com/images/I/51Nd4l4bTlL._SL500_.jpg",
           "observedAt": "2026-09-20T18:46:24.147Z",
           "dueAt": "2026-10-20T18:46:24.147Z"
@@ -62899,6 +62869,11 @@
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
         },
         {
+          "code": "cover-observation",
+          "status": "stale",
+          "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
+        },
+        {
           "code": "reader-sample",
           "status": "missing",
           "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
@@ -62933,7 +62908,7 @@
         "audioVerified": true,
         "audioDateVerified": true,
         "coverAsset": true,
-        "coverReviewed": true,
+        "coverReviewed": false,
         "readerSample": false,
         "readerAdequate": false
       },
@@ -62957,7 +62932,7 @@
         "cached": true,
         "hashVerified": true,
         "bytes": 47044,
-        "observationCurrent": true,
+        "observationCurrent": false,
         "checkedAt": "2026-09-20T18:46:24.147Z"
       },
       "sources": [
@@ -62995,10 +62970,10 @@
         "explanation": "10/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 33,
+        "earned": 3,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -63124,9 +63099,9 @@
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
+          "explanation": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained.",
           "sourceUrl": "https://m.media-amazon.com/images/I/51pkdKXerqL._SL500_.jpg",
           "observedAt": "2026-09-20T18:46:33.824Z",
           "dueAt": "2026-10-20T18:46:33.824Z"
@@ -63189,6 +63164,11 @@
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
         },
         {
+          "code": "cover-observation",
+          "status": "stale",
+          "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
+        },
+        {
           "code": "reader-adequacy",
           "status": "unknown",
           "message": "3/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
@@ -63218,7 +63198,7 @@
         "audioVerified": true,
         "audioDateVerified": true,
         "coverAsset": true,
-        "coverReviewed": true,
+        "coverReviewed": false,
         "readerSample": true,
         "readerAdequate": false
       },
@@ -63244,7 +63224,7 @@
         "cached": true,
         "hashVerified": true,
         "bytes": 43273,
-        "observationCurrent": true,
+        "observationCurrent": false,
         "checkedAt": "2026-09-20T18:46:33.824Z"
       },
       "sources": [
@@ -63282,10 +63262,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 33,
+        "earned": 3,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -63411,9 +63391,9 @@
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
+          "explanation": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained.",
           "sourceUrl": "https://m.media-amazon.com/images/I/51FkdpNVAnL._SL500_.jpg",
           "observedAt": "2026-09-20T18:46:43.771Z",
           "dueAt": "2026-10-20T18:46:43.771Z"
@@ -63476,6 +63456,11 @@
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
         },
         {
+          "code": "cover-observation",
+          "status": "stale",
+          "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
+        },
+        {
           "code": "reader-sample",
           "status": "missing",
           "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
@@ -63510,7 +63495,7 @@
         "audioVerified": true,
         "audioDateVerified": true,
         "coverAsset": true,
-        "coverReviewed": true,
+        "coverReviewed": false,
         "readerSample": false,
         "readerAdequate": false
       },
@@ -63534,7 +63519,7 @@
         "cached": true,
         "hashVerified": true,
         "bytes": 44653,
-        "observationCurrent": true,
+        "observationCurrent": false,
         "checkedAt": "2026-09-20T18:46:43.771Z"
       },
       "sources": [
@@ -109590,7 +109575,7 @@
           "available": true,
           "explanation": "1 current exact US product documents pass the canonical title, complete author credits, selected series/volume, English, full-audio, and retained work-binding checks.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0H4LKXP2C",
-          "observedAt": "2026-10-13T16:04:31.742Z",
+          "observedAt": "2026-10-21T13:52:18.767Z",
           "dueAt": null
         },
         {
@@ -109600,7 +109585,7 @@
           "available": true,
           "explanation": "A verified audio-specific date establishes an observed released recording. Print and ebook dates are excluded.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0H4LKXP2C",
-          "observedAt": "2026-10-13T16:04:31.742Z",
+          "observedAt": "2026-10-21T13:52:18.767Z",
           "dueAt": null
         },
         {
@@ -109610,7 +109595,7 @@
           "available": true,
           "explanation": "A named narrator is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0H4LKXP2C",
-          "observedAt": "2026-10-13T16:04:31.742Z",
+          "observedAt": "2026-10-21T13:52:18.767Z",
           "dueAt": null
         },
         {
@@ -109620,7 +109605,7 @@
           "available": true,
           "explanation": "A positive whole-minute duration is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0H4LKXP2C",
-          "observedAt": "2026-10-13T16:04:31.742Z",
+          "observedAt": "2026-10-21T13:52:18.767Z",
           "dueAt": null
         },
         {
@@ -109783,9 +109768,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0H4LKXP2C",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:31.742Z",
-          "fetchedAt": "2026-10-13T16:04:31.742Z",
-          "nextCheckAt": "2026-10-20T16:04:31.742Z"
+          "checkedAt": "2026-10-21T13:52:18.767Z",
+          "fetchedAt": "2026-10-21T13:52:18.767Z",
+          "nextCheckAt": "2026-10-28T13:52:18.767Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/164529/he-who-fights-with-monsters-13-a-litrpg-adventure",
@@ -153859,7 +153844,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-founding",
-          "observedAt": "2026-10-13T16:04:28.605Z",
+          "observedAt": "2026-10-21T13:52:10.971Z",
           "dueAt": null
         },
         {
@@ -154089,9 +154074,9 @@
         {
           "url": "https://www.litrpg.com/the-land-founding",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:28.605Z",
-          "fetchedAt": "2026-10-13T16:04:28.605Z",
-          "nextCheckAt": "2026-10-20T16:04:28.605Z"
+          "checkedAt": "2026-10-21T13:52:10.971Z",
+          "fetchedAt": "2026-10-21T13:52:10.971Z",
+          "nextCheckAt": "2026-10-28T13:52:10.971Z"
         }
       ]
     },
@@ -154125,7 +154110,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-forging",
-          "observedAt": "2026-10-13T16:04:30.040Z",
+          "observedAt": "2026-10-21T13:52:15.582Z",
           "dueAt": null
         },
         {
@@ -154378,9 +154363,9 @@
         {
           "url": "https://www.litrpg.com/the-land-forging",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:30.040Z",
-          "fetchedAt": "2026-10-13T16:04:30.040Z",
-          "nextCheckAt": "2026-10-20T16:04:30.040Z"
+          "checkedAt": "2026-10-21T13:52:15.582Z",
+          "fetchedAt": "2026-10-21T13:52:15.582Z",
+          "nextCheckAt": "2026-10-28T13:52:15.582Z"
         }
       ]
     },
@@ -154414,7 +154399,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-alliances",
-          "observedAt": "2026-10-13T16:04:24.198Z",
+          "observedAt": "2026-10-21T13:52:17.075Z",
           "dueAt": null
         },
         {
@@ -154667,9 +154652,9 @@
         {
           "url": "https://www.litrpg.com/the-land-alliances",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:24.198Z",
-          "fetchedAt": "2026-10-13T16:04:24.198Z",
-          "nextCheckAt": "2026-10-20T16:04:24.198Z"
+          "checkedAt": "2026-10-21T13:52:17.075Z",
+          "fetchedAt": "2026-10-21T13:52:17.075Z",
+          "nextCheckAt": "2026-10-28T13:52:17.075Z"
         }
       ]
     },
@@ -154703,7 +154688,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-catacombs",
-          "observedAt": "2026-10-13T16:04:25.659Z",
+          "observedAt": "2026-10-21T13:52:14.025Z",
           "dueAt": null
         },
         {
@@ -154956,9 +154941,9 @@
         {
           "url": "https://www.litrpg.com/the-land-catacombs",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:25.659Z",
-          "fetchedAt": "2026-10-13T16:04:25.659Z",
-          "nextCheckAt": "2026-10-20T16:04:25.659Z"
+          "checkedAt": "2026-10-21T13:52:14.025Z",
+          "fetchedAt": "2026-10-21T13:52:14.025Z",
+          "nextCheckAt": "2026-10-28T13:52:14.025Z"
         }
       ]
     },
@@ -154992,7 +154977,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-catacombs-1",
-          "observedAt": "2026-10-13T16:04:21.229Z",
+          "observedAt": "2026-10-21T13:52:12.517Z",
           "dueAt": null
         },
         {
@@ -155245,9 +155230,9 @@
         {
           "url": "https://www.litrpg.com/the-land-catacombs-1",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:21.229Z",
-          "fetchedAt": "2026-10-13T16:04:21.229Z",
-          "nextCheckAt": "2026-10-20T16:04:21.229Z"
+          "checkedAt": "2026-10-21T13:52:12.517Z",
+          "fetchedAt": "2026-10-21T13:52:12.517Z",
+          "nextCheckAt": "2026-10-28T13:52:12.517Z"
         }
       ]
     },
@@ -155281,7 +155266,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-raiders",
-          "observedAt": "2026-10-13T16:04:22.714Z",
+          "observedAt": "2026-10-21T13:52:08.031Z",
           "dueAt": null
         },
         {
@@ -155534,9 +155519,9 @@
         {
           "url": "https://www.litrpg.com/the-land-raiders",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:22.714Z",
-          "fetchedAt": "2026-10-13T16:04:22.714Z",
-          "nextCheckAt": "2026-10-20T16:04:22.714Z"
+          "checkedAt": "2026-10-21T13:52:08.031Z",
+          "fetchedAt": "2026-10-21T13:52:08.031Z",
+          "nextCheckAt": "2026-10-28T13:52:08.031Z"
         }
       ]
     },
@@ -155570,7 +155555,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-raiders-1",
-          "observedAt": "2026-10-13T16:04:27.114Z",
+          "observedAt": "2026-10-21T13:52:09.552Z",
           "dueAt": null
         },
         {
@@ -155823,9 +155808,9 @@
         {
           "url": "https://www.litrpg.com/the-land-raiders-1",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:27.114Z",
-          "fetchedAt": "2026-10-13T16:04:27.114Z",
-          "nextCheckAt": "2026-10-20T16:04:27.114Z"
+          "checkedAt": "2026-10-21T13:52:09.552Z",
+          "fetchedAt": "2026-10-21T13:52:09.552Z",
+          "nextCheckAt": "2026-10-28T13:52:09.552Z"
         }
       ]
     },
@@ -191335,7 +191320,7 @@
           "available": true,
           "explanation": "1 current exact US product documents pass the canonical title, complete author credits, selected series/volume, English, full-audio, and retained work-binding checks.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
-          "observedAt": "2026-10-13T16:04:30.501Z",
+          "observedAt": "2026-10-21T13:52:17.491Z",
           "dueAt": null
         },
         {
@@ -191345,7 +191330,7 @@
           "available": true,
           "explanation": "A verified audio-specific date establishes an observed released recording. Print and ebook dates are excluded.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
-          "observedAt": "2026-10-13T16:04:30.501Z",
+          "observedAt": "2026-10-21T13:52:17.491Z",
           "dueAt": null
         },
         {
@@ -191355,7 +191340,7 @@
           "available": true,
           "explanation": "A named narrator is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
-          "observedAt": "2026-10-13T16:04:30.501Z",
+          "observedAt": "2026-10-21T13:52:17.491Z",
           "dueAt": null
         },
         {
@@ -191365,7 +191350,7 @@
           "available": true,
           "explanation": "A positive whole-minute duration is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
-          "observedAt": "2026-10-13T16:04:30.501Z",
+          "observedAt": "2026-10-21T13:52:17.491Z",
           "dueAt": null
         },
         {
@@ -191445,8 +191430,8 @@
           "available": true,
           "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
-          "observedAt": "2026-10-13T16:04:30.501Z",
-          "dueAt": "2026-10-20T16:04:30.501Z"
+          "observedAt": "2026-10-21T13:52:17.491Z",
+          "dueAt": "2026-10-28T13:52:17.491Z"
         }
       ],
       "issues": [
@@ -191526,9 +191511,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0GSX4B943",
           "status": "present",
-          "checkedAt": "2026-10-13T16:04:30.501Z",
-          "fetchedAt": "2026-10-13T16:04:30.501Z",
-          "nextCheckAt": "2026-10-20T16:04:30.501Z"
+          "checkedAt": "2026-10-21T13:52:17.491Z",
+          "fetchedAt": "2026-10-21T13:52:17.491Z",
+          "nextCheckAt": "2026-10-28T13:52:17.491Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/119205/world-walker",
