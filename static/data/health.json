@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T18:52:59.549Z",
+  "generatedAt": "2026-11-10T16:28:34.790Z",
   "definitions": {
     "completeness": "Data presence, not bibliography completeness: equal weight for source-description, original-summary, extracted-metadata, jev-assessment, audio-edition, audio-date, narrator, runtime, cover-asset, reader-sample. Stale or unverified retained values can earn presence credit; corrupt unusable values cannot.",
     "evidenceQuality": "Current evidence/review checks, never a rating of a book: equal weight for source-description, reviewed-metadata, audio-verified, audio-date, cover-observation, reader-adequacy, reader-traits, reader-observation, source-freshness. Only present/current checks earn credit. No model confidence is converted into a quality score.",
@@ -23,7 +23,7 @@
     "verifiedAudioDates": 511,
     "coverAssets": 192,
     "reviewedMetadata": 84,
-    "adequateReaderSamples": 31,
+    "adequateReaderSamples": 32,
     "meanCompleteness": 82,
     "meanEvidenceQuality": 45
   },
@@ -1104,8 +1104,8 @@
           "available": true,
           "explanation": "15/15 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/a-dragon-idols-reincarnation-tale/",
-          "observedAt": "2026-11-03T16:18:52.889Z",
-          "dueAt": "2026-11-10T16:18:52.889Z"
+          "observedAt": "2026-11-10T16:28:02.536Z",
+          "dueAt": "2026-11-17T16:28:02.536Z"
         },
         {
           "id": "series-summary",
@@ -1200,9 +1200,9 @@
         {
           "url": "https://aethonbooks.com/book-series/a-dragon-idols-reincarnation-tale/",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:52.889Z",
-          "fetchedAt": "2026-11-03T16:18:52.889Z",
-          "nextCheckAt": "2026-11-10T16:18:52.889Z"
+          "checkedAt": "2026-11-10T16:28:02.536Z",
+          "fetchedAt": "2026-11-10T16:28:02.536Z",
+          "nextCheckAt": "2026-11-17T16:28:02.536Z"
         },
         {
           "url": "https://aethonbooks.com/book/__trashed/",
@@ -1505,8 +1505,8 @@
           "available": true,
           "explanation": "7/7 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/a-dream-of-wings-flame/",
-          "observedAt": "2026-11-03T16:18:54.150Z",
-          "dueAt": "2026-11-10T16:18:54.150Z"
+          "observedAt": "2026-11-10T16:28:04.637Z",
+          "dueAt": "2026-11-17T16:28:04.637Z"
         },
         {
           "id": "series-summary",
@@ -1601,9 +1601,9 @@
         {
           "url": "https://aethonbooks.com/book-series/a-dream-of-wings-flame/",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:54.150Z",
-          "fetchedAt": "2026-11-03T16:18:54.150Z",
-          "nextCheckAt": "2026-11-10T16:18:54.150Z"
+          "checkedAt": "2026-11-10T16:28:04.637Z",
+          "fetchedAt": "2026-11-10T16:28:04.637Z",
+          "nextCheckAt": "2026-11-17T16:28:04.637Z"
         },
         {
           "url": "https://aethonbooks.com/book/a-dream-of-wings-flame/",
@@ -1849,8 +1849,8 @@
           "available": true,
           "explanation": "7/7 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/a-summoner-awakens/",
-          "observedAt": "2026-11-03T16:18:55.411Z",
-          "dueAt": "2026-11-10T16:18:55.411Z"
+          "observedAt": "2026-11-10T16:28:06.498Z",
+          "dueAt": "2026-11-17T16:28:06.498Z"
         },
         {
           "id": "series-summary",
@@ -1950,9 +1950,9 @@
         {
           "url": "https://aethonbooks.com/book-series/a-summoner-awakens/",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:55.411Z",
-          "fetchedAt": "2026-11-03T16:18:55.411Z",
-          "nextCheckAt": "2026-11-10T16:18:55.411Z"
+          "checkedAt": "2026-11-10T16:28:06.498Z",
+          "fetchedAt": "2026-11-10T16:28:06.498Z",
+          "nextCheckAt": "2026-11-17T16:28:06.498Z"
         },
         {
           "url": "https://aethonbooks.com/book/ascension/",
@@ -1985,9 +1985,9 @@
         {
           "url": "https://soundbooththeater.com/series/a-summoner-awakens/",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:57.343Z",
-          "fetchedAt": "2026-11-03T16:18:57.343Z",
-          "nextCheckAt": "2026-11-10T16:18:57.343Z"
+          "checkedAt": "2026-11-10T16:28:06.827Z",
+          "fetchedAt": "2026-11-10T16:28:06.827Z",
+          "nextCheckAt": "2026-11-17T16:28:06.827Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/a-summoner-awakens-book-2-ascension/",
@@ -3885,9 +3885,9 @@
         {
           "url": "https://podiumentertainment.com/series/1729/all-the-skills",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:31.019Z",
-          "fetchedAt": "2026-11-03T16:18:31.019Z",
-          "nextCheckAt": "2026-11-10T16:18:31.019Z"
+          "checkedAt": "2026-11-10T16:27:38.811Z",
+          "fetchedAt": "2026-11-10T16:27:38.811Z",
+          "nextCheckAt": "2026-11-17T16:27:38.811Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/134665/all-the-skills-6",
@@ -4137,8 +4137,8 @@
           "available": true,
           "explanation": "12/12 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/an-outcast-in-another-world/",
-          "observedAt": "2026-11-03T16:18:57.427Z",
-          "dueAt": "2026-11-10T16:18:57.427Z"
+          "observedAt": "2026-11-10T16:28:07.784Z",
+          "dueAt": "2026-11-17T16:28:07.784Z"
         },
         {
           "id": "series-summary",
@@ -4273,9 +4273,9 @@
         {
           "url": "https://aethonbooks.com/book-series/an-outcast-in-another-world/",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:57.427Z",
-          "fetchedAt": "2026-11-03T16:18:57.427Z",
-          "nextCheckAt": "2026-11-10T16:18:57.427Z"
+          "checkedAt": "2026-11-10T16:28:07.784Z",
+          "fetchedAt": "2026-11-10T16:28:07.784Z",
+          "nextCheckAt": "2026-11-17T16:28:07.784Z"
         },
         {
           "url": "https://aethonbooks.com/book/ascendant-insanity/",
@@ -4556,8 +4556,8 @@
           "available": true,
           "explanation": "5/5 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/apocalypse-cultivation/",
-          "observedAt": "2026-11-03T16:18:58.687Z",
-          "dueAt": "2026-11-10T16:18:58.687Z"
+          "observedAt": "2026-11-10T16:28:09.673Z",
+          "dueAt": "2026-11-17T16:28:09.673Z"
         },
         {
           "id": "series-summary",
@@ -4652,9 +4652,9 @@
         {
           "url": "https://aethonbooks.com/book-series/apocalypse-cultivation/",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:58.687Z",
-          "fetchedAt": "2026-11-03T16:18:58.687Z",
-          "nextCheckAt": "2026-11-10T16:18:58.687Z"
+          "checkedAt": "2026-11-10T16:28:09.673Z",
+          "fetchedAt": "2026-11-10T16:28:09.673Z",
+          "nextCheckAt": "2026-11-17T16:28:09.673Z"
         },
         {
           "url": "https://aethonbooks.com/book/savage-webs/",
@@ -5273,8 +5273,8 @@
           "available": true,
           "explanation": "9/9 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/apocalypse-tamer/",
-          "observedAt": "2026-11-03T16:18:59.948Z",
-          "dueAt": "2026-11-10T16:18:59.948Z"
+          "observedAt": "2026-11-10T16:28:11.559Z",
+          "dueAt": "2026-11-17T16:28:11.559Z"
         },
         {
           "id": "series-summary",
@@ -5384,9 +5384,9 @@
         {
           "url": "https://aethonbooks.com/book-series/apocalypse-tamer/",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:59.948Z",
-          "fetchedAt": "2026-11-03T16:18:59.948Z",
-          "nextCheckAt": "2026-11-10T16:18:59.948Z"
+          "checkedAt": "2026-11-10T16:28:11.559Z",
+          "fetchedAt": "2026-11-10T16:28:11.559Z",
+          "nextCheckAt": "2026-11-17T16:28:11.559Z"
         },
         {
           "url": "https://aethonbooks.com/book/apocalypse-tamer-2/",
@@ -5813,9 +5813,9 @@
         {
           "url": "https://podiumentertainment.com/series/388/fantasy/arcane-ascension",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:42.719Z",
-          "fetchedAt": "2026-11-03T16:18:42.719Z",
-          "nextCheckAt": "2026-11-10T16:18:42.719Z"
+          "checkedAt": "2026-11-10T16:27:51.965Z",
+          "fetchedAt": "2026-11-10T16:27:51.965Z",
+          "nextCheckAt": "2026-11-17T16:27:51.965Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/3480/fantasy/sufficiently-advanced-magic",
@@ -8044,9 +8044,9 @@
         {
           "url": "https://aethonbooks.com/book-series/awaken-online/",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:36.351Z",
-          "fetchedAt": "2026-11-03T16:18:36.351Z",
-          "nextCheckAt": "2026-11-10T16:18:36.351Z"
+          "checkedAt": "2026-11-10T16:27:43.377Z",
+          "fetchedAt": "2026-11-10T16:27:43.377Z",
+          "nextCheckAt": "2026-11-17T16:27:43.377Z"
         },
         {
           "url": "https://aethonbooks.com/book/awaken-online-catharsis/",
@@ -8833,8 +8833,8 @@
           "available": true,
           "explanation": "19/19 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/battle-mage-farmer/",
-          "observedAt": "2026-11-03T16:18:32.003Z",
-          "dueAt": "2026-11-10T16:18:32.003Z"
+          "observedAt": "2026-11-10T16:27:39.234Z",
+          "dueAt": "2026-11-17T16:27:39.234Z"
         },
         {
           "id": "series-summary",
@@ -8944,9 +8944,9 @@
         {
           "url": "https://aethonbooks.com/book-series/battle-mage-farmer/",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:32.003Z",
-          "fetchedAt": "2026-11-03T16:18:32.003Z",
-          "nextCheckAt": "2026-11-10T16:18:32.003Z"
+          "checkedAt": "2026-11-10T16:27:39.234Z",
+          "fetchedAt": "2026-11-10T16:27:39.234Z",
+          "nextCheckAt": "2026-11-17T16:27:39.234Z"
         },
         {
           "url": "https://aethonbooks.com/book/conservation/",
@@ -16980,9 +16980,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0HJZVDZVW",
           "status": "present",
-          "checkedAt": "2026-11-03T16:19:00.667Z",
+          "checkedAt": "2026-11-10T16:28:12.100Z",
           "fetchedAt": "2026-09-28T16:48:23.156Z",
-          "nextCheckAt": "2026-11-10T16:19:00.667Z"
+          "nextCheckAt": "2026-11-17T16:28:12.100Z"
         },
         {
           "url": "https://podiumentertainment.com/series/56/dungeon-life",
@@ -19057,9 +19057,9 @@
         {
           "url": "https://podiumentertainment.com/series/809/immortal-great-souls",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:44.275Z",
-          "fetchedAt": "2026-11-03T16:18:44.275Z",
-          "nextCheckAt": "2026-11-10T16:18:44.275Z"
+          "checkedAt": "2026-11-10T16:27:53.358Z",
+          "fetchedAt": "2026-11-10T16:27:53.358Z",
+          "nextCheckAt": "2026-11-17T16:27:53.358Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/129079/the-lost-cube",
@@ -20238,9 +20238,9 @@
         {
           "url": "https://podiumentertainment.com/series/1919/mother-of-learning",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:41.127Z",
-          "fetchedAt": "2026-11-03T16:18:41.127Z",
-          "nextCheckAt": "2026-11-10T16:18:41.127Z"
+          "checkedAt": "2026-11-10T16:27:50.622Z",
+          "fetchedAt": "2026-11-10T16:27:50.622Z",
+          "nextCheckAt": "2026-11-17T16:27:50.622Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/2508/mother-of-learning-arc-4",
@@ -20476,8 +20476,8 @@
           "available": true,
           "explanation": "14/14 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/new-era-online/",
-          "observedAt": "2026-11-03T16:18:33.847Z",
-          "dueAt": "2026-11-10T16:18:33.847Z"
+          "observedAt": "2026-11-10T16:27:41.110Z",
+          "dueAt": "2026-11-17T16:27:41.110Z"
         },
         {
           "id": "series-summary",
@@ -20592,9 +20592,9 @@
         {
           "url": "https://aethonbooks.com/book-series/new-era-online/",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:33.847Z",
-          "fetchedAt": "2026-11-03T16:18:33.847Z",
-          "nextCheckAt": "2026-11-10T16:18:33.847Z"
+          "checkedAt": "2026-11-10T16:27:41.110Z",
+          "fetchedAt": "2026-11-10T16:27:41.110Z",
+          "nextCheckAt": "2026-11-17T16:27:41.110Z"
         },
         {
           "url": "https://api.audible.com/1.0/catalog/products/B076DL3FF4",
@@ -20641,9 +20641,9 @@
         {
           "url": "https://soundbooththeater.com/series/new-era-online/",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:34.279Z",
-          "fetchedAt": "2026-11-03T16:18:34.279Z",
-          "nextCheckAt": "2026-11-10T16:18:34.279Z"
+          "checkedAt": "2026-11-10T16:27:41.392Z",
+          "fetchedAt": "2026-11-10T16:27:41.392Z",
+          "nextCheckAt": "2026-11-17T16:27:41.392Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/life-reset-a-litrpg-novel/",
@@ -21077,9 +21077,9 @@
         {
           "url": "https://www.podiumentertainment.com/series/166/fantasy/noobtown",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:36.248Z",
-          "fetchedAt": "2026-11-03T16:18:36.248Z",
-          "nextCheckAt": "2026-11-10T16:18:36.248Z"
+          "checkedAt": "2026-11-10T16:27:43.262Z",
+          "fetchedAt": "2026-11-10T16:27:43.262Z",
+          "nextCheckAt": "2026-11-17T16:27:43.262Z"
         },
         {
           "url": "https://www.podiumentertainment.com/titles/120223/fantasy/the-noob-returns",
@@ -22266,9 +22266,9 @@
         {
           "url": "https://jrmathewsauthor.com/portal-to-nova-roma",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:47.567Z",
-          "fetchedAt": "2026-11-03T16:18:47.567Z",
-          "nextCheckAt": "2026-11-10T16:18:47.567Z"
+          "checkedAt": "2026-11-10T16:27:56.754Z",
+          "fetchedAt": "2026-11-10T16:27:56.754Z",
+          "nextCheckAt": "2026-11-17T16:27:56.754Z"
         }
       ]
     },
@@ -25155,16 +25155,16 @@
       "knownWorks": 14,
       "confirmedAudioWorks": 13,
       "completeness": {
-        "percent": 82,
-        "earned": 117,
+        "percent": 83,
+        "earned": 119,
         "possible": 143,
-        "explanation": "117/143 equally weighted checks across all 14 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "119/143 equally weighted checks across all 14 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
         "percent": 45,
-        "earned": 58,
+        "earned": 57,
         "possible": 128,
-        "explanation": "58/128 equally weighted checks across all 14 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "explanation": "57/128 equally weighted checks across all 14 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -25302,7 +25302,7 @@
           "label": "Usable reader comments",
           "status": "missing",
           "available": true,
-          "explanation": "1/14 works are present/current; 13 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "3/14 works are present/current; 11 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -25312,7 +25312,7 @@
           "label": "Reader sample adequacy",
           "status": "missing",
           "available": true,
-          "explanation": "1/14 works are present/current; 13 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "2/14 works are present/current; 11 missing, 1 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -25322,7 +25322,7 @@
           "label": "Current reader traits",
           "status": "missing",
           "available": true,
-          "explanation": "1/14 works are present/current; 13 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/14 works are present/current; 13 missing, 0 unknown, 1 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -25332,7 +25332,7 @@
           "label": "Publishable reader context",
           "status": "missing",
           "available": true,
-          "explanation": "1/14 works are present/current; 13 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/14 works are present/current; 13 missing, 1 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -25432,12 +25432,17 @@
         {
           "code": "reader-sample:missing",
           "status": "missing",
-          "message": "Usable reader comments: 13/14 works are missing."
+          "message": "Usable reader comments: 11/14 works are missing."
         },
         {
           "code": "reader-adequacy:missing",
           "status": "missing",
-          "message": "Reader sample adequacy: 13/14 works are missing."
+          "message": "Reader sample adequacy: 11/14 works are missing."
+        },
+        {
+          "code": "reader-adequacy:unknown",
+          "status": "unknown",
+          "message": "Reader sample adequacy: 1/14 works are unknown."
         },
         {
           "code": "reader-traits:missing",
@@ -25445,9 +25450,19 @@
           "message": "Current reader traits: 13/14 works are missing."
         },
         {
+          "code": "reader-traits:stale",
+          "status": "stale",
+          "message": "Current reader traits: 1/14 works are stale."
+        },
+        {
           "code": "reader-observation:missing",
           "status": "missing",
           "message": "Publishable reader context: 13/14 works are missing."
+        },
+        {
+          "code": "reader-observation:unknown",
+          "status": "unknown",
+          "message": "Publishable reader context: 1/14 works are unknown."
         },
         {
           "code": "source-freshness:unknown",
@@ -25590,9 +25605,9 @@
         {
           "url": "https://www.mountaindalepress.store/pages/series/completionist-chronicles",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:49.756Z",
-          "fetchedAt": "2026-11-03T16:18:49.756Z",
-          "nextCheckAt": "2026-11-10T16:18:49.756Z"
+          "checkedAt": "2026-11-10T16:27:58.958Z",
+          "fetchedAt": "2026-11-10T16:27:58.958Z",
+          "nextCheckAt": "2026-11-17T16:27:58.958Z"
         },
         {
           "url": "https://www.mountaindalepress.store/products/implode-signed-hardcover-preorder",
@@ -26043,9 +26058,9 @@
         {
           "url": "https://podiumentertainment.com/series/1504/the-daily-grind",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:45.826Z",
-          "fetchedAt": "2026-11-03T16:18:45.826Z",
-          "nextCheckAt": "2026-11-10T16:18:45.826Z"
+          "checkedAt": "2026-11-10T16:27:54.694Z",
+          "fetchedAt": "2026-11-10T16:27:54.694Z",
+          "nextCheckAt": "2026-11-17T16:27:54.694Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/27159/the-daily-grind-5",
@@ -26438,9 +26453,9 @@
         {
           "url": "https://www.mountaindalepress.store/pages/series/divine-dungeon",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:51.393Z",
-          "fetchedAt": "2026-11-03T16:18:51.393Z",
-          "nextCheckAt": "2026-11-10T16:18:51.393Z"
+          "checkedAt": "2026-11-10T16:28:00.332Z",
+          "fetchedAt": "2026-11-10T16:28:00.332Z",
+          "nextCheckAt": "2026-11-17T16:28:00.332Z"
         },
         {
           "url": "https://www.mountaindalepress.store/products/dungeon-born-signed-hardcover",
@@ -30379,9 +30394,9 @@
         {
           "url": "https://podiumentertainment.com/series/387/the-perfect-run",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:39.560Z",
-          "fetchedAt": "2026-11-03T16:18:39.560Z",
-          "nextCheckAt": "2026-11-10T16:18:39.560Z"
+          "checkedAt": "2026-11-10T16:27:49.272Z",
+          "fetchedAt": "2026-11-10T16:27:49.272Z",
+          "nextCheckAt": "2026-11-17T16:27:49.272Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/1696/the-perfect-run",
@@ -31809,9 +31824,9 @@
         {
           "url": "https://aethonbooks.com/book-series/the-ten-realms/",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:39.137Z",
-          "fetchedAt": "2026-11-03T16:18:39.137Z",
-          "nextCheckAt": "2026-11-10T16:18:39.137Z"
+          "checkedAt": "2026-11-10T16:27:45.215Z",
+          "fetchedAt": "2026-11-10T16:27:45.215Z",
+          "nextCheckAt": "2026-11-17T16:27:45.215Z"
         },
         {
           "url": "https://aethonbooks.com/book/the-two-week-curse/",
@@ -31970,9 +31985,9 @@
         {
           "url": "https://michaelchatfield.com/collections/the-ten-realms",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:38.335Z",
-          "fetchedAt": "2026-11-03T16:18:38.335Z",
-          "nextCheckAt": "2026-11-10T16:18:38.335Z"
+          "checkedAt": "2026-11-10T16:27:49.046Z",
+          "fetchedAt": "2026-11-10T16:27:49.046Z",
+          "nextCheckAt": "2026-11-17T16:27:49.046Z"
         },
         {
           "url": "https://michaelchatfield.com/collections/the-ten-realms/products/the-eighth-realm-book",
@@ -32541,9 +32556,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0HGBVHDM2",
           "status": "present",
-          "checkedAt": "2026-11-03T16:19:01.971Z",
-          "fetchedAt": "2026-11-03T16:19:01.971Z",
-          "nextCheckAt": "2026-11-10T16:19:01.971Z"
+          "checkedAt": "2026-11-10T16:28:13.417Z",
+          "fetchedAt": "2026-11-10T16:28:13.417Z",
+          "nextCheckAt": "2026-11-17T16:28:13.417Z"
         },
         {
           "url": "https://wanderinginn.com/new-landing-page/",
@@ -33400,9 +33415,9 @@
         {
           "url": "https://soundbooththeater.com/series/the-wraiths-haunt-series/",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:35.777Z",
-          "fetchedAt": "2026-11-03T16:18:35.777Z",
-          "nextCheckAt": "2026-11-10T16:18:35.777Z"
+          "checkedAt": "2026-11-10T16:27:42.850Z",
+          "fetchedAt": "2026-11-10T16:27:42.850Z",
+          "nextCheckAt": "2026-11-17T16:27:42.850Z"
         },
         {
           "url": "https://soundbooththeater.com/shop/audiobooks/dungeon-lord-abominable-creatures-the-wraiths-haunt-book-3/",
@@ -36360,8 +36375,8 @@
           "available": true,
           "explanation": "7/7 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/psychokinetic-eyeball-pulling/",
-          "observedAt": "2026-11-03T16:18:51.625Z",
-          "dueAt": "2026-11-10T16:18:51.625Z"
+          "observedAt": "2026-11-10T16:28:01.247Z",
+          "dueAt": "2026-11-17T16:28:01.247Z"
         },
         {
           "id": "series-summary",
@@ -36466,9 +36481,9 @@
         {
           "url": "https://aethonbooks.com/book-series/psychokinetic-eyeball-pulling/",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:51.625Z",
-          "fetchedAt": "2026-11-03T16:18:51.625Z",
-          "nextCheckAt": "2026-11-10T16:18:51.625Z"
+          "checkedAt": "2026-11-10T16:28:01.247Z",
+          "fetchedAt": "2026-11-10T16:28:01.247Z",
+          "nextCheckAt": "2026-11-17T16:28:01.247Z"
         },
         {
           "url": "https://aethonbooks.com/book/psychokinetic-eyeball-pulling-2/",
@@ -106367,7 +106382,7 @@
           "available": true,
           "explanation": "1 current exact US product documents pass the canonical title, complete author credits, selected series/volume, English, full-audio, and retained work-binding checks.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HJZVDZVW",
-          "observedAt": "2026-11-03T16:19:00.667Z",
+          "observedAt": "2026-11-10T16:28:12.100Z",
           "dueAt": null
         },
         {
@@ -106377,8 +106392,8 @@
           "available": true,
           "explanation": "A verified audio-specific date establishes a current preorder schedule. Print and ebook dates are excluded.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HJZVDZVW",
-          "observedAt": "2026-11-03T16:19:00.667Z",
-          "dueAt": "2026-11-10T16:19:00.667Z"
+          "observedAt": "2026-11-10T16:28:12.100Z",
+          "dueAt": "2026-11-17T16:28:12.100Z"
         },
         {
           "id": "narrator",
@@ -106387,7 +106402,7 @@
           "available": true,
           "explanation": "A named narrator is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HJZVDZVW",
-          "observedAt": "2026-11-03T16:19:00.667Z",
+          "observedAt": "2026-11-10T16:28:12.100Z",
           "dueAt": null
         },
         {
@@ -106397,7 +106412,7 @@
           "available": true,
           "explanation": "A positive whole-minute duration is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HJZVDZVW",
-          "observedAt": "2026-11-03T16:19:00.667Z",
+          "observedAt": "2026-11-10T16:28:12.100Z",
           "dueAt": null
         },
         {
@@ -106477,8 +106492,8 @@
           "available": true,
           "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HJZVDZVW",
-          "observedAt": "2026-11-03T16:19:00.667Z",
-          "dueAt": "2026-11-10T16:19:00.667Z"
+          "observedAt": "2026-11-10T16:28:12.100Z",
+          "dueAt": "2026-11-17T16:28:12.100Z"
         }
       ],
       "issues": [
@@ -106558,9 +106573,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0HJZVDZVW",
           "status": "present",
-          "checkedAt": "2026-11-03T16:19:00.667Z",
+          "checkedAt": "2026-11-10T16:28:12.100Z",
           "fetchedAt": "2026-09-28T16:48:23.156Z",
-          "nextCheckAt": "2026-11-10T16:19:00.667Z"
+          "nextCheckAt": "2026-11-17T16:28:12.100Z"
         },
         {
           "url": "https://podiumentertainment.com/titles/134668/dungeon-life-5",
@@ -125725,7 +125740,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "observedAt": "2026-11-03T16:18:47.567Z",
+          "observedAt": "2026-11-10T16:27:56.754Z",
           "dueAt": null
         },
         {
@@ -125970,9 +125985,9 @@
         {
           "url": "https://jrmathewsauthor.com/portal-to-nova-roma",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:47.567Z",
-          "fetchedAt": "2026-11-03T16:18:47.567Z",
-          "nextCheckAt": "2026-11-10T16:18:47.567Z"
+          "checkedAt": "2026-11-10T16:27:56.754Z",
+          "fetchedAt": "2026-11-10T16:27:56.754Z",
+          "nextCheckAt": "2026-11-17T16:27:56.754Z"
         }
       ]
     },
@@ -126265,9 +126280,9 @@
         {
           "url": "https://jrmathewsauthor.com/portal-to-nova-roma",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:47.567Z",
-          "fetchedAt": "2026-11-03T16:18:47.567Z",
-          "nextCheckAt": "2026-11-10T16:18:47.567Z"
+          "checkedAt": "2026-11-10T16:27:56.754Z",
+          "fetchedAt": "2026-11-10T16:27:56.754Z",
+          "nextCheckAt": "2026-11-17T16:27:56.754Z"
         }
       ]
     },
@@ -126560,9 +126575,9 @@
         {
           "url": "https://jrmathewsauthor.com/portal-to-nova-roma",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:47.567Z",
-          "fetchedAt": "2026-11-03T16:18:47.567Z",
-          "nextCheckAt": "2026-11-10T16:18:47.567Z"
+          "checkedAt": "2026-11-10T16:27:56.754Z",
+          "fetchedAt": "2026-11-10T16:27:56.754Z",
+          "nextCheckAt": "2026-11-17T16:27:56.754Z"
         }
       ]
     },
@@ -126855,9 +126870,9 @@
         {
           "url": "https://jrmathewsauthor.com/portal-to-nova-roma",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:47.567Z",
-          "fetchedAt": "2026-11-03T16:18:47.567Z",
-          "nextCheckAt": "2026-11-10T16:18:47.567Z"
+          "checkedAt": "2026-11-10T16:27:56.754Z",
+          "fetchedAt": "2026-11-10T16:27:56.754Z",
+          "nextCheckAt": "2026-11-17T16:27:56.754Z"
         }
       ]
     },
@@ -126891,7 +126906,7 @@
           "available": false,
           "explanation": "No source description is retained for this work.",
           "sourceUrl": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "observedAt": "2026-11-03T16:18:47.567Z",
+          "observedAt": "2026-11-10T16:27:56.754Z",
           "dueAt": null
         },
         {
@@ -127061,8 +127076,8 @@
           "available": true,
           "explanation": "1/1 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://jrmathewsauthor.com/portal-to-nova-roma",
-          "observedAt": "2026-11-03T16:18:47.567Z",
-          "dueAt": "2026-11-10T16:18:47.567Z"
+          "observedAt": "2026-11-10T16:27:56.754Z",
+          "dueAt": "2026-11-17T16:27:56.754Z"
         }
       ],
       "issues": [
@@ -127187,9 +127202,9 @@
         {
           "url": "https://jrmathewsauthor.com/portal-to-nova-roma",
           "status": "present",
-          "checkedAt": "2026-11-03T16:18:47.567Z",
-          "fetchedAt": "2026-11-03T16:18:47.567Z",
-          "nextCheckAt": "2026-11-10T16:18:47.567Z"
+          "checkedAt": "2026-11-10T16:27:56.754Z",
+          "fetchedAt": "2026-11-10T16:27:56.754Z",
+          "nextCheckAt": "2026-11-17T16:27:56.754Z"
         }
       ]
     },
@@ -140969,10 +140984,10 @@
         "explanation": "10/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 89,
-        "earned": 8,
+        "percent": 67,
+        "earned": 6,
         "possible": 9,
-        "explanation": "8/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "6/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -141110,9 +141125,9 @@
           "label": "Usable reader comments",
           "status": "present",
           "available": true,
-          "explanation": "6 usable comments are selected from 6 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
+          "explanation": "7 usable comments are selected from 7 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
           "sourceUrl": "https://hardcover.app/books/completionist-chronicles-ritualist",
-          "observedAt": "2026-09-19T04:33:43.490Z",
+          "observedAt": "2026-11-10T16:28:21.702Z",
           "dueAt": null
         },
         {
@@ -141120,17 +141135,17 @@
           "label": "Reader sample adequacy",
           "status": "present",
           "available": true,
-          "explanation": "6/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
+          "explanation": "7/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
           "sourceUrl": "https://hardcover.app/books/completionist-chronicles-ritualist",
-          "observedAt": "2026-09-19T04:33:43.490Z",
+          "observedAt": "2026-11-10T16:28:21.702Z",
           "dueAt": null
         },
         {
           "id": "reader-traits",
           "label": "Current reader traits",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "All four reader-trait receipts match the exact selected sample and current rubric; an unknown trait value is a valid result.",
+          "explanation": "Retained reader traits are incomplete or no longer match the eligible selected sample and current rubric.",
           "sourceUrl": "https://hardcover.app/books/completionist-chronicles-ritualist",
           "observedAt": "2026-09-19T04:34:21.193Z",
           "dueAt": null
@@ -141138,11 +141153,11 @@
         {
           "id": "reader-observation",
           "label": "Publishable reader context",
-          "status": "present",
+          "status": "unknown",
           "available": true,
-          "explanation": "The public reader context contains current reviewed findings with independent support in the selected evidence.",
+          "explanation": "The public reader context has no supported finding to show: review is empty, stale, refused, or the selected sample is inadequate. Retained prose alone does not fill this gap.",
           "sourceUrl": "https://hardcover.app/books/completionist-chronicles-ritualist",
-          "observedAt": "2026-09-19T04:33:43.490Z",
+          "observedAt": "2026-11-10T16:28:21.702Z",
           "dueAt": null
         },
         {
@@ -141161,6 +141176,16 @@
           "code": "cover-observation",
           "status": "stale",
           "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
+        },
+        {
+          "code": "reader-traits",
+          "status": "stale",
+          "message": "Retained reader traits are incomplete or no longer match the eligible selected sample and current rubric."
+        },
+        {
+          "code": "reader-observation",
+          "status": "unknown",
+          "message": "The public reader context has no supported finding to show: review is empty, stale, refused, or the selected sample is inadequate. Retained prose alone does not fill this gap."
         }
       ],
       "flags": {
@@ -141183,12 +141208,12 @@
         "releaseDate": "2018-05-15"
       },
       "reader": {
-        "retainedCount": 6,
-        "selectedCount": 6,
+        "retainedCount": 7,
+        "selectedCount": 7,
         "eligible": true,
         "minimum": 5,
-        "currentTraits": true,
-        "observation": "corrected",
+        "currentTraits": false,
+        "observation": "withheld",
         "sourceUrls": [
           "https://hardcover.app/books/completionist-chronicles-ritualist"
         ]
@@ -141230,10 +141255,10 @@
       ],
       "publicationStatus": "released",
       "completeness": {
-        "percent": 90,
-        "earned": 9,
+        "percent": 100,
+        "earned": 10,
         "possible": 10,
-        "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+        "explanation": "10/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
         "percent": 33,
@@ -141375,21 +141400,21 @@
         {
           "id": "reader-sample",
           "label": "Usable reader comments",
-          "status": "missing",
-          "available": false,
-          "explanation": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "status": "present",
+          "available": true,
+          "explanation": "3 usable comments are selected from 3 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
+          "sourceUrl": "https://hardcover.app/books/completionist-chronicles-regicide",
+          "observedAt": "2026-11-10T16:28:26.629Z",
           "dueAt": null
         },
         {
           "id": "reader-adequacy",
           "label": "Reader sample adequacy",
-          "status": "missing",
+          "status": "unknown",
           "available": false,
-          "explanation": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "explanation": "3/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
+          "sourceUrl": "https://hardcover.app/books/completionist-chronicles-regicide",
+          "observedAt": "2026-11-10T16:28:26.629Z",
           "dueAt": null
         },
         {
@@ -141398,7 +141423,7 @@
           "status": "missing",
           "available": false,
           "explanation": "No current set of reader-trait receipts is retained.",
-          "sourceUrl": null,
+          "sourceUrl": "https://hardcover.app/books/completionist-chronicles-regicide",
           "observedAt": null,
           "dueAt": null
         },
@@ -141408,8 +141433,8 @@
           "status": "missing",
           "available": false,
           "explanation": "No retained reader observation is available.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "sourceUrl": "https://hardcover.app/books/completionist-chronicles-regicide",
+          "observedAt": "2026-11-10T16:28:26.629Z",
           "dueAt": null
         },
         {
@@ -141435,14 +141460,9 @@
           "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
         },
         {
-          "code": "reader-sample",
-          "status": "missing",
-          "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
-        },
-        {
           "code": "reader-adequacy",
-          "status": "missing",
-          "message": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
+          "status": "unknown",
+          "message": "3/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
         },
         {
           "code": "reader-traits",
@@ -141470,7 +141490,7 @@
         "audioDateVerified": true,
         "coverAsset": true,
         "coverReviewed": false,
-        "readerSample": false,
+        "readerSample": true,
         "readerAdequate": false
       },
       "audio": {
@@ -141480,13 +141500,15 @@
         "releaseDate": "2018-09-18"
       },
       "reader": {
-        "retainedCount": 0,
-        "selectedCount": 0,
+        "retainedCount": 3,
+        "selectedCount": 3,
         "eligible": false,
         "minimum": 5,
         "currentTraits": false,
         "observation": "missing",
-        "sourceUrls": []
+        "sourceUrls": [
+          "https://hardcover.app/books/completionist-chronicles-regicide"
+        ]
       },
       "cover": {
         "url": "https://m.media-amazon.com/images/I/51K7aHsTTQL._SL500_.jpg",
@@ -141847,16 +141869,16 @@
       ],
       "publicationStatus": "released",
       "completeness": {
-        "percent": 80,
-        "earned": 8,
+        "percent": 90,
+        "earned": 9,
         "possible": 10,
-        "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+        "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 44,
-        "earned": 4,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -141992,21 +142014,21 @@
         {
           "id": "reader-sample",
           "label": "Usable reader comments",
-          "status": "missing",
-          "available": false,
-          "explanation": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "status": "present",
+          "available": true,
+          "explanation": "5 usable comments are selected from 6 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
+          "sourceUrl": "https://hardcover.app/books/completionist-chronicles-raze",
+          "observedAt": "2026-11-10T16:28:31.515Z",
           "dueAt": null
         },
         {
           "id": "reader-adequacy",
           "label": "Reader sample adequacy",
-          "status": "missing",
-          "available": false,
-          "explanation": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "status": "present",
+          "available": true,
+          "explanation": "5/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
+          "sourceUrl": "https://hardcover.app/books/completionist-chronicles-raze",
+          "observedAt": "2026-11-10T16:28:31.515Z",
           "dueAt": null
         },
         {
@@ -142015,7 +142037,7 @@
           "status": "missing",
           "available": false,
           "explanation": "No current set of reader-trait receipts is retained.",
-          "sourceUrl": null,
+          "sourceUrl": "https://hardcover.app/books/completionist-chronicles-raze",
           "observedAt": null,
           "dueAt": null
         },
@@ -142025,8 +142047,8 @@
           "status": "missing",
           "available": false,
           "explanation": "No retained reader observation is available.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "sourceUrl": "https://hardcover.app/books/completionist-chronicles-raze",
+          "observedAt": "2026-11-10T16:28:31.515Z",
           "dueAt": null
         },
         {
@@ -142057,16 +142079,6 @@
           "message": "No validated observation is bound to the current cached cover bytes."
         },
         {
-          "code": "reader-sample",
-          "status": "missing",
-          "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
-        },
-        {
-          "code": "reader-adequacy",
-          "status": "missing",
-          "message": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
-        },
-        {
           "code": "reader-traits",
           "status": "missing",
           "message": "No current set of reader-trait receipts is retained."
@@ -142087,8 +142099,8 @@
         "audioDateVerified": true,
         "coverAsset": false,
         "coverReviewed": false,
-        "readerSample": false,
-        "readerAdequate": false
+        "readerSample": true,
+        "readerAdequate": true
       },
       "audio": {
         "retainedEditionCount": 1,
@@ -142097,13 +142109,15 @@
         "releaseDate": "2019-11-12"
       },
       "reader": {
-        "retainedCount": 0,
-        "selectedCount": 0,
-        "eligible": false,
+        "retainedCount": 6,
+        "selectedCount": 5,
+        "eligible": true,
         "minimum": 5,
         "currentTraits": false,
         "observation": "missing",
-        "sourceUrls": []
+        "sourceUrls": [
+          "https://hardcover.app/books/completionist-chronicles-raze"
+        ]
       },
       "cover": {
         "url": "https://www.mountaindalepress.store/cdn/shop/files/raze_1024x1024.png",
@@ -184721,7 +184735,7 @@
           "available": true,
           "explanation": "1 current exact US product documents pass the canonical title, complete author credits, selected series/volume, English, full-audio, and retained work-binding checks.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HGBVHDM2",
-          "observedAt": "2026-11-03T16:19:01.971Z",
+          "observedAt": "2026-11-10T16:28:13.417Z",
           "dueAt": null
         },
         {
@@ -184731,7 +184745,7 @@
           "available": true,
           "explanation": "A verified audio-specific date establishes an observed released recording. Print and ebook dates are excluded.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HGBVHDM2",
-          "observedAt": "2026-11-03T16:19:01.971Z",
+          "observedAt": "2026-11-10T16:28:13.417Z",
           "dueAt": null
         },
         {
@@ -184741,7 +184755,7 @@
           "available": true,
           "explanation": "A named narrator is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HGBVHDM2",
-          "observedAt": "2026-11-03T16:19:01.971Z",
+          "observedAt": "2026-11-10T16:28:13.417Z",
           "dueAt": null
         },
         {
@@ -184751,7 +184765,7 @@
           "available": true,
           "explanation": "A positive whole-minute duration is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HGBVHDM2",
-          "observedAt": "2026-11-03T16:19:01.971Z",
+          "observedAt": "2026-11-10T16:28:13.417Z",
           "dueAt": null
         },
         {
@@ -184831,8 +184845,8 @@
           "available": true,
           "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HGBVHDM2",
-          "observedAt": "2026-11-03T16:19:01.971Z",
-          "dueAt": "2026-11-10T16:19:01.971Z"
+          "observedAt": "2026-11-10T16:28:13.417Z",
+          "dueAt": "2026-11-17T16:28:13.417Z"
         }
       ],
       "issues": [
@@ -184912,9 +184926,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0HGBVHDM2",
           "status": "present",
-          "checkedAt": "2026-11-03T16:19:01.971Z",
-          "fetchedAt": "2026-11-03T16:19:01.971Z",
-          "nextCheckAt": "2026-11-10T16:19:01.971Z"
+          "checkedAt": "2026-11-10T16:28:13.417Z",
+          "fetchedAt": "2026-11-10T16:28:13.417Z",
+          "nextCheckAt": "2026-11-17T16:28:13.417Z"
         },
         {
           "url": "https://www.podiumentertainment.com/titles/108158/litrpg-and-gamelit/memorys-flame",
