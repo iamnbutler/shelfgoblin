@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T16:30:22.113Z",
+  "generatedAt": "2026-11-14T15:09:39.717Z",
   "definitions": {
     "completeness": "Data presence, not bibliography completeness: equal weight for source-description, original-summary, extracted-metadata, jev-assessment, audio-edition, audio-date, narrator, runtime, cover-asset, reader-sample. Stale or unverified retained values can earn presence credit; corrupt unusable values cannot.",
     "evidenceQuality": "Current evidence/review checks, never a rating of a book: equal weight for source-description, reviewed-metadata, audio-verified, audio-date, cover-observation, reader-adequacy, reader-traits, reader-observation, source-freshness. Only present/current checks earn credit. No model confidence is converted into a quality score.",
@@ -227,12 +227,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "9/10 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "explanation": "10/10 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/1-lifesteal/",
-          "observedAt": "2026-11-05T16:31:17.821Z",
-          "dueAt": "2026-11-12T16:31:17.821Z"
+          "observedAt": "2026-11-14T15:09:05.021Z",
+          "dueAt": "2026-11-21T15:09:05.021Z"
         },
         {
           "id": "series-summary",
@@ -337,11 +337,6 @@
           "message": "Publishable reader context: 5/5 works are missing."
         },
         {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "9/10 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
-        },
-        {
           "code": "series-reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
@@ -366,10 +361,10 @@
       "sources": [
         {
           "url": "https://aethonbooks.com/book-series/1-lifesteal/",
-          "status": "stale",
-          "checkedAt": "2026-11-05T16:31:17.821Z",
-          "fetchedAt": "2026-11-05T16:31:17.821Z",
-          "nextCheckAt": "2026-11-12T16:31:17.821Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:05.021Z",
+          "fetchedAt": "2026-11-14T15:09:05.021Z",
+          "nextCheckAt": "2026-11-21T15:09:05.021Z"
         },
         {
           "url": "https://aethonbooks.com/book/1-lifesteal-2/",
@@ -3015,12 +3010,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "6/7 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "explanation": "7/7 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/alan-buys-the-universe/",
-          "observedAt": "2026-11-05T16:31:14.086Z",
-          "dueAt": "2026-11-12T16:31:14.086Z"
+          "observedAt": "2026-11-14T15:09:02.463Z",
+          "dueAt": "2026-11-21T15:09:02.463Z"
         },
         {
           "id": "series-summary",
@@ -3095,11 +3090,6 @@
           "message": "Publishable reader context: 3/3 works are missing."
         },
         {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "6/7 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
-        },
-        {
           "code": "series-reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
@@ -3124,10 +3114,10 @@
       "sources": [
         {
           "url": "https://aethonbooks.com/book-series/alan-buys-the-universe/",
-          "status": "stale",
-          "checkedAt": "2026-11-05T16:31:14.086Z",
-          "fetchedAt": "2026-11-05T16:31:14.086Z",
-          "nextCheckAt": "2026-11-12T16:31:14.086Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:02.463Z",
+          "fetchedAt": "2026-11-14T15:09:02.463Z",
+          "nextCheckAt": "2026-11-21T15:09:02.463Z"
         },
         {
           "url": "https://aethonbooks.com/book/alan-buys-the-universe-2/",
@@ -6811,12 +6801,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "4/5 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "explanation": "5/5 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/arcanist-in-another-world/",
-          "observedAt": "2026-11-05T16:31:15.931Z",
-          "dueAt": "2026-11-12T16:31:15.931Z"
+          "observedAt": "2026-11-14T15:09:03.743Z",
+          "dueAt": "2026-11-21T15:09:03.743Z"
         },
         {
           "id": "series-summary",
@@ -6921,11 +6911,6 @@
           "message": "Publishable reader context: 3/3 works are missing."
         },
         {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "4/5 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
-        },
-        {
           "code": "series-reviewed-metadata",
           "status": "missing",
           "message": "No source-bound editorial review is retained; automatic tags are not reviewed facts."
@@ -6950,10 +6935,10 @@
       "sources": [
         {
           "url": "https://aethonbooks.com/book-series/arcanist-in-another-world/",
-          "status": "stale",
-          "checkedAt": "2026-11-05T16:31:15.931Z",
-          "fetchedAt": "2026-11-05T16:31:15.931Z",
-          "nextCheckAt": "2026-11-12T16:31:15.931Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:03.743Z",
+          "fetchedAt": "2026-11-14T15:09:03.743Z",
+          "nextCheckAt": "2026-11-21T15:09:03.743Z"
         },
         {
           "url": "https://aethonbooks.com/book/arcanist-in-another-world-2/",
@@ -24564,12 +24549,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "2/3 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://sarahlinauthor.blogspot.com/p/street-cultivation.html",
-          "observedAt": "2026-11-05T16:31:06.339Z",
-          "dueAt": "2026-11-12T16:31:06.339Z"
+          "explanation": "3/3 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/1541438299",
+          "observedAt": "2026-09-19T04:55:31.767Z",
+          "dueAt": "2026-12-18T04:55:31.767Z"
         },
         {
           "id": "series-summary",
@@ -24654,11 +24639,6 @@
           "message": "Publishable reader context: 2/2 works are missing."
         },
         {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "2/3 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
-        },
-        {
           "code": "bibliography",
           "status": "unknown",
           "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
@@ -24692,10 +24672,10 @@
         },
         {
           "url": "https://sarahlinauthor.blogspot.com/p/street-cultivation.html",
-          "status": "stale",
-          "checkedAt": "2026-11-05T16:31:06.339Z",
-          "fetchedAt": "2026-11-05T16:31:06.339Z",
-          "nextCheckAt": "2026-11-12T16:31:06.339Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:19.571Z",
+          "fetchedAt": "2026-11-14T15:09:19.571Z",
+          "nextCheckAt": "2026-11-21T15:09:19.571Z"
         }
       ]
     },
@@ -28211,10 +28191,10 @@
         "explanation": "75/83 equally weighted checks across all 8 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
-        "percent": 39,
-        "earned": 29,
+        "percent": 50,
+        "earned": 37,
         "possible": 74,
-        "explanation": "29/74 equally weighted checks across all 8 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "explanation": "37/74 equally weighted checks across all 8 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -28392,7 +28372,7 @@
           "label": "Source checks",
           "status": "unknown",
           "available": true,
-          "explanation": "8/17 associated source checks are current; 8 are due and 1 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "explanation": "16/17 associated source checks are current; 0 are due and 1 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://www.litrpg.com/updates-1",
           "observedAt": null,
           "dueAt": null
@@ -28470,14 +28450,9 @@
           "message": "Publishable reader context: 7/8 works are missing."
         },
         {
-          "code": "source-freshness:stale",
-          "status": "stale",
-          "message": "Source checks: 8/8 works are stale."
-        },
-        {
           "code": "source-freshness",
           "status": "unknown",
-          "message": "8/17 associated source checks are current; 8 are due and 1 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
+          "message": "16/17 associated source checks are current; 0 are due and 1 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         },
         {
           "code": "bibliography",
@@ -28560,59 +28535,59 @@
         },
         {
           "url": "https://www.litrpg.com/the-land-alliances",
-          "status": "stale",
-          "checkedAt": "2026-11-04T16:23:19.961Z",
-          "fetchedAt": "2026-11-04T16:23:19.961Z",
-          "nextCheckAt": "2026-11-11T16:23:19.961Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:15.836Z",
+          "fetchedAt": "2026-11-14T15:09:15.836Z",
+          "nextCheckAt": "2026-11-21T15:09:15.836Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-catacombs",
-          "status": "stale",
-          "checkedAt": "2026-11-04T16:23:21.422Z",
-          "fetchedAt": "2026-11-04T16:23:21.422Z",
-          "nextCheckAt": "2026-11-11T16:23:21.422Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:14.351Z",
+          "fetchedAt": "2026-11-14T15:09:14.351Z",
+          "nextCheckAt": "2026-11-21T15:09:14.351Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-catacombs-1",
-          "status": "stale",
-          "checkedAt": "2026-11-04T16:23:25.784Z",
-          "fetchedAt": "2026-11-04T16:23:25.784Z",
-          "nextCheckAt": "2026-11-11T16:23:25.784Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:09.997Z",
+          "fetchedAt": "2026-11-14T15:09:09.997Z",
+          "nextCheckAt": "2026-11-21T15:09:09.997Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-forging",
-          "status": "stale",
-          "checkedAt": "2026-11-04T16:23:18.078Z",
-          "fetchedAt": "2026-11-04T16:23:18.078Z",
-          "nextCheckAt": "2026-11-11T16:23:18.078Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:11.430Z",
+          "fetchedAt": "2026-11-14T15:09:11.430Z",
+          "nextCheckAt": "2026-11-21T15:09:11.430Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-founding",
-          "status": "stale",
-          "checkedAt": "2026-11-04T16:23:27.123Z",
-          "fetchedAt": "2026-11-04T16:23:27.123Z",
-          "nextCheckAt": "2026-11-11T16:23:27.123Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:06.936Z",
+          "fetchedAt": "2026-11-14T15:09:06.936Z",
+          "nextCheckAt": "2026-11-21T15:09:06.936Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-founding-1",
-          "status": "stale",
-          "checkedAt": "2026-11-06T15:57:58.993Z",
-          "fetchedAt": "2026-11-06T15:57:58.993Z",
-          "nextCheckAt": "2026-11-13T15:57:58.993Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:17.366Z",
+          "fetchedAt": "2026-11-14T15:09:17.366Z",
+          "nextCheckAt": "2026-11-21T15:09:17.366Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-raiders",
-          "status": "stale",
-          "checkedAt": "2026-11-04T16:23:22.910Z",
-          "fetchedAt": "2026-11-04T16:23:22.910Z",
-          "nextCheckAt": "2026-11-11T16:23:22.910Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:12.885Z",
+          "fetchedAt": "2026-11-14T15:09:12.885Z",
+          "nextCheckAt": "2026-11-21T15:09:12.885Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-raiders-1",
-          "status": "stale",
-          "checkedAt": "2026-11-04T16:23:24.356Z",
-          "fetchedAt": "2026-11-04T16:23:24.356Z",
-          "nextCheckAt": "2026-11-11T16:23:24.356Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:08.447Z",
+          "fetchedAt": "2026-11-14T15:09:08.447Z",
+          "nextCheckAt": "2026-11-21T15:09:08.447Z"
         },
         {
           "url": "https://www.litrpg.com/updates-1",
@@ -32955,12 +32930,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "5/6 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://sarahlinauthor.blogspot.com/p/the-weirkey-chronicles.html",
-          "observedAt": "2026-11-06T15:58:00.538Z",
-          "dueAt": "2026-11-13T15:58:00.538Z"
+          "explanation": "6/6 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B09NF763LH",
+          "observedAt": "2026-09-19T04:55:24.121Z",
+          "dueAt": "2026-12-18T04:55:24.121Z"
         },
         {
           "id": "series-summary",
@@ -33045,11 +33020,6 @@
           "message": "Publishable reader context: 5/5 works are missing."
         },
         {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "5/6 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
-        },
-        {
           "code": "bibliography",
           "status": "unknown",
           "message": "No current retained, reviewed primary bibliography establishes the expected list. A contiguous discovered list cannot rule out an unseen later volume."
@@ -33104,10 +33074,10 @@
         },
         {
           "url": "https://sarahlinauthor.blogspot.com/p/the-weirkey-chronicles.html",
-          "status": "stale",
-          "checkedAt": "2026-11-06T15:58:00.538Z",
-          "fetchedAt": "2026-11-06T15:58:00.538Z",
-          "nextCheckAt": "2026-11-13T15:58:00.538Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:17.889Z",
+          "fetchedAt": "2026-11-14T15:09:17.889Z",
+          "nextCheckAt": "2026-11-21T15:09:17.889Z"
         }
       ]
     },
@@ -155422,10 +155392,10 @@
         "explanation": "10/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 78,
-        "earned": 7,
+        "percent": 89,
+        "earned": 8,
         "possible": 9,
-        "explanation": "7/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "8/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -155435,7 +155405,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-founding",
-          "observedAt": "2026-11-04T16:23:27.123Z",
+          "observedAt": "2026-11-14T15:09:06.936Z",
           "dueAt": null
         },
         {
@@ -155601,12 +155571,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://www.litrpg.com/the-land-founding",
-          "observedAt": "2026-11-04T16:23:27.123Z",
-          "dueAt": "2026-11-11T16:23:27.123Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B071DNLS1F",
+          "observedAt": "2026-09-19T05:44:17.234Z",
+          "dueAt": "2026-12-18T05:44:17.234Z"
         }
       ],
       "issues": [
@@ -155614,11 +155584,6 @@
           "code": "cover-observation",
           "status": "stale",
           "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -155669,10 +155634,10 @@
         },
         {
           "url": "https://www.litrpg.com/the-land-founding",
-          "status": "stale",
-          "checkedAt": "2026-11-04T16:23:27.123Z",
-          "fetchedAt": "2026-11-04T16:23:27.123Z",
-          "nextCheckAt": "2026-11-11T16:23:27.123Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:06.936Z",
+          "fetchedAt": "2026-11-14T15:09:06.936Z",
+          "nextCheckAt": "2026-11-21T15:09:06.936Z"
         }
       ]
     },
@@ -155693,10 +155658,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 33,
-        "earned": 3,
+        "percent": 44,
+        "earned": 4,
         "possible": 9,
-        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -155706,7 +155671,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-forging",
-          "observedAt": "2026-11-04T16:23:18.078Z",
+          "observedAt": "2026-11-14T15:09:11.430Z",
           "dueAt": null
         },
         {
@@ -155872,12 +155837,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://www.litrpg.com/the-land-forging",
-          "observedAt": "2026-11-04T16:23:18.078Z",
-          "dueAt": "2026-11-11T16:23:18.078Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B072VTTP23",
+          "observedAt": "2026-09-19T05:44:18.510Z",
+          "dueAt": "2026-12-18T05:44:18.510Z"
         }
       ],
       "issues": [
@@ -155910,11 +155875,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -155963,10 +155923,10 @@
         },
         {
           "url": "https://www.litrpg.com/the-land-forging",
-          "status": "stale",
-          "checkedAt": "2026-11-04T16:23:18.078Z",
-          "fetchedAt": "2026-11-04T16:23:18.078Z",
-          "nextCheckAt": "2026-11-11T16:23:18.078Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:11.430Z",
+          "fetchedAt": "2026-11-14T15:09:11.430Z",
+          "nextCheckAt": "2026-11-21T15:09:11.430Z"
         }
       ]
     },
@@ -155987,10 +155947,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 33,
-        "earned": 3,
+        "percent": 44,
+        "earned": 4,
         "possible": 9,
-        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -156000,7 +155960,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-alliances",
-          "observedAt": "2026-11-04T16:23:19.961Z",
+          "observedAt": "2026-11-14T15:09:15.836Z",
           "dueAt": null
         },
         {
@@ -156166,12 +156126,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://www.litrpg.com/the-land-alliances",
-          "observedAt": "2026-11-04T16:23:19.961Z",
-          "dueAt": "2026-11-11T16:23:19.961Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B07424XXN2",
+          "observedAt": "2026-09-19T05:44:19.793Z",
+          "dueAt": "2026-12-18T05:44:19.793Z"
         }
       ],
       "issues": [
@@ -156204,11 +156164,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -156257,10 +156212,10 @@
         },
         {
           "url": "https://www.litrpg.com/the-land-alliances",
-          "status": "stale",
-          "checkedAt": "2026-11-04T16:23:19.961Z",
-          "fetchedAt": "2026-11-04T16:23:19.961Z",
-          "nextCheckAt": "2026-11-11T16:23:19.961Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:15.836Z",
+          "fetchedAt": "2026-11-14T15:09:15.836Z",
+          "nextCheckAt": "2026-11-21T15:09:15.836Z"
         }
       ]
     },
@@ -156281,10 +156236,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 33,
-        "earned": 3,
+        "percent": 44,
+        "earned": 4,
         "possible": 9,
-        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -156294,7 +156249,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-catacombs",
-          "observedAt": "2026-11-04T16:23:21.422Z",
+          "observedAt": "2026-11-14T15:09:14.351Z",
           "dueAt": null
         },
         {
@@ -156460,12 +156415,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://www.litrpg.com/the-land-catacombs",
-          "observedAt": "2026-11-04T16:23:21.422Z",
-          "dueAt": "2026-11-11T16:23:21.422Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B074V9MCRJ",
+          "observedAt": "2026-09-19T05:44:21.065Z",
+          "dueAt": "2026-12-18T05:44:21.065Z"
         }
       ],
       "issues": [
@@ -156498,11 +156453,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -156551,10 +156501,10 @@
         },
         {
           "url": "https://www.litrpg.com/the-land-catacombs",
-          "status": "stale",
-          "checkedAt": "2026-11-04T16:23:21.422Z",
-          "fetchedAt": "2026-11-04T16:23:21.422Z",
-          "nextCheckAt": "2026-11-11T16:23:21.422Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:14.351Z",
+          "fetchedAt": "2026-11-14T15:09:14.351Z",
+          "nextCheckAt": "2026-11-21T15:09:14.351Z"
         }
       ]
     },
@@ -156575,10 +156525,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 33,
-        "earned": 3,
+        "percent": 44,
+        "earned": 4,
         "possible": 9,
-        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -156588,7 +156538,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-catacombs-1",
-          "observedAt": "2026-11-04T16:23:25.784Z",
+          "observedAt": "2026-11-14T15:09:09.997Z",
           "dueAt": null
         },
         {
@@ -156754,12 +156704,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://www.litrpg.com/the-land-catacombs-1",
-          "observedAt": "2026-11-04T16:23:25.784Z",
-          "dueAt": "2026-11-11T16:23:25.784Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B076PPCJRM",
+          "observedAt": "2026-09-19T05:44:22.348Z",
+          "dueAt": "2026-12-18T05:44:22.348Z"
         }
       ],
       "issues": [
@@ -156792,11 +156742,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -156845,10 +156790,10 @@
         },
         {
           "url": "https://www.litrpg.com/the-land-catacombs-1",
-          "status": "stale",
-          "checkedAt": "2026-11-04T16:23:25.784Z",
-          "fetchedAt": "2026-11-04T16:23:25.784Z",
-          "nextCheckAt": "2026-11-11T16:23:25.784Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:09.997Z",
+          "fetchedAt": "2026-11-14T15:09:09.997Z",
+          "nextCheckAt": "2026-11-21T15:09:09.997Z"
         }
       ]
     },
@@ -156869,10 +156814,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 33,
-        "earned": 3,
+        "percent": 44,
+        "earned": 4,
         "possible": 9,
-        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -156882,7 +156827,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-raiders",
-          "observedAt": "2026-11-04T16:23:22.910Z",
+          "observedAt": "2026-11-14T15:09:12.885Z",
           "dueAt": null
         },
         {
@@ -157048,12 +156993,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://www.litrpg.com/the-land-raiders",
-          "observedAt": "2026-11-04T16:23:22.910Z",
-          "dueAt": "2026-11-11T16:23:22.910Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B078NZ6PFP",
+          "observedAt": "2026-09-19T05:44:23.631Z",
+          "dueAt": "2026-12-18T05:44:23.631Z"
         }
       ],
       "issues": [
@@ -157086,11 +157031,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -157139,10 +157079,10 @@
         },
         {
           "url": "https://www.litrpg.com/the-land-raiders",
-          "status": "stale",
-          "checkedAt": "2026-11-04T16:23:22.910Z",
-          "fetchedAt": "2026-11-04T16:23:22.910Z",
-          "nextCheckAt": "2026-11-11T16:23:22.910Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:12.885Z",
+          "fetchedAt": "2026-11-14T15:09:12.885Z",
+          "nextCheckAt": "2026-11-21T15:09:12.885Z"
         }
       ]
     },
@@ -157163,10 +157103,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 33,
-        "earned": 3,
+        "percent": 44,
+        "earned": 4,
         "possible": 9,
-        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -157176,7 +157116,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-raiders-1",
-          "observedAt": "2026-11-04T16:23:24.356Z",
+          "observedAt": "2026-11-14T15:09:08.447Z",
           "dueAt": null
         },
         {
@@ -157342,12 +157282,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://www.litrpg.com/the-land-raiders-1",
-          "observedAt": "2026-11-04T16:23:24.356Z",
-          "dueAt": "2026-11-11T16:23:24.356Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B07F3MCHF4",
+          "observedAt": "2026-09-19T05:44:24.913Z",
+          "dueAt": "2026-12-18T05:44:24.913Z"
         }
       ],
       "issues": [
@@ -157380,11 +157320,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -157433,10 +157368,10 @@
         },
         {
           "url": "https://www.litrpg.com/the-land-raiders-1",
-          "status": "stale",
-          "checkedAt": "2026-11-04T16:23:24.356Z",
-          "fetchedAt": "2026-11-04T16:23:24.356Z",
-          "nextCheckAt": "2026-11-11T16:23:24.356Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:08.447Z",
+          "fetchedAt": "2026-11-14T15:09:08.447Z",
+          "nextCheckAt": "2026-11-21T15:09:08.447Z"
         }
       ]
     },
@@ -157457,10 +157392,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 33,
-        "earned": 3,
+        "percent": 44,
+        "earned": 4,
         "possible": 9,
-        "explanation": "3/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "4/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -157470,7 +157405,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-founding-1",
-          "observedAt": "2026-11-06T15:57:58.993Z",
+          "observedAt": "2026-11-14T15:09:17.366Z",
           "dueAt": null
         },
         {
@@ -157636,12 +157571,12 @@
         {
           "id": "source-freshness",
           "label": "Source checks",
-          "status": "stale",
+          "status": "present",
           "available": true,
-          "explanation": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
-          "sourceUrl": "https://www.litrpg.com/the-land-founding-1",
-          "observedAt": "2026-11-06T15:57:58.993Z",
-          "dueAt": "2026-11-13T15:57:58.993Z"
+          "explanation": "2/2 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B088WZZX2W",
+          "observedAt": "2026-09-19T05:44:26.187Z",
+          "dueAt": "2026-12-18T05:44:26.187Z"
         }
       ],
       "issues": [
@@ -157674,11 +157609,6 @@
           "code": "reader-observation",
           "status": "missing",
           "message": "No retained reader observation is available."
-        },
-        {
-          "code": "source-freshness",
-          "status": "stale",
-          "message": "1/2 associated source checks are current; 1 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl."
         }
       ],
       "flags": {
@@ -157727,10 +157657,10 @@
         },
         {
           "url": "https://www.litrpg.com/the-land-founding-1",
-          "status": "stale",
-          "checkedAt": "2026-11-06T15:57:58.993Z",
-          "fetchedAt": "2026-11-06T15:57:58.993Z",
-          "nextCheckAt": "2026-11-13T15:57:58.993Z"
+          "status": "present",
+          "checkedAt": "2026-11-14T15:09:17.366Z",
+          "fetchedAt": "2026-11-14T15:09:17.366Z",
+          "nextCheckAt": "2026-11-21T15:09:17.366Z"
         }
       ]
     },
