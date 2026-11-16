@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T15:42:28.568Z",
+  "generatedAt": "2026-11-16T18:38:02.651Z",
   "definitions": {
     "completeness": "Data presence, not bibliography completeness: equal weight for source-description, original-summary, extracted-metadata, jev-assessment, audio-edition, audio-date, narrator, runtime, cover-asset, reader-sample. Stale or unverified retained values can earn presence credit; corrupt unusable values cannot.",
     "evidenceQuality": "Current evidence/review checks, never a rating of a book: equal weight for source-description, reviewed-metadata, audio-verified, audio-date, cover-observation, reader-adequacy, reader-traits, reader-observation, source-freshness. Only present/current checks earn credit. No model confidence is converted into a quality score.",
@@ -14823,16 +14823,16 @@
       "knownWorks": 17,
       "confirmedAudioWorks": 16,
       "completeness": {
-        "percent": 77,
-        "earned": 133,
+        "percent": 78,
+        "earned": 135,
         "possible": 173,
-        "explanation": "133/173 equally weighted checks across all 17 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "135/173 equally weighted checks across all 17 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
         "percent": 46,
-        "earned": 72,
+        "earned": 71,
         "possible": 155,
-        "explanation": "72/155 equally weighted checks across all 17 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "explanation": "71/155 equally weighted checks across all 17 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -14970,7 +14970,7 @@
           "label": "Usable reader comments",
           "status": "missing",
           "available": true,
-          "explanation": "1/17 works are present/current; 16 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "3/17 works are present/current; 14 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -14980,7 +14980,7 @@
           "label": "Reader sample adequacy",
           "status": "missing",
           "available": true,
-          "explanation": "1/17 works are present/current; 16 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "1/17 works are present/current; 14 missing, 2 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -14990,7 +14990,7 @@
           "label": "Current reader traits",
           "status": "missing",
           "available": true,
-          "explanation": "1/17 works are present/current; 16 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/17 works are present/current; 16 missing, 0 unknown, 1 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -15125,17 +15125,27 @@
         {
           "code": "reader-sample:missing",
           "status": "missing",
-          "message": "Usable reader comments: 16/17 works are missing."
+          "message": "Usable reader comments: 14/17 works are missing."
         },
         {
           "code": "reader-adequacy:missing",
           "status": "missing",
-          "message": "Reader sample adequacy: 16/17 works are missing."
+          "message": "Reader sample adequacy: 14/17 works are missing."
+        },
+        {
+          "code": "reader-adequacy:unknown",
+          "status": "unknown",
+          "message": "Reader sample adequacy: 2/17 works are unknown."
         },
         {
           "code": "reader-traits:missing",
           "status": "missing",
           "message": "Current reader traits: 16/17 works are missing."
+        },
+        {
+          "code": "reader-traits:stale",
+          "status": "stale",
+          "message": "Current reader traits: 1/17 works are stale."
         },
         {
           "code": "reader-observation:missing",
@@ -93593,10 +93603,10 @@
         "explanation": "10/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 78,
-        "earned": 7,
+        "percent": 67,
+        "earned": 6,
         "possible": 9,
-        "explanation": "7/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "6/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -93734,9 +93744,9 @@
           "label": "Usable reader comments",
           "status": "present",
           "available": true,
-          "explanation": "6 usable comments are selected from 6 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
+          "explanation": "9 usable comments are selected from 9 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
           "sourceUrl": "https://hardcover.app/books/defiance-of-the-fall",
-          "observedAt": "2026-09-19T03:35:19.519Z",
+          "observedAt": "2026-11-16T18:37:47.460Z",
           "dueAt": null
         },
         {
@@ -93744,17 +93754,17 @@
           "label": "Reader sample adequacy",
           "status": "present",
           "available": true,
-          "explanation": "6/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
+          "explanation": "9/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
           "sourceUrl": "https://hardcover.app/books/defiance-of-the-fall",
-          "observedAt": "2026-09-19T03:35:19.519Z",
+          "observedAt": "2026-11-16T18:37:47.460Z",
           "dueAt": null
         },
         {
           "id": "reader-traits",
           "label": "Current reader traits",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "All four reader-trait receipts match the exact selected sample and current rubric; an unknown trait value is a valid result.",
+          "explanation": "Retained reader traits are incomplete or no longer match the eligible selected sample and current rubric.",
           "sourceUrl": "https://hardcover.app/books/defiance-of-the-fall",
           "observedAt": "2026-09-19T04:13:14.924Z",
           "dueAt": null
@@ -93766,7 +93776,7 @@
           "available": true,
           "explanation": "The public reader context has no supported finding to show: review is empty, stale, refused, or the selected sample is inadequate. Retained prose alone does not fill this gap.",
           "sourceUrl": "https://hardcover.app/books/defiance-of-the-fall",
-          "observedAt": "2026-09-19T03:35:19.519Z",
+          "observedAt": "2026-11-16T18:37:47.460Z",
           "dueAt": null
         },
         {
@@ -93785,6 +93795,11 @@
           "code": "cover-observation",
           "status": "stale",
           "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
+        },
+        {
+          "code": "reader-traits",
+          "status": "stale",
+          "message": "Retained reader traits are incomplete or no longer match the eligible selected sample and current rubric."
         },
         {
           "code": "reader-observation",
@@ -93812,11 +93827,11 @@
         "releaseDate": "2021-06-08"
       },
       "reader": {
-        "retainedCount": 6,
-        "selectedCount": 6,
+        "retainedCount": 9,
+        "selectedCount": 9,
         "eligible": true,
         "minimum": 5,
-        "currentTraits": true,
+        "currentTraits": false,
         "observation": "withheld",
         "sourceUrls": [
           "https://hardcover.app/books/defiance-of-the-fall"
@@ -93859,10 +93874,10 @@
       ],
       "publicationStatus": "released",
       "completeness": {
-        "percent": 80,
-        "earned": 8,
+        "percent": 90,
+        "earned": 9,
         "possible": 10,
-        "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+        "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
         "percent": 56,
@@ -94004,21 +94019,21 @@
         {
           "id": "reader-sample",
           "label": "Usable reader comments",
-          "status": "missing",
-          "available": false,
-          "explanation": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "status": "present",
+          "available": true,
+          "explanation": "4 usable comments are selected from 4 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
+          "sourceUrl": "https://hardcover.app/books/defiance-of-the-fall-2",
+          "observedAt": "2026-11-16T18:37:52.386Z",
           "dueAt": null
         },
         {
           "id": "reader-adequacy",
           "label": "Reader sample adequacy",
-          "status": "missing",
+          "status": "unknown",
           "available": false,
-          "explanation": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "explanation": "4/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
+          "sourceUrl": "https://hardcover.app/books/defiance-of-the-fall-2",
+          "observedAt": "2026-11-16T18:37:52.386Z",
           "dueAt": null
         },
         {
@@ -94027,7 +94042,7 @@
           "status": "missing",
           "available": false,
           "explanation": "No current set of reader-trait receipts is retained.",
-          "sourceUrl": null,
+          "sourceUrl": "https://hardcover.app/books/defiance-of-the-fall-2",
           "observedAt": null,
           "dueAt": null
         },
@@ -94037,8 +94052,8 @@
           "status": "missing",
           "available": false,
           "explanation": "No retained reader observation is available.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "sourceUrl": "https://hardcover.app/books/defiance-of-the-fall-2",
+          "observedAt": "2026-11-16T18:37:52.386Z",
           "dueAt": null
         },
         {
@@ -94064,14 +94079,9 @@
           "message": "No validated observation is bound to the current cached cover bytes."
         },
         {
-          "code": "reader-sample",
-          "status": "missing",
-          "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
-        },
-        {
           "code": "reader-adequacy",
-          "status": "missing",
-          "message": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
+          "status": "unknown",
+          "message": "4/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
         },
         {
           "code": "reader-traits",
@@ -94094,7 +94104,7 @@
         "audioDateVerified": true,
         "coverAsset": false,
         "coverReviewed": false,
-        "readerSample": false,
+        "readerSample": true,
         "readerAdequate": false
       },
       "audio": {
@@ -94104,13 +94114,15 @@
         "releaseDate": "2021-08-10"
       },
       "reader": {
-        "retainedCount": 0,
-        "selectedCount": 0,
+        "retainedCount": 4,
+        "selectedCount": 4,
         "eligible": false,
         "minimum": 5,
         "currentTraits": false,
         "observation": "missing",
-        "sourceUrls": []
+        "sourceUrls": [
+          "https://hardcover.app/books/defiance-of-the-fall-2"
+        ]
       },
       "cover": {
         "url": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2026/01/812MilbBU6L._SL1500_-1.jpg",
@@ -94149,10 +94161,10 @@
       ],
       "publicationStatus": "released",
       "completeness": {
-        "percent": 80,
-        "earned": 8,
+        "percent": 90,
+        "earned": 9,
         "possible": 10,
-        "explanation": "8/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+        "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
         "percent": 56,
@@ -94294,21 +94306,21 @@
         {
           "id": "reader-sample",
           "label": "Usable reader comments",
-          "status": "missing",
-          "available": false,
-          "explanation": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "status": "present",
+          "available": true,
+          "explanation": "3 usable comments are selected from 3 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
+          "sourceUrl": "https://hardcover.app/books/defiance-of-the-fall-3",
+          "observedAt": "2026-11-16T18:37:57.121Z",
           "dueAt": null
         },
         {
           "id": "reader-adequacy",
           "label": "Reader sample adequacy",
-          "status": "missing",
+          "status": "unknown",
           "available": false,
-          "explanation": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "explanation": "3/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
+          "sourceUrl": "https://hardcover.app/books/defiance-of-the-fall-3",
+          "observedAt": "2026-11-16T18:37:57.121Z",
           "dueAt": null
         },
         {
@@ -94317,7 +94329,7 @@
           "status": "missing",
           "available": false,
           "explanation": "No current set of reader-trait receipts is retained.",
-          "sourceUrl": null,
+          "sourceUrl": "https://hardcover.app/books/defiance-of-the-fall-3",
           "observedAt": null,
           "dueAt": null
         },
@@ -94327,8 +94339,8 @@
           "status": "missing",
           "available": false,
           "explanation": "No retained reader observation is available.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "sourceUrl": "https://hardcover.app/books/defiance-of-the-fall-3",
+          "observedAt": "2026-11-16T18:37:57.121Z",
           "dueAt": null
         },
         {
@@ -94354,14 +94366,9 @@
           "message": "No validated observation is bound to the current cached cover bytes."
         },
         {
-          "code": "reader-sample",
-          "status": "missing",
-          "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
-        },
-        {
           "code": "reader-adequacy",
-          "status": "missing",
-          "message": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
+          "status": "unknown",
+          "message": "3/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
         },
         {
           "code": "reader-traits",
@@ -94384,7 +94391,7 @@
         "audioDateVerified": true,
         "coverAsset": false,
         "coverReviewed": false,
-        "readerSample": false,
+        "readerSample": true,
         "readerAdequate": false
       },
       "audio": {
@@ -94394,13 +94401,15 @@
         "releaseDate": "2021-11-30"
       },
       "reader": {
-        "retainedCount": 0,
-        "selectedCount": 0,
+        "retainedCount": 3,
+        "selectedCount": 3,
         "eligible": false,
         "minimum": 5,
         "currentTraits": false,
         "observation": "missing",
-        "sourceUrls": []
+        "sourceUrls": [
+          "https://hardcover.app/books/defiance-of-the-fall-3"
+        ]
       },
       "cover": {
         "url": "https://b4076937.assetcdn.net/2.0/4076937/wp-content/uploads/sites/7/2026/01/91aby0tt0KL._SL1500_-1.jpg",
