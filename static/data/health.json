@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T17:40:33.973Z",
+  "generatedAt": "2026-11-18T17:18:36.444Z",
   "definitions": {
     "completeness": "Data presence, not bibliography completeness: equal weight for source-description, original-summary, extracted-metadata, jev-assessment, audio-edition, audio-date, narrator, runtime, cover-asset, reader-sample. Stale or unverified retained values can earn presence credit; corrupt unusable values cannot.",
     "evidenceQuality": "Current evidence/review checks, never a rating of a book: equal weight for source-description, reviewed-metadata, audio-verified, audio-date, cover-observation, reader-adequacy, reader-traits, reader-observation, source-freshness. Only present/current checks earn credit. No model confidence is converted into a quality score.",
@@ -1316,10 +1316,10 @@
       "knownWorks": 3,
       "confirmedAudioWorks": 3,
       "completeness": {
-        "percent": 88,
-        "earned": 29,
+        "percent": 91,
+        "earned": 30,
         "possible": 33,
-        "explanation": "29/33 equally weighted checks across all 3 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "30/33 equally weighted checks across all 3 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
         "percent": 48,
@@ -1462,8 +1462,8 @@
           "id": "reader-sample",
           "label": "Usable reader comments",
           "status": "missing",
-          "available": false,
-          "explanation": "0/3 works are present/current; 3 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "available": true,
+          "explanation": "1/3 works are present/current; 2 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -1473,7 +1473,7 @@
           "label": "Reader sample adequacy",
           "status": "missing",
           "available": false,
-          "explanation": "0/3 works are present/current; 3 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/3 works are present/current; 2 missing, 1 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -1563,12 +1563,17 @@
         {
           "code": "reader-sample:missing",
           "status": "missing",
-          "message": "Usable reader comments: 3/3 works are missing."
+          "message": "Usable reader comments: 2/3 works are missing."
         },
         {
           "code": "reader-adequacy:missing",
           "status": "missing",
-          "message": "Reader sample adequacy: 3/3 works are missing."
+          "message": "Reader sample adequacy: 2/3 works are missing."
+        },
+        {
+          "code": "reader-adequacy:unknown",
+          "status": "unknown",
+          "message": "Reader sample adequacy: 1/3 works are unknown."
         },
         {
           "code": "reader-traits:missing",
@@ -12681,9 +12686,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0HPQWN37Q",
           "status": "present",
-          "checkedAt": "2026-11-12T16:52:04.191Z",
+          "checkedAt": "2026-11-18T17:18:17.284Z",
           "fetchedAt": "2026-11-12T16:52:04.191Z",
-          "nextCheckAt": "2026-11-18T00:00:00.000Z"
+          "nextCheckAt": "2026-11-25T17:18:17.284Z"
         }
       ]
     },
@@ -42431,10 +42436,10 @@
       ],
       "publicationStatus": "released",
       "completeness": {
-        "percent": 90,
-        "earned": 9,
+        "percent": 100,
+        "earned": 10,
         "possible": 10,
-        "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+        "explanation": "10/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
         "percent": 56,
@@ -42576,21 +42581,21 @@
         {
           "id": "reader-sample",
           "label": "Usable reader comments",
-          "status": "missing",
-          "available": false,
-          "explanation": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "status": "present",
+          "available": true,
+          "explanation": "1 usable comments are selected from 1 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
+          "sourceUrl": "https://hardcover.app/books/a-dream-of-wings-flame",
+          "observedAt": "2026-11-18T17:18:23.741Z",
           "dueAt": null
         },
         {
           "id": "reader-adequacy",
           "label": "Reader sample adequacy",
-          "status": "missing",
+          "status": "unknown",
           "available": false,
-          "explanation": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "explanation": "1/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
+          "sourceUrl": "https://hardcover.app/books/a-dream-of-wings-flame",
+          "observedAt": "2026-11-18T17:18:23.741Z",
           "dueAt": null
         },
         {
@@ -42599,7 +42604,7 @@
           "status": "missing",
           "available": false,
           "explanation": "No current set of reader-trait receipts is retained.",
-          "sourceUrl": null,
+          "sourceUrl": "https://hardcover.app/books/a-dream-of-wings-flame",
           "observedAt": null,
           "dueAt": null
         },
@@ -42609,8 +42614,8 @@
           "status": "missing",
           "available": false,
           "explanation": "No retained reader observation is available.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "sourceUrl": "https://hardcover.app/books/a-dream-of-wings-flame",
+          "observedAt": "2026-11-18T17:18:23.741Z",
           "dueAt": null
         },
         {
@@ -42631,14 +42636,9 @@
           "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
         },
         {
-          "code": "reader-sample",
-          "status": "missing",
-          "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
-        },
-        {
           "code": "reader-adequacy",
-          "status": "missing",
-          "message": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
+          "status": "unknown",
+          "message": "1/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
         },
         {
           "code": "reader-traits",
@@ -42661,7 +42661,7 @@
         "audioDateVerified": true,
         "coverAsset": true,
         "coverReviewed": false,
-        "readerSample": false,
+        "readerSample": true,
         "readerAdequate": false
       },
       "audio": {
@@ -42671,13 +42671,15 @@
         "releaseDate": "2022-10-11"
       },
       "reader": {
-        "retainedCount": 0,
-        "selectedCount": 0,
+        "retainedCount": 1,
+        "selectedCount": 1,
         "eligible": false,
         "minimum": 5,
         "currentTraits": false,
         "observation": "missing",
-        "sourceUrls": []
+        "sourceUrls": [
+          "https://hardcover.app/books/a-dream-of-wings-flame"
+        ]
       },
       "cover": {
         "url": "https://m.media-amazon.com/images/I/51BnCubDteL._SL500_.jpg",
@@ -84548,7 +84550,7 @@
           "available": true,
           "explanation": "1 current exact US product documents pass the canonical title, complete author credits, selected series/volume, English, full-audio, and retained work-binding checks.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HPQWN37Q",
-          "observedAt": "2026-11-12T16:52:04.191Z",
+          "observedAt": "2026-11-18T17:18:17.284Z",
           "dueAt": null
         },
         {
@@ -84556,10 +84558,10 @@
           "label": "Confirmed audio date",
           "status": "present",
           "available": true,
-          "explanation": "A verified audio-specific date establishes a current preorder schedule. Print and ebook dates are excluded.",
+          "explanation": "A verified audio-specific date establishes an observed released recording. Print and ebook dates are excluded.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HPQWN37Q",
-          "observedAt": "2026-11-12T16:52:04.191Z",
-          "dueAt": "2026-11-18T00:00:00.000Z"
+          "observedAt": "2026-11-18T17:18:17.284Z",
+          "dueAt": null
         },
         {
           "id": "narrator",
@@ -84568,7 +84570,7 @@
           "available": true,
           "explanation": "A named narrator is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HPQWN37Q",
-          "observedAt": "2026-11-12T16:52:04.191Z",
+          "observedAt": "2026-11-18T17:18:17.284Z",
           "dueAt": null
         },
         {
@@ -84578,7 +84580,7 @@
           "available": true,
           "explanation": "A positive whole-minute duration is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HPQWN37Q",
-          "observedAt": "2026-11-12T16:52:04.191Z",
+          "observedAt": "2026-11-18T17:18:17.284Z",
           "dueAt": null
         },
         {
@@ -84730,7 +84732,7 @@
       "audio": {
         "retainedEditionCount": 1,
         "confirmedEditionCount": 1,
-        "state": "scheduled",
+        "state": "released",
         "releaseDate": "2026-11-18"
       },
       "reader": {
@@ -84761,9 +84763,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0HPQWN37Q",
           "status": "present",
-          "checkedAt": "2026-11-12T16:52:04.191Z",
+          "checkedAt": "2026-11-18T17:18:17.284Z",
           "fetchedAt": "2026-11-12T16:52:04.191Z",
-          "nextCheckAt": "2026-11-18T00:00:00.000Z"
+          "nextCheckAt": "2026-11-25T17:18:17.284Z"
         }
       ]
     },
