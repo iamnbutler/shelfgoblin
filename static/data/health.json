@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T17:00:44.060Z",
+  "generatedAt": "2026-11-21T16:12:56.161Z",
   "definitions": {
     "completeness": "Data presence, not bibliography completeness: equal weight for source-description, original-summary, extracted-metadata, jev-assessment, audio-edition, audio-date, narrator, runtime, cover-asset, reader-sample. Stale or unverified retained values can earn presence credit; corrupt unusable values cannot.",
     "evidenceQuality": "Current evidence/review checks, never a rating of a book: equal weight for source-description, reviewed-metadata, audio-verified, audio-date, cover-observation, reader-adequacy, reader-traits, reader-observation, source-freshness. Only present/current checks earn credit. No model confidence is converted into a quality score.",
@@ -231,8 +231,8 @@
           "available": true,
           "explanation": "10/10 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/1-lifesteal/",
-          "observedAt": "2026-11-14T15:09:05.021Z",
-          "dueAt": "2026-11-21T15:09:05.021Z"
+          "observedAt": "2026-11-21T16:12:20.540Z",
+          "dueAt": "2026-11-28T16:12:20.540Z"
         },
         {
           "id": "series-summary",
@@ -367,9 +367,9 @@
         {
           "url": "https://aethonbooks.com/book-series/1-lifesteal/",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:05.021Z",
-          "fetchedAt": "2026-11-14T15:09:05.021Z",
-          "nextCheckAt": "2026-11-21T15:09:05.021Z"
+          "checkedAt": "2026-11-21T16:12:20.540Z",
+          "fetchedAt": "2026-11-21T16:12:20.540Z",
+          "nextCheckAt": "2026-11-28T16:12:20.540Z"
         },
         {
           "url": "https://aethonbooks.com/book/1-lifesteal-2/",
@@ -1670,10 +1670,10 @@
       "knownWorks": 2,
       "confirmedAudioWorks": 2,
       "completeness": {
-        "percent": 87,
-        "earned": 20,
+        "percent": 91,
+        "earned": 21,
         "possible": 23,
-        "explanation": "20/23 equally weighted checks across all 2 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
+        "explanation": "21/23 equally weighted checks across all 2 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
         "percent": 40,
@@ -1816,8 +1816,8 @@
           "id": "reader-sample",
           "label": "Usable reader comments",
           "status": "missing",
-          "available": false,
-          "explanation": "0/2 works are present/current; 2 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "available": true,
+          "explanation": "1/2 works are present/current; 1 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -1827,7 +1827,7 @@
           "label": "Reader sample adequacy",
           "status": "missing",
           "available": false,
-          "explanation": "0/2 works are present/current; 2 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/2 works are present/current; 1 missing, 1 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -1917,12 +1917,17 @@
         {
           "code": "reader-sample:missing",
           "status": "missing",
-          "message": "Usable reader comments: 2/2 works are missing."
+          "message": "Usable reader comments: 1/2 works are missing."
         },
         {
           "code": "reader-adequacy:missing",
           "status": "missing",
-          "message": "Reader sample adequacy: 2/2 works are missing."
+          "message": "Reader sample adequacy: 1/2 works are missing."
+        },
+        {
+          "code": "reader-adequacy:unknown",
+          "status": "unknown",
+          "message": "Reader sample adequacy: 1/2 works are unknown."
         },
         {
           "code": "reader-traits:missing",
@@ -3024,8 +3029,8 @@
           "available": true,
           "explanation": "7/7 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/alan-buys-the-universe/",
-          "observedAt": "2026-11-14T15:09:02.463Z",
-          "dueAt": "2026-11-21T15:09:02.463Z"
+          "observedAt": "2026-11-21T16:12:17.323Z",
+          "dueAt": "2026-11-28T16:12:17.323Z"
         },
         {
           "id": "series-summary",
@@ -3125,9 +3130,9 @@
         {
           "url": "https://aethonbooks.com/book-series/alan-buys-the-universe/",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:02.463Z",
-          "fetchedAt": "2026-11-14T15:09:02.463Z",
-          "nextCheckAt": "2026-11-21T15:09:02.463Z"
+          "checkedAt": "2026-11-21T16:12:17.323Z",
+          "fetchedAt": "2026-11-21T16:12:17.323Z",
+          "nextCheckAt": "2026-11-28T16:12:17.323Z"
         },
         {
           "url": "https://aethonbooks.com/book/alan-buys-the-universe-2/",
@@ -6825,8 +6830,8 @@
           "available": true,
           "explanation": "5/5 associated source checks are current; 0 are due and 0 lack a valid recorded check or refresh schedule. Retained notes and buy links alone do not establish a crawl.",
           "sourceUrl": "https://aethonbooks.com/book-series/arcanist-in-another-world/",
-          "observedAt": "2026-11-14T15:09:03.743Z",
-          "dueAt": "2026-11-21T15:09:03.743Z"
+          "observedAt": "2026-11-21T16:12:18.614Z",
+          "dueAt": "2026-11-28T16:12:18.614Z"
         },
         {
           "id": "series-summary",
@@ -6956,9 +6961,9 @@
         {
           "url": "https://aethonbooks.com/book-series/arcanist-in-another-world/",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:03.743Z",
-          "fetchedAt": "2026-11-14T15:09:03.743Z",
-          "nextCheckAt": "2026-11-21T15:09:03.743Z"
+          "checkedAt": "2026-11-21T16:12:18.614Z",
+          "fetchedAt": "2026-11-21T16:12:18.614Z",
+          "nextCheckAt": "2026-11-28T16:12:18.614Z"
         },
         {
           "url": "https://aethonbooks.com/book/arcanist-in-another-world-2/",
@@ -11241,10 +11246,10 @@
         "explanation": "40/53 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
-        "percent": 45,
-        "earned": 21,
+        "percent": 43,
+        "earned": 20,
         "possible": 47,
-        "explanation": "21/47 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "explanation": "20/47 equally weighted checks across all 5 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -11372,7 +11377,7 @@
           "label": "Cover observation",
           "status": "missing",
           "available": true,
-          "explanation": "1/5 works are present/current; 4 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/5 works are present/current; 4 missing, 0 unknown, 1 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -11508,6 +11513,11 @@
           "code": "cover-observation:missing",
           "status": "missing",
           "message": "Cover observation: 4/5 works are missing."
+        },
+        {
+          "code": "cover-observation:stale",
+          "status": "stale",
+          "message": "Cover observation: 1/5 works are stale."
         },
         {
           "code": "reader-sample:missing",
@@ -24708,9 +24718,9 @@
         {
           "url": "https://sarahlinauthor.blogspot.com/p/street-cultivation.html",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:19.571Z",
-          "fetchedAt": "2026-11-14T15:09:19.571Z",
-          "nextCheckAt": "2026-11-21T15:09:19.571Z"
+          "checkedAt": "2026-11-21T16:12:36.457Z",
+          "fetchedAt": "2026-11-21T16:12:36.457Z",
+          "nextCheckAt": "2026-11-28T16:12:36.457Z"
         }
       ]
     },
@@ -28571,58 +28581,58 @@
         {
           "url": "https://www.litrpg.com/the-land-alliances",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:15.836Z",
-          "fetchedAt": "2026-11-14T15:09:15.836Z",
-          "nextCheckAt": "2026-11-21T15:09:15.836Z"
+          "checkedAt": "2026-11-21T16:12:32.443Z",
+          "fetchedAt": "2026-11-21T16:12:32.443Z",
+          "nextCheckAt": "2026-11-28T16:12:32.443Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-catacombs",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:14.351Z",
-          "fetchedAt": "2026-11-14T15:09:14.351Z",
-          "nextCheckAt": "2026-11-21T15:09:14.351Z"
+          "checkedAt": "2026-11-21T16:12:28.233Z",
+          "fetchedAt": "2026-11-21T16:12:28.233Z",
+          "nextCheckAt": "2026-11-28T16:12:28.233Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-catacombs-1",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:09.997Z",
-          "fetchedAt": "2026-11-14T15:09:09.997Z",
-          "nextCheckAt": "2026-11-21T15:09:09.997Z"
+          "checkedAt": "2026-11-21T16:12:31.030Z",
+          "fetchedAt": "2026-11-21T16:12:31.030Z",
+          "nextCheckAt": "2026-11-28T16:12:31.030Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-forging",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:11.430Z",
-          "fetchedAt": "2026-11-14T15:09:11.430Z",
-          "nextCheckAt": "2026-11-21T15:09:11.430Z"
+          "checkedAt": "2026-11-21T16:12:29.639Z",
+          "fetchedAt": "2026-11-21T16:12:29.639Z",
+          "nextCheckAt": "2026-11-28T16:12:29.639Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-founding",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:06.936Z",
-          "fetchedAt": "2026-11-14T15:09:06.936Z",
-          "nextCheckAt": "2026-11-21T15:09:06.936Z"
+          "checkedAt": "2026-11-21T16:12:23.647Z",
+          "fetchedAt": "2026-11-21T16:12:23.647Z",
+          "nextCheckAt": "2026-11-28T16:12:23.647Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-founding-1",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:17.366Z",
-          "fetchedAt": "2026-11-14T15:09:17.366Z",
-          "nextCheckAt": "2026-11-21T15:09:17.366Z"
+          "checkedAt": "2026-11-21T16:12:25.175Z",
+          "fetchedAt": "2026-11-21T16:12:25.175Z",
+          "nextCheckAt": "2026-11-28T16:12:25.175Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-raiders",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:12.885Z",
-          "fetchedAt": "2026-11-14T15:09:12.885Z",
-          "nextCheckAt": "2026-11-21T15:09:12.885Z"
+          "checkedAt": "2026-11-21T16:12:26.720Z",
+          "fetchedAt": "2026-11-21T16:12:26.720Z",
+          "nextCheckAt": "2026-11-28T16:12:26.720Z"
         },
         {
           "url": "https://www.litrpg.com/the-land-raiders-1",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:08.447Z",
-          "fetchedAt": "2026-11-14T15:09:08.447Z",
-          "nextCheckAt": "2026-11-21T15:09:08.447Z"
+          "checkedAt": "2026-11-21T16:12:22.077Z",
+          "fetchedAt": "2026-11-21T16:12:22.077Z",
+          "nextCheckAt": "2026-11-28T16:12:22.077Z"
         },
         {
           "url": "https://www.litrpg.com/updates-1",
@@ -33153,9 +33163,9 @@
         {
           "url": "https://sarahlinauthor.blogspot.com/p/the-weirkey-chronicles.html",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:17.889Z",
-          "fetchedAt": "2026-11-14T15:09:17.889Z",
-          "nextCheckAt": "2026-11-21T15:09:17.889Z"
+          "checkedAt": "2026-11-21T16:12:34.479Z",
+          "fetchedAt": "2026-11-21T16:12:34.479Z",
+          "nextCheckAt": "2026-11-28T16:12:34.479Z"
         }
       ]
     },
@@ -43643,10 +43653,10 @@
       ],
       "publicationStatus": "released",
       "completeness": {
-        "percent": 90,
-        "earned": 9,
+        "percent": 100,
+        "earned": 10,
         "possible": 10,
-        "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
+        "explanation": "10/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
         "percent": 44,
@@ -43788,21 +43798,21 @@
         {
           "id": "reader-sample",
           "label": "Usable reader comments",
-          "status": "missing",
-          "available": false,
-          "explanation": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "status": "present",
+          "available": true,
+          "explanation": "2 usable comments are selected from 2 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook.",
+          "sourceUrl": "https://hardcover.app/books/ascension-2024",
+          "observedAt": "2026-11-21T16:12:48.569Z",
           "dueAt": null
         },
         {
           "id": "reader-adequacy",
           "label": "Reader sample adequacy",
-          "status": "missing",
+          "status": "unknown",
           "available": false,
-          "explanation": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "explanation": "2/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality.",
+          "sourceUrl": "https://hardcover.app/books/ascension-2024",
+          "observedAt": "2026-11-21T16:12:48.569Z",
           "dueAt": null
         },
         {
@@ -43811,7 +43821,7 @@
           "status": "missing",
           "available": false,
           "explanation": "No current set of reader-trait receipts is retained.",
-          "sourceUrl": null,
+          "sourceUrl": "https://hardcover.app/books/ascension-2024",
           "observedAt": null,
           "dueAt": null
         },
@@ -43821,8 +43831,8 @@
           "status": "missing",
           "available": false,
           "explanation": "No retained reader observation is available.",
-          "sourceUrl": null,
-          "observedAt": null,
+          "sourceUrl": "https://hardcover.app/books/ascension-2024",
+          "observedAt": "2026-11-21T16:12:48.569Z",
           "dueAt": null
         },
         {
@@ -43848,14 +43858,9 @@
           "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
         },
         {
-          "code": "reader-sample",
-          "status": "missing",
-          "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
-        },
-        {
           "code": "reader-adequacy",
-          "status": "missing",
-          "message": "0/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
+          "status": "unknown",
+          "message": "2/5 required selected voices. This is the existing aggregation gate, not measured agreement, representativeness, or a judgement of comment quality."
         },
         {
           "code": "reader-traits",
@@ -43878,7 +43883,7 @@
         "audioDateVerified": true,
         "coverAsset": true,
         "coverReviewed": false,
-        "readerSample": false,
+        "readerSample": true,
         "readerAdequate": false
       },
       "audio": {
@@ -43888,13 +43893,15 @@
         "releaseDate": "2024-07-09"
       },
       "reader": {
-        "retainedCount": 0,
-        "selectedCount": 0,
+        "retainedCount": 2,
+        "selectedCount": 2,
         "eligible": false,
         "minimum": 5,
         "currentTraits": false,
         "observation": "missing",
-        "sourceUrls": []
+        "sourceUrls": [
+          "https://hardcover.app/books/ascension-2024"
+        ]
       },
       "cover": {
         "url": "https://m.media-amazon.com/images/I/51nhQDJdjjL._SL500_.jpg",
@@ -81017,10 +81024,10 @@
         "explanation": "9/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 67,
-        "earned": 6,
+        "percent": 56,
+        "earned": 5,
         "possible": 9,
-        "explanation": "6/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "5/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -81146,9 +81153,9 @@
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
+          "explanation": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained.",
           "sourceUrl": "https://m.media-amazon.com/images/I/61OuwUU4Z4L._SL500_.jpg",
           "observedAt": "2026-10-22T13:51:21.253Z",
           "dueAt": "2026-11-21T13:51:21.253Z"
@@ -81206,6 +81213,11 @@
       ],
       "issues": [
         {
+          "code": "cover-observation",
+          "status": "stale",
+          "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
+        },
+        {
           "code": "reader-sample",
           "status": "missing",
           "message": "0 usable comments are selected from 0 retained, nonremoved comments after deduplication, minimum length, spoiler exclusion, and the 60-comment cap. This does not establish that contributors listened to the audiobook."
@@ -81235,7 +81247,7 @@
         "audioVerified": true,
         "audioDateVerified": true,
         "coverAsset": true,
-        "coverReviewed": true,
+        "coverReviewed": false,
         "readerSample": false,
         "readerAdequate": false
       },
@@ -81259,7 +81271,7 @@
         "cached": true,
         "hashVerified": true,
         "bytes": 66987,
-        "observationCurrent": true,
+        "observationCurrent": false,
         "checkedAt": "2026-10-22T13:51:21.253Z"
       },
       "sources": [
@@ -155526,7 +155538,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-founding",
-          "observedAt": "2026-11-14T15:09:06.936Z",
+          "observedAt": "2026-11-21T16:12:23.647Z",
           "dueAt": null
         },
         {
@@ -155756,9 +155768,9 @@
         {
           "url": "https://www.litrpg.com/the-land-founding",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:06.936Z",
-          "fetchedAt": "2026-11-14T15:09:06.936Z",
-          "nextCheckAt": "2026-11-21T15:09:06.936Z"
+          "checkedAt": "2026-11-21T16:12:23.647Z",
+          "fetchedAt": "2026-11-21T16:12:23.647Z",
+          "nextCheckAt": "2026-11-28T16:12:23.647Z"
         }
       ]
     },
@@ -155792,7 +155804,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-forging",
-          "observedAt": "2026-11-14T15:09:11.430Z",
+          "observedAt": "2026-11-21T16:12:29.639Z",
           "dueAt": null
         },
         {
@@ -156045,9 +156057,9 @@
         {
           "url": "https://www.litrpg.com/the-land-forging",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:11.430Z",
-          "fetchedAt": "2026-11-14T15:09:11.430Z",
-          "nextCheckAt": "2026-11-21T15:09:11.430Z"
+          "checkedAt": "2026-11-21T16:12:29.639Z",
+          "fetchedAt": "2026-11-21T16:12:29.639Z",
+          "nextCheckAt": "2026-11-28T16:12:29.639Z"
         }
       ]
     },
@@ -156081,7 +156093,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-alliances",
-          "observedAt": "2026-11-14T15:09:15.836Z",
+          "observedAt": "2026-11-21T16:12:32.443Z",
           "dueAt": null
         },
         {
@@ -156334,9 +156346,9 @@
         {
           "url": "https://www.litrpg.com/the-land-alliances",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:15.836Z",
-          "fetchedAt": "2026-11-14T15:09:15.836Z",
-          "nextCheckAt": "2026-11-21T15:09:15.836Z"
+          "checkedAt": "2026-11-21T16:12:32.443Z",
+          "fetchedAt": "2026-11-21T16:12:32.443Z",
+          "nextCheckAt": "2026-11-28T16:12:32.443Z"
         }
       ]
     },
@@ -156370,7 +156382,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-catacombs",
-          "observedAt": "2026-11-14T15:09:14.351Z",
+          "observedAt": "2026-11-21T16:12:28.233Z",
           "dueAt": null
         },
         {
@@ -156623,9 +156635,9 @@
         {
           "url": "https://www.litrpg.com/the-land-catacombs",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:14.351Z",
-          "fetchedAt": "2026-11-14T15:09:14.351Z",
-          "nextCheckAt": "2026-11-21T15:09:14.351Z"
+          "checkedAt": "2026-11-21T16:12:28.233Z",
+          "fetchedAt": "2026-11-21T16:12:28.233Z",
+          "nextCheckAt": "2026-11-28T16:12:28.233Z"
         }
       ]
     },
@@ -156659,7 +156671,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-catacombs-1",
-          "observedAt": "2026-11-14T15:09:09.997Z",
+          "observedAt": "2026-11-21T16:12:31.030Z",
           "dueAt": null
         },
         {
@@ -156912,9 +156924,9 @@
         {
           "url": "https://www.litrpg.com/the-land-catacombs-1",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:09.997Z",
-          "fetchedAt": "2026-11-14T15:09:09.997Z",
-          "nextCheckAt": "2026-11-21T15:09:09.997Z"
+          "checkedAt": "2026-11-21T16:12:31.030Z",
+          "fetchedAt": "2026-11-21T16:12:31.030Z",
+          "nextCheckAt": "2026-11-28T16:12:31.030Z"
         }
       ]
     },
@@ -156948,7 +156960,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-raiders",
-          "observedAt": "2026-11-14T15:09:12.885Z",
+          "observedAt": "2026-11-21T16:12:26.720Z",
           "dueAt": null
         },
         {
@@ -157201,9 +157213,9 @@
         {
           "url": "https://www.litrpg.com/the-land-raiders",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:12.885Z",
-          "fetchedAt": "2026-11-14T15:09:12.885Z",
-          "nextCheckAt": "2026-11-21T15:09:12.885Z"
+          "checkedAt": "2026-11-21T16:12:26.720Z",
+          "fetchedAt": "2026-11-21T16:12:26.720Z",
+          "nextCheckAt": "2026-11-28T16:12:26.720Z"
         }
       ]
     },
@@ -157237,7 +157249,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-raiders-1",
-          "observedAt": "2026-11-14T15:09:08.447Z",
+          "observedAt": "2026-11-21T16:12:22.077Z",
           "dueAt": null
         },
         {
@@ -157490,9 +157502,9 @@
         {
           "url": "https://www.litrpg.com/the-land-raiders-1",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:08.447Z",
-          "fetchedAt": "2026-11-14T15:09:08.447Z",
-          "nextCheckAt": "2026-11-21T15:09:08.447Z"
+          "checkedAt": "2026-11-21T16:12:22.077Z",
+          "fetchedAt": "2026-11-21T16:12:22.077Z",
+          "nextCheckAt": "2026-11-28T16:12:22.077Z"
         }
       ]
     },
@@ -157526,7 +157538,7 @@
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
           "sourceUrl": "https://www.litrpg.com/the-land-founding-1",
-          "observedAt": "2026-11-14T15:09:17.366Z",
+          "observedAt": "2026-11-21T16:12:25.175Z",
           "dueAt": null
         },
         {
@@ -157779,9 +157791,9 @@
         {
           "url": "https://www.litrpg.com/the-land-founding-1",
           "status": "present",
-          "checkedAt": "2026-11-14T15:09:17.366Z",
-          "fetchedAt": "2026-11-14T15:09:17.366Z",
-          "nextCheckAt": "2026-11-21T15:09:17.366Z"
+          "checkedAt": "2026-11-21T16:12:25.175Z",
+          "fetchedAt": "2026-11-21T16:12:25.175Z",
+          "nextCheckAt": "2026-11-28T16:12:25.175Z"
         }
       ]
     },
