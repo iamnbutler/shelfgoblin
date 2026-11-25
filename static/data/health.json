@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T19:32:54.451Z",
+  "generatedAt": "2026-11-25T18:40:58.116Z",
   "definitions": {
     "completeness": "Data presence, not bibliography completeness: equal weight for source-description, original-summary, extracted-metadata, jev-assessment, audio-edition, audio-date, narrator, runtime, cover-asset, reader-sample. Stale or unverified retained values can earn presence credit; corrupt unusable values cannot.",
     "evidenceQuality": "Current evidence/review checks, never a rating of a book: equal weight for source-description, reviewed-metadata, audio-verified, audio-date, cover-observation, reader-adequacy, reader-traits, reader-observation, source-freshness. Only present/current checks earn credit. No model confidence is converted into a quality score.",
@@ -12706,9 +12706,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0HPQWN37Q",
           "status": "present",
-          "checkedAt": "2026-11-18T17:18:17.284Z",
-          "fetchedAt": "2026-11-12T16:52:04.191Z",
-          "nextCheckAt": "2026-11-25T17:18:17.284Z"
+          "checkedAt": "2026-11-25T18:40:32.675Z",
+          "fetchedAt": "2026-11-25T18:40:32.675Z",
+          "nextCheckAt": "2026-12-02T18:40:32.675Z"
         }
       ]
     },
@@ -16259,10 +16259,10 @@
         "explanation": "73/83 equally weighted checks across all 8 canonical works plus series metadata and bibliography. This measures retained catalog data, not the quality of the story or completeness of its unknown tail."
       },
       "evidenceQuality": {
-        "percent": 61,
-        "earned": 45,
+        "percent": 59,
+        "earned": 44,
         "possible": 74,
-        "explanation": "45/74 equally weighted checks across all 8 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
+        "explanation": "44/74 equally weighted checks across all 8 canonical works plus series metadata and bibliography. This measures retained catalog evidence and review, not the quality of the story or completeness of its unknown tail."
       },
       "checks": [
         {
@@ -16390,7 +16390,7 @@
           "label": "Cover observation",
           "status": "missing",
           "available": true,
-          "explanation": "1/8 works are present/current; 7 missing, 0 unknown, 0 stale. Every canonical work is included, regardless of audio status.",
+          "explanation": "0/8 works are present/current; 7 missing, 0 unknown, 1 stale. Every canonical work is included, regardless of audio status.",
           "sourceUrl": null,
           "observedAt": null,
           "dueAt": null
@@ -16501,6 +16501,11 @@
           "code": "cover-observation:missing",
           "status": "missing",
           "message": "Cover observation: 7/8 works are missing."
+        },
+        {
+          "code": "cover-observation:stale",
+          "status": "stale",
+          "message": "Cover observation: 1/8 works are stale."
         },
         {
           "code": "reader-sample:missing",
@@ -84596,8 +84601,8 @@
           "status": "present",
           "available": true,
           "explanation": "At least 100 characters of attributable description are retained privately. Length alone does not establish factual or literary quality.",
-          "sourceUrl": "https://aethonbooks.com/book/the-beneath/",
-          "observedAt": "2026-11-05T16:31:09.085Z",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HPQWN37Q",
+          "observedAt": "2026-11-25T18:40:32.675Z",
           "dueAt": null
         },
         {
@@ -84606,7 +84611,7 @@
           "status": "missing",
           "available": false,
           "explanation": "No original catalog synopsis is retained.",
-          "sourceUrl": "https://aethonbooks.com/book/the-beneath/",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HPQWN37Q",
           "observedAt": null,
           "dueAt": null
         },
@@ -84616,7 +84621,7 @@
           "status": "missing",
           "available": false,
           "explanation": "No validated extraction receipt is retained.",
-          "sourceUrl": "https://aethonbooks.com/book/the-beneath/",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HPQWN37Q",
           "observedAt": null,
           "dueAt": null
         },
@@ -84626,7 +84631,7 @@
           "status": "missing",
           "available": false,
           "explanation": "No source-bound editorial review is retained; automatic tags are not reviewed facts.",
-          "sourceUrl": "https://aethonbooks.com/book/the-beneath/",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HPQWN37Q",
           "observedAt": null,
           "dueAt": null
         },
@@ -84636,7 +84641,7 @@
           "status": "missing",
           "available": false,
           "explanation": "No structured Jev metadata assessment is retained.",
-          "sourceUrl": "https://aethonbooks.com/book/the-beneath/",
+          "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HPQWN37Q",
           "observedAt": null,
           "dueAt": null
         },
@@ -84657,7 +84662,7 @@
           "available": true,
           "explanation": "1 current exact US product documents pass the canonical title, complete author credits, selected series/volume, English, full-audio, and retained work-binding checks.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HPQWN37Q",
-          "observedAt": "2026-11-18T17:18:17.284Z",
+          "observedAt": "2026-11-25T18:40:32.675Z",
           "dueAt": null
         },
         {
@@ -84667,7 +84672,7 @@
           "available": true,
           "explanation": "A verified audio-specific date establishes an observed released recording. Print and ebook dates are excluded.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HPQWN37Q",
-          "observedAt": "2026-11-18T17:18:17.284Z",
+          "observedAt": "2026-11-25T18:40:32.675Z",
           "dueAt": null
         },
         {
@@ -84677,7 +84682,7 @@
           "available": true,
           "explanation": "A named narrator is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HPQWN37Q",
-          "observedAt": "2026-11-18T17:18:17.284Z",
+          "observedAt": "2026-11-25T18:40:32.675Z",
           "dueAt": null
         },
         {
@@ -84687,7 +84692,7 @@
           "available": true,
           "explanation": "A positive whole-minute duration is present in a verified recording product.",
           "sourceUrl": "https://api.audible.com/1.0/catalog/products/B0HPQWN37Q",
-          "observedAt": "2026-11-18T17:18:17.284Z",
+          "observedAt": "2026-11-25T18:40:32.675Z",
           "dueAt": null
         },
         {
@@ -84870,9 +84875,9 @@
         {
           "url": "https://api.audible.com/1.0/catalog/products/B0HPQWN37Q",
           "status": "present",
-          "checkedAt": "2026-11-18T17:18:17.284Z",
-          "fetchedAt": "2026-11-12T16:52:04.191Z",
-          "nextCheckAt": "2026-11-25T17:18:17.284Z"
+          "checkedAt": "2026-11-25T18:40:32.675Z",
+          "fetchedAt": "2026-11-25T18:40:32.675Z",
+          "nextCheckAt": "2026-12-02T18:40:32.675Z"
         }
       ]
     },
@@ -103037,10 +103042,10 @@
         "explanation": "10/10 equally weighted usable retained data checks. Retained data can earn presence credit while still needing verification."
       },
       "evidenceQuality": {
-        "percent": 100,
-        "earned": 9,
+        "percent": 89,
+        "earned": 8,
         "possible": 9,
-        "explanation": "9/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
+        "explanation": "8/9 equally weighted current evidence and review checks. Unknown, missing, and stale checks earn no evidence credit."
       },
       "checks": [
         {
@@ -103166,9 +103171,9 @@
         {
           "id": "cover-observation",
           "label": "Cover observation",
-          "status": "present",
+          "status": "stale",
           "available": true,
-          "explanation": "A validated current-rubric observation is bound to these exact cached image bytes.",
+          "explanation": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained.",
           "sourceUrl": "https://m.media-amazon.com/images/I/51HIZdnqASL._SL500_.jpg",
           "observedAt": "2026-10-26T15:15:01.790Z",
           "dueAt": "2026-11-25T15:15:01.790Z"
@@ -103224,7 +103229,13 @@
           "dueAt": "2026-12-18T03:28:20.026Z"
         }
       ],
-      "issues": [],
+      "issues": [
+        {
+          "code": "cover-observation",
+          "status": "stale",
+          "message": "The cover URL has not been checked within 30 days; cached bytes and the earlier observation remain retained."
+        }
+      ],
       "flags": {
         "sourceDescription": true,
         "summary": true,
@@ -103234,7 +103245,7 @@
         "audioVerified": true,
         "audioDateVerified": true,
         "coverAsset": true,
-        "coverReviewed": true,
+        "coverReviewed": false,
         "readerSample": true,
         "readerAdequate": true
       },
@@ -103261,7 +103272,7 @@
         "cached": true,
         "hashVerified": true,
         "bytes": 54323,
-        "observationCurrent": true,
+        "observationCurrent": false,
         "checkedAt": "2026-10-26T15:15:01.790Z"
       },
       "sources": [
